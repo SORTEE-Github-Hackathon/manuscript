@@ -2,7 +2,7 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript-test/manuscript.html)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript-test/v/latest/index.html)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml)
 
@@ -55,7 +55,7 @@ If your pull request build fails, see the CI logs for the cause of failure and r
 When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/gh-pages) and [`output`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript-test/manuscript.html
++ **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript-test/v/latest/index.html
 + **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript-test/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
