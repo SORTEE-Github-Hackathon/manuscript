@@ -8,9 +8,9 @@ keywords:
 lang: en-US
 date-meta: '2021-12-04'
 author-meta:
+- John Doe
+- Jane Roe
 - Hermione Jean Granger
-- Jane Roe
-- Jane Roe
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,17 +29,17 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="citation_author" content="Hermione Jean Granger" />
   <meta name="citation_author_institution" content="Department for the Regulation and Control of Magical Creatures, British Ministry of Magic" />
   <meta name="citation_author_institution" content="Department of Magical Law Enforcement, British Ministry of Magic" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
@@ -47,9 +47,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/d4cbf55738200df1a4616fbe0ff1ab07ecb55930/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/d4cbf55738200df1a4616fbe0ff1ab07ecb55930/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/d4cbf55738200df1a4616fbe0ff1ab07ecb55930/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,15 +71,36 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/d4cbf55738200df1a4616fbe0ff1ab07ecb55930/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@d4cbf55](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/d4cbf55738200df1a4616fbe0ff1ab07ecb55930)
+from [SORTEE-Github-Hackathon/manuscript-test@9ad1f8d](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1)
 on December 4, 2021.
 </em></small>
 
 ## Authors
 
 
+
++ **John Doe**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [johndoe](https://github.com/johndoe)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [johndoe](https://twitter.com/johndoe)<br>
+  <small>
+     Department of Something, University of Whatever
+     · Funded by Grant XXXXXXXX
+  </small>
+
++ **Jane Roe**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [janeroe](https://github.com/janeroe)<br>
+  <small>
+     Department of Something, University of Whatever; Department of Whatever, University of Something
+  </small>
 
 + **Hermione Jean Granger**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -88,57 +109,13 @@ on December 4, 2021.
     [hermionejeangranger](https://github.com/hermionejeangranger)<br>
   <small>
      Department for the Regulation and Control of Magical Creatures, British Ministry of Magic; Department of Magical Law Enforcement, British Ministry of Magic
-     · Funded by Hogwarts Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
   </small>
 
 
 
 ## Abstract {.page_break_before}
 
-## Importance
 
-
-## Introduction {.page_break_before}
-
-### Topic A
-
-Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus [@doi:10.20361/G2XK65].
-
-### Topic B
-
-## Discussion
-
-### Topic A
-
-Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall.
-
-### Topic B
-
-#### Topic B.A.
-
-## Implications
-
-## Conclusion
-
-## Section to be deleted {.page_break_before}
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
