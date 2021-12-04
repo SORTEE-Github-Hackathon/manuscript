@@ -35,7 +35,7 @@ All authors must fill their [author information](https://github.com/SORTEE-Githu
 ### Repository directories & files
 
 The directories and main files are as follows:
-+ [`/` (`main` root)]() this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
++ [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
 + [`CONTRIBUTING.md`]() contains procedures and directions for prospective authors to contribute to this manuscript.
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
   See [`USAGE.md`](USAGE.md) for information on formatting text, citing references, adding figures and tables, and other manuscript editing.
