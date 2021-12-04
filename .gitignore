@@ -1,0 +1,43 @@
+# Generated manuscript output files
+output/*
+!output/README.md
+
+webpage/v
+
+# When PDF building fails, a temporary symlink named images in the root
+# directory is not removed.
+/images
+
+# Manubot cache directory
+ci/cache
+
+# Pandoc filters downloaded during continuous integration setup
+build/pandoc/filters/spellcheck.lua
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Misc temporary files
+*.bak
+
+# System specific files
+
+## Linux
+*~
+.Trash-*
+
+## macOS
+.DS_Store
+._*
+.Trashes
+
+## Windows
+Thumbs.db
+[Dd]esktop.ini
+
+## Text Editors
+.vscode
