@@ -2,8 +2,8 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/freeze/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
 
 ## Manuscript description
@@ -18,7 +18,7 @@ Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.m
 
 ## Contributing
 
-A free, personal [Github Account]() is necessary to contribute to this project.
+A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
 
 To contribute in writing, you must follow the guidelines described [here]().
 
