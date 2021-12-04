@@ -1,11 +1,12 @@
 # Working title to be determined
-### Subject: The use of Github in Ecology and Evolution
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/freeze/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
+[![GitHub Actions Status](https://SORTEE-Github-Hackathon.github.io/manuscript-test/workflows/Manubot/badge.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/actions)
+
+### Subject: The use of Github in Ecology and Evolution
 
 ## Manuscript description
 
