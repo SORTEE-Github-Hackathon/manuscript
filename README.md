@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Working title: Not just for programmers: A friendly guide on the versatility of GitHub
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,9 +10,23 @@
 
 <!-- usage note: edit this section. -->
 
+(Add a few sentences descirbing the overall goal of the study).
+
 This repository tests the implementation of manubot for our collaborative writing. 
 
 Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+
+## Contributing
+
+A free, personal [Github Account]() is necessary to contribute to this project.
+
+To contribute in writing, you must follow the guidelines described [here]().
+
+## Authorship Guidelines
+
+Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
+
+All authors must fill their [author information]() through a pull request on the [content/metadata.yaml]() file.
 
 ## Manubot
 
