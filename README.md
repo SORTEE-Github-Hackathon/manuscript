@@ -30,19 +30,7 @@ In a nutshell, suggestions about the literature require the creation of [issues]
 
 Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
-All authors must fill their [author information]() through a pull request on the [content/metadata.yaml]() file.
-
-## Manubot
-
-<!-- usage note: do not edit this section -->
-
-Manubot is a system for writing scholarly manuscripts via GitHub.
-Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-An [overview manuscript](https://greenelab.github.io/meta-review/ "Open collaborative writing with Manubot") presents the benefits of collaborative writing with Manubot and its unique features.
-The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
-See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
-
-Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
+All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml]() file.
 
 ### Repository directories & files
 
@@ -102,3 +90,15 @@ All other files are only available under CC BY 4.0, including:
 + `*.docx`
 
 Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.
+
+## About Manubot
+
+<!-- usage note: do not edit this section -->
+
+Manubot is a system for writing scholarly manuscripts via GitHub.
+Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
+An [overview manuscript](https://greenelab.github.io/meta-review/ "Open collaborative writing with Manubot") presents the benefits of collaborative writing with Manubot and its unique features.
+The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
+See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
+
+Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
