@@ -47,9 +47,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/76f646db957f07d88d44cafc8fef328fbd9819da/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/76f646db957f07d88d44cafc8fef328fbd9819da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/76f646db957f07d88d44cafc8fef328fbd9819da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/76f646db957f07d88d44cafc8fef328fbd9819da/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@9ad1f8d](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/9ad1f8dc5922e4df71fa35ced17d08db1aa9f6e1)
+from [SORTEE-Github-Hackathon/manuscript-test@76f646d](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/76f646db957f07d88d44cafc8fef328fbd9819da)
 on December 4, 2021.
 </em></small>
 
