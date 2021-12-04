@@ -2,11 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript/workflows/Manubot/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript/actions)
-[![Travis Build Status](https://travis-ci.com/SORTEE-Github-Hackathon/manuscript.svg?branch=main)](https://travis-ci.com/SORTEE-Github-Hackathon/manuscript)
-<!-- usage note: delete CI badges above for services not used by your manuscript -->
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
 
 ## Manuscript description
 
@@ -79,13 +77,13 @@ Whenever a pull request is opened, CI (continuous integration) will test whether
 The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/gh-pages) and [`output`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/output) branches.
+When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://SORTEE-Github-Hackathon.github.io/manuscript/
-+ **PDF manuscript** at https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf
++ **HTML manuscript** at https://manubot.github.io/rootstock/
++ **PDF manuscript** at https://manubot.github.io/rootstock/manuscript.pdf
 
-For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
 ## License
 
@@ -98,7 +96,7 @@ We encourage users to openly license their manuscripts, which is the default as 
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/SORTEE-Github-Hackathon/manuscript.
+Please attribute by linking to https://github.com/manubot/rootstock.
 
 Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
 All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
@@ -118,4 +116,4 @@ All other files are only available under CC BY 4.0, including:
 + `*.pdf`
 + `*.docx`
 
-Please open [an issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) for any question related to licensing.
+Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.
