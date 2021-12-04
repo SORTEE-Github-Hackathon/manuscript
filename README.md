@@ -1,4 +1,5 @@
-# Working title: Not just for programmers: A friendly guide on the versatility of GitHub
+# Working title to be determined
+### Subject: The use of Github in Ecology and Evolution
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
