@@ -4,7 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/freeze/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf)
-[![GitHub Actions Status](https://SORTEE-Github-Hackathon.github.io/manuscript-test/workflows/Manubot/badge.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/actions)
+[![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml)
 
 ### Subject: The use of Github in Ecology and Evolution
 
