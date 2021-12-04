@@ -24,6 +24,8 @@ A free, personal [Github Account](https://github.com/join?source=header-home) is
 
 To contribute in writing, you must follow the guidelines described [here]().
 
+In a nutshell, suggestions about the literature require the creation of [issues](), and written contributions require the modification of files within the [content]() directory and pushing changes through [pull requests]().
+
 ## Authorship Guidelines
 
 Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
