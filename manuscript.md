@@ -40,15 +40,15 @@ header-includes: |-
   <meta name="citation_author" content="Dylan G. E. Gomes" />
   <meta name="citation_author_institution" content="Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
   <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
-  <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
-  <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
-  <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
-  <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
-  <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/0eb566c50b2f189347f21a7691983c4d98ce6deb/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/0eb566c50b2f189347f21a7691983c4d98ce6deb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/0eb566c50b2f189347f21a7691983c4d98ce6deb/manuscript.pdf" />
+  <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
+  <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
+  <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
+  <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7f693134b0fb5f9f48443d60aeaf9a3cd0928847/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7f693134b0fb5f9f48443d60aeaf9a3cd0928847/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7f693134b0fb5f9f48443d60aeaf9a3cd0928847/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/0eb566c50b2f189347f21a7691983c4d98ce6deb/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/7f693134b0fb5f9f48443d60aeaf9a3cd0928847/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@0eb566c](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/0eb566c50b2f189347f21a7691983c4d98ce6deb)
+from [SORTEE-Github-Hackathon/manuscript@7f69313](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/7f693134b0fb5f9f48443d60aeaf9a3cd0928847)
 on December 8, 2021.
 </em></small>
 
