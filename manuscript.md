@@ -10,7 +10,7 @@ date-meta: '2021-12-08'
 author-meta:
 - Hermione Jean Granger
 - Jane Roe
-- Jane Roe
+- Dylan G. E. Gomes
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -37,19 +37,18 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Dylan G. E. Gomes" />
+  <meta name="citation_author_institution" content="Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
+  <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@8f01dc9](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/8f01dc9d8b1d6aa2136e919b798520b919274a36)
+from [SORTEE-Github-Hackathon/manuscript-test@fb4935e](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/fb4935e7d2ad247d0c98b460347c4a649bf4e85d)
 on December 8, 2021.
 </em></small>
 
@@ -100,13 +99,13 @@ on December 8, 2021.
      Department of Something, University of Whatever; Department of Whatever, University of Something
   </small>
 
-+ **Jane Roe**<br>
++ **Dylan G. E. Gomes**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-2642-3728](https://orcid.org/0000-0002-2642-3728)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
+    [dylangomes](https://github.com/dylangomes)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
   </small>
 
 
