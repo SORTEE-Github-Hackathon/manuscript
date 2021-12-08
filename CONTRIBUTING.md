@@ -21,9 +21,12 @@
 ## Contributing with writing
 
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript-test/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/main/content) directory;
-2. Write text and propose changes to a file by making a pull request. Write a sentence per line and create new paragraphs with two returns. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md) document; 
-3. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions);
-4. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
+2. Write text and propose changes to a file by making a pull request:    a. **Write a sentence per line** and create new paragraphs with two returns;
+  b. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
+  c. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md) document.
+3. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
+4. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions);
+5. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
 
 ## Suggesting a paper
 
@@ -50,10 +53,10 @@ Suggested keywords that help identify the relevance of this paper to Ecology and
 ### Which areas of expertise are particularly relevant to the paper?
 <-- Mark with an x the relevant areas, i.e. [x]. -->
 - [x] ecology and/or evolution
-- [] biostatistics
-- [] informatics and computational research
-- [] open science and reproducibility
-- [] other:
+- [ ] biostatistics
+- [ ] informatics and computational research
+- [ ] open science and reproducibility
+- [ ] other:
 
 # Summary
 
@@ -65,4 +68,12 @@ Suggested keywords that help identify the relevance of this paper to Ecology and
 
 ### Any comments or notes?
 
-``` 
+```
+
+## Opening new discussions
+
+Any type of discussion related to this project is welcome! You can visit the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions) section of this repository and begin from there.
+
+You can search for topics and even propose new categories!
+
+We still have not stablished what should be an [Issue](https://github.com/SORTEE-Github-Hackathon/manuscript-test/issues) instead of a [Discussion](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions) topic. We can consider that issues are not permanent and thus made to be closed, but we should discuss about it (!).
