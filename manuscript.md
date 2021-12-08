@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/62d5ed112df21a7754aa362a0dbee9d362cfb312/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/62d5ed112df21a7754aa362a0dbee9d362cfb312/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/62d5ed112df21a7754aa362a0dbee9d362cfb312/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/fb4935e7d2ad247d0c98b460347c4a649bf4e85d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/62d5ed112df21a7754aa362a0dbee9d362cfb312/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@fb4935e](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/fb4935e7d2ad247d0c98b460347c4a649bf4e85d)
+from [SORTEE-Github-Hackathon/manuscript-test@62d5ed1](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/62d5ed112df21a7754aa362a0dbee9d362cfb312)
 on December 8, 2021.
 </em></small>
 
@@ -125,17 +125,22 @@ Hello, bblabla
 
 ### Topic B
 
+
 ## Discussion
 
 ### Topic A
 
 Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall.
 
-### Topic B
+## Discussion
 
-#### Topic B.A.
+### Topic A
 
-## Implications
+Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall.
+
+### Topic C
+
+Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall.
 
 ## Conclusion
 
