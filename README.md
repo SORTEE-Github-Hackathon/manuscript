@@ -22,21 +22,21 @@ Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.m
 
 A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
 
-To contribute in writing, you must follow the guidelines described [here]().
+To contribute in writing, you must follow the guidelines described [here](CONTRIBUTING.md).
 
-In a nutshell, suggestions about the literature require the creation of [issues](), and written contributions require the modification of files within the [content]() directory and pushing changes through [pull requests]().
+In a nutshell, suggestions about the literature require the creation of [discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions), and written contributions require the modification of files within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/main/content) directory and pushing changes through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript-test/pulls).
 
 ## Authorship Guidelines
 
 Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
-All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml]() file.
+All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/content/metadata.yaml) file.
 
 ### Repository directories & files
 
 The directories and main files are as follows:
 + [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
-+ [`CONTRIBUTING.md`]() contains procedures and directions for prospective authors to contribute to this manuscript.
++ [`CONTRIBUTING.md`](CONTRIBUTING.md) contains procedures and directions for prospective authors to contribute to this manuscript.
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
   See [`USAGE.md`](USAGE.md) for information on formatting text, citing references, adding figures and tables, and other manuscript editing.
 + [`output`](output) contains the outputs (generated files) from Manubot including the resulting manuscript files (in `HTML`, `PDF`, and other formats).
@@ -44,7 +44,7 @@ The directories and main files are as follows:
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
-+ [LICENSE.md]() and [LICENSE-CC0.md]() contain the licenses associated with manubot and with the content we are developing in this project. Please see the "License" section below.
++ [LICENSE.md](LICENSE.md) and [LICENSE-CC0.md](LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project. Please see the "License" section below.
 
 ### Continuous Integration
 
@@ -71,7 +71,7 @@ We encourage users to openly license their manuscripts, which is the default as 
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/manubot/rootstock.
+Please attribute by linking to https://github.com/SORTEE-Github-Hackathon/manuscript-test.
 
 Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
 All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
@@ -91,7 +91,7 @@ All other files are only available under CC BY 4.0, including:
 + `*.pdf`
 + `*.docx`
 
-Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.
+Please open [an issue](https://github.com/SORTEE-Github-Hackathon/manuscript-test/issues) for any question related to licensing.
 
 ## About Manubot
 
