@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/60bc8ba1bca49cd696c8ba171da6b03c6a0f2c2a/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/60bc8ba1bca49cd696c8ba171da6b03c6a0f2c2a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/60bc8ba1bca49cd696c8ba171da6b03c6a0f2c2a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7d0c6e2d0a7483410bbde56f4195ec74077ab251/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7d0c6e2d0a7483410bbde56f4195ec74077ab251/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7d0c6e2d0a7483410bbde56f4195ec74077ab251/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/60bc8ba1bca49cd696c8ba171da6b03c6a0f2c2a/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/7d0c6e2d0a7483410bbde56f4195ec74077ab251/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@60bc8ba](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/60bc8ba1bca49cd696c8ba171da6b03c6a0f2c2a)
+from [SORTEE-Github-Hackathon/manuscript@7d0c6e2](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/7d0c6e2d0a7483410bbde56f4195ec74077ab251)
 on December 8, 2021.
 </em></small>
 
@@ -143,6 +143,12 @@ Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy roc
 Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall.
 
 ## Conclusion
+
+## Acknowledgements
+
+## Code and data availability
+
+The source code and data for this manuscript are available at https://github.com/SORTEE-Github-Hackathon/manuscript.
 
 ## Section to be deleted {.page_break_before}
 
