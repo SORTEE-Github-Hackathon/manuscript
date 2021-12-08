@@ -44,7 +44,7 @@ The directories and main files are as follows:
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
-+ [LICENSE.md](LICENSE.md) and [LICENSE-CC0.md](LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project. Please see the "License" section below.
++ [LICENSE.md](LICENSE.md) and [LICENSE-CC0.md](LICENSE-CC0.md) contain the licenses associated with Manubot and with the content we are developing in this project. Please see the "License" section below.
 
 ### Continuous Integration
 
@@ -56,7 +56,7 @@ When a commit to the `main` branch occurs (for example, when a pull request is m
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
 + **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html
-+ **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript/manuscript.pdf
++ **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
