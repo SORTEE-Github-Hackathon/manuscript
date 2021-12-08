@@ -26,7 +26,10 @@
 
 3. Write text and propose changes to a file by making a pull request:     1. **Write a sentence per line** and create new paragraphs with two returns;
    2. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
-   3. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
+   3. Add relevant descriptive names to commits and pull requests;
+        1. Preferred: `Adding a sentence on how the use of Github can help instructors achieve learning objectives`;
+        2. Not preferred: `Update 1`, `Modification`, `asdas blabla`.
+   3. For further information about `Markdown` formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
 
 4. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
 
