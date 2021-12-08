@@ -47,9 +47,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/24b7167731beac7c403eda89ad4794eac12aef13/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/24b7167731beac7c403eda89ad4794eac12aef13/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/24b7167731beac7c403eda89ad4794eac12aef13/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/24b7167731beac7c403eda89ad4794eac12aef13/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript-test/v/8f01dc9d8b1d6aa2136e919b798520b919274a36/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript-test@24b7167](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/24b7167731beac7c403eda89ad4794eac12aef13)
+from [SORTEE-Github-Hackathon/manuscript-test@8f01dc9](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/8f01dc9d8b1d6aa2136e919b798520b919274a36)
 on December 8, 2021.
 </em></small>
 
@@ -121,6 +121,8 @@ on December 8, 2021.
 ### Topic A
 
 Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus [@doi:10.20361/G2XK65].
+
+Hello, bblabla
 
 ### Topic B
 
