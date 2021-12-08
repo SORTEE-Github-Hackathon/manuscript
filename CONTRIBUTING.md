@@ -24,12 +24,15 @@
 
 2. The easiest and safest ways to begin changing files is to Fork or Clone this repository in your computer. It is essential that you always keep your version up-to-date (i.e. always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. 
 
-2. Write text and propose changes to a file by making a pull request:    a. **Write a sentence per line** and create new paragraphs with two returns;
-  b. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
-  c. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
-3. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
-4. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions);
-5. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
+3. Write text and propose changes to a file by making a pull request:     1. **Write a sentence per line** and create new paragraphs with two returns;
+   2. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
+   3. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
+
+4. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
+
+5. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions);
+
+6. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
 
 ## Reviewing writing
 
