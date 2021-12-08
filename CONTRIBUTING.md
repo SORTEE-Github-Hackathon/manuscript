@@ -22,11 +22,13 @@
 
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory;
 
-2. The easiest and safest ways to begin changing files is to Fork or Clone this repository in your computer. It is essential that you always keep your version up-to-date (i.e. always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. 
+2. It is **essential* that you **always keep your version up-to-date** (_i.e._ always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. The easiest ways to being modifying are to:
+   1. [Fork this repository]() to your Github profile, and [Contribute]() your modifications from there. *Remember to always Fetch upstream*.; or,
+   2. [Clone this repository]() to your computer, create your own [branch]() and push your committed modifications through pull requests. *Always fetch from the origin when you work*.
 
 3. Write text and propose changes to a file by making a pull request:
    1. **Write a sentence per line** and create new paragraphs with two returns;
-   2. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
+   2. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes.
    3. Add relevant descriptive names to commits and pull requests;
       1. Preferred: `Adding a sentence on how the use of Github can help instructors achieve learning objectives`;
       2. Not preferred: `Update 1`, `Modification`, `asdas blabla`.
@@ -98,4 +100,8 @@ Any type of discussion related to this project is welcome! You can visit the [Di
 
 You can search for topics and even propose new categories!
 
-We still have not stablished what should be an [Issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) instead of a [Discussion](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions) topic. We can consider that issues are not permanent and thus made to be closed, but we should discuss about it (!).
+We still have not established what should be an [Issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) instead of a [Discussion](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions) topic. 
+
+We can consider that issues are not permanent and thus made to be closed, but we should discuss about it (!).
+
+> Important: _If you would like to provide changes to files that are not related to the `content` directory, please open a descriptive issue and only perform prospective changes through pull requests._
