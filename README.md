@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript-test/v/latest/index.html)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript-test/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/actions/workflows/manubot.yaml)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/v/latest/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml)
 
 ### Subject: The use of Github in Ecology and Evolution
 
@@ -12,7 +12,7 @@
 
 <!-- usage note: edit this section. -->
 
-(Add a few sentences descirbing the overall goal of the study).
+(Add a few sentences describing the overall goal of the study).
 
 This repository tests the implementation of manubot for our collaborative writing. 
 
@@ -24,18 +24,18 @@ A free, personal [Github Account](https://github.com/join?source=header-home) is
 
 To contribute in writing, you must follow the guidelines described [here](CONTRIBUTING.md).
 
-In a nutshell, suggestions about the literature require the creation of [discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions), and written contributions require the modification of files within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/main/content) directory and pushing changes through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript-test/pulls).
+In a nutshell, suggestions about the literature require the creation of [discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions), and written contributions require the modification of files within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory and pushing changes through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/pulls).
 
 ## Authorship Guidelines
 
 Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
-All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/content/metadata.yaml) file.
+All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file.
 
 ### Repository directories & files
 
 The directories and main files are as follows:
-+ [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript-test/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
++ [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
 + [`CONTRIBUTING.md`](CONTRIBUTING.md) contains procedures and directions for prospective authors to contribute to this manuscript.
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
   See [`USAGE.md`](USAGE.md) for information on formatting text, citing references, adding figures and tables, and other manuscript editing.
@@ -52,11 +52,11 @@ Whenever a pull request is opened, CI (continuous integration) will test whether
 The build process aims to detect common errors, such as invalid citations. 
 If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/gh-pages) and [`output`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/tree/output) branches.
+When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/gh-pages) and [`output`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript-test/v/latest/index.html
-+ **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript-test/manuscript.pdf
++ **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html
++ **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
@@ -71,7 +71,7 @@ We encourage users to openly license their manuscripts, which is the default as 
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/SORTEE-Github-Hackathon/manuscript-test.
+Please attribute by linking to https://github.com/SORTEE-Github-Hackathon/manuscript.
 
 Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
 All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
@@ -91,7 +91,7 @@ All other files are only available under CC BY 4.0, including:
 + `*.pdf`
 + `*.docx`
 
-Please open [an issue](https://github.com/SORTEE-Github-Hackathon/manuscript-test/issues) for any question related to licensing.
+Please open [an issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) for any question related to licensing.
 
 ## About Manubot
 
