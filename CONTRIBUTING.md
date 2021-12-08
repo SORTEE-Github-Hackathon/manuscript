@@ -24,12 +24,13 @@
 
 2. The easiest and safest ways to begin changing files is to Fork or Clone this repository in your computer. It is essential that you always keep your version up-to-date (i.e. always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. 
 
-3. Write text and propose changes to a file by making a pull request:     1. **Write a sentence per line** and create new paragraphs with two returns;
+3. Write text and propose changes to a file by making a pull request:
+   1. **Write a sentence per line** and create new paragraphs with two returns;
    2. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
    3. Add relevant descriptive names to commits and pull requests;
-        1. Preferred: `Adding a sentence on how the use of Github can help instructors achieve learning objectives`;
-        2. Not preferred: `Update 1`, `Modification`, `asdas blabla`.
-   3. For further information about `Markdown` formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
+      1. Preferred: `Adding a sentence on how the use of Github can help instructors achieve learning objectives`;
+      2. Not preferred: `Update 1`, `Modification`, `asdas blabla`.
+   4. For further information about `Markdown` formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
 
 4. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
 
@@ -42,12 +43,13 @@
 All pull requests should be reviewed by, at least, two other contributors. Pull requests performed can be open, so that anyone can review them. However, you may assign specific reviewers to them.
 
 When reviewing a pull request, one needs to consider:
+
 1. Whether the pull request passed all Manubot checks. Green means good. Red means that there are issues that must be solved *before* merging the text to the main manuscript. [See here for more information]().
 2. Verify if there are newly cited literature? If yes, are they available in the [Relevant Literature](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/categories/relevant-papers) section? If not, request the author of the pull request to include it there or add it yourself. The instructions to do it are just below, in the [Suggesting a paper](Suggesting a paper) section.
 3. To the extent of your expertise, do you think that there are any ambiguities, oversimplifications or subjects that should be clarified?
 4. Will the text be easy for someone from any scientific discipline to understand?
 
-If you feel that there are issues in the pull request that needs to be broadly discussed, you should write a comment below and write an issue, while tagging the pull request you have made. 
+If you feel that there are issues in the pull request that needs to be broadly discussed, you should write a comment below and write an issue, while tagging the pull request you have made.
 
 ## Suggesting a paper
 
