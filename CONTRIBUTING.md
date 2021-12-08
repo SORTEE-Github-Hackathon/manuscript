@@ -28,6 +28,18 @@
 4. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions);
 5. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript-test/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
 
+## Reviewing writing
+
+All pull requests should be reviewed by, at least, two other contributors. Pull requests performed can be open, so that anyone can review them. However, you may assign specific reviewers to them.
+
+When reviewing a pull request, one needs to consider:
+1. Whether the pull request passed all Manubot checks. Green means good. Red means that there are issues that must be solved *before* merging the text to the main manuscript. [See here for more information]().
+2. Verify if there are newly cited literature? If yes, are they available in the [Relevant Literature](https://github.com/SORTEE-Github-Hackathon/manuscript-test/discussions/categories/relevant-papers) section? If not, request the author of the pull request to include it there or add it yourself. The instructions to do it are just below, in the [Suggesting a paper](Suggesting a paper) section.
+3. To the extent of your expertise, do you think that there are any ambiguities, oversimplifications or subjects that should be clarified?
+4. Will the text be easy for someone from any scientific discipline to understand?
+
+If you feel that there are issues in the pull request that needs to be broadly discussed, you should write a comment below and write an issue, while tagging the pull request you have made. 
+
 ## Suggesting a paper
 
 1. Choose a paper;
