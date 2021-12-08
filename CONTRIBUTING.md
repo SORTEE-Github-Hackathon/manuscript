@@ -67,11 +67,11 @@ Suggested keywords that help identify the relevance of this paper to Ecology and
 
 ### Which areas of expertise are particularly relevant to the paper?
 <-- Mark with an x the relevant areas, i.e. [x]. -->
-- [x] ecology and/or evolution
-- [ ] biostatistics
-- [ ] informatics and computational research
-- [ ] open science and reproducibility
-- [ ] other:
+- [x] ecology and/or evolution;
+- [ ] biostatistics;
+- [ ] informatics and computational research;
+- [ ] open science and reproducibility;
+- [ ] other: replace_with_your_suggestion.
 
 # Summary
 
