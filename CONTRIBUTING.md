@@ -2,11 +2,11 @@
 
 ## Requirements
 
-0.2. A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
+0.1. A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
 
-0.1. Become familiar with the concepts and functions of repository, issue, issue template, manuscript source, and pull-request.
+0.2. Become familiar with the concepts and functions of repository, issue, issue template, manuscript source, and pull-request.
 
-0.2. Then, write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section. *Copy and paste the following chunk and fill in with your information*:
+0.3. Then, write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section. *Copy and paste the following chunk and fill in with your information*:
 
 ```
 *Name*: 
@@ -21,6 +21,9 @@
 ## Contributing with writing
 
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory;
+
+2. The easiest and safest ways to begin changing files is to Fork or Clone this repository in your computer. It is essential that you always keep your version up-to-date (i.e. always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. 
+
 2. Write text and propose changes to a file by making a pull request:    a. **Write a sentence per line** and create new paragraphs with two returns;
   b. It is *highly* encouraged to commit frequently, so you can finely track and, if necessary, revert changes;
   c. For further information about formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
@@ -79,7 +82,6 @@ Suggested keywords that help identify the relevance of this paper to Ecology and
 - Do you have any concerns about methodology or the interpretation of these results beyond this analysis?
 
 ### Any comments or notes?
-
 ```
 
 ## Opening new discussions
