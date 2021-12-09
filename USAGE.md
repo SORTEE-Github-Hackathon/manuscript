@@ -60,10 +60,17 @@ As mentioned above, changes to the content of the manuscript and to this reposit
 ![image](https://user-images.githubusercontent.com/8599229/145317405-4383ba48-e8ef-4989-b581-514ab5e91d90.png)
 
 3. Once you are done with the changes you intended to do, create a pull request:
+   1. Click on the **Pull request** button:
+   ![image](https://user-images.githubusercontent.com/8599229/145317527-77d531b2-6d33-49d3-b37b-dde648716280.png)
 
-![image](https://user-images.githubusercontent.com/8599229/145317527-77d531b2-6d33-49d3-b37b-dde648716280.png)
+   2. Create your pull request. Do not forget to briefly explain your changes, which will be reviewed by other contributors. You may also assign specific reviewers, if you would like to: 
+   ![image](https://user-images.githubusercontent.com/8599229/145317852-13ce9a14-4957-47b9-b692-3aef2b417147.png)
 
-![image](https://user-images.githubusercontent.com/8599229/145317852-13ce9a14-4957-47b9-b692-3aef2b417147.png)
+   3. Once created, Manubot will evaluate if the pull request passes all error checks:
+   ![image](https://user-images.githubusercontent.com/8599229/145318022-a584a00a-19be-4731-9fb4-14782b41fdf6.png)
+
+   A green cue confirms that everything has worked fine.
+   ![image](https://user-images.githubusercontent.com/8599229/145318310-9c53fe5f-d0b3-4e39-8e71-93bd9faa73ad.png)
 
 # Manubot usage guidelines
 
