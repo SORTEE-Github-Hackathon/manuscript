@@ -47,7 +47,7 @@ As mentioned above, changes to the content of the manuscript and to this reposit
 2. Regularly commit changes to the files and push these commits to your local version of this repository; and,
 3. Submit a pull request to the `main` manuscript repository, so that others can review, merge and incorporate your changes to the `main` version of the manuscript.
 
-### Step-by-step
+### Step-by-step guide on creating pull requests
 
 0. Create our local branch and select it as your main working environment.
 
@@ -71,6 +71,8 @@ As mentioned above, changes to the content of the manuscript and to this reposit
 
    A green cue confirms that everything has worked fine.
    ![image](https://user-images.githubusercontent.com/8599229/145318310-9c53fe5f-d0b3-4e39-8e71-93bd9faa73ad.png)
+
+   4. Your pull request will be reviewed by two other contributors, which will discuss, provide or request new changes, or directly merge and close your pull request with the `main` repository.
 
 # Manubot usage guidelines
 
