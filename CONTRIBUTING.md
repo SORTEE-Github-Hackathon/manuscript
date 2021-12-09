@@ -9,7 +9,7 @@
 0.3. Write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section. *Copy and paste the following chunk and fill in with your information*:
 
 ```
-*Name*: 
+*My Name is*: 
 
 *What do I do*: 
 
