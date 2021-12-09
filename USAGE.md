@@ -28,7 +28,8 @@ Everyone needs a Github account to contribute to this project. You can make one 
     2. Regularly committing changes to the files and pushing them to your local version of this repository; and,
     3. Submitting a pull request to the `main` manuscript repository, so that others can review, merge and incorporate your changes to the `main` version of the manuscript.
     You must always keep your fork up-to-date with the `main` repository. You can do this by accessing your version of this repository in your Github profile and [fetching upstream](). See the example below:
-    
+    ![image](https://user-images.githubusercontent.com/8599229/145310697-f335c381-c57a-458e-94e3-14e098eaa1b9.png)
+
 - [Cloning]() a repository. **Cloning** a repository is similar to forking, with the main difference being that the copy of the repository is in your local computer, instead of your Github profile. When you clone a repository, you copy the repository from GitHub.com to your local machine. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. You must always keep your cloned repository up-to-date with the online version. Do this by *fetching from the origin*, as below:
 
 - [Making a pull request]().
