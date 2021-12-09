@@ -47,6 +47,24 @@ As mentioned above, changes to the content of the manuscript and to this reposit
 2. Regularly commit changes to the files and push these commits to your local version of this repository; and,
 3. Submit a pull request to the `main` manuscript repository, so that others can review, merge and incorporate your changes to the `main` version of the manuscript.
 
+### Step-by-step
+
+0. Create our local branch and select it as your main working environment.
+
+1. Commit your changes, with a relevant *Commit message* and with a *Description* explaining the changes happening in that commit (e.g., whether they solve an issue or something alonge these lines):
+
+![image](https://user-images.githubusercontent.com/8599229/145317090-061430d6-487a-4ed0-8e54-740f6a6fc64a.png)
+
+2. Push your commits to your branch:
+
+![image](https://user-images.githubusercontent.com/8599229/145317405-4383ba48-e8ef-4989-b581-514ab5e91d90.png)
+
+3. Once you are done with the changes you intended to do, create a pull request:
+
+![image](https://user-images.githubusercontent.com/8599229/145317527-77d531b2-6d33-49d3-b37b-dde648716280.png)
+
+![image](https://user-images.githubusercontent.com/8599229/145317852-13ce9a14-4957-47b9-b692-3aef2b417147.png)
+
 # Manubot usage guidelines
 
 This repository uses [Manubot](https://manubot.org) to automatically produce a manuscript from the source in the [`content`](content) directory.
