@@ -1,3 +1,38 @@
+# Getting started
+
+## Git, committing changes and making pull requests
+
+Git is a tool that allows one to track changes made to documents over time. In GitHub, Git provides us with the power of tracking the contribution of different users and collaborate in and manage how modifications should be merged and incorporated to the main project.
+
+## Fundamentals
+
+## A Github account
+
+Everyone needs a Github account to contribute to this project. You can make one [here](https://github.com/). To keep your GitHub account secure you should use a strong and unique password.
+
+## Git vocabulary
+
+- [Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories). A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets -- anything your project needs. This one is named `manuscript`!
+
+- [Branches](https://docs.github.com/en/get-started/quickstart/hello-world#creating-a-branch). Each repository contains one or several branches, which allows one to have different versions of a repository at one time. Our default branch for the `manuscript` repository is the `main` one. There are also the `gh-pages` and `output`, which contain the `HTML` and `PDF` versions that are frequently created by the Manubot. You will also see other branches that correspond to the working versions of other contributors. These personal branches can be merged to the `main` branch, so that their edits are passed to the `main` manuscript. Once in a while, branches that have been merged and are no longer modified will be safely deleted (to keep things tidy!). 
+
+- [Making and committing changes](https://docs.github.com/en/get-started/quickstart/hello-world#making-and-committing-changes). Change to files are arbitrarily grouped together and associated to a message through [**commits**](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits). 
+   - For instance, once you add or change a sentence of the manuscript, you can commit them and add a message `Added the discussion about X with its citation.`. 
+   - Each commit has a unique identifier (called a SHA or hash) and both the commit and the commit message allow contributors to identify who made the changes, when they were made, and which were the specific changes. 
+   - When making a commit, you must include a commit message that briefly describes the changes. 
+   - In certain circumstances, commits are the reference for the deletion or reversion of commits that are no longer necessary.
+   - For commits to be passed to the online repository, they must be **pushed**. Commits from other contributors that were pushed to the online repository can come to your local versions (either in your computer or in your Github profile) through **pull**s.
+
+- [Forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) a repository. You can fork a repository to your Github profile, so you can keep fix merge conflicts, add or remove files, and push larger commits. **Forks** are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea. One of the main ways to provide changes to this manuscript, is by:
+    1. Forking this repository;
+    2. Regularly committing changes to the files and pushing them to your local version of this repository; and,
+    3. Submitting a pull request to the `main` manuscript repository, so that others can review, merge and incorporate your changes to the `main` version of the manuscript.
+    You must always keep your fork up-to-date with the `main` repository. You can do this by accessing your version of this repository in your Github profile and [fetching upstream](). See the example below:
+    
+- [Cloning]() a repository. **Cloning** a repository is similar to forking, with the main difference being that the copy of the repository is in your local computer, instead of your Github profile. When you clone a repository, you copy the repository from GitHub.com to your local machine. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. You must always keep your cloned repository up-to-date with the online version. Do this by *fetching from the origin*, as below:
+
+- [Making a pull request]().
+
 # Manubot usage guidelines
 
 This repository uses [Manubot](https://manubot.org) to automatically produce a manuscript from the source in the [`content`](content) directory.
@@ -319,6 +354,9 @@ When the `SPELLCHECK` environment variable is `true`, the pandoc [spellcheck fil
 Potential spelling errors will be printed in the continuous integration log along with the files and line numbers in which they appeared.
 Words in `build/assets/custom-dictionary.txt` are ignored during spellchecking.
 Spellchecking is currently only supported for English language manuscripts.
+
+
+
 
 ## Manubot feedback
 
