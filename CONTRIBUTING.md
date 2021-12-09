@@ -4,9 +4,9 @@
 
 0.1. A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
 
-0.2. Become familiar with the concepts and functions of repository, issue, issue template, manuscript source, and pull-request.
+0.2. Become familiar with the concepts and functions of repository, issue, issue template, manuscript source, and pull-request. Visit the [Getting started](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#getting-started) section from the [USAGE.md](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) for a brief summary on these main concepts!
 
-0.3. Then, write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section. *Copy and paste the following chunk and fill in with your information*:
+0.3. Write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section. *Copy and paste the following chunk and fill in with your information*:
 
 ```
 *Name*: 
@@ -23,8 +23,8 @@
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory;
 
 2. It is **essential* that you **always keep your version up-to-date** (_i.e._ always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. The easiest ways to being modifying are to:
-   1. [Fork this repository]() to your Github profile, and [Contribute]() your modifications from there. *Remember to always Fetch upstream*.; or,
-   2. [Clone this repository]() to your computer, create your own [branch]() and push your committed modifications through pull requests. *Always fetch from the origin when you work*.
+   1. [Fork this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your Github profile, and [Contribute]() your modifications from there. *Remember to always fetch upstream to keep your repository up0to-date*.; or,
+   2. [Clone this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your computer, create and work from your own [branch](https://github.com/SORTEE-Github-Hackathon/manuscript) and push your committed modifications through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests). *Always fetch and pull from the origin when you work, so your local copy is updated.*.
 
 3. Write text and propose changes to a file by making a pull request:
    1. **Write a sentence per line** and create new paragraphs with two returns;
@@ -34,7 +34,7 @@
       2. Not preferred: `Update 1`, `Modification`, `asdas blabla`.
    4. For further information about `Markdown` formatting, access the [`USAGE.md`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md) document.
 
-4. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests]() section for more information;
+4. All pull requests must be reviewed before being merged to the `main` repository. You may **assign reviewers** if you would like someone to specifically review your pull requests. See the [Reviewing pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/CONTRIBUTING.md#reviewing-writing) section for more information;
 
 5. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions);
 
@@ -46,7 +46,7 @@ All pull requests should be reviewed by, at least, two other contributors. Pull 
 
 When reviewing a pull request, one needs to consider:
 
-1. Whether the pull request passed all Manubot checks. Green means good. Red means that there are issues that must be solved *before* merging the text to the main manuscript. [See here for more information]().
+1. Whether the pull request passed all Manubot checks. Green means good. Red means that there are issues that must be solved *before* merging the text to the main manuscript. [See here for more information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests).
 2. Verify if there are newly cited literature? If yes, are they available in the [Relevant Literature](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/categories/relevant-papers) section? If not, request the author of the pull request to include it there or add it yourself. The instructions to do it are just below, in the [Suggesting a paper](Suggesting a paper) section.
 3. To the extent of your expertise, do you think that there are any ambiguities, oversimplifications or subjects that should be clarified?
 4. Will the text be easy for someone from any scientific discipline to understand?
