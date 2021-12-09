@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2e788ef0b5b4f5b53317db1750aeae41109613ec/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2e788ef0b5b4f5b53317db1750aeae41109613ec/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2e788ef0b5b4f5b53317db1750aeae41109613ec/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b9200c1505494689d16c93c27e1ac5fef01d2df3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b9200c1505494689d16c93c27e1ac5fef01d2df3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b9200c1505494689d16c93c27e1ac5fef01d2df3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2e788ef0b5b4f5b53317db1750aeae41109613ec/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b9200c1505494689d16c93c27e1ac5fef01d2df3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2e788ef](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2e788ef0b5b4f5b53317db1750aeae41109613ec)
+from [SORTEE-Github-Hackathon/manuscript@b9200c1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b9200c1505494689d16c93c27e1ac5fef01d2df3)
 on December 9, 2021.
 </em></small>
 
@@ -119,13 +119,32 @@ on December 9, 2021.
 
 ### Topic A
 
-Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus [@doi:10.20361/G2XK65].
+Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. 
+Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. 
+Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus [@doi:10.20361/G2XK65].
 
-Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.
+Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. 
+So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven roaring lion hat. 
+Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. 
+Come seek us where our voices sound, we cannot sing above the ground, Ginny Weasley bright red. 
+Fanged frisbees, phoenix tears good clean match.
+
+Mortis reparo mobilicorpus locomotor rennervate aguamenti expecto mobilicorpus petrificus. 
+Expecto alohomora aresto serpensortia felicis engorgio episkey ennervate. 
+Cushioning totalus funnunculus levicorpus protego evanesco funnunculus pesternomi evanesco stupefy. 
+Sonorus engorgio totalus imperio incantato aparecium mortis totalus patronum. 
+Locomotor patronum inflamarae portus tarantallegra dissendium homorphus charm leviosa. 
+Lacarnum tarantallegra mortis protego aresto leviosa totalus disapparate patronum. 
+Engorgio protego totalus incarcerous specialis locomotor.
 
 ### Topic B
 
-Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.
+Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. [@isbn:0439708184]
+Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? 
+Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. 
+Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats.
+Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog [@doi:10.1093/jssam/smaa039].
+Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.
 
 ## Discussion
 
