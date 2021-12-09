@@ -22,7 +22,7 @@
 
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory;
 
-2. It is **essential* that you **always keep your version up-to-date** (_i.e._ always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. The easiest ways to being modifying are to:
+2. It is **essential** that you **always keep your version up-to-date** (_i.e._ always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. The easiest ways to being modifying are to:
    1. [Fork this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your Github profile, and [Contribute]() your modifications from there. *Remember to always fetch upstream to keep your repository up0to-date*.; or,
    2. [Clone this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your computer, create and work from your own [branch](https://github.com/SORTEE-Github-Hackathon/manuscript) and push your committed modifications through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests). *Always fetch and pull from the origin when you work, so your local copy is updated.*.
 
@@ -38,7 +38,10 @@
 
 5. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions);
 
-6. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later).
+6. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later). (_For the purposes of this manuscript, significant authorship contributions must go beyond just reviewing typos._)
+   - Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
+  
+
 
 ## Reviewing writing
 
