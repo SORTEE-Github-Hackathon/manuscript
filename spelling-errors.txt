@@ -35,7 +35,7 @@ Duis
 dylangomes
 eiusmod
 elit
-Engorgio
+engorgio
 enim
 ennervate
 episkey
@@ -43,7 +43,7 @@ esse
 evanesco
 Excepteur
 exercitation
-Expecto
+expecto
 felicis
 frisbees
 fugiat
@@ -64,14 +64,13 @@ incididunt
 inflamarae
 ipsum
 irure
-janeroe
 labore
 laboris
 laborum
 Lacarnum
 levicorpus
 leviosa
-Locomotor
+locomotor
 Lorem
 magna
 mobilicorpus
@@ -121,4 +120,4 @@ voluptate
 Weasley
 Wingardium
 XXXX
-XXXXXXXX
+XXXXXX

@@ -9,7 +9,6 @@ lang: en-US
 date-meta: '2021-12-09'
 author-meta:
 - Hermione Jean Granger
-- Jane Roe
 - Dylan G. E. Gomes
 - Cole B. Brookson
 header-includes: |-
@@ -31,14 +30,10 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Hermione Jean Granger" />
-  <meta name="citation_author_institution" content="Department for the Regulation and Control of Magical Creatures, British Ministry of Magic" />
-  <meta name="citation_author_institution" content="Department of Magical Law Enforcement, British Ministry of Magic" />
+  <meta name="citation_author_institution" content="Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom" />
+  <meta name="citation_author_institution" content="Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@hermionejeangranger" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="citation_author" content="Dylan G. E. Gomes" />
   <meta name="citation_author_institution" content="Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
   <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
@@ -51,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ba34636fc86eae063f1b734bb41308084922f81/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ba34636fc86eae063f1b734bb41308084922f81/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ba34636fc86eae063f1b734bb41308084922f81/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ba34636fc86eae063f1b734bb41308084922f81/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@71f5f54](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/71f5f545b74d356dab327854bb8b7300fb0c89ee)
+from [SORTEE-Github-Hackathon/manuscript@8ba3463](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8ba34636fc86eae063f1b734bb41308084922f81)
 on December 9, 2021.
 </em></small>
 
@@ -93,17 +88,8 @@ on December 9, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [hermionejeangranger](https://twitter.com/hermionejeangranger)<br>
   <small>
-     Department for the Regulation and Control of Magical Creatures, British Ministry of Magic; Department of Magical Law Enforcement, British Ministry of Magic
-     · Funded by Hogwarts Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom; Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
+     · Funded by Hogwarts Grant XXXXXX-XX.
   </small>
 
 + **Dylan G. E. Gomes**<br>
