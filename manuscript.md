@@ -34,6 +34,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department for the Regulation and Control of Magical Creatures, British Ministry of Magic" />
   <meta name="citation_author_institution" content="Department of Magical Law Enforcement, British Ministry of Magic" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@hermionejeangranger" />
   <meta name="citation_author" content="Jane Roe" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -50,9 +51,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/511774fde54d461c18f3a9cb313f0a732d1b226b/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/511774fde54d461c18f3a9cb313f0a732d1b226b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/511774fde54d461c18f3a9cb313f0a732d1b226b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -74,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/511774fde54d461c18f3a9cb313f0a732d1b226b/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/71f5f545b74d356dab327854bb8b7300fb0c89ee/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@511774f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/511774fde54d461c18f3a9cb313f0a732d1b226b)
+from [SORTEE-Github-Hackathon/manuscript@71f5f54](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/71f5f545b74d356dab327854bb8b7300fb0c89ee)
 on December 9, 2021.
 </em></small>
 
@@ -88,7 +89,9 @@ on December 9, 2021.
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [hermionejeangranger](https://github.com/hermionejeangranger)<br>
+    [hermionejeangranger](https://github.com/hermionejeangranger)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [hermionejeangranger](https://twitter.com/hermionejeangranger)<br>
   <small>
      Department for the Regulation and Control of Magical Creatures, British Ministry of Magic; Department of Magical Law Enforcement, British Ministry of Magic
      · Funded by Hogwarts Grant XXXXXXXX
