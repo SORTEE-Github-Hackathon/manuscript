@@ -50,7 +50,7 @@ All pull requests should be reviewed by, at least, two other contributors. Pull 
 When reviewing a pull request, one needs to consider:
 
 1. Whether the pull request passed all Manubot checks. Green means good. Red means that there are issues that must be solved *before* merging the text to the main manuscript. [See here for more information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests).
-2. Verify if there are newly cited literature? If yes, are they available in the [Relevant Literature](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/categories/relevant-papers) section? If not, request the author of the pull request to include it there or add it yourself. The instructions to do it are just below, in the [Suggesting a paper](Suggesting a paper) section.
+2. Verify if there are newly cited literature? If yes, are they available in the [Relevant Literature](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/categories/relevant-papers) section? If not, request the author of the pull request to include it there or add it yourself. The instructions to do it are just below, in the [Suggesting a paper](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/CONTRIBUTING.md#suggesting-a-paper) section.
 3. To the extent of your expertise, do you think that there are any ambiguities, oversimplifications or subjects that should be clarified?
 4. Will the text be easy for someone from any scientific discipline to understand?
 
