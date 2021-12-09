@@ -41,7 +41,7 @@ esse
 evanesco
 Excepteur
 exercitation
-Expecto
+expecto
 felicis
 frisbees
 fugiat
@@ -68,13 +68,13 @@ laboris
 laborum
 Lacarnum
 levicorpus
-Leviosa
+leviosa
 locomotor
 Lorem
 magna
 mobilicorpus
 mollit
-mortis
+Mortis
 Mudbloods
 nisi
 nostrud
