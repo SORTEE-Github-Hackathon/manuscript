@@ -72,7 +72,9 @@ As mentioned above, changes to the content of the manuscript and to this reposit
    A green cue confirms that everything has worked fine.
    ![image](https://user-images.githubusercontent.com/8599229/145318310-9c53fe5f-d0b3-4e39-8e71-93bd9faa73ad.png)
 
-   4. Your pull request will be reviewed by two other contributors, which will discuss, provide or request new changes, or directly merge and close your pull request with the `main` repository.
+   4. Your pull request will be reviewed by two other contributors, which will discuss, provide or request new changes, or directly merge and close your pull request with the `main` repository. Below, another contributor evaluated the pull request and requested corrections to be made. The assignee for the pull request then provided the requested changes.
+   
+   ![image](https://user-images.githubusercontent.com/8599229/145326141-1b013508-d1b7-4cba-8440-e5755059b210.png)
 
 # Manubot usage guidelines
 
