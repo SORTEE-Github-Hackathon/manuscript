@@ -26,7 +26,7 @@ In a nutshell, suggestions about the literature require the creation of [discuss
 
 Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
-All authors must fill their [author information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#manuscript-metadata) through a pull request on the [content/metadata.yaml](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file.
+All prospective authors must follow the contributing guidelines [within the CONTRIBUTING.md](CONTRIBUTING.md) file. There you will find out that you are encouraged to write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section, and you will also see how to fill-in your [author information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#manuscript-metadata) once you [contribute](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/CONTRIBUTING.md#contributing-with-writing) to this project.
 
 ### Repository directories & files
 
