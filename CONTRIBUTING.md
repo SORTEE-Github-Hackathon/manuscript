@@ -38,7 +38,7 @@
 
 5. Would you like to point to something important, make a question or a suggestion? Begin a conversation in the [Discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions);
 
-6. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later). (_For the purposes of this manuscript, significant authorship contributions must go beyond just reviewing typos._)
+6. Fill in your author information by initiating a pull request on the [`metadata.yaml`](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/content/metadata.yaml) file (the authorship order will be decided later). (_For the purposes of this manuscript, authors must accummulate contributions that go beyond reviewing typos over the lifetime of this project._)
    - Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
   
 
