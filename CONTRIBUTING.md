@@ -102,6 +102,6 @@ You can search for topics and even propose new categories!
 
 We still have not established what should be an [Issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) instead of a [Discussion](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions) topic. 
 
-We can consider that issues are not permanent and thus made to be closed, but we should discuss about it (!).
+We can consider that issues are tasks that need to be addressed, are *not* permanent, and thus are made to be closed. We should discuss about this (!).
 
 > Important: _If you would like to provide changes to files that are not related to the `content` directory, please open a descriptive issue and only perform prospective changes through pull requests._
