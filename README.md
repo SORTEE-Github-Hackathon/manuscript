@@ -34,7 +34,7 @@ The directories and main files are as follows:
 + [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
 + [`CONTRIBUTING.md`](CONTRIBUTING.md) contains procedures and directions for prospective authors to contribute to this manuscript.
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
-  See [`USAGE.md`](USAGE.md) for information on formatting text, citing references, adding figures and tables, and other manuscript editing.
++ [`USAGE.md`](USAGE.md) contains information on formatting text, citing references, adding figures and tables, and other manuscript editing.
 + [`output`](output) (and the `output` and `gh-pages` branches) contains the outputs (generated files) from Manubot including the resulting manuscript files (in `HTML`, `PDF`, and other formats).
   You should not edit these files manually, because they will be overwritten by the Manubot.
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
