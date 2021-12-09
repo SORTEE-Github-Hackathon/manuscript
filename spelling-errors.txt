@@ -13,8 +13,10 @@ aresto
 aute
 bezoar
 Blotts
+Brookson
 cillum
 Cleansweep
+colebrookson
 commodo
 consectetur
 consequat
@@ -41,7 +43,7 @@ esse
 evanesco
 Excepteur
 exercitation
-expecto
+Expecto
 felicis
 frisbees
 fugiat
