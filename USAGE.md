@@ -30,12 +30,22 @@ Everyone needs a Github account to contribute to this project. You can make one 
     - You must always keep your fork up-to-date with the `main` repository. You can do this by accessing your version of this repository in your Github profile and [fetching upstream](). See the example below:
     ![image](https://user-images.githubusercontent.com/8599229/145310697-f335c381-c57a-458e-94e3-14e098eaa1b9.png)
 
-- [Cloning]() a repository. **Cloning** a repository is similar to forking, with the main difference being that the copy of the repository is in your local computer, instead of your Github profile. When you clone a repository, you copy the repository from GitHub.com to your local machine. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com. 
-     - You must always keep your cloned repository up-to-date with the online version. Do this by *fetching from the origin*, as below:
+- [Cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) a repository. **Cloning** a repository is similar to forking, with the main difference being that the copy of the repository is in your local computer, instead of your Github profile. When you clone a repository, you copy the repository from GitHub.com to your local machine. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com.
+     - You can [clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) by following [these instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository);
+     - There are tools that can help you track changes with cloned repositories from your computer. You are free to choose whichever you prefer (*e.g.*, RStudio, Atom, Visual Basic). Try [Github Desktop](https://desktop.github.com/)!
+     - You must always keep your cloned repository up-to-date with the online version. Do this by *fetching* and *pulling from the origin*, as below:
      ![image](https://user-images.githubusercontent.com/8599229/145312669-de1a1713-5bd1-4cd8-bdc6-426a0f862320.png)
+     After clicking *Fetch origin*, it will show how many commits you must *pull from the origin*.
+     ![image](https://user-images.githubusercontent.com/8599229/145314441-fa18d587-121c-4357-9968-11bdc33e9475.png)
 
+- [Making a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). Pull requests let you tell others about changes you have pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the `main` branch. This section will deserve its own topic. See more below!
 
-- [Making a pull request]().
+## Pull requests
+
+As mentioned above, changes to the content of the manuscript and to this repository require you to:
+1. Fork or clone this repository;
+2. Regularly commit changes to the files and push these commits to your local version of this repository; and,
+3. Submit a pull request to the `main` manuscript repository, so that others can review, merge and incorporate your changes to the `main` version of the manuscript.
 
 # Manubot usage guidelines
 
