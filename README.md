@@ -14,15 +14,11 @@
 
 (Add a few sentences describing the overall goal of the study).
 
-This repository tests the implementation of manubot for our collaborative writing. 
-
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
-
 ## Contributing
 
 A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
 
-To contribute in writing, you must follow the guidelines described [here](CONTRIBUTING.md).
+To contribute in writing, you must follow the guidelines described [within the CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 In a nutshell, suggestions about the literature require the creation of [discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions), and written contributions require the modification of files within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory and pushing changes through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/pulls).
 
