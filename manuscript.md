@@ -1,28 +1,29 @@
 ---
-title: Working Manuscript Title
+title: 'Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution'
 keywords:
 - Github
 - Reproducible research
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2021-12-09'
+date-meta: '2021-12-10'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
 - Cole B. Brookson
+- Robert Crystal-Ornelas
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Working Manuscript Title" />
-  <meta name="citation_title" content="Working Manuscript Title" />
-  <meta property="og:title" content="Working Manuscript Title" />
-  <meta property="twitter:title" content="Working Manuscript Title" />
-  <meta name="dc.date" content="2021-12-09" />
-  <meta name="citation_publication_date" content="2021-12-09" />
+  <meta name="dc.title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
+  <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
+  <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
+  <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
+  <meta name="dc.date" content="2021-12-10" />
+  <meta name="citation_publication_date" content="2021-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,15 +41,19 @@ header-includes: |-
   <meta name="citation_author" content="Cole B. Brookson" />
   <meta name="citation_author_institution" content="Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada" />
   <meta name="citation_author_orcid" content="0000-0003-1237-4096" />
+  <meta name="citation_author" content="Robert Crystal-Ornelas" />
+  <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-6339-1139" />
+  <meta name="twitter:creator" content="@rob_c_ornelas" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/61af31598dd8f25c1d07a3e50697aa88d7337de3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/61af31598dd8f25c1d07a3e50697aa88d7337de3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/61af31598dd8f25c1d07a3e50697aa88d7337de3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/06878eea2d4aa12c34e18b23f346c921e86b8fea/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/06878eea2d4aa12c34e18b23f346c921e86b8fea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/06878eea2d4aa12c34e18b23f346c921e86b8fea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/61af31598dd8f25c1d07a3e50697aa88d7337de3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/06878eea2d4aa12c34e18b23f346c921e86b8fea/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@61af315](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/61af31598dd8f25c1d07a3e50697aa88d7337de3)
-on December 9, 2021.
+from [SORTEE-Github-Hackathon/manuscript@06878ee](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/06878eea2d4aa12c34e18b23f346c921e86b8fea)
+on December 10, 2021.
 </em></small>
 
 ## Authors
@@ -108,6 +113,17 @@ on December 9, 2021.
     [colebrookson](https://github.com/colebrookson)<br>
   <small>
      Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
+  </small>
+
++ **Robert Crystal-Ornelas**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-6339-1139](https://orcid.org/0000-0002-6339-1139)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [robcrystalornelas](https://github.com/robcrystalornelas)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [rob_c_ornelas](https://twitter.com/rob_c_ornelas)<br>
+  <small>
+     Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
 
