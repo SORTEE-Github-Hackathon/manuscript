@@ -23,8 +23,8 @@
 1. To situate yourself, access the [current document](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html) and/or its corresponding sections within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory;
 
 2. It is **essential** that you **always keep your version up-to-date** (_i.e._ always *fetch* and *pull* from the origin), so you are certain to not provide changes to a previous version of the manuscript. The easiest ways to being modifying are to:
-   1. [Fork this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your Github profile, and [Contribute]() your modifications from there. *Remember to always fetch upstream to keep your repository up0to-date*.; or,
-   2. [Clone this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your computer, create and work from your own [branch](https://github.com/SORTEE-Github-Hackathon/manuscript) and push your committed modifications through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests). *Always fetch and pull from the origin when you work, so your local copy is updated.*.
+   1. [Fork this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your Github profile, and [Contribute](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/CONTRIBUTING.md) your modifications from there. *Remember to always fetch upstream to keep your repository up-to-date*.; or,
+   2. [Clone this repository](https://github.com/SORTEE-Github-Hackathon/manuscript/) to your computer, create and work from your own [branch](https://github.com/SORTEE-Github-Hackathon/manuscript) and push your committed modifications through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#pull-requests). *Always fetch and pull from the origin when you work, so your local copy is updated.*
 
 3. Write text and propose changes to a file by making a pull request:
    1. **Write a sentence per line** and create new paragraphs with two returns;
@@ -45,7 +45,7 @@
 
 ## Reviewing writing
 
-All pull requests should be reviewed by, at least, two other contributors. Pull requests performed can be open, so that anyone can review them. However, you may assign specific reviewers to them.
+All pull requests should be reviewed by, at least, two other contributors. Pull request reviews can be open, so that anyone can review them. However, you may assign specific reviewers to them.
 
 When reviewing a pull request, one needs to consider:
 

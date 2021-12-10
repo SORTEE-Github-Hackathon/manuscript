@@ -1,5 +1,5 @@
 ---
-title: "Working Manuscript Title"
+title: "Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution"
 keywords:
   - Github
   - Reproducible research
@@ -32,3 +32,11 @@ authors:
     email: cole.brookson@gmail.com
     affiliations:
       - Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
+  - github: robcrystalornelas
+    name: Robert Crystal-Ornelas
+    initials: RCO
+    orcid: 0000-0002-6339-1139
+    email: rcrystalornelas@lbl.gov
+    twitter: rob_c_ornelas
+    affiliations:
+      - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
