@@ -35,7 +35,7 @@ Duis
 dylangomes
 eiusmod
 elit
-Engorgio
+engorgio
 enim
 ennervate
 episkey
@@ -43,7 +43,7 @@ esse
 evanesco
 Excepteur
 exercitation
-expecto
+Expecto
 felicis
 frisbees
 fugiat
@@ -70,12 +70,12 @@ laborum
 Lacarnum
 levicorpus
 leviosa
-locomotor
+Locomotor
 Lorem
 magna
 mobilicorpus
 mollit
-mortis
+Mortis
 Mudbloods
 nisi
 nostrud
