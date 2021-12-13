@@ -19,16 +19,18 @@
     "issued": {
       "date-parts": [
         [
-          2020,
-          12,
-          23
+          2021,
+          11,
+          1
         ]
       ]
     },
     "abstract": "Narrative open-ended questions are suitable for gathering detailed information without limiting respondents to a predefined set of response categories. However, despite efforts to improve the quality of open-ended responses using different verbal and visual design features, respondents are often unwilling to expend effort on substantive and comprehensive responses. Based on a Web survey experiment conducted with opt-in panelists in Germany, we test whether placeholder text (i.e., lorem ipsum) in the answer box of a narrative open-ended question can be used as a visual stimulus to promote high-quality responses without discouraging respondents from answering the question. We find that, although placeholder texts that suggest long and extensive responses elicit more extensive responses, they also result in longer response times and less substantive responses. As the disadvantages of such lengthy placeholder texts thus appear to outweigh their advantages, we advise against using them. We further find that shorter placeholder texts do not provide any additional benefits. These findings also suggest that any kind of visual design feature should always be tested thoroughly before use.",
     "container-title": "Journal of Survey Statistics and Methodology",
     "DOI": "10.1093/jssam/smaa039",
-    "page": "smaa039",
+    "volume": "9",
+    "issue": "5",
+    "page": "992-1012",
     "publisher": "Oxford University Press (OUP)",
     "title": "Using Placeholder Text in Narrative Open-Ended Questions in Web Surveys",
     "URL": "https://doi.org/gnqqcf",
@@ -509,7 +511,7 @@
         [
           "2021",
           12,
-          10
+          13
         ]
       ]
     },

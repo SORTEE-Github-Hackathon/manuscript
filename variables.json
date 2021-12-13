@@ -8,14 +8,15 @@
       "Ecology and evolution"
     ],
     "lang": "en-US",
-    "date-meta": "2021-12-10",
+    "date-meta": "2021-12-13",
     "author-meta": [
       "Hermione Jean Granger",
       "Dylan G. E. Gomes",
       "Cole B. Brookson",
-      "Robert Crystal-Ornelas"
+      "Robert Crystal-Ornelas",
+      "Ali Guncan"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta name=\"citation_title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta property=\"og:title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta property=\"twitter:title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta name=\"dc.date\" content=\"2021-12-10\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-10\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Hermione Jean Granger\" />\n<meta name=\"citation_author_institution\" content=\"Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@hermionejeangranger\" />\n<meta name=\"citation_author\" content=\"Dylan G. E. Gomes\" />\n<meta name=\"citation_author_institution\" content=\"Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2642-3728\" />\n<meta name=\"citation_author\" content=\"Cole B. Brookson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1237-4096\" />\n<meta name=\"citation_author\" content=\"Robert Crystal-Ornelas\" />\n<meta name=\"citation_author_institution\" content=\"Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6339-1139\" />\n<meta name=\"twitter:creator\" content=\"@rob_c_ornelas\" />\n<link rel=\"canonical\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta property=\"og:url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta name=\"citation_title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta property=\"og:title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta property=\"twitter:title\" content=\"Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution\" />\n<meta name=\"dc.date\" content=\"2021-12-13\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-13\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Hermione Jean Granger\" />\n<meta name=\"citation_author_institution\" content=\"Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@hermionejeangranger\" />\n<meta name=\"citation_author\" content=\"Dylan G. E. Gomes\" />\n<meta name=\"citation_author_institution\" content=\"Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2642-3728\" />\n<meta name=\"citation_author\" content=\"Cole B. Brookson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1237-4096\" />\n<meta name=\"citation_author\" content=\"Robert Crystal-Ornelas\" />\n<meta name=\"citation_author_institution\" content=\"Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6339-1139\" />\n<meta name=\"twitter:creator\" content=\"@rob_c_ornelas\" />\n<meta name=\"citation_author\" content=\"Ali Guncan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1765-648X\" />\n<meta name=\"twitter:creator\" content=\"@aliguncan\" />\n<link rel=\"canonical\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta property=\"og:url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -25,7 +26,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "December 10, 2021",
+    "date": "December 13, 2021",
     "authors": [
       {
         "github": "hermionejeangranger",
@@ -85,6 +86,20 @@
         "affiliation_numbers": [
           5
         ]
+      },
+      {
+        "github": "Aguncan",
+        "name": "Ali Guncan",
+        "initials": "AG",
+        "orcid": "0000-0003-1765-648X",
+        "email": "guncan.ali@gmail.com",
+        "twitter": "aliguncan",
+        "affiliations": [
+          "Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey"
+        ],
+        "affiliation_numbers": [
+          6
+        ]
       }
     ],
     "affiliations": [
@@ -107,6 +122,10 @@
       {
         "affiliation": "Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA",
         "affiliation_number": 5
+      },
+      {
+        "affiliation": "Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey",
+        "affiliation_number": 6
       }
     ],
     "ci_source": {
@@ -114,19 +133,19 @@
       "repo_slug": "SORTEE-Github-Hackathon/manuscript",
       "repo_owner": "SORTEE-Github-Hackathon",
       "repo_name": "manuscript",
-      "commit": "757578d31116a1903e6ae6c542a0b10501295b32",
-      "triggering_commit": "757578d31116a1903e6ae6c542a0b10501295b32",
-      "build_url": "https://github.com/SORTEE-Github-Hackathon/manuscript/commit/757578d31116a1903e6ae6c542a0b10501295b32/checks",
-      "job_url": "https://github.com/SORTEE-Github-Hackathon/manuscript/actions/runs/1564214391"
+      "commit": "6c4b7f17b147c2200453a210a48e535f3f99144e",
+      "triggering_commit": "6c4b7f17b147c2200453a210a48e535f3f99144e",
+      "build_url": "https://github.com/SORTEE-Github-Hackathon/manuscript/commit/6c4b7f17b147c2200453a210a48e535f3f99144e/checks",
+      "job_url": "https://github.com/SORTEE-Github-Hackathon/manuscript/actions/runs/1574176028"
     },
     "html_url": "https://SORTEE-Github-Hackathon.github.io/manuscript/",
     "pdf_url": "https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf",
-    "html_url_versioned": "https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/",
-    "pdf_url_versioned": "https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/manuscript.pdf",
+    "html_url_versioned": "https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/",
+    "pdf_url_versioned": "https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": null,
     "manuscript_stats": {
-      "word_count": 1799
+      "word_count": 1786
     }
   }
 }

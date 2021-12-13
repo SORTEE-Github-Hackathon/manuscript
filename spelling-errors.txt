@@ -1,6 +1,8 @@
 Acknowledgements
 adipiscing
 aguamenti
+Aguncan
+aliguncan
 aliqua
 aliquip
 Alohamora
@@ -35,7 +37,7 @@ Duis
 dylangomes
 eiusmod
 elit
-engorgio
+Engorgio
 enim
 ennervate
 episkey
@@ -51,6 +53,7 @@ funnunculus
 gillywater
 Gomes
 Granger
+Guncan
 Hagrid
 Hermione
 hermionejeangranger
@@ -70,7 +73,7 @@ laborum
 Lacarnum
 levicorpus
 leviosa
-Locomotor
+locomotor
 Lorem
 magna
 mobilicorpus
@@ -82,6 +85,7 @@ nostrud
 nulla
 occaecat
 officia
+Ordu
 ornelas
 Padfoot
 Pandoc’s

@@ -6,12 +6,13 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2021-12-10'
+date-meta: '2021-12-13'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
 - Cole B. Brookson
 - Robert Crystal-Ornelas
+- Ali Guncan
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2021-12-10" />
-  <meta name="citation_publication_date" content="2021-12-10" />
+  <meta name="dc.date" content="2021-12-13" />
+  <meta name="citation_publication_date" content="2021-12-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,15 +46,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
   <meta name="citation_author_orcid" content="0000-0002-6339-1139" />
   <meta name="twitter:creator" content="@rob_c_ornelas" />
+  <meta name="citation_author" content="Ali Guncan" />
+  <meta name="citation_author_institution" content="Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey" />
+  <meta name="citation_author_orcid" content="0000-0003-1765-648X" />
+  <meta name="twitter:creator" content="@aliguncan" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +80,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/757578d31116a1903e6ae6c542a0b10501295b32/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6c4b7f17b147c2200453a210a48e535f3f99144e/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@757578d](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/757578d31116a1903e6ae6c542a0b10501295b32)
-on December 10, 2021.
+from [SORTEE-Github-Hackathon/manuscript@6c4b7f1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6c4b7f17b147c2200453a210a48e535f3f99144e)
+on December 13, 2021.
 </em></small>
 
 ## Authors
@@ -126,13 +131,23 @@ on December 10, 2021.
      Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
++ **Ali Guncan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1765-648X](https://orcid.org/0000-0003-1765-648X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [Aguncan](https://github.com/Aguncan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [aliguncan](https://twitter.com/aliguncan)<br>
+  <small>
+     Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
+  </small>
+
 
 
 ## Abstract {.page_break_before}
 
 ## Importance
 
-hi it is just a test for me whether it works or not
 
 ## Introduction {.page_break_before}
 
