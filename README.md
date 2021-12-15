@@ -1,4 +1,5 @@
-# Working title to be determined
+# Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution
+
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -12,7 +13,7 @@
 
 <!-- usage note: edit this section. -->
 
-(Add a few sentences describing the overall goal of the study).
+A friendly guide to GitHub and all the things you can **currently** do with it. Very few papers focus on GitHub as a tool for collaboration. We will also mention where GitHub falls short as a tool for collaboration.
 
 ## Contributing
 
