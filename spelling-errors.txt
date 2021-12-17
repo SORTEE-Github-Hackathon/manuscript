@@ -37,7 +37,7 @@ Duis
 dylangomes
 eiusmod
 elit
-Engorgio
+engorgio
 enim
 ennervate
 episkey
@@ -45,7 +45,7 @@ esse
 evanesco
 Excepteur
 exercitation
-Expecto
+expecto
 felicis
 frisbees
 fugiat
@@ -78,7 +78,7 @@ Lorem
 magna
 mobilicorpus
 mollit
-Mortis
+mortis
 Mudbloods
 nisi
 nostrud
@@ -86,7 +86,7 @@ nulla
 occaecat
 officia
 Ordu
-ornelas
+Ornelas
 Padfoot
 Pandoc’s
 pariatur
