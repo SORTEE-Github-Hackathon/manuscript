@@ -15,7 +15,9 @@ aresto
 aute
 bezoar
 Blotts
+BrandonEdwards
 Brookson
+Carleton
 cillum
 Cleansweep
 colebrookson
@@ -78,7 +80,7 @@ Lorem
 magna
 mobilicorpus
 mollit
-mortis
+Mortis
 Mudbloods
 nisi
 nostrud

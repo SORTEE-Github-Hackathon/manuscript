@@ -13,6 +13,7 @@ author-meta:
 - Cole B. Brookson
 - Robert Crystal-Ornelas
 - Ali Guncan
+- Brandon P.M. Edwards
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -50,15 +51,18 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey" />
   <meta name="citation_author_orcid" content="0000-0003-1765-648X" />
   <meta name="twitter:creator" content="@aliguncan" />
+  <meta name="citation_author" content="Brandon P.M. Edwards" />
+  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0003-0865-3076" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/125a0b9a5796f8d15f5335a0128e43cb790797c9/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/125a0b9a5796f8d15f5335a0128e43cb790797c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/125a0b9a5796f8d15f5335a0128e43cb790797c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dec198ffd1d6ab7bfb9785d968be7213262dadf3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dec198ffd1d6ab7bfb9785d968be7213262dadf3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dec198ffd1d6ab7bfb9785d968be7213262dadf3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/125a0b9a5796f8d15f5335a0128e43cb790797c9/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/dec198ffd1d6ab7bfb9785d968be7213262dadf3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@125a0b9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/125a0b9a5796f8d15f5335a0128e43cb790797c9)
+from [SORTEE-Github-Hackathon/manuscript@dec198f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/dec198ffd1d6ab7bfb9785d968be7213262dadf3)
 on December 17, 2021.
 </em></small>
 
@@ -140,6 +144,15 @@ on December 17, 2021.
     [aliguncan](https://twitter.com/aliguncan)<br>
   <small>
      Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
+  </small>
+
++ **Brandon P.M. Edwards**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0865-3076](https://orcid.org/0000-0003-0865-3076)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [BrandonEdwards](https://github.com/BrandonEdwards)<br>
+  <small>
+     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
 
