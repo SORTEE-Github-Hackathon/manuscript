@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2021-12-20'
+date-meta: '2021-12-23'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -24,8 +24,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2021-12-20" />
-  <meta name="citation_publication_date" content="2021-12-20" />
+  <meta name="dc.date" content="2021-12-23" />
+  <meta name="citation_publication_date" content="2021-12-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2aac337](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2aac337836e7f373a61ded30d1ad3763af93d8fa)
-on December 20, 2021.
+from [SORTEE-Github-Hackathon/manuscript@0f3bb2d](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0f3bb2dda8527c280667c2c2c14620d988a3db88)
+on December 23, 2021.
 </em></small>
 
 ## Authors
@@ -167,10 +167,12 @@ on December 20, 2021.
 ### High-level/general background about GitHub
 *contributors to this section: RCO,*  
 
-The software development community has used the web platform GitHub, and its underlying version control system Git to collaboratively work on code. Now has over 73 million registered users (GitHub, 2020). 
-As ecologists and evolutionary biologists start to use and collaborate on computer code as part of their research many are interacting with GitHub for the first time.
-We are focusing on how researchers in EEB can leverage existing tools to make the most out of their research and collaboartive projects. 
-Acknowledge that some of the GitHub features are made with software development in mind, and that one of the goals of this paper is to 'translate' the features into uses for EEB
+With over 73 million registered users, GitHub and its underlying version control system Git, are the defacto platform for collaboration on computer code [@https://github.com/about]. 
+GitHub has become an indispensible tool for software developers because,through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928]. 
+Thus, users have an "audit trail" on the files they choose to store on their GitHub repositroies which simultanously less "ad hoc" than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
+Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and many are interacting with GitHub for the first time. 
+For some first-time users, the GitHub learning curve can seem overwhelming because the platform and its features were created with collaboration on software as the central goal.  
+However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their research and collaborative projects.
 
 ### What's already been written about GitHub
 *contributors to this section:* 
@@ -197,6 +199,7 @@ Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily 
 Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats.
 Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog [@doi:10.1093/jssam/smaa039].
 Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.
+
 
 ## Discussion
 

@@ -18,13 +18,13 @@ CERN
 cillum
 citable
 colebrookson
-collaboartive
 commodo
 compendia
 consectetur
 consequat
 culpa
 cupidatat
+defacto
 deserunt
 diddykins
 differnt
@@ -52,8 +52,10 @@ HackMD
 Hagrid
 Hermione
 hermionejeangranger
+hoc
 ickle
 incididunt
+indispensible
 ipsum
 irure
 Jira
@@ -71,7 +73,7 @@ occaecat
 officia
 Ordu
 O’Reilly
-Ornelas
+ornelas
 Padfoot
 Pandoc’s
 pargrah
@@ -85,6 +87,7 @@ quis
 Ravenclaw’s
 RCO
 repo
+repositroies
 reprehenderit
 ReproHack
 Riverol
@@ -92,6 +95,7 @@ robcrystalornelas
 rOpenSci’s
 Rundel
 sed
+simultanously
 sint
 snargaluff
 sunt

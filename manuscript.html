@@ -10,7 +10,7 @@
   <meta name="author" content="Robert Crystal-Ornelas" />
   <meta name="author" content="Ali Guncan" />
   <meta name="author" content="Brandon P.M. Edwards" />
-  <meta name="dcterms.date" content="2021-12-20" />
+  <meta name="dcterms.date" content="2021-12-23" />
   <meta name="keywords" content="Github, Reproducible research, Collaboration, Ecology and evolution" />
   <title>Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution</title>
   <style>
@@ -115,8 +115,8 @@
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2021-12-20" />
-  <meta name="citation_publication_date" content="2021-12-20" />
+  <meta name="dc.date" content="2021-12-23" />
+  <meta name="citation_publication_date" content="2021-12-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -151,9 +151,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -174,10 +174,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2aac337836e7f373a61ded30d1ad3763af93d8fa/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0f3bb2dda8527c280667c2c2c14620d988a3db88/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2aac337836e7f373a61ded30d1ad3763af93d8fa">SORTEE-Github-Hackathon/manuscript@2aac337</a>
-on December 20, 2021.
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0f3bb2dda8527c280667c2c2c14620d988a3db88">SORTEE-Github-Hackathon/manuscript@0f3bb2d</a>
+on December 23, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -242,10 +242,12 @@ Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <h3 id="high-levelgeneral-background-about-github">High-level/general background about GitHub</h3>
 <p><em>contributors to this section: RCO,</em></p>
-<p>The software development community has used the web platform GitHub, and its underlying version control system Git to collaboratively work on code. Now has over 73 million registered users (GitHub, 2020).
-As ecologists and evolutionary biologists start to use and collaborate on computer code as part of their research many are interacting with GitHub for the first time.
-We are focusing on how researchers in EEB can leverage existing tools to make the most out of their research and collaboartive projects.
-Acknowledge that some of the GitHub features are made with software development in mind, and that one of the goals of this paper is to ‘translate’ the features into uses for EEB</p>
+<p>With over 73 million registered users, GitHub and its underlying version control system Git, are the defacto platform for collaboration on computer code <span class="citation" data-cites="nwCtHDCn">[<a href="#ref-nwCtHDCn" role="doc-biblioref">1</a>]</span>.
+GitHub has become an indispensible tool for software developers because,through version control, users can track changes to multiple files and folders over time <span class="citation" data-cites="RVetqmsg">[<a href="#ref-RVetqmsg" role="doc-biblioref">2</a>]</span>.
+Thus, users have an “audit trail” on the files they choose to store on their GitHub repositroies which simultanously less “ad hoc” than passing files back and forth yet able to scale up as projects take on more files or collaborators <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">3</a>]</span>.
+Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and many are interacting with GitHub for the first time.
+For some first-time users, the GitHub learning curve can seem overwhelming because the platform and its features were created with collaboration on software as the central goal.<br />
+However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their research and collaborative projects.</p>
 <h3 id="whats-already-been-written-about-github">What’s already been written about GitHub</h3>
 <p><em>contributors to this section:</em>
 There’s lots of detailed info in other papers about version control. Much less about using it as a tool for <strong>collaboration</strong>!
@@ -261,11 +263,11 @@ In EcoEvo Github use is predicated on an understanding in R.
 This close connection has some benefits, but other programming languages are frequently used by researchers (e.g. Python, Julia).
 Lots of ways to use GitHub that are independent from R.
 We have in this hackathon a definite focus on R tools for interacting with GitHub, but sometimes the issues we present at ‘Github’ issues might be more about the ways that we interact with Github (i.e. through R vs. bash shell)</p>
-<p>Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. <span class="citation" data-cites="89tG9ycv">[<a href="#ref-89tG9ycv" role="doc-biblioref">1</a>]</span>
+<p>Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. <span class="citation" data-cites="89tG9ycv">[<a href="#ref-89tG9ycv" role="doc-biblioref">4</a>]</span>
 Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss?
 Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter.
 Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats.
-Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog <span class="citation" data-cites="3YIB6GgK">[<a href="#ref-3YIB6GgK" role="doc-biblioref">2</a>]</span>.
+Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog <span class="citation" data-cites="3YIB6GgK">[<a href="#ref-3YIB6GgK" role="doc-biblioref">5</a>]</span>.
 Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.</p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="topic-a">Topic A</h3>
@@ -416,15 +418,15 @@ two spaces at end of line.</p>
 <p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
 <p><a href="https://manubot.org">Link by reference</a></p>
 <h2 id="citations">Citations</h2>
-<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">3</a>]</span>.</p>
-<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">4</a>]</span>.</p>
-<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">5</a>]</span>.</p>
-<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">6</a>]</span>.</p>
-<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">7</a>]</span>.</p>
-<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">8</a>]</span>.</p>
-<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>]</span>.</p>
-<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">3</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">7</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>]</span>.
-Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">4</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">5</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">10</a>]</span>.</p>
+<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">6</a>]</span>.</p>
+<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">7</a>]</span>.</p>
+<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">8</a>]</span>.</p>
+<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">9</a>]</span>.</p>
+<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">10</a>]</span>.</p>
+<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">11</a>]</span>.</p>
+<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>]</span>.</p>
+<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">6</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">10</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>]</span>.
+Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">7</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">8</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">13</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h2 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h2>
 <p>Figure <a href="#fig:square-image">5</a></p>
@@ -559,7 +561,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:a593bccc-62ee-43b3-b726-5fc921e05763" class="tablenos">
+<div id="tbl:0bc3e0e6-6eb3-4aa4-9875-401ab1258714" class="tablenos">
 <table id="tbl:">
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -710,15 +712,15 @@ two spaces at end of line.</p>
 <p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
 <p><a href="https://manubot.org">Link by reference</a></p>
 <h2 id="citations-1">Citations</h2>
-<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">3</a>]</span>.</p>
-<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">4</a>]</span>.</p>
-<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">5</a>]</span>.</p>
-<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">6</a>]</span>.</p>
-<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">7</a>]</span>.</p>
-<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">8</a>]</span>.</p>
-<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>]</span>.</p>
-<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">3</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">7</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>]</span>.
-Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">4</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">5</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">9</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">10</a>]</span>.</p>
+<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">6</a>]</span>.</p>
+<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">7</a>]</span>.</p>
+<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">8</a>]</span>.</p>
+<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">9</a>]</span>.</p>
+<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">10</a>]</span>.</p>
+<p>Citation by URL <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">11</a>]</span>.</p>
+<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>]</span>.</p>
+<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">6</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">10</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>]</span>.
+Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">7</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">8</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">12</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">13</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h2 id="referencing-figures-tables-equations-1">Referencing figures, tables, equations</h2>
 <p>Figure <a href="#fig:square-image">5</a></p>
@@ -853,7 +855,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:e74d3abd-e3c8-4063-bcce-50d7bf48447f" class="tablenos">
+<div id="tbl:29ccb8a1-8d24-4617-976e-4a93baac87df" class="tablenos">
 <table id="tbl:">
 <caption><span>Table 6:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -937,35 +939,44 @@ useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></s
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-nwCtHDCn" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Build software better, together</strong> <div class="csl-block">GitHub</div> <a href="https://github.com">https://github.com</a></div>
+</div>
+<div id="ref-RVetqmsg" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Excuse Me, Do You Have a Moment to Talk About Version Control?</strong> <div class="csl-block">Jennifer Bryan</div> <em>The American Statistician</em> (2018-04-24) <a href="https://doi.org/gdhzdp">https://doi.org/gdhzdp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1080/00031305.2017.1399928">10.1080/00031305.2017.1399928</a></div></div>
+</div>
+<div id="ref-4ny1onB0" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Git can facilitate greater reproducibility and increased transparency in science</strong> <div class="csl-block">Karthik Ram</div> <em>Source Code for Biology and Medicine</em> (2013-02-28) <a href="https://doi.org/krv">https://doi.org/krv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1751-0473-8-7">10.1186/1751-0473-8-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23448176">23448176</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3639880">PMC3639880</a></div></div>
+</div>
 <div id="ref-89tG9ycv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Harry Potter and the sorcerer's stone</strong> <div class="csl-block">JK Rowling, Mary GrandPr??, Scholastic Inc</div> (1998) <div class="csl-block">ISBN: 9780590353427</div></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Harry Potter and the sorcerer's stone</strong> <div class="csl-block">JK Rowling, Mary GrandPr??, Scholastic Inc</div> (1998) <div class="csl-block">ISBN: 9780590353427</div></div>
 </div>
 <div id="ref-3YIB6GgK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Using Placeholder Text in Narrative Open-Ended Questions in Web Surveys</strong> <div class="csl-block">Tanja Kunz, Franziska Quoß, Tobias Gummer</div> <em>Journal of Survey Statistics and Methodology</em> (2021-11-01) <a href="https://doi.org/gnqqcf">https://doi.org/gnqqcf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/jssam/smaa039">10.1093/jssam/smaa039</a></div></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Using Placeholder Text in Narrative Open-Ended Questions in Web Surveys</strong> <div class="csl-block">Tanja Kunz, Franziska Quoß, Tobias Gummer</div> <em>Journal of Survey Statistics and Methodology</em> (2021-11-01) <a href="https://doi.org/gnqqcf">https://doi.org/gnqqcf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/jssam/smaa039">10.1093/jssam/smaa039</a></div></div>
 </div>
 <div id="ref-IhliSZDo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Sci-Hub provides access to nearly all scholarly literature</strong> <div class="csl-block">Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene</div> <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></div></div>
 </div>
 <div id="ref-mSMVRkoc" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <div class="csl-block">Brett K Beaulieu-Jones, Casey S Greene</div> <em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <div class="csl-block">Brett K Beaulieu-Jones, Casey S Greene</div> <em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></div></div>
 </div>
 <div id="ref-126Wi5Us4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Bitcoin for the biological literature.</strong> <div class="csl-block">Douglas Heaven</div> <em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></div></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Bitcoin for the biological literature.</strong> <div class="csl-block">Douglas Heaven</div> <em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></div></div>
 </div>
 <div id="ref-QhC8yJ7V" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <div class="csl-block">cOAlition S</div> (2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></div>
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <div class="csl-block">cOAlition S</div> (2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></div>
 </div>
 <div id="ref-zBPP9YKu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Open access</strong> <div class="csl-block">Peter Suber</div> <em>MIT Press</em> (2012) <div class="csl-block">ISBN: 9780262517638</div></div>
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Open access</strong> <div class="csl-block">Peter Suber</div> <em>MIT Press</em> (2012) <div class="csl-block">ISBN: 9780262517638</div></div>
 </div>
 <div id="ref-1GGGHdsew" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
 </div>
 <div id="ref-PZMP42Ak" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <div class="csl-block">Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S Greene</div> <em>Journal of The Royal Society Interface</em> (2018-04-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></div></div>
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <div class="csl-block">Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S Greene</div> <em>Journal of The Royal Society Interface</em> (2018-04-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></div></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <!-- default theme -->
