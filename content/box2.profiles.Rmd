@@ -1,0 +1,32 @@
+---
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<!--# 
+This document is created from box2.profiles.Rmd, please made edits to code generating the table there.
+
+Edit the table contents here:https://docs.google.com/spreadsheets/d/1R0_NGhAWJ3cxGKQVh06eHKxHGMCN6x5aNL3_qR3nAI0/edit?usp=sharing 
+-->
+
+```{r include=FALSE}
+library(googlesheets4)
+library(tidyverse)
+library(knitr)
+library(pander)
+```
+
+```{r include=FALSE}
+df <- read_sheet("1R0_NGhAWJ3cxGKQVh06eHKxHGMCN6x5aNL3_qR3nAI0")
+```
+
+```{r results='asis'}
+set.alignment("left")
+df %>% 
+  replace_na(replace = list(Role = "", Description = "")) %>%
+  pander(split.table = 10000, caption = "Collaborator profiles and some example use cases for GitHub features.  This is a non-exhaustive list intended to showcase some creative uses of GitHub for collaborative academic projects, such as collaborative manuscript writing.")
+```
+
