@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-04'
+date-meta: '2022-01-15'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -25,8 +25,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-04" />
-  <meta name="citation_publication_date" content="2022-01-04" />
+  <meta name="dc.date" content="2022-01-15" />
+  <meta name="citation_publication_date" content="2022-01-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -66,9 +66,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8bfdb0742c4afacee789459e9b4d3a1c4c4074c6/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8bfdb0742c4afacee789459e9b4d3a1c4c4074c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8bfdb0742c4afacee789459e9b4d3a1c4c4074c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a267949e4ff2ae9cecc5ae8a8cee0192e75a3c8a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a267949e4ff2ae9cecc5ae8a8cee0192e75a3c8a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a267949e4ff2ae9cecc5ae8a8cee0192e75a3c8a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +90,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8bfdb0742c4afacee789459e9b4d3a1c4c4074c6/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/a267949e4ff2ae9cecc5ae8a8cee0192e75a3c8a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@8bfdb07](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8bfdb0742c4afacee789459e9b4d3a1c4c4074c6)
-on January 4, 2022.
+from [SORTEE-Github-Hackathon/manuscript@a267949](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/a267949e4ff2ae9cecc5ae8a8cee0192e75a3c8a)
+on January 15, 2022.
 </em></small>
 
 ## Authors

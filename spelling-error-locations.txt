@@ -66,3 +66,5 @@ content/08.statements.md:3:hackathon
 content/08.statements.md:3:SORTEE
 content/08.statements.md:9:Hackathon
 content/08.statements.md:9:SORTEE
+content/box2.profiles.md:46:Zenodo
+content/box2.profiles.md:64:HackMD
