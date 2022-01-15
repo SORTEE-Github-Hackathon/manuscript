@@ -66,9 +66,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f5d9da1b071807b189ad8db44a7b03d929464994/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f5d9da1b071807b189ad8db44a7b03d929464994/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f5d9da1b071807b189ad8db44a7b03d929464994/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f5d9da1b071807b189ad8db44a7b03d929464994/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f5d9da1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f5d9da1b071807b189ad8db44a7b03d929464994)
+from [SORTEE-Github-Hackathon/manuscript@31c8d68](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/31c8d688b62cb32658d4f836e958aec5ee846398)
 on January 15, 2022.
 </em></small>
 
@@ -187,6 +187,7 @@ on January 15, 2022.
 With over 73 million registered users, GitHub and its underlying version control system Git, are the defacto platform for collaboration on computer code [@https://github.com/about]. 
 GitHub has become an indispensible tool for software developers because,through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928]. 
 Thus, users have an "audit trail" on the files they choose to store on their GitHub repositroies which simultanously less "ad hoc" than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
+
 Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and some are interacting with GitHub for the first time [@doi:10.1038/s41559-017-0160]. 
 For first-time users, the GitHub learning curve can seem overwhelming because the platform and its features were created with collaboration on software as the central goal.  
 However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their research and collaborative projects.
@@ -201,26 +202,19 @@ We acknowledge that GitHub is not the only way for productive collaboration on c
 Because GitHub as web platform is so well documented and has a robust user community, scientists can take advantage of many collaborative aspects without knowing even a line of Git code.
 
 ### What's already been done with GitHub in EcoEvo
-*contributors to this section:* 
+*contributors to this section:*  
+
 Very friendly description of what GitHub is and the main uses and advantages of using it in the natural sciences back in 2016 (Perkel 2016)
 What's missing about GitHub in EcoEvo and our objective: Introducing the GitHub ecosystem that's composed of many different elements!
 
 ### What's missing about GitHub in EcoEvo and our objective
-*contributors to this section:* 
+*contributors to this section:*  
+
 Simple habits (of which github is one component) can do a lot to make research more reproducible and collaborative (Alston and Rick 2021).
 In EcoEvo Github use is predicated on an understanding in R. 
 This close connection has some benefits, but other programming languages are frequently used by researchers (e.g. Python, Julia). 
 Lots of ways to use GitHub that are independent from R. 
 We have in this hackathon a definite focus on R tools for interacting with GitHub, but sometimes the issues we present at 'Github' issues might be more about the ways that we interact with Github (i.e. through R vs. bash shell)
-
-
-Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. [@isbn:0439708184]
-Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? 
-Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. 
-Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats.
-Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog [@doi:10.1093/jssam/smaa039].
-Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.
-
 
 ## GitHub in EcoEvo examples (Part 1)
 

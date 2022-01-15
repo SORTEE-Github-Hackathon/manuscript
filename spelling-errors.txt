@@ -2,7 +2,6 @@ Acknowledgements
 advisees
 Aguncan
 aliguncan
-Aragog
 Asycnhronous
 BrandonEdwards
 Brookson
@@ -13,16 +12,13 @@ citable
 colebrookson
 compendia
 defacto
-diddykins
 differnt
-Doxycide
 dylangomes
 EcoEvo
 EEB
 ESS
 findable
 Gaynor
-gillywater
 Gomes
 Granger
 Guncan
@@ -31,7 +27,6 @@ HackMD
 Hermione
 hermionejeangranger
 hoc
-ickle
 indispensible
 Jira
 Kaitlyn
@@ -39,12 +34,11 @@ kaitlyngaynor
 mentorship
 Ordu
 O’Reilly
-Ornelas
+ornelas
 pargrah
 Perkel
 plantforms
 prevelance
-quaffle
 RCO
 repo
 repositroies
@@ -55,7 +49,6 @@ Rundel
 simultanously
 SORTEE
 Tackett
-Weasley
 XXXX
 XXXXXX
 ZenHub
