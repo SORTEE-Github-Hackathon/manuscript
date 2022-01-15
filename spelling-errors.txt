@@ -4,7 +4,6 @@ Aguncan
 aliguncan
 Aragog
 Asycnhronous
-Blischak
 BrandonEdwards
 Brookson
 Carleton
@@ -44,12 +43,12 @@ Ornelas
 pargrah
 Perkel
 plantforms
+prevelance
 quaffle
 RCO
 repo
 repositroies
 ReproHack
-Riverol
 robcrystalornelas
 rOpenSci’s
 Rundel
