@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-15'
+date-meta: '2022-01-19'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -25,8 +25,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-15" />
-  <meta name="citation_publication_date" content="2022-01-15" />
+  <meta name="dc.date" content="2022-01-19" />
+  <meta name="citation_publication_date" content="2022-01-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -66,9 +66,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +90,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/31c8d688b62cb32658d4f836e958aec5ee846398/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@31c8d68](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/31c8d688b62cb32658d4f836e958aec5ee846398)
-on January 15, 2022.
+from [SORTEE-Github-Hackathon/manuscript@c5c0731](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c5c0731ecee8256f47f31b82a3f6a08db98879e8)
+on January 19, 2022.
 </em></small>
 
 ## Authors
@@ -241,34 +241,42 @@ Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel,
 ## GitHub in EcoEvo examples (Part 2)
 
 ### Project management
-*Contributors to this section:* Kaitlyn Gaynor
+*Contributors to this section:* Kaitlyn Gaynor, Rob Crystal-Ornelas  
 
-GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems. The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels, and the new "Discussion" feature serves as a message board for conversation. Scripts and commit messages can be linked directly to issues and discussions, providing a clear record of project workflow. The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks. It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail. 
+GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems. The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels, and the new "Discussion" feature serves as a message board for conversation. Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow. The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks. It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail. By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
 
-Can talk about ESS-DIVE's project management using ZenHub/Jira
+Can talk about ESS-DIVE's project management using ZenHub/Jira to manage customer support requests, feature updates to our data sharing platform.
 
 ### Building website
-*Contributors to this section:*
+*Contributors to this section:*   
+
 Seems like the technical aspect of this is discussed in Dawson, Chris (2016). Building Tools with GitHub: Customize Your Workflow. O'Reilly Media
 GitHub pages allows any .html document to be rendered as a website with a URL. 
 This could be, for example, a report written in markdown or R Markdown rendered into a .html file.
 
 ### Making code citable
-*Contributors to this section:*
-Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution (Hampton et al. 2015)
-It is important to remember that GitHub is NOT a long-term data/code repository by itself (accounts can be deleted at will), so adding GitHub links in papers (which I've seen plenty of times), is not a good practice (imo). Instead, including a DOI (like above bullet) is better.
+*Contributors to this section: Rob Crystal-Ornelas*  
+GitHub makes it easy to store and share a variety of data files in the cloud. 
+But for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947.]. 
+Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers. 
+DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data. 
+DOIs allows tracking and citing research products. 
+For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797]. Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
+
+GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution (Hampton et al. 2015)
+Another key step researchers should consider taking when they receive a DOI for the content they archive on GitHub is choose a usage license [[@10.1016/j.patter.2021.100206]. This helps
 
 ### Collaborative (code) editing
-*Contributors to this section:* Kaitlyn Gaynor
+*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas* 
 
-From its inception, one of the primary uses of GitHub has been for collaborative coding.
+From its inception, one of the primary uses of GitHub has been for collaborative coding. We acknowledge that the average software developer and EcoEvo researcher using GitHub 
 
-Is it worth walking through how collaborative code editing works through GitHub, or just pointing to all the available resources for this? (e.g. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
+Is it worth walking through how collaborative code editing works through GitHub, or just pointing to all the available resources for this? (e.g. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request). Rob: I think pointing to available resources and citing them here is great [@10.1016/j.patter.2021.100206].
 
 GitHub can facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors. Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills. 
 
 ### Writing manuscript
-*contributors to this section:*
+*contributors to this section:*  
 Caveat that GitHub has been called out for not being so user-friendly for manuscript development (Ram 2013). But getting better?
 Tools that link with GitHub have been developed with synchronous writing in mind. HackMD provides a collaborative writing platform based on Markdown that integrates with GitHub.  
 We used this platform early on in the process of writing this manuscript to generate an outline.
