@@ -61,8 +61,13 @@ content/04.use-cases-b.md:41:HackMD
 content/05.use-cases-c.md:1:EcoEvo
 content/05.use-cases-c.md:13:Asycnhronous
 content/05.use-cases-c.md:18:compendia
-content/05.use-cases-c.md:24:ReproHack
-content/05.use-cases-c.md:24:rOpenSci's
+content/05.use-cases-c.md:22:RCO
+content/05.use-cases-c.md:23:EEB
+content/05.use-cases-c.md:23:ess
+content/05.use-cases-c.md:23:ESS
+content/05.use-cases-c.md:23:PDFs
+content/05.use-cases-c.md:27:ReproHack
+content/05.use-cases-c.md:27:rOpenSci's
 content/06.discussion-a.md:3:EcoEvo
 content/06.discussion-a.md:3:pargrah
 content/06.discussion-a.md:4:EcoEvo

@@ -71,9 +71,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/75337038961200257bdd7dc43f175dacdd396cc9/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/75337038961200257bdd7dc43f175dacdd396cc9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/75337038961200257bdd7dc43f175dacdd396cc9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -95,9 +95,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/75337038961200257bdd7dc43f175dacdd396cc9/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ab6f9c9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ab6f9c9c2386c9f47f7927d15020e2a37385935a)
+from [SORTEE-Github-Hackathon/manuscript@7533703](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/75337038961200257bdd7dc43f175dacdd396cc9)
 on January 25, 2022.
 </em></small>
 
@@ -319,8 +319,11 @@ Lab organization as a place to house research compendia as well as codes of cond
 Students can have full ownership over repositories in organization, but stay with the lab after they've left.
 
 ### Misc other uses
-*Contributors to this section:*
-Developing data standards - This is pretty specific case from our team at Berkeley Lab, so I can write about it in a sentence or two here.
+*Contributors to this section: RCO*
+There are many more potential uses of GitHub for EEB researchers, and we briefly highlight several of them here. First, community-driven data standards include instructions and templates that can help researchers format their data and metadata more consistently [@doi:10.1038/s41587-019-0080-8]. Often, these documents and templates are hosted on static websites as PDFs. However, GitHub is now seen as a useful site for storing the data standard documents since they can be version controlled, and commented on by the user community [e.g., ESS-DIVE's GitHub Community Space](https://github.com/ess-dive-community) [@doi:10.1029/2021EA001797]. 
+
+Second ... 
+
 Code review rOpenSci's code review process, and also caught mistakes in code of published papers that could have been caught in peer code review.  Also maybe say something about ReproHack.
 
 ## Discussion
