@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-19'
+date-meta: '2022-01-25'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -15,6 +15,7 @@ author-meta:
 - Ali Guncan
 - Brandon P.M. Edwards
 - Kaitlyn M. Gaynor
+- Katherine Hébert
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,8 +26,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-19" />
-  <meta name="citation_publication_date" content="2022-01-19" />
+  <meta name="dc.date" content="2022-01-25" />
+  <meta name="citation_publication_date" content="2022-01-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,15 +61,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA" />
   <meta name="citation_author_orcid" content="0000-0002-5747-0543" />
   <meta name="twitter:creator" content="@kaitlyngaynor" />
+  <meta name="citation_author" content="Katherine Hébert" />
+  <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
+  <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
+  <meta name="twitter:creator" content="@hebert_kat" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +95,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5c0731ecee8256f47f31b82a3f6a08db98879e8/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ab6f9c9c2386c9f47f7927d15020e2a37385935a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c5c0731](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c5c0731ecee8256f47f31b82a3f6a08db98879e8)
-on January 19, 2022.
+from [SORTEE-Github-Hackathon/manuscript@ab6f9c9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ab6f9c9c2386c9f47f7927d15020e2a37385935a)
+on January 25, 2022.
 </em></small>
 
 ## Authors
@@ -170,6 +175,17 @@ on January 19, 2022.
     [kaitlyngaynor](https://twitter.com/kaitlyngaynor)<br>
   <small>
      Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada; National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
+  </small>
+
++ **Katherine Hébert**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7866-6775](https://orcid.org/0000-0001-7866-6775)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [katherinehebert](https://github.com/katherinehebert)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [hebert_kat](https://twitter.com/hebert_kat)<br>
+  <small>
+     Département de biologie, Université de Sherbrooke, Québec, Canada
   </small>
 
 

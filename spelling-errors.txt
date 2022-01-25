@@ -3,6 +3,7 @@ advisees
 Aguncan
 aliguncan
 Asycnhronous
+biologie
 BrandonEdwards
 Brookson
 Carleton
@@ -12,6 +13,7 @@ citable
 colebrookson
 compendia
 defacto
+Département
 differnt
 DOIs
 dylangomes
@@ -26,6 +28,7 @@ Granger
 Guncan
 hackathon
 HackMD
+Hébert
 Hermione
 hermionejeangranger
 hoc
@@ -34,6 +37,8 @@ integrations
 Jira
 Kaitlyn
 kaitlyngaynor
+kat
+katherinehebert
 mentorship
 Ordu
 O’Reilly
@@ -42,6 +47,7 @@ pargrah
 Perkel
 plantforms
 prevelance
+Québec
 RCO
 repo
 repositroies
@@ -49,9 +55,11 @@ ReproHack
 robcrystalornelas
 rOpenSci’s
 Rundel
+Sherbrooke
 simultanously
 SORTEE
 Tackett
+Université
 XXXX
 XXXXXX
 ZenHub
