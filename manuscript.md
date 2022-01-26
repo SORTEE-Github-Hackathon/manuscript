@@ -79,9 +79,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2039fa37c07e8f9541f59576161f1fc4695b100e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2039fa37c07e8f9541f59576161f1fc4695b100e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2039fa37c07e8f9541f59576161f1fc4695b100e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,9 +103,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2039fa37c07e8f9541f59576161f1fc4695b100e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2039fa3](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2039fa37c07e8f9541f59576161f1fc4695b100e)
+from [SORTEE-Github-Hackathon/manuscript@afc2a24](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a)
 on January 26, 2022.
 </em></small>
 
@@ -224,19 +224,22 @@ on January 26, 2022.
 ## Introduction {.page_break_before}
 
 ### High-level/general background about GitHub
-*contributors to this section: RCO,*  
+*Contributors to this section: RCO, .*  
 
-With over 73 million registered users, GitHub and its underlying version control system Git, are the defacto platform for collaboration on computer code [@https://github.com/about]. 
-GitHub has become an indispensible tool for software developers because,through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928]. 
-Thus, users have an "audit trail" on the files they choose to store on their GitHub repositroies which simultanously less "ad hoc" than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
+With over 73 million registered users, GitHub and its underlying version control system Git, are the _de facto_ platform for collaboration on computer code [@https://github.com/about]. 
+GitHub has become an indispensable tool for software developers because, through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928]. 
+Thus, users have an "audit trail" on the files they choose to store on their GitHub repositories which simultaneously less _ad hoc_ than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
 
 Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and some are interacting with GitHub for the first time [@doi:10.1038/s41559-017-0160]. 
-For first-time users, the GitHub learning curve can seem overwhelming because the platform and its features were created with collaboration on software as the central goal.  
+For first-time users, the GitHub learning curve can seem overwhelming because the creation of the platform and its features were initially centred in collaboration for software development [CITE].
 However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their research and collaborative projects.
 
 ### What's already been written about GitHub
-*contributors to this section: RCO,* 
-[Git](https://git-scm.com/) is the version control system that enables all the collaborative tools available on GitHub. 
+
+*Contributors to this section: RCO, PHPB.* 
+
+[Git](https://git-scm.com/) is the version control system that enables all the collaborative tools available on GitHub.
+In Git, changes performed to files are registered as uniquely identified "commits", which are a snapshot of the line-by-line changes that have been voluntarily performed at that moment.
 Because the details of interacting with Git can get very technical very quick, we focus instead on the web platform GitHub.
 However, we suggest those interested in Git explore the many papers [@doi:10.1371/journal.pcbi.1004668] [@doi:10.1371/journal.pcbi.1004947] and books [@https://happygitwithr.com/] that can provide an introduction to git.
 Despite the prevelance of technical papers and books that focus on Git or GitHub for the software development community, there are much fewer resources for EEB researchers who want to begin collaborating through GitHub.
@@ -244,13 +247,13 @@ We acknowledge that GitHub is not the only way for productive collaboration on c
 Because GitHub as web platform is so well documented and has a robust user community, scientists can take advantage of many collaborative aspects without knowing even a line of Git code.
 
 ### What's already been done with GitHub in EcoEvo
-*contributors to this section:*  
+*Contributors to this section:*  
 
-Very friendly description of what GitHub is and the main uses and advantages of using it in the natural sciences back in 2016 (Perkel 2016)
+Very friendly description of what GitHub is and the main uses and advantages of using it in the natural sciences back in 2016 (Perkel 2016).
 What's missing about GitHub in EcoEvo and our objective: Introducing the GitHub ecosystem that's composed of many different elements!
 
 ### What's missing about GitHub in EcoEvo and our objective
-*contributors to this section:*  
+*Contributors to this section:*  
 
 Simple habits (of which github is one component) can do a lot to make research more reproducible and collaborative (Alston and Rick 2021).
 In EcoEvo Github use is predicated on an understanding in R. 
@@ -260,6 +263,7 @@ We have in this hackathon a definite focus on R tools for interacting with GitHu
 
 I am just testing what happens if I add a sentence. (Saeed) :) 
 It is also important to consider what are the aims of researchers and how they want contribute in...
+
 
 ## GitHub in EcoEvo examples (Part 1)
 

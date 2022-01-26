@@ -8,13 +8,13 @@ BrandonEdwards
 Brookson
 Carleton
 Centre
+centred
 centres
 CERN
 Çetinkaya
 citable
 colebrookson
 compendia
-defacto
 Département
 differnt
 DOIs
@@ -23,6 +23,7 @@ EcoEvo
 EEB
 emmajhudgins
 ESS
+facto
 figshare
 findable
 Gaynor
@@ -38,7 +39,6 @@ hermionejeangranger
 hoc
 Hudgins
 iDiv
-indispensible
 integrations
 Jira
 Kaitlyn
@@ -54,13 +54,13 @@ Ornelas
 pargrah
 PDFs
 Perkel
+PHPB
 plantforms
 prevelance
 QCBSRworkshops
 Québec
 RCO
 repo
-repositroies
 ReproHack
 robcrystalornelas
 rOpenSci’s
@@ -70,7 +70,6 @@ Saeed
 Shafiei
 shafieisabets
 Sherbrooke
-simultanously
 SORTEE
 Sowmeh
 Tackett
@@ -79,4 +78,4 @@ wetlab
 XXXX
 XXXXXX
 ZenHub
-zenodo
+Zenodo
