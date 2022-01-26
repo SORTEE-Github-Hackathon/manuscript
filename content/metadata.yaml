@@ -64,3 +64,18 @@ authors:
     affiliations:
       - Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada
       - National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
+  - github: katherinehebert
+    name: Katherine Hébert
+    initials: KH
+    orcid: 0000-0001-7866-6775
+    email: katherine.hebert@usherbrooke.ca
+    twitter: hebert_kat
+    affiliations: 
+      - Département de biologie, Université de Sherbrooke, Québec, Canada
+  - github: emmajhudgins
+    name: Emma J. Hudgins
+    initials: EJH
+    orcid: 0000-0002-8402-5111
+    email: emma.hudgins@carleton.ca
+    affiliations:
+      - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
