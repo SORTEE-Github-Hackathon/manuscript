@@ -75,9 +75,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/44b0f838b5640c5dd518623e43dd465dc02be808/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/44b0f838b5640c5dd518623e43dd465dc02be808/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/44b0f838b5640c5dd518623e43dd465dc02be808/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/44b0f838b5640c5dd518623e43dd465dc02be808/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@5a84238](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/5a842384eebe14ac2c79b385ceffa45957b5fca2)
+from [SORTEE-Github-Hackathon/manuscript@44b0f83](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/44b0f838b5640c5dd518623e43dd465dc02be808)
 on January 26, 2022.
 </em></small>
 
@@ -244,6 +244,9 @@ In EcoEvo Github use is predicated on an understanding in R.
 This close connection has some benefits, but other programming languages are frequently used by researchers (e.g. Python, Julia). 
 Lots of ways to use GitHub that are independent from R. 
 We have in this hackathon a definite focus on R tools for interacting with GitHub, but sometimes the issues we present at 'Github' issues might be more about the ways that we interact with Github (i.e. through R vs. bash shell)
+
+I am just testing what happens if I add a sentence. (Saeed) :) 
+It is also important to consider what are the aims of researchers and how they want contribute in...
 
 ## GitHub in EcoEvo examples (Part 1)
 
