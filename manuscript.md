@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-25'
+date-meta: '2022-01-26'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -16,6 +16,7 @@ author-meta:
 - Brandon P.M. Edwards
 - Kaitlyn M. Gaynor
 - Katherine Hébert
+- Emma J. Hudgins
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,8 +27,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-25" />
-  <meta name="citation_publication_date" content="2022-01-25" />
+  <meta name="dc.date" content="2022-01-26" />
+  <meta name="citation_publication_date" content="2022-01-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,15 +66,18 @@ header-includes: |-
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
   <meta name="twitter:creator" content="@hebert_kat" />
+  <meta name="citation_author" content="Emma J. Hudgins" />
+  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3da0176452d364fde738bebc8773ff5f0d4c1b9c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3da0176452d364fde738bebc8773ff5f0d4c1b9c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3da0176452d364fde738bebc8773ff5f0d4c1b9c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -95,10 +99,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3da0176452d364fde738bebc8773ff5f0d4c1b9c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/5a842384eebe14ac2c79b385ceffa45957b5fca2/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@3da0176](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3da0176452d364fde738bebc8773ff5f0d4c1b9c)
-on January 25, 2022.
+from [SORTEE-Github-Hackathon/manuscript@5a84238](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/5a842384eebe14ac2c79b385ceffa45957b5fca2)
+on January 26, 2022.
 </em></small>
 
 ## Authors
@@ -188,6 +192,15 @@ on January 25, 2022.
      Département de biologie, Université de Sherbrooke, Québec, Canada
   </small>
 
++ **Emma J. Hudgins**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8402-5111](https://orcid.org/0000-0002-8402-5111)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [emmajhudgins](https://github.com/emmajhudgins)<br>
+  <small>
+     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  </small>
+
 
 
 ## Abstract {.page_break_before}
@@ -264,14 +277,19 @@ GitHub can be a powerful tool for team-based project management, allowing collab
 Can talk about ESS-DIVE's project management using ZenHub/Jira to manage customer support requests, feature updates to our data sharing platform.
 
 ### Building website
-*Contributors to this section:*   
+*Contributors to this section: Emma Hudgins*   
 
 Seems like the technical aspect of this is discussed in Dawson, Chris (2016). Building Tools with GitHub: Customize Your Workflow. O'Reilly Media
 GitHub pages allows any .html document to be rendered as a website with a URL. 
 This could be, for example, a report written in markdown or R Markdown rendered into a .html file.
 
+[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) are both "static website generators", which you can use as template libraries for websites that can be hosted freely via GitHub pages. 
+Both of these tools require some additional learning because they are deployed locally via the terminal, but they are a great resource for creating free, eye-catching websites.
+If you wish to use your own domain name, you can purchase a domain for your GitHub pages site.
+It is also possible to fork the website of someone else who has publicly hosted their website on GitHub in order to use it as a template.
+
 ### Making code citable
-*Contributors to this section: Rob Crystal-Ornelas*  
+*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*  
 GitHub makes it easy to store and share a variety of data files in the cloud. 
 But for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947.]. 
 Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers. 
@@ -279,8 +297,18 @@ DOIs are persistent and unique alpha-numeric IDs assigned to research products l
 DOIs allows tracking and citing research products. 
 For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797]. Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
 
-GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution (Hampton et al. 2015)
+GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015)
 Another key step researchers should consider taking when they receive a DOI for the content they archive on GitHub is choose a usage license [[@10.1016/j.patter.2021.100206]. This helps
+
+The standard GitHub licensing options are best suited for software. 
+If your code is intended only for your specific analysis, consider a Creative Commons License. 
+The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance. 
+If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication. 
+If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse. 
+
+Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software. 
+However, even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis [@doi:10.1016/j.tree.2015.11.006]. 
+
 
 ### Collaborative (code) editing
 *Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas* 

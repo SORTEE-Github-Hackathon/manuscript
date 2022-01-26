@@ -21,6 +21,7 @@ DOIs
 dylangomes
 EcoEvo
 EEB
+emmajhudgins
 ESS
 figshare
 findable
@@ -28,12 +29,13 @@ Gaynor
 Gomes
 Granger
 Guncan
-Hackathon
+hackathon
 HackMD
 Hébert
 Hermione
 hermionejeangranger
 hoc
+Hudgins
 iDiv
 indispensible
 integrations
@@ -71,4 +73,4 @@ wetlab
 XXXX
 XXXXXX
 ZenHub
-zenodo
+Zenodo
