@@ -70,7 +70,7 @@ authors:
     orcid: 0000-0001-7866-6775
     email: katherine.hebert@usherbrooke.ca
     twitter: hebert_kat
-    affiliations: 
+    affiliations:
       - Département de biologie, Université de Sherbrooke, Québec, Canada
   - github: emmajhudgins
     name: Emma J. Hudgins
@@ -85,5 +85,6 @@ authors:
     orcid: 0000-0001-5919-2527
     email: s.shafiei.sabet@guilan.ac.ir
     affiliations:
-      - Fisheries Department, Faculty of Natural Resources, University of 
+
+  - Fisheries Department, Faculty of Natural Resources, University of 
       Guilan, Sowmeh Sara, Iran
