@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-26'
+date-meta: '2022-01-27'
 author-meta:
 - Hermione Jean Granger
 - Dylan G. E. Gomes
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-26" />
-  <meta name="citation_publication_date" content="2022-01-26" />
+  <meta name="dc.date" content="2022-01-27" />
+  <meta name="citation_publication_date" content="2022-01-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -79,9 +79,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/73e4f369a9b860a0e21aa29407e1c17e7c8fcc84/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/73e4f369a9b860a0e21aa29407e1c17e7c8fcc84/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/73e4f369a9b860a0e21aa29407e1c17e7c8fcc84/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,10 +103,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/73e4f369a9b860a0e21aa29407e1c17e7c8fcc84/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@afc2a24](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/afc2a24eb7c52a34e3c8bc293a502acfaee0b59a)
-on January 26, 2022.
+from [SORTEE-Github-Hackathon/manuscript@73e4f36](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/73e4f369a9b860a0e21aa29407e1c17e7c8fcc84)
+on January 27, 2022.
 </em></small>
 
 ## Authors
@@ -282,7 +282,26 @@ issues as a way to keep track of short-term objectives/goals, and progress towar
 using github issues (Box 1) to organize and respond to reviewer comments on a manuscript. See example [here](https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+)
 
 ### Classroom teaching / educational materials
-*contributors to this section:*
+*contributors to this section: Cole Brookson*
+
+GitHub provides a large variety of uses for hosting teaching/educational materials. 
+In fact, through taking advantage of the suite of GitHub features, the entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub. 
+As a matter of gross simplification, organizing a course (for example) could be broken down into: 1) developing the material (i.e. slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, and 4) dealing with student submissions and the subsequent grade returns.
+While of course there are other purpose-built platforms for this type of activity, few of them provide the usability at the price point GitHub does. 
+First, developing your course material, from slides to labs and everything in between, can be done on GitHub, out in the open, where others can see, review and offer feedback on your process! 
+Making presentations can be done through most major high-level programming languages such as [R, with `RMarkdown`](https://rmarkdown.rstudio.com/lesson-11.html), [Python, with `python-ppt`](https://python-pptx.readthedocs.io/en/latest/index.html), and [Julia, with `Remark.jl`](https://juliapackages.com/p/remark).
+Since all these programs work via code bases, they can be version-controlled through git and GitHub.
+Once you've made all the content for your course, hosting a course website can be done through GitHub pages, and there are [lots of templates available](https://github.com/topics/course-website) to borrow from.
+This way, not only can the course content be available to your enrolled students, but also to anyone interested in the course material.
+Since the course material can be easily housed on a GitHub pages website, it is then simple enough to deliver the content via that website, and/or a GitHub organization with template repositories for assignments etc.
+Student submissions are perhaps the least seamless component, but for assignments submitted as code files (i.e. `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new and far-from-perfect but still useful tool [GitHub classroom](https://classroom.github.com/) where instructors can host private assignments, and even build custom autograding tests, that will autograde assignments!
+ 
+The previous section is meant to highlight the myriad tools GitHub can provide to centralize the delivery of educational materials.
+While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even *begin* learning about version control through interacting with git/GitHub, however minimally, through the course.
+There are (as always) no "points" awarded for using ALL GitHub materials ALL the time, but if a central tenant of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in the biological sciences use, then adopting a few of these tools can be a great way to do so.
+ 
+
+
 Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel, Adam J. Sullivan & Maria Tackett (2021) Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses, Journal of Statistics and Data Science Education, 29:sup1, S132-S144, DOI: 10.1080/10691898.2020.1848485
 
 
@@ -362,7 +381,8 @@ better to have old versions on GitHub than on somebody's personal hard drive!
 *Contributors to this section:*
 
 ### GitHub organizations
-*Contributors to this section: Katherine Hébert*
+
+*Contributors to this section: Katherine Hébert, Cole Brookson*
 
 Whether experiments are done in a wetlab, data are gathered in a field site, or analyses are run in a shared office, even conceptually distinct projects are often carried out in a common physical space. 
 GitHub Organisations offer a shared virtual space that allows a team to work in different repositories, while remaining tied together under a larger figurehead, such as a laboratory, a department, an organisation, or a large project involving several teams. 
@@ -375,10 +395,19 @@ This ensures that more sensitive repositories remain as restricted as needed, wh
 
 As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues. 
 In this way, students or teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on (or upgraded their computers). 
-This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the [German Centre for Integrative Biodiversity Research (iDiv)](https://github.com/idiv-biodiversity). 
-Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organisation, presentation, and outcomes of working groups such as the hackathon which inspired this paper ( [SORTEE-Github-Hackathon](https://github.com/SORTEE-Github-Hackathon) ) by keeping track of all materials as ideas develop and take shape in one virtual space. 
-Organisations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series ( [QCBSRworkshops](https://github.com/QCBSRworkshops) ) or the University of Edinburgh's Coding Club ( [Coding Club](https://github.com/ourcodingclub)), which may be updated by an ever-evolving group of contributors over time.
+This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the [German Centre for Integrative Biodiversity Research (iDiv)](https://github.com/idiv-biodiversity).
+Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organisation, presentation, and outcomes of working groups such as the hackathon which inspired this paper ([SORTEE-Github-Hackathon](https://github.com/SORTEE-Github-Hackathon)) by keeping track of all materials as ideas develop and take shape in one virtual space.
+Organisations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series ([QCBSRworkshops](https://github.com/QCBSRworkshops)) or the University of Edinburgh's Coding Club ([Coding Club](https://github.com/ourcodingclub)), which may be updated by an ever-evolving group of contributors over time.
 
+Utilizing GitHub organizations as a research group or even for a handful of individuals working on a group of projects can be incredibly useful for all involved. 
+GitHub organizations are relatively easy to set up, and especially easy to manage as membership to the organization changes through time. 
+Not only is it a useful way to store repositories of lab-related research products, but it's also incredibly helpful for storing "living documents" that may be edited frequently, and may be linked to a lab website (that could also be generated via a repository that lives within the organization!). 
+The use of the "Teams" feature can allow certain groups to have varying levels of access to repos in the organization with a select group having push access to some repos but not others. 
+This can manifest in a group working on some common dataset(s) (e.g. some genetic data) to have push access to the handful of repositories used for processing sequence data, while another group of students/researchers may have push access to an entirely different set of repos. 
+The organization structure also allows for easy tracking of issues, projects, and discussions related to the research group, and provides PIs/group leads an easy birds-eye view of the progress going on across multiple projects.
+
+As well, organizations provide a convenient location for students to archive the code for their projects, for use/reference by future students in the research group, thus providing a type of knowledge communication that may not exist otherwise. 
+Indeed, providing new students with access to the organization and ideally a template repository for lab projects can soften the burden on those new to the software, in that it provides them with examples to work off of, and an online location to ask for help from their labmates and/or advisors through tools like projects, discussions, and issues.
 
 ### Misc other uses
 *Contributors to this section: RCO*
@@ -387,6 +416,7 @@ There are many more potential uses of GitHub for EEB researchers, and we briefly
 Second ... 
 
 Code review rOpenSci's code review process, and also caught mistakes in code of published papers that could have been caught in peer code review.  Also maybe say something about ReproHack.
+
 
 ## Discussion
 

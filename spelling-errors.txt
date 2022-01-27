@@ -3,6 +3,8 @@ advisees
 Aguncan
 aliguncan
 Asycnhronous
+autograde
+autograding
 biologie
 BrandonEdwards
 Brookson
@@ -15,6 +17,7 @@ CERN
 citable
 colebrookson
 compendia
+dataset
 Département
 differnt
 DOIs
@@ -31,7 +34,7 @@ Gomes
 Granger
 Guilan
 Guncan
-hackathon
+Hackathon
 HackMD
 Hébert
 Hermione
@@ -45,12 +48,13 @@ Kaitlyn
 kaitlyngaynor
 kat
 katherinehebert
+labmates
 mentorship
 Ordu
 O’Reilly
 organisation
 Organisations
-Ornelas
+ornelas
 pargrah
 PDFs
 Perkel
@@ -61,6 +65,7 @@ QCBSRworkshops
 Québec
 RCO
 repo
+repos
 ReproHack
 robcrystalornelas
 rOpenSci’s
