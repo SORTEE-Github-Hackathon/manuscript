@@ -22,7 +22,11 @@ In this section you'll find a few important links to help us keep track of docum
 [Figure brainstorming](https://docs.google.com/presentation/d/1SnAwK4XLlKf-XqGCqianW3-cGp3SlQYnCZ6ASJDKn_c/edit#slide=id.gf6fdd2a2d0_1_26)
 - [Figures for manuscript](https://docs.google.com/presentation/d/1b_8r7FHeVzP1tQ1H5mHVxw6xYU5A2KWCT3VbyrypWjs/edit?usp=sharing)
 - [Manuscript outline on HackMD](https://hackmd.io/@SORTEE-Github-Hackathon/Bki-SID8K)
-- Meeting notes from: [Jan 2022 (*including sign-up sheet for manuscript and figures*)](https://hackmd.io/@SORTEE-Github-Hackathon/S1KmI66TF), [Dec 2021](https://hackmd.io/@SORTEE-Github-Hackathon/r1nKg_CYK), [Oct 2021](https://hackmd.io/@SORTEE-Github-Hackathon/HkCsWuNLY), [Aug 2021](https://hackmd.io/@SORTEE-Github-Hackathon/H1NwRum4K)
+- Meeting notes from: 
+  - [Jan 2022 (*including sign-up sheet for manuscript and figures*)](https://hackmd.io/@SORTEE-Github-Hackathon/S1KmI66TF), 
+  - [Dec 2021](https://hackmd.io/@SORTEE-Github-Hackathon/r1nKg_CYK), 
+  - [Oct 2021](https://hackmd.io/@SORTEE-Github-Hackathon/HkCsWuNLY), 
+  - [Aug 2021](https://hackmd.io/@SORTEE-Github-Hackathon/H1NwRum4K)
 
 **Dates**
 - **February 16, 2022**: first drafts of each section. Gather citations, high level overview of why topic is important.
