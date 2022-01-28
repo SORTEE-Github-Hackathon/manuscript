@@ -1,3 +1,4 @@
+Aariq
 Acknowledgements
 advisees
 Aguncan
@@ -28,16 +29,14 @@ ESS
 facto
 figshare
 findable
+Gainesville
 Gaynor
 Gomes
-Granger
 Guilan
 Guncan
 hackathon
 HackMD
 Hébert
-Hermione
-hermionejeangranger
 hoc
 Hudgins
 iDiv
@@ -53,7 +52,7 @@ Ordu
 O’Reilly
 organisation
 Organisations
-Ornelas
+ornelas
 pargrah
 PDFs
 Perkel
@@ -67,6 +66,7 @@ repo
 repos
 ReproHack
 robcrystalornelas
+rOpenSci
 rOpenSci’s
 Rundel
 Sabet
@@ -79,7 +79,5 @@ Sowmeh
 Tackett
 Université
 wetlab
-XXXX
-XXXXXX
 ZenHub
-Zenodo
+zenodo

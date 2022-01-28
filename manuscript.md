@@ -6,9 +6,8 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-27'
+date-meta: '2022-01-28'
 author-meta:
-- Hermione Jean Granger
 - Dylan G. E. Gomes
 - Cole B. Brookson
 - Robert Crystal-Ornelas
@@ -18,6 +17,7 @@ author-meta:
 - Katherine Hébert
 - Emma J. Hudgins
 - Saeed Shafiei Sabet
+- Eric R. Scott
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -28,19 +28,14 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-27" />
-  <meta name="citation_publication_date" content="2022-01-27" />
+  <meta name="dc.date" content="2022-01-28" />
+  <meta name="citation_publication_date" content="2022-01-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Hermione Jean Granger" />
-  <meta name="citation_author_institution" content="Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom" />
-  <meta name="citation_author_institution" content="Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@hermionejeangranger" />
   <meta name="citation_author" content="Dylan G. E. Gomes" />
   <meta name="citation_author_institution" content="Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
   <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
@@ -73,15 +68,18 @@ header-includes: |-
   <meta name="citation_author" content="Saeed Shafiei Sabet" />
   <meta name="citation_author_institution" content="Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran" />
   <meta name="citation_author_orcid" content="0000-0001-5919-2527" />
+  <meta name="citation_author" content="Eric R. Scott" />
+  <meta name="citation_author_institution" content="Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/339b1b636598e2f25e078a6b6b6a2879773b4865/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/339b1b636598e2f25e078a6b6b6a2879773b4865/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/339b1b636598e2f25e078a6b6b6a2879773b4865/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/830a2c1b1ad7556dffef4c0806dc4f326f85ceed/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/830a2c1b1ad7556dffef4c0806dc4f326f85ceed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/830a2c1b1ad7556dffef4c0806dc4f326f85ceed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,27 +101,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/339b1b636598e2f25e078a6b6b6a2879773b4865/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/830a2c1b1ad7556dffef4c0806dc4f326f85ceed/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@339b1b6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/339b1b636598e2f25e078a6b6b6a2879773b4865)
-on January 27, 2022.
+from [SORTEE-Github-Hackathon/manuscript@830a2c1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/830a2c1b1ad7556dffef4c0806dc4f326f85ceed)
+on January 28, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Hermione Jean Granger**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [hermionejeangranger](https://github.com/hermionejeangranger)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [hermionejeangranger](https://twitter.com/hermionejeangranger)<br>
-  <small>
-     Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom; Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
-     · Funded by Hogwarts Grant XXXXXX-XX.
-  </small>
 
 + **Dylan G. E. Gomes**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -214,6 +200,15 @@ on January 27, 2022.
      Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
   </small>
 
++ **Eric R. Scott**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7430-7879](https://orcid.org/0000-0002-7430-7879)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [Aariq](https://github.com/Aariq)<br>
+  <small>
+     Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+  </small>
+
 
 
 ## Abstract {.page_break_before}
@@ -264,6 +259,41 @@ We have in this hackathon a definite focus on R tools for interacting with GitHu
 I am just testing what happens if I add a sentence. (Saeed) :) 
 It is also important to consider what are the aims of researchers and how they want contribute in...
 
+### Box 1: Definitions
+<!-- Contributors to this section: ERS -->
+<!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. -->
+
+-   **repository**:
+
+-   **commit**: Commits are like snapshots in the development of a project.
+    Commits can include changes in multiple files and must include a brief commit message describing the changes made.
+    A typical workflow is to make some related changes in files, make a commit (e.g. "generate and include fig1 in results"), and after several commits to **push** those commits to the remote GitHub **repository**.
+
+-   clone: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**.
+    If you have access to **push** to a **repository**, this can be a first step to contributing to a project.
+
+-   branch: Development branches can be created at any point in time and work on each branch can continue independently.
+    This is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project.
+    Branches can also be used to isolate contributions of multiple contributors.
+    Each person working on their own branch eliminates problems that arise when conflicting edits are pushed to the same branch.
+    Changes in a development branch can be merged into the main branch via **pull requests**.
+    Branches can only be made by those who are given access to the project **repository**.
+
+-   fork: A fork is a copy of a **repository** hosted on GitHub.
+    If a repository is public, then anyone can make a fork.
+    Even if they do not have access to push to the original repository, they can make a fork and edit it independently.
+    Forks are linked to the original GitHub repository and "upstream" changes (those in the original repository) can be merged to keep the fork up to date with the original project.
+    Changes made in the fork can be integrated into the original project via **pull requests**.
+
+-   push/pull: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by "**pushing**" them.
+    Changes on a GitHub repository can then be "**pulled**" to keep your local version of the project up to date.
+
+-   pull request: A pull request is a request that the owner of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**.
+    When you initiate a pull request, you must provide a description of what changes are made.
+    Some automated tests may be run and review may be required before integrating your changes.
+
+-   
+
 
 ## GitHub in EcoEvo examples (Part 1)
 
@@ -285,9 +315,7 @@ GitHub also integrates with Zenodo, a free, long-term data archiving service fun
 commits as a way to record daily progress
 issues as a way to keep track of short-term objectives/goals, and progress towards them
 
-### Responding to reviewer comments
-*contributors to this section:*
-using github issues (Box 1) to organize and respond to reviewer comments on a manuscript. See example [here](https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+)
+
 
 ### Classroom teaching / educational materials
 *contributors to this section: Cole Brookson*
@@ -317,60 +345,88 @@ Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel,
 ## GitHub in EcoEvo examples (Part 2)
 
 ### Project management
-*Contributors to this section:* Kaitlyn Gaynor, Rob Crystal-Ornelas  
 
-GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems. The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels, and the new "Discussion" feature serves as a message board for conversation. Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow. The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks. It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail. By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
+*Contributors to this section:* Kaitlyn Gaynor, Rob Crystal-Ornelas
+
+GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems.
+The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels, and the new "Discussion" feature serves as a message board for conversation.
+Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
+The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks.
+It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail.
+By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
 
 Can talk about ESS-DIVE's project management using ZenHub/Jira to manage customer support requests, feature updates to our data sharing platform.
 
 ### Building website
-*Contributors to this section: Emma Hudgins*   
 
-Seems like the technical aspect of this is discussed in Dawson, Chris (2016). Building Tools with GitHub: Customize Your Workflow. O'Reilly Media
-GitHub pages allows any .html document to be rendered as a website with a URL. 
+*Contributors to this section: Emma Hudgins*
+
+Seems like the technical aspect of this is discussed in Dawson, Chris (2016).
+Building Tools with GitHub: Customize Your Workflow.
+O'Reilly Media GitHub pages allows any .html document to be rendered as a website with a URL.
 This could be, for example, a report written in markdown or R Markdown rendered into a .html file.
 
-[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) are both "static website generators", which you can use as template libraries for websites that can be hosted freely via GitHub pages. 
+[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) are both "static website generators", which you can use as template libraries for websites that can be hosted freely via GitHub pages.
 Both of these tools require some additional learning because they are deployed locally via the terminal, but they are a great resource for creating free, eye-catching websites.
 If you wish to use your own domain name, you can purchase a domain for your GitHub pages site.
 It is also possible to fork the website of someone else who has publicly hosted their website on GitHub in order to use it as a template.
 
 ### Making code citable
-*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*  
-GitHub makes it easy to store and share a variety of data files in the cloud. 
-But for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947.]. 
-Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers. 
-DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data. 
-DOIs allows tracking and citing research products. 
-For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797]. Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
 
-GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015)
-Another key step researchers should consider taking when they receive a DOI for the content they archive on GitHub is choose a usage license [[@10.1016/j.patter.2021.100206]. This helps
+*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*\
+GitHub makes it easy to store and share a variety of data files in the cloud.
+But for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947].
+Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers.
+DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data.
+DOIs allows tracking and citing research products.
+For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797].
+Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.
 
-The standard GitHub licensing options are best suited for software. 
-If your code is intended only for your specific analysis, consider a Creative Commons License. 
-The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance. 
-If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication. 
-If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse. 
+GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015) Another key step researchers should consider taking when they receive a DOI for the content they archive on GitHub is choose a usage license [@10.1016/j.patter.2021.100206].
+This helps
 
-Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software. 
-However, even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis [@doi:10.1016/j.tree.2015.11.006]. 
+The standard GitHub licensing options are best suited for software.
+If your code is intended only for your specific analysis, consider a Creative Commons License.
+The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
+If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication.
+If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse.
 
+Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software.
+However, even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis [@doi:10.1016/j.tree.2015.11.006].
 
 ### Collaborative (code) editing
-*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas* 
 
-From its inception, one of the primary uses of GitHub has been for collaborative coding. We acknowledge that the average software developer and EcoEvo researcher using GitHub 
+*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
 
-Is it worth walking through how collaborative code editing works through GitHub, or just pointing to all the available resources for this? (e.g. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request). Rob: I think pointing to available resources and citing them here is great [@10.1016/j.patter.2021.100206].
+From its inception, one of the primary uses of GitHub has been for collaborative coding.
+We acknowledge that the average software developer and EcoEvo researcher using GitHub
 
-GitHub can facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors. Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills. 
+Is it worth walking through how collaborative code editing works through GitHub, or just pointing to all the available resources for this?
+(e.g. <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request>).
+Rob: I think pointing to available resources and citing them here is great [@10.1016/j.patter.2021.100206].
+
+GitHub can facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
+Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills.
 
 ### Writing manuscript
-*contributors to this section:*  
-Caveat that GitHub has been called out for not being so user-friendly for manuscript development (Ram 2013). But getting better?
-Tools that link with GitHub have been developed with synchronous writing in mind. HackMD provides a collaborative writing platform based on Markdown that integrates with GitHub.  
+
+*contributors to this section:*\
+Caveat that GitHub has been called out for not being so user-friendly for manuscript development (Ram 2013).
+But getting better?
+Tools that link with GitHub have been developed with synchronous writing in mind.
+HackMD provides a collaborative writing platform based on Markdown that integrates with GitHub.\
 We used this platform early on in the process of writing this manuscript to generate an outline.
+
+### Peer-Review
+
+<!--*contributors to this section:* Eric R. Scott-->
+
+Peer review of research software by rOpenSci (<https://ropensci.org/software-review/>) and of research software and associated manuscripts by the Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues (Box 1).
+<!--# not sure if links are really necessary -->GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
+If the code associated with a manuscript is made available at the time of submission (e.g. via a link to a GitHub repository in a Data Availability Statement), peer-reviewers may be able to offer more helpful suggestions on written methods and may even make comments on the code itself, potentially catching bugs or errors before publication <!--# would be nice to have an example to link to here.  I suspect it is rare that reviewers look at code, but it's happened to me (ERS) -->.
+GitHub issues (Box 1) can also be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example [here](https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+)).
+When reviewer comments are posted as separate issues, authors can comment on the issues to discuss possible changes and assign themselves to indicate which comments they intend to handle.
+Co-authors can then integrate their edits and responses to reviewers using pull requests (Box 1).
 
 
 ## GitHub in EcoEvo examples (Part 3)
