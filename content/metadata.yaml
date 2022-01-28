@@ -7,17 +7,17 @@ keywords:
   - Ecology and evolution
 lang: en-US
 authors:
-  - github: hermionejeangranger
-    name: Hermione Jean Granger
-    initials: HJG
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: hermione.granger@bministryofmagic.uk
-    twitter: hermionejeangranger
-    affiliations:
-      - Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom
-      - Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
-    funders:
-      - Hogwarts Grant XXXXXX-XX.
+  # - github: hermionejeangranger
+  #   name: Hermione Jean Granger
+  #   initials: HJG
+  #   orcid: XXXX-XXXX-XXXX-XXXX
+  #   email: hermione.granger@bministryofmagic.uk
+  #   twitter: hermionejeangranger
+  #   affiliations:
+  #     - Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom
+  #     - Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
+  #   funders:
+  #     - Hogwarts Grant XXXXXX-XX.
   - github: dylangomes
     name: Dylan G. E. Gomes
     initials: DGEG
@@ -86,3 +86,11 @@ authors:
     email: s.shafiei.sabet@guilan.ac.ir
     affiliations:
       - Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+  - github: Aariq
+    name: Eric R. Scott
+    initials: ERS
+    orcid: 0000-0002-7430-7879
+    email: scottericr@gmail.com
+    affiliations:
+      - Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+      
