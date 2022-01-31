@@ -7,17 +7,17 @@ keywords:
   - Ecology and evolution
 lang: en-US
 authors:
-  - github: hermionejeangranger
-    name: Hermione Jean Granger
-    initials: HJG
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: hermione.granger@bministryofmagic.uk
-    twitter: hermionejeangranger
-    affiliations:
-      - Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom
-      - Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
-    funders:
-      - Hogwarts Grant XXXXXX-XX.
+  # - github: hermionejeangranger
+  #   name: Hermione Jean Granger
+  #   initials: HJG
+  #   orcid: XXXX-XXXX-XXXX-XXXX
+  #   email: hermione.granger@bministryofmagic.uk
+  #   twitter: hermionejeangranger
+  #   affiliations:
+  #     - Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom
+  #     - Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
+  #   funders:
+  #     - Hogwarts Grant XXXXXX-XX.
   - github: dylangomes
     name: Dylan G. E. Gomes
     initials: DGEG
@@ -70,7 +70,7 @@ authors:
     orcid: 0000-0001-7866-6775
     email: katherine.hebert@usherbrooke.ca
     twitter: hebert_kat
-    affiliations: 
+    affiliations:
       - Département de biologie, Université de Sherbrooke, Québec, Canada
   - github: emmajhudgins
     name: Emma J. Hudgins
@@ -79,3 +79,18 @@ authors:
     email: emma.hudgins@carleton.ca
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  - github: shafieisabets
+    name: Saeed Shafiei Sabet
+    initials: SSHS
+    orcid: 0000-0001-5919-2527
+    email: s.shafiei.sabet@guilan.ac.ir
+    affiliations:
+      - Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+  - github: Aariq
+    name: Eric R. Scott
+    initials: ERS
+    orcid: 0000-0002-7430-7879
+    email: scottericr@gmail.com
+    affiliations:
+      - Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+      

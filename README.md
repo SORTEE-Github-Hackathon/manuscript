@@ -13,7 +13,28 @@
 
 <!-- usage note: edit this section. -->
 
-A friendly guide to GitHub and all the things you can **currently** do with it. Very few papers focus on GitHub as a tool for collaboration. We will also mention where GitHub falls short as a tool for collaboration.
+A friendly guide to GitHub and all the things you can **currently** do with it. Very few papers focus on GitHub as a tool for collaboration. We will also mention where GitHub falls short as a tool for collaboration.  
+
+## Important links and dates
+In this section you'll find a few important links to help us keep track of documents we use outside of the GitHub ecosystem.  This includes a google slide deck where we are working on figures, the original outline we made for the manuscript in HackMD, as well as meeting notes.
+
+**Links**
+[Figure brainstorming](https://docs.google.com/presentation/d/1SnAwK4XLlKf-XqGCqianW3-cGp3SlQYnCZ6ASJDKn_c/edit#slide=id.gf6fdd2a2d0_1_26)
+- [Figures for manuscript](https://docs.google.com/presentation/d/1b_8r7FHeVzP1tQ1H5mHVxw6xYU5A2KWCT3VbyrypWjs/edit?usp=sharing)
+- [Manuscript outline on HackMD](https://hackmd.io/@SORTEE-Github-Hackathon/Bki-SID8K)
+- Meeting notes from: 
+  - [Jan 2022 (*including sign-up sheet for manuscript and figures*)](https://hackmd.io/@SORTEE-Github-Hackathon/S1KmI66TF), 
+  - [Dec 2021](https://hackmd.io/@SORTEE-Github-Hackathon/r1nKg_CYK), 
+  - [Oct 2021](https://hackmd.io/@SORTEE-Github-Hackathon/HkCsWuNLY), 
+  - [Aug 2021](https://hackmd.io/@SORTEE-Github-Hackathon/H1NwRum4K)
+
+**Dates**
+- **February 16, 2022**: first drafts of each section. Gather citations, high level overview of why topic is important.
+- **February 23, 2022**: everyone does read through for general edits
+- **February 23, 2022**: figures and tables complete
+- **TBD**: Incorporate edits
+- **TBD**: Several authors do final detailed read through
+- **TBD**: Everyone approved before submission
 
 ## Contributing
 
