@@ -77,9 +77,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/386890ffd796d98072b60a237b36511fe57ebacc/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/386890ffd796d98072b60a237b36511fe57ebacc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/386890ffd796d98072b60a237b36511fe57ebacc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/386890ffd796d98072b60a237b36511fe57ebacc/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@a2eade8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/a2eade876732deb4e626e9ada1b9ad1b5c5b4770)
+from [SORTEE-Github-Hackathon/manuscript@386890f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/386890ffd796d98072b60a237b36511fe57ebacc)
 on January 31, 2022.
 </em></small>
 
@@ -353,6 +353,7 @@ The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be ide
 Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
 The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks.
 It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail.
+
 By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
 
 Can talk about ESS-DIVE's project management using ZenHub/Jira to manage customer support requests, feature updates to our data sharing platform.
@@ -373,26 +374,31 @@ It is also possible to fork the website of someone else who has publicly hosted 
 
 ### Making code citable
 
-*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*\
-GitHub makes it easy to store and share a variety of data files in the cloud.
-But for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947].
-Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers.
-DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data.
-DOIs allows tracking and citing research products.
-For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797].
-Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.
+*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins, Dylan Gomes*  
+GitHub makes it easy to store and share a variety of data files in the cloud. 
+If a repository is made "public" the URL to the repository can be shared freely with others.
+However, for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947.]. 
+Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers. 
+DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data. 
+DOIs allows tracking and citing research products. 
+For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797]. 
+Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
 
-GitHub Linking with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015) Another key step researchers should consider taking when they receive a DOI for the content they archive on GitHub is choose a usage license [@10.1016/j.patter.2021.100206].
-This helps
+Linking one's GitHub repository with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015). 
+Thus, when researchers wish to include data and code with their publications, they aught to reference a DOI from a long-term storage site, rather than a URL from GitHub (which can change or be deleted). 
+Additionally, referencing a DOI for data and code is preferable to submitting these as supplementary materials to the journal, as supplementary materials are more difficult to find and reuse (i.e. often not centralized and searchable in a database) and not necessarily permanent (as most journals offer no guarantee of long-term storage).
+
+Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software. 
+However, there are many reasons to share data and code beyond re-use. 
+Even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis [@doi:10.1016/j.tree.2015.11.006]. 
+This is important in light of the reproducibility crisis [https://doi.org/10.1038/533452a] and will become increasingly important to the collective scientific enterprise as advances in computing power and accessibility unlock the ability to conduct 'big data' meta research with data that has already been collected by others. 
+Failing to include data and code with our publications leaves future scientists with many fewer resources from which to understand the world. 
 
 The standard GitHub licensing options are best suited for software.
 If your code is intended only for your specific analysis, consider a Creative Commons License.
 The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
 If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication.
 If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse.
-
-Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software.
-However, even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis [@doi:10.1016/j.tree.2015.11.006].
 
 ### Collaborative (code) editing
 
