@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-28'
+date-meta: '2022-01-31'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-28" />
-  <meta name="citation_publication_date" content="2022-01-28" />
+  <meta name="dc.date" content="2022-01-31" />
+  <meta name="citation_publication_date" content="2022-01-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -77,9 +77,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0217e1532facd845b185d253b2aab01391f057b0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0217e1532facd845b185d253b2aab01391f057b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0217e1532facd845b185d253b2aab01391f057b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0217e1532facd845b185d253b2aab01391f057b0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/a2eade876732deb4e626e9ada1b9ad1b5c5b4770/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@0217e15](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0217e1532facd845b185d253b2aab01391f057b0)
-on January 28, 2022.
+from [SORTEE-Github-Hackathon/manuscript@a2eade8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/a2eade876732deb4e626e9ada1b9ad1b5c5b4770)
+on January 31, 2022.
 </em></small>
 
 ## Authors
@@ -498,7 +498,31 @@ Reliance on R since we are generally in EcoEvo
 Discussion of free vs. paid plans. When projects get highly collaborative may have to add / pay for accounts. At this point, little difference between paid and free.
 
 ### Using GitHub is a good start, but lots of practices to make repo more user friendly
+
+
+*Contributors to this section: Ali, Emma* 
+
+
 end off with our 5/10 tips for how to gain knowledge/practice with GitHub here
+
+Note: "Current tips copied from the "Figure_brainstorming_v2 (6th slide)" from the Google Drive"
+
+Tips:
+
+1- Github Help [webpage](https://docs.github.com/en)
+
+2- Dylan: We had an entire course in graduate school focused on reproducibility. The course introduced Rmarkdown and GitHub for most of the students -- we could possibly suggest departments incorporate these tools into coursework so that the incentives/motivation is there for students… not sure if this comment fits here..
+   Emma: I like this!
+
+3- ?? Emma: Maybe a link to carpentries and other online resources? [Software Carpentries](https://swcarpentry.github.io/git-novice/)
+
+4- ??  Emma: Maybe a link to our repo for this paper ?
+
+5- ??? Emma: Perhaps a link out to some sort of tutorial on the basic commands?
+
+6- Emma: A tutorial on markdown so that people can write the readme?
+
+7- The Jenny Bryan universe of GitHub material: [book](http://happygitwithr.com), [statistics course](http://stat545.com/) and her paper (from 2017?)
 
 ## Conclusion
 

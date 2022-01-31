@@ -10,6 +10,7 @@ biologie
 BrandonEdwards
 Brookson
 Carleton
+carpentries
 Centre
 centred
 centres
@@ -62,9 +63,12 @@ prevelance
 QCBSRworkshops
 Québec
 RCO
+readme
 repo
 repos
+reproducibility
 ReproHack
+Rmarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
@@ -78,6 +82,7 @@ SORTEE
 Sowmeh
 Tackett
 Université
+webpage
 wetlab
 ZenHub
 Zenodo
