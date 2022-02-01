@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-01-31'
+date-meta: '2022-02-01'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-01-31" />
-  <meta name="citation_publication_date" content="2022-01-31" />
+  <meta name="dc.date" content="2022-02-01" />
+  <meta name="citation_publication_date" content="2022-02-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -77,9 +77,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/26fc7c54809648d7cb642d3061d1401f0cdae2dc/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/26fc7c54809648d7cb642d3061d1401f0cdae2dc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/26fc7c54809648d7cb642d3061d1401f0cdae2dc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/26fc7c54809648d7cb642d3061d1401f0cdae2dc/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@26fc7c5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/26fc7c54809648d7cb642d3061d1401f0cdae2dc)
-on January 31, 2022.
+from [SORTEE-Github-Hackathon/manuscript@b6daa13](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6)
+on February 1, 2022.
 </em></small>
 
 ## Authors
@@ -260,7 +260,7 @@ I am just testing what happens if I add a sentence. (Saeed) :)
 It is also important to consider what are the aims of researchers and how they want contribute in...
 
 ### Box 1: Definitions
-<!-- Contributors to this section: ERS -->
+<!-- Contributors to this section: ERS, Ali -->
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. -->
 
 -   **repository**:
@@ -292,7 +292,15 @@ It is also important to consider what are the aims of researchers and how they w
     When you initiate a pull request, you must provide a description of what changes are made.
     Some automated tests may be run and review may be required before integrating your changes.
 
--   
+-  merge:
+
+-  status: Checking the status of the  projects
+
+-  init: Initializing a new git database
+
+-  log: Check the history of the project
+
+
 
 
 ## GitHub in EcoEvo examples (Part 1)
@@ -518,11 +526,13 @@ Discussion of free vs. paid plans. When projects get highly collaborative may ha
 
 end off with our 5/10 tips for how to gain knowledge/practice with GitHub here
 
-Note: "Current tips copied from the "Figure_brainstorming_v2 (6th slide)" from the Google Drive"
+
+Note: "Current tips copied from the "Figure_brainstorming_v2, 6th slide" from the Google Drive"
+can be extended as much as we can. Later we decide the most important ones related the manuscript. All suggestions are welcome.
 
 Tips:
 
-1- Github Help [webpage](https://docs.github.com/en)
+1- Github Help [webpage](https://docs.github.com/en): Very extensive and detailed documents. Useful for general or spesific problems and solutions. 
 
 2- Dylan: We had an entire course in graduate school focused on reproducibility. The course introduced Rmarkdown and GitHub for most of the students -- we could possibly suggest departments incorporate these tools into coursework so that the incentives/motivation is there for students… not sure if this comment fits here..
    Emma: I like this!
@@ -536,6 +546,13 @@ Tips:
 6- Emma: A tutorial on markdown so that people can write the readme?
 
 7- The Jenny Bryan universe of GitHub material: [book](http://happygitwithr.com), [statistics course](http://stat545.com/) and her paper (from 2017?)
+
+8- Don't afraid to trail and error: One of the best way to learn Github is the trail and error method. Learning from the mistakes is persistent in mind. Github has advantage to roll back to any steps that you desire via version controlling. You can check each steps for learning later.
+
+9- [Learning Lab](https://lab.github.com/): With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot. Note: copied and pasted from the web page!!!.
+
+10- Blogs, twitter etc. 
+
 
 ## Conclusion
 

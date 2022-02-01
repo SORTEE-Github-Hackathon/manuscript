@@ -11,7 +11,7 @@ biologie
 BrandonEdwards
 Brookson
 Carleton
-carpentries
+Carpentries
 Centre
 centred
 centres
@@ -36,12 +36,13 @@ Gaynor
 Gomes
 Guilan
 Guncan
-Hackathon
+hackathon
 HackMD
 Hébert
 hoc
 Hudgins
 iDiv
+init
 integrations
 Jira
 Kaitlyn
@@ -81,6 +82,7 @@ shafieisabets
 Sherbrooke
 SORTEE
 Sowmeh
+spesific
 Squarespace
 Straub
 Tackett
@@ -90,4 +92,4 @@ webpage
 wetlab
 Wix
 ZenHub
-zenodo
+Zenodo
