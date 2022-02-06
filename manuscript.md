@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-02-01'
+date-meta: '2022-02-06'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-02-01" />
-  <meta name="citation_publication_date" content="2022-02-01" />
+  <meta name="dc.date" content="2022-02-06" />
+  <meta name="citation_publication_date" content="2022-02-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -68,6 +68,7 @@ header-includes: |-
   <meta name="citation_author" content="Saeed Shafiei Sabet" />
   <meta name="citation_author_institution" content="Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran" />
   <meta name="citation_author_orcid" content="0000-0001-5919-2527" />
+  <meta name="twitter:creator" content="@SaeedSHSABET" />
   <meta name="citation_author" content="Eric R. Scott" />
   <meta name="citation_author_institution" content="Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
@@ -77,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@b6daa13](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b6daa1304efac27e5f4c0f1c23b5c0b04de788e6)
-on February 1, 2022.
+from [SORTEE-Github-Hackathon/manuscript@277b600](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/277b600be68b4e11524c1efb3afbe36f476b7cfa)
+on February 6, 2022.
 </em></small>
 
 ## Authors
@@ -195,7 +196,9 @@ on February 1, 2022.
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-5919-2527](https://orcid.org/0000-0001-5919-2527)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [shafieisabets](https://github.com/shafieisabets)<br>
+    [shafieisabets](https://github.com/shafieisabets)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [SaeedSHSABET](https://twitter.com/SaeedSHSABET)<br>
   <small>
      Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
   </small>
