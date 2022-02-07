@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-02-06'
+date-meta: '2022-02-07'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-02-06" />
-  <meta name="citation_publication_date" content="2022-02-06" />
+  <meta name="dc.date" content="2022-02-07" />
+  <meta name="citation_publication_date" content="2022-02-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/277b600be68b4e11524c1efb3afbe36f476b7cfa/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@277b600](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/277b600be68b4e11524c1efb3afbe36f476b7cfa)
-on February 6, 2022.
+from [SORTEE-Github-Hackathon/manuscript@c82b926](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0)
+on February 7, 2022.
 </em></small>
 
 ## Authors
@@ -222,11 +222,12 @@ on February 6, 2022.
 ## Introduction {.page_break_before}
 
 ### High-level/general background about GitHub
-*Contributors to this section: RCO, .*  
+*Contributors to this section: RCO, SSHS .*  
 
 With over 73 million registered users, GitHub and its underlying version control system Git, are the _de facto_ platform for collaboration on computer code [@https://github.com/about]. 
 GitHub has become an indispensable tool for software developers because, through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928]. 
 Thus, users have an "audit trail" on the files they choose to store on their GitHub repositories which simultaneously less _ad hoc_ than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
+GitHub as useful software and code repository service can broadly facilitate openly available source code alongside concomitant collaborative development. [@doi:10.1371/journal.pcbi.1004947]
 
 Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and some are interacting with GitHub for the first time [@doi:10.1038/s41559-017-0160]. 
 For first-time users, the GitHub learning curve can seem overwhelming because the creation of the platform and its features were initially centred in collaboration for software development [CITE].

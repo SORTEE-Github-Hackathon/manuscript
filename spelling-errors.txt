@@ -11,7 +11,7 @@ biologie
 BrandonEdwards
 Brookson
 Carleton
-Carpentries
+carpentries
 Centre
 centred
 centres
@@ -85,6 +85,7 @@ SORTEE
 Sowmeh
 spesific
 Squarespace
+SSHS
 Straub
 Tackett
 tradeoffs
@@ -93,4 +94,4 @@ webpage
 wetlab
 Wix
 ZenHub
-zenodo
+Zenodo
