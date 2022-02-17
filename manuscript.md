@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@b72477e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b72477e631932649119db8beb7789abd0a6bbf2f)
+from [SORTEE-Github-Hackathon/manuscript@0a27fae](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0a27faea29e251851ea93b8f723ea96cb8bf0475)
 on February 17, 2022.
 </em></small>
 
@@ -397,15 +397,15 @@ It is also possible to fork the website of someone else who has publicly hosted 
 *Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins, Dylan Gomes*  
 GitHub makes it easy to store and share a variety of data files in the cloud. 
 If a repository is made "public" the URL to the repository can be shared freely with others.
-However, for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a] [@doi:10.1371/journal.pcbi.1004947.]. 
+However, for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a; @doi:10.1371/journal.pcbi.1004947]. 
 Also, unlike the long-term repositories, GitHub does not issue Digital Object Identifiers (DOIs) for content uploaded to their servers. 
 DOIs are persistent and unique alpha-numeric IDs assigned to research products like papers, code, and data. 
 DOIs allows tracking and citing research products. 
 For this reason, scientists who share code and data through GitHub are strongly encouraged to also submit GitHub repository content to a long-term data archive [@doi:10.1029/2021EA001797]. 
-Fortunately, both long-term repositories mentioned above (zenodo and figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
+Fortunately, both long-term repositories mentioned above (Zenodo and Figshare) have integrations with GitHub which facilitates archiving a snapshot of all repository content with the click of a button.  
 
 Linking one's GitHub repository with Zenodo, etc. to achieve a DOI helps work become findable, gives proper attribution, and that can ensure long-term stability (Hampton et al. 2015). 
-Thus, when researchers wish to include data and code with their publications, they aught to reference a DOI from a long-term storage site, rather than a URL from GitHub (which can change or be deleted). 
+Thus, when researchers wish to include data and code with their publications, they ought to reference a DOI from a long-term storage site, rather than a URL from GitHub (which can change or be deleted). 
 Additionally, referencing a DOI for data and code is preferable to submitting these as supplementary materials to the journal, as supplementary materials are more difficult to find and reuse (i.e. often not centralized and searchable in a database) and not necessarily permanent (as most journals offer no guarantee of long-term storage).
 
 Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software. 
@@ -418,7 +418,10 @@ The standard GitHub licensing options are best suited for software.
 If your code is intended only for your specific analysis, consider a Creative Commons License.
 The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
 If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication.
-If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse.
+If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse. 
+If you have build an app, tool, package, or other product that you would like others to use and would like attribuion for any reuse of your code, consider the GNU General Public License v3. 
+This license also prohibits the re-user from making their re-used version private.
+If you do not wish to receive attribution and are open to private use, consider the MIT license.
 
 ### Collaborative (code) editing
 
