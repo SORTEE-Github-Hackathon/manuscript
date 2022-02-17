@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b72477e631932649119db8beb7789abd0a6bbf2f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@05ed550](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/05ed550dbc6d6be635bf205f41223d3d251936e0)
+from [SORTEE-Github-Hackathon/manuscript@b72477e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b72477e631932649119db8beb7789abd0a6bbf2f)
 on February 17, 2022.
 </em></small>
 
@@ -365,6 +365,7 @@ The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be ide
 Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
 The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks.
 It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail.
+GitHub can also be integrated with other project management software like Slack or Zenhub.
 
 By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
 
@@ -424,14 +425,15 @@ If you wish to receive attribution for any reuse of your code, consider a CC BY 
 *Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
 
 From its inception, one of the primary uses of GitHub has been for collaborative coding.
-We acknowledge that the average software developer and EcoEvo researcher using GitHub
+We acknowledge that there are important differences between the average software developer and ecology/evolution researcher using GitHub, and that not all GitHub collaboration features are optimal for research purposes.
+However, core features of git like forking and branching can allow for simultaneous coding on different versions of the same research project, and alternative versions can be easily discussed and resolved with GitHub.
+While a complete review of these features is beyond the scope of our paper, there are many free resources for learning how to use these collaborative features of GitHub [@10.1016/j.patter.2021.100206]. (e.g. <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request>)
+It is often best to develop comfort with features like pull requests and merges on "practice" repositories with colleagues before integrating these tools fully into a collaborative workflow.
 
-Is it worth walking through how collaborative code editing works through GitHub, or just pointing to all the available resources for this?
-(e.g. <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request>).
-Rob: I think pointing to available resources and citing them here is great [@10.1016/j.patter.2021.100206].
-
-GitHub can facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
+GitHub can also facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
 Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills.
+
+
 
 ### Writing manuscript
 
