@@ -34,12 +34,13 @@ figshare
 findable
 Gainesville
 Gaynor
+Gists
 Gomes
 gradute
 Guilan
 Guncan
-hackathon
-HackMD
+Hackathon
+hackmd
 Hébert
 hoc
 Hudgins

@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/05ed550dbc6d6be635bf205f41223d3d251936e0/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@d804093](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d804093aa7f666fddff075181c529c269eb7ce45)
+from [SORTEE-Github-Hackathon/manuscript@05ed550](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/05ed550dbc6d6be635bf205f41223d3d251936e0)
 on February 17, 2022.
 </em></small>
 
@@ -499,12 +499,19 @@ As well, organizations provide a convenient location for students to archive the
 Indeed, providing new students with access to the organization and ideally a template repository for lab projects can soften the burden on those new to the software, in that it provides them with examples to work off of, and an online location to ask for help from their labmates and/or advisors through tools like projects, discussions, and issues.
 
 ### Misc other uses
-*Contributors to this section: RCO*
+*Contributors to this section: RCO, Ali*
 There are many more potential uses of GitHub for EEB researchers, and we briefly highlight several of them here. First, community-driven data standards include instructions and templates that can help researchers format their data and metadata more consistently [@doi:10.1038/s41587-019-0080-8]. Often, these documents and templates are hosted on static websites as PDFs. However, GitHub is now seen as a useful site for storing the data standard documents since they can be version controlled, and commented on by the user community [e.g., ESS-DIVE's GitHub Community Space](https://github.com/ess-dive-community) [@doi:10.1029/2021EA001797]. 
 
 Second ... 
 
 Code review rOpenSci's code review process, and also caught mistakes in code of published papers that could have been caught in peer code review.  Also maybe say something about ReproHack.
+
+Third...
+Instantly share code, notes, files and snippets by [Github Gist](https://gist.github.com/). 
+Each gist is a kind of Github repository, which can be forked, starred or downloaded. 
+Gists will be associated with your Github account and can be public or private. 
+
+
 
 
 ## Discussion
@@ -518,6 +525,9 @@ Learning to use Github requires time, but the payoff is *[may be?]* worth it.
 Time vs. effort examples or analyses to demonstrate the payoff can help drive the point home to convince people to learn these tools
 
 ### Limitations
+
+*Contributors to this section: Ali*
+
 Our own limitations since we are mostly writing from the EcoEvo perspective/ additional github limitation
 Reliance on R since we are generally in EcoEvo
 Discussion of free vs. paid plans. When projects get highly collaborative may have to add / pay for accounts. At this point, little difference between paid and free.
@@ -528,6 +538,8 @@ One trick to increase the size limit associated with a repository is to attach a
 While we have written this manuscript collaboratively via GitHub and GitHub Actions, there was a substantial learning curve, and we are all early career researchers who are highly motivated to learn these skills.
 This approach is likely less practical when collaborating with people at later career stages and a greater range of computational skills.
 Real-time collaboration via GitHub is also not possible without relying on additional tools such as hackmd, so there is a longer delay to receive feedback from other collaborators, and a greater likelihood of conflicts.
+
+Lack of GitHub help documents for non-English researchers in ecology and evolution leads them to miss the opportunity to fully understand the importance version control as well as the other benefits of GitHub.
 
 ### Using GitHub is a good start, but lots of practices to make repo more user friendly
 
