@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-02-07'
+date-meta: '2022-02-17'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-02-07" />
-  <meta name="citation_publication_date" content="2022-02-07" />
+  <meta name="dc.date" content="2022-02-17" />
+  <meta name="citation_publication_date" content="2022-02-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d804093aa7f666fddff075181c529c269eb7ce45/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c82b926](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c82b9263ff0c03d9a46bd8f77a616a4ff041c0e0)
-on February 7, 2022.
+from [SORTEE-Github-Hackathon/manuscript@d804093](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d804093aa7f666fddff075181c529c269eb7ce45)
+on February 17, 2022.
 </em></small>
 
 ## Authors
@@ -522,40 +522,51 @@ Our own limitations since we are mostly writing from the EcoEvo perspective/ add
 Reliance on R since we are generally in EcoEvo
 Discussion of free vs. paid plans. When projects get highly collaborative may have to add / pay for accounts. At this point, little difference between paid and free.
 
+File size limitations make it hard to sync entire folders with the cloud, especially if your repo is private. 
+One trick to increase the size limit associated with a repository is to attach additional large files to the release once the repository is finalized and ready for re-use.
+
+While we have written this manuscript collaboratively via GitHub and GitHub Actions, there was a substantial learning curve, and we are all early career researchers who are highly motivated to learn these skills.
+This approach is likely less practical when collaborating with people at later career stages and a greater range of computational skills.
+Real-time collaboration via GitHub is also not possible without relying on additional tools such as hackmd, so there is a longer delay to receive feedback from other collaborators, and a greater likelihood of conflicts.
+
 ### Using GitHub is a good start, but lots of practices to make repo more user friendly
 
 
 *Contributors to this section: Ali, Emma* 
 
-
-end off with our 5/10 tips for how to gain knowledge/practice with GitHub here
-
-
 Note: "Current tips copied from the "Figure_brainstorming_v2, 6th slide" from the Google Drive"
-can be extended as much as we can. Later we decide the most important ones related the manuscript. All suggestions are welcome.
+can be extended as much as we can. 
+Later we decide the most important ones related the manuscript. 
+All suggestions are welcome.
 
 Tips:
 
-1- Github Help [webpage](https://docs.github.com/en): Very extensive and detailed documents. Useful for general or spesific problems and solutions. 
+1- Check for the solution to your problem on the Github Help [webpage](https://docs.github.com/en).
+This site contains very extensive and detailed documents with helpful screenshots. 
+It is useful for getting startet in general, but also has troubleshooting tips for specific problems.  
 
-2- Dylan: We had an entire course in graduate school focused on reproducibility. The course introduced Rmarkdown and GitHub for most of the students -- we could possibly suggest departments incorporate these tools into coursework so that the incentives/motivation is there for students… not sure if this comment fits here..
-   Emma: I like this!
+2- Consider taking free courses from [Software Carpentries](https://swcarpentry.github.io/git-novice/) and sharing these courses with your lab members of colleagues.
 
-3- ?? Emma: Maybe a link to carpentries and other online resources? [Software Carpentries](https://swcarpentry.github.io/git-novice/)
+3- See the repository for [this paper](https://github.com/SORTEE-Github-Hackathon/manuscript/) as an example of a collaborative manuscript that includes discussions, issues, and a website.
 
-4- ??  Emma: Maybe a link to our repo for this paper ?
+4- The GitHub [Learning Lab](https://lab.github.com/) allows you to learn GitHub basics through short projects and taks, and allows you to get feedback from their Learning Lab bot.
 
-5- ??? Emma: Perhaps a link out to some sort of tutorial on the basic commands?
+5- Check out the following [markdown cheatsheet](http://markdownguide.org/basic-syntax/) so that you can write clear metadata README files for your repositories.
 
-6- Emma: A tutorial on markdown so that people can write the readme?
+6- The Jenny Bryan universe of GitHub material provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a [book](http://happygitwithr.com), [statistics course](http://stat545.com/) and [@doi:10.1080/00031305.2017.1399928].
 
-7- The Jenny Bryan universe of GitHub material: [book](http://happygitwithr.com), [statistics course](http://stat545.com/) and her paper (from 2017?)
+7- Don't be afraid of trial and error. 
+One of the best ways to learn Github is the trial and error method. 
+Learning from the mistakes can be the best way to remember, and Github has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. 
 
-8- Don't afraid to trail and error: One of the best way to learn Github is the trail and error method. Learning from the mistakes is persistent in mind. Github has advantage to roll back to any steps that you desire via version controlling. You can check each steps for learning later.
+8- If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in your curricula. 
+Some gradute programs now include coursework on course Rmarkdown and GitHub.
+Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time.
 
-9- [Learning Lab](https://lab.github.com/): With GitHub Learning Lab, grow your skills by completing fun, realistic projects. Get advice and helpful feedback from our friendly Learning Lab bot. Note: copied and pasted from the web page!!!.
+9- Consider Tweeting your issue. 
+There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. 
 
-10- Blogs, twitter etc. 
+10- Other blogs? twitter accounts?
 
 
 ## Conclusion
