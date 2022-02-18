@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-02-17'
+date-meta: '2022-02-18'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-02-17" />
-  <meta name="citation_publication_date" content="2022-02-17" />
+  <meta name="dc.date" content="2022-02-18" />
+  <meta name="citation_publication_date" content="2022-02-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6ccdb538ab241e4df95be2af772b2d19a6daeaf1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6ccdb538ab241e4df95be2af772b2d19a6daeaf1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6ccdb538ab241e4df95be2af772b2d19a6daeaf1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0a27faea29e251851ea93b8f723ea96cb8bf0475/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6ccdb538ab241e4df95be2af772b2d19a6daeaf1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@0a27fae](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0a27faea29e251851ea93b8f723ea96cb8bf0475)
-on February 17, 2022.
+from [SORTEE-Github-Hackathon/manuscript@6ccdb53](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6ccdb538ab241e4df95be2af772b2d19a6daeaf1)
+on February 18, 2022.
 </em></small>
 
 ## Authors
@@ -467,7 +467,8 @@ https://github.community/
 GitHub new discussion tool
 
 ### Project continuity
-*Contributors to this section:*
+*Contributors to this section:*  
+
 'thus preserving the long-term integrity of the project even as collaborations form and shift.’ (Hampton et al. 2015) 
 better to have old versions on GitHub than on somebody's personal hard drive! 
 
@@ -503,18 +504,23 @@ The organization structure also allows for easy tracking of issues, projects, an
 As well, organizations provide a convenient location for students to archive the code for their projects, for use/reference by future students in the research group, thus providing a type of knowledge communication that may not exist otherwise. 
 Indeed, providing new students with access to the organization and ideally a template repository for lab projects can soften the burden on those new to the software, in that it provides them with examples to work off of, and an online location to ask for help from their labmates and/or advisors through tools like projects, discussions, and issues.
 
-### Misc other uses
-*Contributors to this section: RCO, Ali*
-There are many more potential uses of GitHub for EEB researchers, and we briefly highlight several of them here. First, community-driven data standards include instructions and templates that can help researchers format their data and metadata more consistently [@doi:10.1038/s41587-019-0080-8]. Often, these documents and templates are hosted on static websites as PDFs. However, GitHub is now seen as a useful site for storing the data standard documents since they can be version controlled, and commented on by the user community [e.g., ESS-DIVE's GitHub Community Space](https://github.com/ess-dive-community) [@doi:10.1029/2021EA001797]. 
+### Additional uses for GitHub in EcoEvo research 
+*Contributors to this section: RCO, Ali*  
 
-Second ... 
+There are many more ways that EEB researchers can use GitHub for accelerating research collaborations, and we briefly highlight several here.  
+First, there are increasing calls for ecological data to be more Findable, Accessible, Interoperable, and Reusable (FAIR) [@doi:10.1016/j.tree.2019.04.005; @doi:10.1038/sdata.2016.18].  
+A key component of data reusability is standardizing the ways (e.g., variable names, file formats) that research data are archived in long-term repositories.  
+Recently, community-led data standardization efforts are taking place on GitHub [@doi:10.1029/2021EA001797], where documents and templates can be version controlled and commented on by the user community [e.g., ESS-DIVE's GitHub Community Space](https://github.com/ess-dive-community).  
 
-Code review rOpenSci's code review process, and also caught mistakes in code of published papers that could have been caught in peer code review.  Also maybe say something about ReproHack.
+Ecologists who write code often use the R programming language, and the (rOpenSci)[https://ropensci.org/] community has a well-established software peer review process that involves both rOpenSci's staff software engineers and the broader R user community.  
+Their (software review GitHub repository)[https://github.com/ropensci/software-review/] provides instructions for submitting an R package for review as well as guidelines for code reviewers.  
+rOpenSci's efforts have resulted in many well-used R packages for ecology research including rfishbase[@doi:10.1111/j.1095-8649.2012.03464.x] and taxize[@doi:10.12688/F1000RESEARCH.2-191.V2].  
 
-Third...
-Instantly share code, notes, files and snippets by [Github Gist](https://gist.github.com/). 
-Each gist is a kind of Github repository, which can be forked, starred or downloaded. 
-Gists will be associated with your Github account and can be public or private. 
+Lastly, (GitHub gists)[https://gist.github.com/] let users create and share snippets of code, notes, and files quickly.  
+Rather than create an entire GitHub repository for saving a small code chunk you want to use in a presentation or share with a colleague, GitHub gists provide a lightweight way to write, save, and share code.  
+Gists are associated with your Github account and can be public or private.  
+Though gists lack all the features embedded in a GitHub repository, gists can still be forked, starred, downloaded, and easily added into a website or blog post.   
+
 
 
 
