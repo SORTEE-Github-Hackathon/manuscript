@@ -1,5 +1,4 @@
 Aariq
-Acknowledgements
 advisees
 Aguncan
 aliguncan
@@ -13,9 +12,6 @@ BrandonEdwards
 Brookson
 Carleton
 Carpentries
-Centre
-centred
-centres
 CERN
 Çetinkaya
 cheatsheet
@@ -31,8 +27,8 @@ EEB
 emmajhudgins
 ESS
 facto
-Figshare
-findable
+figshare
+Findable
 Gainesville
 Gaynor
 gists
@@ -41,7 +37,7 @@ gradute
 Guilan
 Guncan
 Hackathon
-hackmd
+HackMD
 Hébert
 hoc
 Hudgins
@@ -58,8 +54,6 @@ labmates
 mentorship
 Ordu
 O’Reilly
-organisation
-Organisations
 Ornelas
 pargrah
 Perkel
