@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6361ee8f17613a144a63ca2f3aaa785a0a37bef0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6361ee8f17613a144a63ca2f3aaa785a0a37bef0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6361ee8f17613a144a63ca2f3aaa785a0a37bef0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/14d94a9d4290f6b8ae916f5d86c0af9ce546181f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/14d94a9d4290f6b8ae916f5d86c0af9ce546181f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/14d94a9d4290f6b8ae916f5d86c0af9ce546181f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6361ee8f17613a144a63ca2f3aaa785a0a37bef0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/14d94a9d4290f6b8ae916f5d86c0af9ce546181f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@6361ee8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6361ee8f17613a144a63ca2f3aaa785a0a37bef0)
+from [SORTEE-Github-Hackathon/manuscript@14d94a9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/14d94a9d4290f6b8ae916f5d86c0af9ce546181f)
 on February 21, 2022.
 </em></small>
 
@@ -310,7 +310,7 @@ It is also important to consider what are the aims of researchers and how they w
 ## GitHub in EcoEvo examples (Part 1)
 
 ### Storing and archiving version-controlled data
-*contributors to this section: Dylan Gomes*
+*contributors to this section: Dylan Gomes, Emma Hudgins*
 
 Many researchers often start their use of GitHub to backup their working data and code to a remote server (Just push and pull, see Box 1, from their own repo). 
 This saves the user time from backing up data and code on their own portable devices, such as hard drives. 
@@ -320,7 +320,11 @@ Each time a user pushes changes to their repository, GitHub tracks what these ch
 This feature allows for version control, such that users can re-visit previous versions of data and code. 
 This is particularly useful if a mistake has been made where a user has unknowingly overwritten or deleted information that would otherwise be irretrievable without GitHub having saved that information.
 
-GitHub also integrates with Zenodo, a free, long-term data archiving service funded by CERN. After linking your GitHub account to Zenodo and turning on archiving, any time a release (Box 1) is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see `### Making code citable` below for more information).
+An even easier way to start using Github is for the archival of cleaned code and data, often accompanying preprinting, manuscript submission, or manuscript acceptance. 
+Many users prefer to host a separate, cleaned repository that they make public when they complete a papr, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
+One benefit of using GitHub for this service is that it can integrate with a website called [Zenodo](www.zenodo.org), a free, long-term data archiving service funded by CERN. 
+After linking your GitHub account to Zenodo and turning on archiving, any time a release (Box 1) is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see `### Making code citable` below for more information).
+DOI's for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other hosting services (such as Dryad).
 
 ### Virtual lab notebook
 *contributors to this section:*

@@ -20,6 +20,7 @@ colebrookson
 compendia
 dataset
 Département
+DOI’s
 DOIs
 dylangomes
 EcoEvo
@@ -52,13 +53,16 @@ kat
 katherinehebert
 labmates
 mentorship
+OneDrive
 Ordu
 O’Reilly
 Ornelas
+papr
 pargrah
 Perkel
 PHPB
 plantforms
+preprinting
 prevelance
 QCBSRworkshops
 Québec
