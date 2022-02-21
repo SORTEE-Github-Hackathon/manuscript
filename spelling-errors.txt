@@ -27,12 +27,11 @@ EcoEvo
 EEB
 emmajhudgins
 ESS
-facto
-figshare
+Figshare
 Findable
 Gainesville
 Gaynor
-gists
+Gists
 Gomes
 gradute
 Guilan
@@ -59,11 +58,9 @@ O’Reilly
 Ornelas
 papr
 pargrah
-Perkel
 PHPB
 plantforms
 preprinting
-prevelance
 QCBSRworkshops
 Québec
 RCO
