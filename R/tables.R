@@ -36,7 +36,7 @@ box2_gt <-
   autofit()
 #TODO: make prettier
 save_as_image(box2_gt, here("content", "images", "box2.pdf"))  
-
+save_as_image(box2_gt, here("content", "images", "box2.png"))  
 
 
 
