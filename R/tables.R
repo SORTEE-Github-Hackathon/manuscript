@@ -1,7 +1,8 @@
 ##' Use this script for generating figures or tables.  Save outputs to
 ##' ../content/images using the `here()` package with `here("content", "images",
-##' "<filename>")`.  Ideally save images as vector files (.pdf or .eps), but we
-##' can always change that later.
+##' "<filename>")`.  Ideally save images as both a .png (for including into the
+##' manuscript) and a high res .tiff or vector format like .pdf, .eps, or .svg
+##' (for submission to journal).
 ##' 
 # Load Packages -----------------------------------------------------------
 
@@ -12,16 +13,9 @@ library(flextable) #another possible table formatting package.  Can output to ht
 library(patchwork) #for multi-panel figures, if necessary
 
 
-# Box 2 - collaborator profiles -------------------------------------------
-
+# Box 2 - collaborator profiles table -------------------------------------------
+# edit text in .csv file
 box2 <- read_csv(here("R", "collaborator_roles.csv"))
-# box2_gt <- box2 %>%
-#   tidyr::fill(Role) %>%
-#   group_by(Role) %>%
-#   gt() %>%
-#   tab_stubhead("Role")
-# gtsave(box2_gt, here("content", "images", "box2.pdf"))
-
 
 box2_gt <-
   box2 %>%
@@ -35,7 +29,7 @@ box2_gt <-
   fix_border_issues() %>% 
   autofit()
 #TODO: make prettier
-save_as_image(box2_gt, here("content", "images", "box2.pdf"))  
+save_as_image(box2_gt, here("content", "images", "box2_hires.pdf"))  
 save_as_image(box2_gt, here("content", "images", "box2.png"))  
 
 
