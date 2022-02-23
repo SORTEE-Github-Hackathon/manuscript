@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/aedf7c62c9d5e9828ba86a4ae042aa02e90abdde/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/aedf7c62c9d5e9828ba86a4ae042aa02e90abdde/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/aedf7c62c9d5e9828ba86a4ae042aa02e90abdde/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/aedf7c62c9d5e9828ba86a4ae042aa02e90abdde/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@9e00126](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9e001267a2e4bb304c73551f08800377017f3386)
+from [SORTEE-Github-Hackathon/manuscript@aedf7c6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/aedf7c62c9d5e9828ba86a4ae042aa02e90abdde)
 on February 23, 2022.
 </em></small>
 
@@ -592,7 +592,14 @@ Getting students started with these tools earlier will prevent the resistance th
 9- Consider Tweeting your issue. 
 There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. 
 
-10- Other blogs? twitter accounts?
+10- Other blogs? e.g.(https://github.blog/) twitter accounts? or YouTube training videos
+
+11- Try to begin commiting with GUI (Graphical user interface) tools e.g. [GitHub Desktop](https://desktop.github.com/), [git-gui](https://git-scm.com/docs/git-gui), [RStudio](https://www.rstudio.com/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [GitKraken](https://www.gitkraken.com/) tools instead CLI (Command line interface) tools such as Terminal or Console.
+
+
+
+
+
 
 
 ## Conclusion

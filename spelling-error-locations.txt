@@ -36,6 +36,7 @@ content/03.use-cases-a.md:18:Zenodo
 content/03.use-cases-a.md:28:Brookson
 content/03.use-cases-a.md:35:rmarkdown
 content/03.use-cases-a.md:35:RMarkdown
+content/03.use-cases-a.md:35:rstudio
 content/03.use-cases-a.md:40:autograde
 content/03.use-cases-a.md:40:autograding
 content/03.use-cases-a.md:48:Çetinkaya
@@ -152,6 +153,12 @@ content/06.discussion-a.md:50:README
 content/06.discussion-a.md:58:reproducibility
 content/06.discussion-a.md:59:gradute
 content/06.discussion-a.md:59:Rmarkdown
+content/06.discussion-a.md:67:CLI
+content/06.discussion-a.md:67:commiting
+content/06.discussion-a.md:67:gitkraken
+content/06.discussion-a.md:67:GitKraken
+content/06.discussion-a.md:67:rstudio
+content/06.discussion-a.md:67:RStudio
 content/08.statements.md:3:hackathon
 content/08.statements.md:3:SORTEE
 content/08.statements.md:9:Hackathon
