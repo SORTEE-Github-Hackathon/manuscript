@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-02-21'
+date-meta: '2022-02-23'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-02-21" />
-  <meta name="citation_publication_date" content="2022-02-21" />
+  <meta name="dc.date" content="2022-02-23" />
+  <meta name="citation_publication_date" content="2022-02-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/57ed1b871431ff665aa36b58b9f11b26826e241b/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/57ed1b871431ff665aa36b58b9f11b26826e241b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/57ed1b871431ff665aa36b58b9f11b26826e241b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/57ed1b871431ff665aa36b58b9f11b26826e241b/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9e001267a2e4bb304c73551f08800377017f3386/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@57ed1b8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/57ed1b871431ff665aa36b58b9f11b26826e241b)
-on February 21, 2022.
+from [SORTEE-Github-Hackathon/manuscript@9e00126](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9e001267a2e4bb304c73551f08800377017f3386)
+on February 23, 2022.
 </em></small>
 
 ## Authors
@@ -463,10 +463,17 @@ https://github.community/
 GitHub new discussion tool
 
 ### Project continuity
-*Contributors to this section:*  
+*Contributors to this section: BPME*  
 
-'thus preserving the long-term integrity of the project even as collaborations form and shift.’ (Hampton et al. 2015) 
-better to have old versions on GitHub than on somebody's personal hard drive! 
+The development of research software continues to be on the rise, and with that comes the need to consider the continuity of the research software.
+This is particularly relevant for software developed for relatively short-term research projects, such as projects developed by graduate students or postdoctoral fellows [@doi:10.5334/jors.307].
+Often with these projects, once the research contract expires, the research software upkeep tends to fall off as the researchers move on to new projects.
+Additionally, if the research software is kept on only the researcher's hard drive, it becomes increasingly difficult to access the software and code for future uses.
+
+When the project owner is finished with the project, or their contract expires, there generally should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed [@doi:10.5334/jors.307][@doi:10.1186/1751-0473-8-7].
+GitHub facilitates project continuity among research software and research code by providing tools that make this handover period easier. 
+As we have already mentioned, using Git for code in Ecology and Evolution can allow for a "paper trail" of sorts to be created for the research software, thus allowing for future owners of the code access to the entire history of the project [@doi:10.1038/s41559-017-0160]. 
+Additionally, GitHub allows for repositories and organizations to have designated Code Owners [@https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]; these code owners can change through time allowing for the transition of research software from one cohort of researchers to the next [@doi:10.1890/ES14-00402.1].
 
 ### Asycnhronous working
 *Contributors to this section:*
