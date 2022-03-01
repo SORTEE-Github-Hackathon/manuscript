@@ -31,7 +31,7 @@ EEB
 emmajhudgins
 ESS
 Figshare
-findable
+Findable
 Gainesville
 Gaynor
 Gists
@@ -100,5 +100,5 @@ Université
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 zenodo
