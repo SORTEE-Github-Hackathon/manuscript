@@ -30,8 +30,8 @@ EcoEvo
 EEB
 emmajhudgins
 ESS
-Figshare
-Findable
+figshare
+findable
 Gainesville
 Gaynor
 Gists
@@ -40,8 +40,8 @@ Gomes
 gradute
 Guilan
 Guncan
-Hackathon
-HackMD
+hackathon
+hackmd
 Hébert
 hoc
 Hudgins
@@ -100,5 +100,5 @@ Université
 webpage
 wetlab
 Wix
-Zenhub
-zenodo
+ZenHub
+Zenodo

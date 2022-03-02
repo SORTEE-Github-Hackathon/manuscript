@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-01'
+date-meta: '2022-03-02'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -28,8 +28,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-01" />
-  <meta name="citation_publication_date" content="2022-03-01" />
+  <meta name="dc.date" content="2022-03-02" />
+  <meta name="citation_publication_date" content="2022-03-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/286bcc16088563aa2014bb27f0b0b20dcc13dcd7/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/286bcc16088563aa2014bb27f0b0b20dcc13dcd7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/286bcc16088563aa2014bb27f0b0b20dcc13dcd7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,10 +102,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/286bcc16088563aa2014bb27f0b0b20dcc13dcd7/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@286bcc1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/286bcc16088563aa2014bb27f0b0b20dcc13dcd7)
-on March 1, 2022.
+from [SORTEE-Github-Hackathon/manuscript@3f70576](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3f7057665fff460a85e6cb1334c80c293420db9f)
+on March 2, 2022.
 </em></small>
 
 ## Authors
@@ -483,7 +483,12 @@ In Figure 2, we highlight several elements of good repository structure, and the
 
 
 ### Asycnhronous working
-*Contributors to this section:*
+*Contributors to this section: Ali*
+
+Recently, asynchronous communication tools were boosted the team works.
+Github served as an excellent environment for asynchronous communication and collaboration for especially remote team projects.
+Researchers can easily collaborate without being in same place and time.
+
 
 ### GitHub organizations
 
