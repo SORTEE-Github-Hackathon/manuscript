@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/87908251b0649f5673c35545def2668a2445c50a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/87908251b0649f5673c35545def2668a2445c50a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/87908251b0649f5673c35545def2668a2445c50a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/87908251b0649f5673c35545def2668a2445c50a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2868565](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/28685652e3b367055e53c3df996291ad752ccb4e)
+from [SORTEE-Github-Hackathon/manuscript@8790825](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/87908251b0649f5673c35545def2668a2445c50a)
 on March 2, 2022.
 </em></small>
 
@@ -553,15 +553,34 @@ Though gists lack all the features embedded in a GitHub repository, gists can st
 
 ## Discussion
 
-### General pargrah on what GitHub can enable in EcoEvo
-General paragraph on GitHub on how, given all the potential uses of GitHub, it can enable more collaborative EcoEvo research
-Despite all the awesomeness of GitHub, there are still plenty of times when you might look to other plantforms for collaboration
+### General pargrah on what GitHub can enable in EcoEvo  
+*Contributors to this section: Rob*   
 
-### Why aren't more people using GitHub?
-Learning to use Github requires time, but the payoff is *[may be?]* worth it.
+There have been many calls for researchers outside of the software development community to join the 73 million GitHub users for their collaborative research.  
+Until now, resources and practical guideance specifically focused on using GitHub within the EEB community have been dispersed in blog posts and video tutorials.
+In this paper, we describe 13 tractable ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research.  
+Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just several hours of practice (e.g., storing data, creating virtual notebooks, making code citable).  
+The other examples we describe may require a greater time commitment but have the potential to make EEB research even more open, accessible, and collaborative than ever before (e.g., hosting classroom material, writing a manuscript, managing research projects).  
+Despite the many potential applications of GitHub to EEB research, we acknowledge that there will still be many times when researchers might look to other platforms for research collaboration. 
+
+### When to look to other platforms for collaboration  
+*Contributors to this section: Rob*  
+Though we see GitHub as a useful tool for collaboration in EEB, we describe 2 use cases where, to our knowledge, GitHub's features still fall short of the type of highly collaborative work emblamatic of EEB research.  
+First, because of the underlying version control system which tracks "pushed" changes through "commits", real-time collaborative editing (e.g., as on a shared Google Doc or a Word document stored on Dropbox) is not possible on GitHub.  
+There are now websites outside of the GitHub ecosystem that are built on top of the GitHub architecture that allow real-time collaboartive editing (e.g., [hackMD](https://hackmd.io/).  
+We used HackMD at two key points in writing our manuscript when real-time co-writing was essential: when taking meeting notes and writing the outline of our paper.  
+Despite the extra layer of coordination required to use GitHub to write a paper, many journals are changing their manuscript formatting requirements to allow for manuscript format output from GitHub [@doi:10.1038/d41586-020-00916-6].  
+Second, we looked to other software when working on figures and tables.
+Creating tables and figures on GitHub using markdown or other scripting languages is possible, we found that it was not practical at the early brainstorming stages.
+We needed to rapidly iterate on figure and table design, share feedback through comments, and merge/reorder ideas when necessary.
+For these reasons, we used Google Slides for working on figures and Google Sheets for working on tables.
+As our figures and tables moved toward more finalized forms, some co-authors chose to create the tables and figures using R and Markdown which could then be tracked using the same version control system as the rest of manuscript.
+
+### Why aren't more EEB researchers using GitHub
+Learning to use GitHub requires time, and because the basics of version control are not taught in EEB curricula, students and researchers need to make the decision to adopt these tools on their own.  
+ is not taught in but the payoff is *[may be?]* worth it.
 Time vs. effort examples or analyses to demonstrate the payoff can help drive the point home to convince people to learn these tools
-
-### Limitations
+### Our own limitations in writing this paper
 
 *Contributors to this section: Ali*
 
