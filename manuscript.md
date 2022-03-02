@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f7057665fff460a85e6cb1334c80c293420db9f/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/28685652e3b367055e53c3df996291ad752ccb4e/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@3f70576](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3f7057665fff460a85e6cb1334c80c293420db9f)
+from [SORTEE-Github-Hackathon/manuscript@2868565](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/28685652e3b367055e53c3df996291ad752ccb4e)
 on March 2, 2022.
 </em></small>
 
@@ -222,23 +222,25 @@ on March 2, 2022.
 ## Introduction {.page_break_before}
 
 ### General background about GitHub
-*Contributors to this section: RCO, SSHS*  
 
-With over 73 million registered users, GitHub and its underlying version control system Git, are a widely used platform for collaboration on computer code [@https://github.com/about].  
-GitHub has become an indispensable tool for software developers because, through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928].  
-Thus, users have an "audit trail" on the files they choose to store on their GitHub repositories which is simultaneously less _ad hoc_ than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
-GitHub as useful software and code repository service can broadly facilitate openly available source code alongside concomitant collaborative development. [@doi:10.1371/journal.pcbi.1004947]
+*Contributors to this section: RCO, SSHS*
+
+With over 73 million registered users, GitHub and its underlying version control system Git, are a widely used platform for collaboration on computer code [@https://github.com/about].
+GitHub has become an indispensable tool for software developers because, through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928].
+Thus, users have an "audit trail" on the files they choose to store on their GitHub repositories which is simultaneously less *ad hoc* than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
+GitHub as useful software and code repository service can broadly facilitate openly available source code alongside concomitant collaborative development.
+[@doi:10.1371/journal.pcbi.1004947]
 
 Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and some are interacting with GitHub for the first time [@doi:10.1038/s41559-017-0160].
-For first-time users, the GitHub learning curve can seem overwhelming because the creation of the platform and its features were initially centred on collaboration for software development [@doi:10.1109/ASONAM.2016.7752419].
+For first-time users, the GitHub learning curve can seem overwhelming because the creation of the platform and its features were initially centered on collaboration for software development [@doi:10.1109/ASONAM.2016.7752419].
 However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their collaborative projects.
 
 ### What's already been written about GitHub
 
-*Contributors to this section: RCO, PHPB*  
+*Contributors to this section: RCO, PHPB*
 
 [Git](https://git-scm.com/) is the version control system that enables all the collaborative tools available on GitHub.
-In Git, changes performed to files are registered as uniquely identified "commits", which are a snapshot of the line-by-line changes that have been  made at that moment.
+In Git, changes performed to files are registered as uniquely identified "commits", which are a snapshot of the line-by-line changes that have been made at that moment.
 Because the details of interacting with Git can get very technical very quick, we focus instead on the web platform GitHub.
 However, we suggest those interested in Git explore the many papers [@doi:10.1371/journal.pcbi.1004668; @doi:10.1371/journal.pcbi.1004947] and books [@https://happygitwithr.com/] that can provide an introduction to git.
 Because GitHub as web platform is so well documented and has a robust user community, scientists can take advantage of many collaborative aspects without knowing even a line of Git code.
@@ -246,56 +248,65 @@ Despite the prevalence of technical papers and books that focus on Git or GitHub
 We acknowledge that GitHub is not the only way for productive collaboration on cloud-based research documents and code, so we encourage researchers in EEB to take the elements of working with GitHub that fit into their workflow.
 
 ### What's missing about GitHub in EcoEvo and our objective
-*Contributors to this section: RCO*  
 
-Our manuscript is the result of a hackathon held during the 2021 conference for the [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)](https://www.sortee.org/).  
+*Contributors to this section: RCO*
+
+Our manuscript is the result of a hackathon held during the 2021 conference for the [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)](https://www.sortee.org/).
 We convened a group of ~30 EEB researchers with varying levels of familiarity with using GitHub as part of their research.
-During the hackathon, we identified a need for a more friendly introduction to that ways EEB researchers can start using GitHub to make their research more collaborative and transparent.  
-While there have been numerous calls for more researchers in the natural sciences to leverage GitHub's features [@doi:10.1038/538127a], few resources provide tractable examples and practical guidance for first-time GitHub users. 
+During the hackathon, we identified a need for a more friendly introduction to that ways EEB researchers can start using GitHub to make their research more collaborative and transparent.
+While there have been numerous calls for more researchers in the natural sciences to leverage GitHub's features [@doi:10.1038/538127a], few resources provide tractable examples and practical guidance for first-time GitHub users.
 Simple data and code manage habits (of which GitHub is one increasingly important component) make research more reproducible and collaborative (Alston and Rick 2021).
 Most importantly, leveraging GitHub for collaborating on a variety of research tasks, with others who do the same, can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their scientific research [@doi:10.3897/rio.6.e56508].
 
-### Box 1: Definitions  
+### Box 1: Definitions
+
 <!-- Contributors to this section: ERS, Ali -->
+
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. -->
 
--   **repository**:
+-   **repository**: A collection of files (e.g. a directory) tracked by git.
 
 -   **commit**: Commits are like snapshots in the development of a project.
     Commits can include changes in multiple files and must include a brief commit message describing the changes made.
     A typical workflow is to make some related changes in files, make a commit (e.g. "generate and include fig1 in results"), and after several commits to **push** those commits to the remote GitHub **repository**.
 
--   clone: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**.
+-   **clone**: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**.
     If you have access to **push** to a **repository**, this can be a first step to contributing to a project.
 
--   branch: Development branches can be created at any point in time and work on each branch can continue independently.
+-   **branch**: Development branches can be created at any point in time and work on each branch can continue independently.
     This is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project.
     Branches can also be used to isolate contributions of multiple contributors.
     Each person working on their own branch eliminates problems that arise when conflicting edits are pushed to the same branch.
     Changes in a development branch can be merged into the main branch via **pull requests**.
     Branches can only be made by those who are given access to the project **repository**.
 
--   fork: A fork is a copy of a **repository** hosted on GitHub.
+-   **fork**: A fork is a copy of a **repository** hosted on GitHub.
     If a repository is public, then anyone can make a fork.
     Even if they do not have access to push to the original repository, they can make a fork and edit it independently.
     Forks are linked to the original GitHub repository and "upstream" changes (those in the original repository) can be merged to keep the fork up to date with the original project.
     Changes made in the fork can be integrated into the original project via **pull requests**.
 
--   push/pull: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by "**pushing**" them.
+-   **push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by "**pushing**" them.
     Changes on a GitHub repository can then be "**pulled**" to keep your local version of the project up to date.
 
--   pull request: A pull request is a request that the owner of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**.
+-   **pull request**: A pull request is a request that the owner of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**.
     When you initiate a pull request, you must provide a description of what changes are made.
     Some automated tests may be run and review may be required before integrating your changes.
 
--  merge:
+-   **merge**:
 
--  status: Checking the status of the  projects
+-   **status**: Checking the status of the projects 
 
--  init: Initializing a new git database
+-   **init**: Initializing a new git database 
 
--  log: Check the history of the project
+-   **log**: Check the history of the project 
 
+<!-- ERS: while having a definition for all common git commands might be helpful to some, I think this box should probably only include jargon that gets used in the manuscript. So I think we should remove any definitions not used in the manuscript before submission-->
+
+### Box 2
+
+<!--TODO: add brief text describing table here -->
+![](images/box2.png)
 
 
 
