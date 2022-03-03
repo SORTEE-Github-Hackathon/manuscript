@@ -19,6 +19,7 @@ author-meta:
 - Emma J. Hudgins
 - Saeed Shafiei Sabet
 - Eric R. Scott
+- Allison D. Binley
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -77,15 +78,19 @@ header-includes: |-
   <meta name="citation_author" content="Eric R. Scott" />
   <meta name="citation_author_institution" content="Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
+  <meta name="citation_author" content="Allison D. Binley" />
+  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
+  <meta name="twitter:creator" content="@AllisonBinley" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8aa4c09b12a1a3b08926de51b1890987d08a8eb0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8aa4c09b12a1a3b08926de51b1890987d08a8eb0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8aa4c09b12a1a3b08926de51b1890987d08a8eb0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -107,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8aa4c09b12a1a3b08926de51b1890987d08a8eb0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@8aa4c09](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8aa4c09b12a1a3b08926de51b1890987d08a8eb0)
+from [SORTEE-Github-Hackathon/manuscript@f69617b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f69617b2559434076ad515256b597cab4253a11f)
 on March 3, 2022.
 </em></small>
 
@@ -226,6 +231,17 @@ on March 3, 2022.
     [Aariq](https://github.com/Aariq)<br>
   <small>
      Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+  </small>
+
++ **Allison D. Binley**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8790-9935](https://orcid.org/0000-0001-8790-9935)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [adbinley](https://github.com/adbinley)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [AllisonBinley](https://twitter.com/AllisonBinley)<br>
+  <small>
+     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
 
@@ -485,9 +501,24 @@ Co-authors can then integrate their edits and responses to reviewers using pull 
 ## GitHub in EcoEvo examples (Part 3)
 
 ### Open science discussion
-*Contributors to this section:*
+*Contributors to this section: Allison Binley*
 https://github.community/
 GitHub new discussion tool
+
+Github is a tool that can help accelerate progress towards Open Science goals [@doi:10.1371/journal.pbio.1001195], from developing the analysis through to publication and ensuring reproducibility. 
+Conventional research practices typically rely on one or two people running or checking the actual analyses while most coauthors (and readers of the subsequent publication) see only the final results. 
+Github provides a platform for all users to access all aspects of the project, rather than just the final manuscript. 
+In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. 
+Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort [results](https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/). 
+Collaborators are better positioned to discover questionable findings if they have full and transparent access to the project. 
+
+
+
+This transparency can similarly be extended beyond coauthors to the entire scientific community.
+During the peer-review process, the methods and analyses used are fully available, and can be evaluated as critically as the rest of the manuscript *link to peer review section?*.
+Once published, anyone who reads the paper can also access the data and code, so as to rerun or reproduce the experiment.
+Supplying code for any useful or novel methods that are proposed or used can also greatly improve the ability of other researchers to build on your research, resulting in greater proliferation and accessibility for a broader audience. 
+Github even provides a useful [Discussions Forum](https://docs.github.com/en/discussions) that aids the direct communication with repository owners, as well as the [Github Community](https://github.community/) forum for more general questions and sharing of expertise. 
 
 ### Project continuity
 *Contributors to this section: BPME, VF*  
@@ -509,12 +540,27 @@ Non-code writers can offer many contributions to repository design and developme
 In Figure 2, we highlight several elements of good repository structure, and the various ways that contributors may interact with them. 
 
 
-### Asycnhronous working
-*Contributors to this section: Ali*
+### Asynchronous working
+*Contributors to this section: Ali, Allison Binley*
 
 Recently, asynchronous communication tools were boosted the team works.
 Github served as an excellent environment for asynchronous communication and collaboration for especially remote team projects.
 Researchers can easily collaborate without being in same place and time.
+
+One of the most useful aspects of Github is its propensity to facilitate remote and asynchronous collaboration. 
+Researchers can seemlessly access and contribute to data and code regardless of disparities in schedules or location. 
+This is particularly important given the increase in remote work in recent years, but the benefits can also extend far beyond the "work from home" model. 
+Improving remote collaboration can encourage the exchange of ideas among researchers at different institutions and in different countries, which can serve to improve the quality of the research itself. 
+Researchers can work directly with experts from all over the world, who have access to the same data and code as they do. 
+
+
+However, Github has something to offer even for team members on a project that work in the same office. 
+Researchers can easily stay abreast of progress made by other collaborators without the need for meetings or emails. 
+Collaborative project work can also be clearly split between team members, giving them the flexibility to contribute when it best fits their schedule. 
+The [version control](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html#storing-and-archiving-version-controlled-data) features also allow users to make progress and changes without worrying about irreparably writing over someone else's work. 
+
+
+*could link this back to the "Project Management" section or even "Collaborative (code) editing".It actually seems to me like this entire section could potentially be combined with "Collaborative (code) editing"* 
 
 
 ### GitHub organizations
