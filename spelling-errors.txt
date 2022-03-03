@@ -33,7 +33,8 @@ emblamatic
 emmajhudgins
 ESS
 figshare
-findable
+Findable
+Foroughirad
 Gainesville
 Gaynor
 gists
@@ -44,7 +45,7 @@ guideance
 Guilan
 Guncan
 hackathon
-hackMD
+HackMD
 Hébert
 hoc
 Hudgins
@@ -99,6 +100,8 @@ taks
 taxize
 tradeoffs
 Université
+vforoughirad
+vjf
 webpage
 wetlab
 Wix
