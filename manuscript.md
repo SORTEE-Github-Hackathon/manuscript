@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f69617b2559434076ad515256b597cab4253a11f/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f69617b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f69617b2559434076ad515256b597cab4253a11f)
+from [SORTEE-Github-Hackathon/manuscript@cf1672c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/cf1672c6c452315a803de3765962659beef3fd5a)
 on March 3, 2022.
 </em></small>
 
@@ -639,9 +639,15 @@ For these reasons, we used Google Slides for working on figures and Google Sheet
 As our figures and tables moved toward more finalized forms, some co-authors chose to create the tables and figures using R and Markdown which could then be tracked using the same version control system as the rest of manuscript.
 
 ### Why aren't more EEB researchers using GitHub
+*Contributors to this section: Saeed* 
 Learning to use GitHub requires time, and because the basics of version control are not taught in EEB curricula, students and researchers need to make the decision to adopt these tools on their own.  
  is not taught in but the payoff is *[may be?]* worth it.
 Time vs. effort examples or analyses to demonstrate the payoff can help drive the point home to convince people to learn these tools
+Although because of cultural differences or university based facility infrastructures the use of Guithub could be geographical dependent and social dependent.  
+GitHub could be used for learning materials and collaborative platform for education and scientific contributions
+After GitHub’s 2007 release...
+
+
 ### Our own limitations in writing this paper
 
 *Contributors to this section: Ali*
