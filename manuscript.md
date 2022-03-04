@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-03'
+date-meta: '2022-03-04'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-03" />
-  <meta name="citation_publication_date" content="2022-03-03" />
+  <meta name="dc.date" content="2022-03-04" />
+  <meta name="citation_publication_date" content="2022-03-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/cf1672c6c452315a803de3765962659beef3fd5a/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@cf1672c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/cf1672c6c452315a803de3765962659beef3fd5a)
-on March 3, 2022.
+from [SORTEE-Github-Hackathon/manuscript@f77b0e6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f77b0e64b1de18989df7acfd28d0b574ef44be4d)
+on March 4, 2022.
 </em></small>
 
 ## Authors
@@ -397,18 +397,18 @@ Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel,
 
 ### Project management
 
-*Contributors to this section:* Kaitlyn Gaynor, Rob Crystal-Ornelas
+*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
 
 GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems.
-The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels, and the new "Discussion" feature serves as a message board for conversation.
+The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels. 
+The new GitHub "Discussion" feature serves as a message board for conversation.
 Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
-The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project and less likely for issues to slip through the cracks.
-It is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail.
-GitHub can also be integrated with other project management software like Slack or Zenhub.
-
-By default, GitHub repositories are publicly visible, and so anyone with a GitHub account can not only view content, but also engage with repository administrators through Issues and Discussions.
-
-Can talk about ESS-DIVE's project management using ZenHub/Jira to manage customer support requests, feature updates to our data sharing platform.
+The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
+This is because unlike emails and messages which can get lost as more new tasks arise, GitHub issues exist until they are intentionally closed by repository administrators.
+Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
+For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests. 
+ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks as well as link issues togther when they are related to a shared project goal or milestone.
+GitHub is currently beta testing a similar project management feature called [GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects). GitHub can bGitHub can also be integrated with other project management software like Slack or Zenhub.
 
 ### Building website
 
@@ -417,19 +417,13 @@ It is now common for many scientists to have personal, project, or lab websites 
 There are many options for creating and hosting websites.  
 Some sites are built through a point-and-click user interface that requires no coding experience, but these services tend to have monthly or annual fees (e.g., Wix, Squarespace, Wordpress).  
 [GitHub Pages](https://pages.github.com/) allows users with a GitHub account to easily create a website, hosted by GitHub, from one of their many website templates [@doi:10.1038/538127a].  
-When creating a website with GitHub Pages, all content is stored in a GitHub repository, the documents are written in markdown (e.g., https://github.com/SORTEE-Github-Hackathon/main-website), and a website is automatically rendered in HTML from the markdown documents (e.g., https://sortee-github-hackathon.github.io/main-website/).  
+It is also possible to fork any public website hosted on GitHub in order to use it as a template.  
+When creating a website with GitHub Pages, all content is stored in a GitHub repository, the content is written in markdown (e.g., https://github.com/SORTEE-Github-Hackathon/main-website), and a website is automatically rendered in HTML from the markdown documents (e.g., https://sortee-github-hackathon.github.io/main-website/).  
 Aside from free hosting services, another benefit is that GitHub pages are autogenerated, meaning that when content is modified in the associated GitHub repository, the website instantly updates [@doi:10.1080/00031305.2017.1399928].  
-Though the templates are useful for relatively quickly starting up a new website, users are able to fully customize their Pages websites (for technical details of customizing GitHub Pages site see Dawson and Straub, 2016).  
-We emphasize that despite the many benefits of using GitHub pages (free hosting, templates, customization), this avenue for creating a website will be more time intensive than the out of the box platforms mentioned above and requires consideration of tradeoffs offered by website creation services.
-
-Seems like the technical aspect of this is discussed in Dawson, Chris (2016).
-Building Tools with GitHub: Customize Your Workflow.
-O'Reilly Media GitHub 
-
-[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) are both "static website generators", which you can use as template libraries for websites that can be hosted freely via GitHub pages.
-Both of these tools require some additional learning because they are deployed locally via the terminal, but they are a great resource for creating free, eye-catching websites.
-If you wish to use your own domain name, you can purchase a domain for your GitHub pages site.
-It is also possible to fork the website of someone else who has publicly hosted their website on GitHub in order to use it as a template.
+Though the templates are useful for quickly starting up a new website, users are able to fully customize their Pages websites (for technical details of customizing GitHub Pages site see [@isbn:9781491933503]).   
+We emphasize that despite the many benefits of using GitHub pages (free hosting, templates, customization), this avenue for creating a website will be more time intensive than the out of the box platforms mentioned above and requires consideration of tradeoffs offered by website creation services.  
+For more advance GitHub users, [Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) are both "static website generators", which also include template libraries for websites that can be hosted freely via GitHub pages.
+Both of these tools require some additional learning because they are deployed via the computer's terminal or command line, still they are a great resource for creating free, eye-catching websites.
 
 ### Making code citable
 
@@ -458,7 +452,7 @@ If your code is intended only for your specific analysis, consider a Creative Co
 The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
 If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication.
 If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse. 
-If you have build an app, tool, package, or other product that you would like others to use and would like attribuion for any reuse of your code, consider the GNU General Public License v3. 
+If you have build an app, tool, package, or other product that you would like others to use and would like attribution for any reuse of your code, consider the GNU General Public License v3. 
 This license also prohibits the re-user from making their re-used version private.
 If you do not wish to receive attribution and are open to private use, consider the MIT license.
 
