@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/435af4d9b678858e18f6360ebdd1b5dd0c7be2e7/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/435af4d9b678858e18f6360ebdd1b5dd0c7be2e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/435af4d9b678858e18f6360ebdd1b5dd0c7be2e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/435af4d9b678858e18f6360ebdd1b5dd0c7be2e7/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@29effe4](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/29effe4f2fb860b1d300c5e93287c5360c85f163)
+from [SORTEE-Github-Hackathon/manuscript@435af4d](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/435af4d9b678858e18f6360ebdd1b5dd0c7be2e7)
 on March 7, 2022.
 </em></small>
 
@@ -495,24 +495,27 @@ Co-authors can then integrate their edits and responses to reviewers using pull 
 ## GitHub in EcoEvo examples (Part 3)
 
 ### Open science discussion
-*Contributors to this section: Allison Binley*
-https://github.community/
-GitHub new discussion tool
+*Contributors to this section: Freddy Hillemann, Allison Binley*
+Research papers are condensed outputs that hide the underlying intellectual and computational workflows, including the treatment of the raw data and analytical steps. 
+Granting readers access to code and other documentation of the analysis allows them to retrace and comprehend analytical decisions. 
+Github provides a platform to access all aspects of the project, using citable DOIs, rather than just the final manuscript. 
+While often thought of as storage for data and code, github repositories can also be used to publish a time-stamped preregistration of research plans and hypotheses. 
 
-Github is a tool that can help accelerate progress towards Open Science goals [@doi:10.1371/journal.pbio.1001195], from developing the analysis through to publication and ensuring reproducibility. 
-Conventional research practices typically rely on one or two people running or checking the actual analyses while most coauthors (and readers of the subsequent publication) see only the final results. 
-Github provides a platform for all users to access all aspects of the project, rather than just the final manuscript. 
-In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. 
-Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort [results](https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/). 
+Github is a tool for managing and sharing components of any research project, that can help accelerate progress towards Open Science goals [@doi:10.1371/journal.pbio.1001195], from developing the analysis through to publication and ensuring reproducibility. 
+Conventional research practices typically rely on one or two people running and checking the data analyses, while most coauthors (and readers of the subsequent publication) see only the final results and a verbal description of the analytical steps. 
+In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort [results](https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/). 
 Collaborators are better positioned to discover questionable findings if they have full and transparent access to the project. 
 
-
-
-This transparency can similarly be extended beyond coauthors to the entire scientific community.
-During the peer-review process, the methods and analyses used are fully available, and can be evaluated as critically as the rest of the manuscript *link to peer review section?*.
-Once published, anyone who reads the paper can also access the data and code, so as to rerun or reproduce the experiment.
-Supplying code for any useful or novel methods that are proposed or used can also greatly improve the ability of other researchers to build on your research, resulting in greater proliferation and accessibility for a broader audience. 
+This transparency can similarly be extended beyond coauthors to the entire scientific community. 
+Publishing the data and reproducible workflows along with the manuscript allows any reader to review the analysis and reproduce the experiment [@doi.org/10.1371/journal.pbio.3000763]. 
+Supplying code for (novel) methods that are proposed or used also reduces barriers to knowledge and can greatly improve the ability of others to build on existing work, resulting in greater proliferation and accessibility for a broader audience. 
 Github even provides a useful [Discussions Forum](https://docs.github.com/en/discussions) that aids the direct communication with repository owners, as well as the [Github Community](https://github.community/) forum for more general questions and sharing of expertise. 
+
+If the methods and analyses used are fully available during the peer-review process, they can be as critically evaluated as the rest of the manuscript. *link to peer review section?*. 
+However, fear of being scooped feeds into cultural reluctance to do science openly due to worries of intellectual property. 
+A solution would be to allow sharing a private link with a citable DOI for peer review, and update the DOI post-acceptance or post-publication. 
+Updating DOIs is currently yet a missing feature of github, but implemented in other open-access repositories such as Zenodo, which was developed under the European OpenAIRE program and is being hosted by CERN. 
+Alternatively, github users can to keep their data and code repository private until publication, and then make it public.
 
 ### Project continuity
 *Contributors to this section: BPME, VF*  
