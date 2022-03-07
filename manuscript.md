@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-04'
+date-meta: '2022-03-07'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-04" />
-  <meta name="citation_publication_date" content="2022-03-04" />
+  <meta name="dc.date" content="2022-03-07" />
+  <meta name="citation_publication_date" content="2022-03-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f77b0e64b1de18989df7acfd28d0b574ef44be4d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/29effe4f2fb860b1d300c5e93287c5360c85f163/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f77b0e6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f77b0e64b1de18989df7acfd28d0b574ef44be4d)
-on March 4, 2022.
+from [SORTEE-Github-Hackathon/manuscript@29effe4](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/29effe4f2fb860b1d300c5e93287c5360c85f163)
+on March 7, 2022.
 </em></small>
 
 ## Authors
@@ -664,22 +664,20 @@ Lack of GitHub help documents for non-English researchers in ecology and evoluti
 
 *Contributors to this section: Ali, Emma* 
 
-Note: "Current tips copied from the "Figure_brainstorming_v2, 6th slide" from the Google Drive"
-can be extended as much as we can. 
-Later we decide the most important ones related the manuscript. 
-All suggestions are welcome.
-
 Tips:
 
 1- Check for the solution to your problem on the Github Help [webpage](https://docs.github.com/en).
 This site contains very extensive and detailed documents with helpful screenshots. 
-It is useful for getting startet in general, but also has troubleshooting tips for specific problems.  
+It is a good start point for handling a issue, but also has troubleshooting tips for specific problems.
+Or Consider Tweeting your issue. 
+There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions.
+Try to follow blogs e.g.(https://github.blog/), twitter accounts or YouTube channels that regularly post practical solutions about common Github issues.
 
 2- Consider taking free courses from [Software Carpentries](https://swcarpentry.github.io/git-novice/) and sharing these courses with your lab members of colleagues.
 
-3- See the repository for [this paper](https://github.com/SORTEE-Github-Hackathon/manuscript/) as an example of a collaborative manuscript that includes discussions, issues, and a website.
+3- Take the advantage of Github as an asynchronous working tools for team works. e.g. See the repository for [this paper](https://github.com/SORTEE-Github-Hackathon/manuscript/) as an example of a collaborative writing manuscript that includes discussions, issues, and a website via GitHub.
 
-4- The GitHub [Learning Lab](https://lab.github.com/) allows you to learn GitHub basics through short projects and taks, and allows you to get feedback from their Learning Lab bot.
+4- The GitHub [Learning Lab](https://lab.github.com/) allows you to learn GitHub basics through short projects and tasks, and allows you to get feedback from their Learning Lab bot.
 
 5- Check out the following [markdown cheatsheet](http://markdownguide.org/basic-syntax/) so that you can write clear metadata README files for your repositories.
 
@@ -687,19 +685,17 @@ It is useful for getting startet in general, but also has troubleshooting tips f
 
 7- Don't be afraid of trial and error. 
 One of the best ways to learn Github is the trial and error method. 
-Learning from the mistakes can be the best way to remember, and Github has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. 
+Learning from your own mistakes can be the better way to master your GitHub abilities.
+In any case, Github has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. 
 
 8- If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in your curricula. 
 Some gradute programs now include coursework on course Rmarkdown and GitHub.
 Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time.
 
-9- Consider Tweeting your issue. 
-There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. 
+9- Try to begin commiting with GUI (Graphical user interface) tools e.g. [GitHub Desktop](https://desktop.github.com/), [git-gui](https://git-scm.com/docs/git-gui), [RStudio](https://www.rstudio.com/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [GitKraken](https://www.gitkraken.com/) tools instead CLI (Command line interface) tools such as Terminal or Console.
 
-10- Other blogs? e.g.(https://github.blog/) twitter accounts? or YouTube training videos
-
-11- Try to begin commiting with GUI (Graphical user interface) tools e.g. [GitHub Desktop](https://desktop.github.com/), [git-gui](https://git-scm.com/docs/git-gui), [RStudio](https://www.rstudio.com/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [GitKraken](https://www.gitkraken.com/) tools instead CLI (Command line interface) tools such as Terminal or Console.
-
+10- Notifications of several Github active projects can be usually quite puzzling. 
+Try to use tools like [Octobox](https://octobox.io/) for disentangling and managing multiple notifications from distinct GitHub projects.
 
 
 
