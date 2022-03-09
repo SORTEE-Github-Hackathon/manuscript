@@ -1,8 +1,15 @@
 library(tidyverse)
 library(here)
-df <- read_csv(here("R", "uses.csv"), na = "N/A")
+df <- read_csv(here("R", "collaborative_uses.csv"), na = "N/A")
 
 df
+
+
+# big arrow ---------------------------------------------------------------
+
+#this will look better if I draw a big color gradient arrow from individual to
+#collaborative and stick that next to the table with `patchwork` or something.
+
 
 # Table part --------------------------------------------------------------
 
@@ -43,3 +50,8 @@ table <-
   #would look better as a separate big arrow
 
 gtsave(table, here("content", "images", "collaborative_use.png"))
+
+
+# Stick em together -------------------------------------------------------
+
+library(patchwork)
