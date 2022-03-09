@@ -191,7 +191,11 @@ content/06.discussion-a.md:86:rstudio
 content/06.discussion-a.md:86:RStudio
 content/06.discussion-a.md:89:octobox
 content/06.discussion-a.md:89:Octobox
+content/07.conclusion.md:3:EEB
+content/07.conclusion.md:6:EEB
+content/07.conclusion.md:6:EEB
 content/08.statements.md:3:hackathon
 content/08.statements.md:3:SORTEE
+content/08.statements.md:5:RCO
 content/08.statements.md:9:Hackathon
 content/08.statements.md:9:SORTEE
