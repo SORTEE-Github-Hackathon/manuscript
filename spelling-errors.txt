@@ -35,12 +35,12 @@ else’s
 emblamatic
 emmajhudgins
 ESS
-figshare
+Figshare
 Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 Gomes
 gradute
@@ -67,7 +67,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-Ornelas
+ornelas
 papr
 pargrah
 PHPB
@@ -108,6 +108,6 @@ vjf
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 ZenHub’s
 Zenodo
