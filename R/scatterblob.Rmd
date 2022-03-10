@@ -7,6 +7,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Goal: This is a summary figure, e.g., "here are all the ways and here are the entry points with low technical difficulty, and some  for beginner s and the more advanced ways to use it".
+There are ways to use github that allows different degrees of collaboration that do not require too many technical skills.
+
+Use even notation across text and figure
+
+space out middle blobs
+labels to x and y axis
+homogenizing titles of ways to use github
+
+## The data
+
 Data for this figure was generated on a collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit#gid=0). Cognitive load [was measured in a different file](https://docs.google.com/spreadsheets/d/1OLBR3M0uV3PMSazWUYHgPeX28wllAgS4PIlJXaNu-2o/edit#gid=0). 
 
 Reading the data csv file:
@@ -32,16 +43,23 @@ my_data
 ```
 
 
-Plotting `my_data`
+## Plotting the data
+
+### First try
+
+Using original cognitive values.
 
 ```{r}
-my_colors <- viridis::turbo(n = nrow(scatterblob_data))
+my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 
-svg(filename = "scatterblob_0.svg", width = 5, height = 8, bg = "white")
-plot(x = scatterblob_data$x2, 
-     y = scatterblob_data$`Cognitive load`, 
-     xlab = "Immediate collaborativeness",
-     ylab = "Cognitive load",
+svg(filename = "scatterblob_0.svg", width = 7, height = 11, bg = "white")
+
+par(xpd = TRUE, mai = c(1.02, 0.82, 0.82, 1), bty="n")
+
+plot(x = c(0.1,8), 
+     y = c(1.1,10), 
+     xlab = "Collaborativeness",
+     ylab = "Technical difficulty",
      col = "white")
 
 for (i in seq(nrow(scatterblob_data))) {
@@ -49,52 +67,8 @@ for (i in seq(nrow(scatterblob_data))) {
   X1 <- scatterblob_data$x2[i]
   Y <- scatterblob_data$`Cognitive load`[i]
   if (X0 == X1) {
-    points(x = X0, 
-           y = Y,
-           col = my_colors[i],
-           pch = 19)
-  text(x = X0, 
-       y = Y, 
-       labels = scatterblob_data$`Ways to use GitHub`[i],
-       adj = 0)
-  } else {
-    segments(x0 = X0,
-             x1 = X1,
-             y0 = Y,
-             col = my_colors[i],
-             lwd = 15)
-  text(x = median(c(X0, X1)), 
-       y = Y, 
-       labels = scatterblob_data$`Ways to use GitHub`[i],
-       adj = 0.5)
-  }
-}
-dev.off()
-```
-![First try](scatterblob_0.svg)
-
-Distributing cognitive load evenly:
-
-```{r}
-my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.5)
-
-svg(filename = "scatterblob.svg", width = 7, height = 9, bg = "white")
-par(xpd = TRUE, mai = c(1.02, 0.82, 0.82, 2))
-plot(x = c(0.1,6), 
-     y = c(0.1,15), 
-     xlab = "Collaborativeness",
-     ylab = "Cognitive load - absolute",
-     col = "white")
-
-my_colors <- viridis::turbo(n = nrow(scatterblob_data))
-
-for (i in seq(nrow(scatterblob_data))) {
-  X0 <- my_data$x1[i]
-  X1 <- my_data$x2[i]
-  Y <- my_data$y[i]
-  if (X0 == X1) {
-    X0 <- X0 - 0.05
-    X1 <- X1 + 0.05
+    X0 <- X0 - 0.01
+    X1 <- X1 + 0.01
     adj_text <- -0.1
    } else {
     adj_text <- 0.5
@@ -111,6 +85,50 @@ for (i in seq(nrow(scatterblob_data))) {
 }
 dev.off()
 ```
+![Fgure 1. Degree of collaboration VS technical difficulty](scatterblob_0.svg)
 
-![Second try](scatterblob.svg)
+
+### Second try
+
+Distributing cognitive load evenly:
+
+```{r}
+my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
+
+svg(filename = "scatterblob.svg", width = 7, height = 9, bg = "white")
+par(xpd = TRUE, mai = c(1.02, 0.82, 0.82, 2), bty="n")
+plot(x = c(0.1,6), 
+     y = c(0.1,15), 
+     xlab = "Collaborativeness",
+     ylab = "Technical difficulty",
+     col = "white")
+
+for (i in seq(nrow(scatterblob_data))) {
+  X0 <- my_data$x1[i]
+  X1 <- my_data$x2[i]
+  Y <- my_data$y[i]
+  if (X0 == X1) {
+    X0 <- X0 - 0.01
+    X1 <- X1 + 0.01
+    adj_text <- -0.1
+   } else {
+    adj_text <- 0.5
+   }
+  segments(x0 = X0,
+           x1 = X1,
+           y0 = Y,
+           col = my_colors[i],
+           lwd = 40)
+   text(x = median(c(X0, X1)), 
+       y = Y, 
+       labels = my_data$`Ways to use GitHub`[i],
+       adj = adj_text)
+}
+dev.off()
+```
+
+
+
+
+![Figure 2. Degree of collaboration VS Even technical difficulty](scatterblob.svg)
 
