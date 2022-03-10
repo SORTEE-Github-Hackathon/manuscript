@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-09'
+date-meta: '2022-03-10'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-09" />
-  <meta name="citation_publication_date" content="2022-03-09" />
+  <meta name="dc.date" content="2022-03-10" />
+  <meta name="citation_publication_date" content="2022-03-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f364be71cf41545bf34220eae4b23373c615160f/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f364be71cf41545bf34220eae4b23373c615160f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f364be71cf41545bf34220eae4b23373c615160f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0033ae24b57c7c20e9dd8e37d50bde7e8fb724bc/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0033ae24b57c7c20e9dd8e37d50bde7e8fb724bc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0033ae24b57c7c20e9dd8e37d50bde7e8fb724bc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f364be71cf41545bf34220eae4b23373c615160f/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0033ae24b57c7c20e9dd8e37d50bde7e8fb724bc/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f364be7](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f364be71cf41545bf34220eae4b23373c615160f)
-on March 9, 2022.
+from [SORTEE-Github-Hackathon/manuscript@0033ae2](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0033ae24b57c7c20e9dd8e37d50bde7e8fb724bc)
+on March 10, 2022.
 </em></small>
 
 ## Authors
@@ -293,7 +293,7 @@ Most importantly, leveraging GitHub for collaborating on a variety of research t
 
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. -->
 
--   **repository**: A collection of files (e.g. a directory) tracked by git.
+-   **repository**: A collection of files (e.g. a directory) tracked by git. Commonly shortened to "repo"
 
 -   **commit**: Commits are like snapshots in the development of a project.
     Commits can include changes in multiple files and must include a brief commit message describing the changes made.
@@ -306,13 +306,13 @@ Most importantly, leveraging GitHub for collaborating on a variety of research t
     This is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project.
     Branches can also be used to isolate contributions of multiple contributors.
     Each person working on their own branch eliminates problems that arise when conflicting edits are pushed to the same branch.
-    Changes in a development branch can be merged into the main branch via **pull requests**.
+    Changes in a development branch can be **merged** into the main branch via **pull requests**.
     Branches can only be made by those who are given access to the project **repository**.
 
 -   **fork**: A fork is a copy of a **repository** hosted on GitHub.
     If a repository is public, then anyone can make a fork.
     Even if they do not have access to push to the original repository, they can make a fork and edit it independently.
-    Forks are linked to the original GitHub repository and "upstream" changes (those in the original repository) can be merged to keep the fork up to date with the original project.
+    Forks are linked to the original GitHub repository and "upstream" changes (those in the original repository) can be **merged** to keep the fork up to date with the original project.
     Changes made in the fork can be integrated into the original project via **pull requests**.
 
 -   **push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by "**pushing**" them.
@@ -322,7 +322,7 @@ Most importantly, leveraging GitHub for collaborating on a variety of research t
     When you initiate a pull request, you must provide a description of what changes are made.
     Some automated tests may be run and review may be required before integrating your changes.
 
--   **merge**:
+-   **merge**: Combining **commits** from two different branches together into one **branch**
 
 -   **status**: Checking the status of the projects 
 
@@ -610,13 +610,20 @@ Though gists lack all the features embedded in a GitHub repository, gists can st
 ## Discussion
 
 ### General pargrah on what GitHub can enable in EcoEvo  
-*Contributors to this section: Rob*   
+*Contributors to this section: Rob, Brandon*   
 
 There have been many calls for researchers outside of the software development community to join the 73 million GitHub users for their collaborative research.  
-Until now, resources and practical guideance specifically focused on using GitHub within the EEB community have been dispersed in blog posts and video tutorials.
+This call comes in light of the continual shift toward a more open-science framework across several fields, and as computational and data requirements increase in several fields.
+Until now, resources and practical guidance specifically focused on using GitHub within the EEB community have been dispersed in blog posts and video tutorials.
+We felt these resources have been extremely useful for us to learn to use Github in our own work, and we felt that a collation of the main ideas into one medium, while adding on our personal perspectives, would be of use in the EEB community. 
+
 In this paper, we describe 13 tractable ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research.  
-Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just several hours of practice (e.g., storing data, creating virtual notebooks, making code citable).  
-The other examples we describe may require a greater time commitment but have the potential to make EEB research even more open, accessible, and collaborative than ever before (e.g., hosting classroom material, writing a manuscript, managing research projects).  
+Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just several hours of practice (e.g., storing data, creating virtual notebooks, making code citable).
+For example, storing code and data and making it citable generally just involve creating a repository on Github, pushing code to the repository, and then going through the necessary steps for creating a DOI for the repository.
+These actions are generally covered in any introduction to Github tutorial and take little overhead to make it work.
+On the other hand, some other examples we describe may require a greater time commitment, but have the potential to make EEB research even more open, accessible, and collaborative than ever before.
+For example, managing full research projects or research labs on Github will require careful thought as to how to delegate tasks such as reviewing pull requests or creating issues, as well as thought as to how modular to make the research project or research lab (i.e., which repository will be used for what, and how many repositories are needed).
+Additionally, collaboratively writing a manuscript using Github, such as what we have done with this, will involve a learning curve for folks less familiar with the intricacies of Github, and also require overheard to set up the repository using Github actions. 
 Despite the many potential applications of GitHub to EEB research, we acknowledge that there will still be many times when researchers might look to other platforms for research collaboration. 
 
 ### When to look to other platforms for collaboration  
