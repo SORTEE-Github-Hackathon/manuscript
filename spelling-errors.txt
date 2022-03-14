@@ -10,6 +10,7 @@ autograding
 bGitHub
 Binley
 biologie
+Bitbucket
 BPME
 BrandonEdwards
 Brookson
@@ -36,19 +37,19 @@ emblamatic
 emmajhudgins
 ESS
 figshare
-Findable
+findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
+GitLab
 Gomes
 gradute
 Guilan
-Guithub
 Guncan
 hackathon
-HackMD
+hackmd
 Hébert
 Hillemann
 hoc
@@ -110,4 +111,4 @@ wetlab
 Wix
 ZenHub
 ZenHub’s
-Zenodo
+zenodo

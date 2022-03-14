@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-10'
+date-meta: '2022-03-14'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-10" />
-  <meta name="citation_publication_date" content="2022-03-10" />
+  <meta name="dc.date" content="2022-03-14" />
+  <meta name="citation_publication_date" content="2022-03-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2961cca03a8243d105a7f0f5df2b1cd49f8df12d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2961cca03a8243d105a7f0f5df2b1cd49f8df12d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2961cca03a8243d105a7f0f5df2b1cd49f8df12d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2961cca03a8243d105a7f0f5df2b1cd49f8df12d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2961cca](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2961cca03a8243d105a7f0f5df2b1cd49f8df12d)
-on March 10, 2022.
+from [SORTEE-Github-Hackathon/manuscript@e59e968](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/e59e968da79178806364b5591c5005c42103533b)
+on March 14, 2022.
 </em></small>
 
 ## Authors
@@ -645,14 +645,18 @@ For these reasons, we used Google Slides for working on figures and Google Sheet
 As our figures and tables moved toward more finalized forms, some co-authors chose to create the tables and figures using R and Markdown which could then be tracked using the same version control system as the rest of manuscript.
 
 ### Why aren't more EEB researchers using GitHub
-*Contributors to this section: Saeed* 
-Learning to use GitHub requires time, and because the basics of version control are not taught in EEB curricula, students and researchers need to make the decision to adopt these tools on their own.  
- is not taught in but the payoff is *[may be?]* worth it.
-Time vs. effort examples or analyses to demonstrate the payoff can help drive the point home to convince people to learn these tools
-Although because of cultural differences or university based facility infrastructures the use of Guithub could be geographical dependent and social dependent.  
-GitHub could be used for learning materials and collaborative platform for education and scientific contributions
-After GitHub’s 2007 release...
+*Contributors to this section: Saeed, Vivienne* 
 
+Though GitHub has been available as a platform for more than a decade at time of writing, its uptake among EEB researchers, especially as a tool for collaboration, has been slow. 
+Some research groups choose to take advantage of alternative platforms with similar capabilities, such as GitLab or Bitbucket, but many have yet to integrate these types of project management software into their lab ecosystems at all.  
+Some attribute this hesitation to the steep learning curve combined with limited instruction available through traditional university courses. 
+When use of GitHub is taught within an EEB context, it is usually accompanying coursework in topics such as statistical programming, and some students may find it overwhelming to juggle learning git alongside scripting languages, statistical theory, and file system navigation, especially when many may also be new to using command-line interfaces in general. 
+Instructors likewise may confuse the expected digital literacy of younger students with computational fluency, even when modern technology increasingly abstracts many relevant concepts through search optimization and preponderant IDEs.
+The default public nature of GitHub usage can add additional pressure to students learning to use the platform.  
+While many quantitative ecologists and evolutionary biologists take advantage of GitHub for individual use, collaborative use may lag due to how researchers traditionally divide labor within projects. 
+Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers, and EEB researchers may take the view that GitHub is a platform that only needs to be used by individuals writing code, and may silo those aspects of projects to a single individual.    
+Those assumptions may have obscured the utility of GitHub for tasks other than traditional data analysis and software development, or how GitHub can facilitate the integration of code with non-coding aspects of projects through the practice of repository design. 
+Additional hesitancy may come from general reluctance to share data and code publicly, or technical and logistical issues related to storage of large data files and lack of integration with other research platforms. 
 
 ### Our own limitations in writing this paper
 
