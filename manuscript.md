@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/143ad8b782b1547260742213b38bc4df25efd764/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/143ad8b782b1547260742213b38bc4df25efd764/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/143ad8b782b1547260742213b38bc4df25efd764/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/e59e968da79178806364b5591c5005c42103533b/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/143ad8b782b1547260742213b38bc4df25efd764/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@e59e968](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/e59e968da79178806364b5591c5005c42103533b)
+from [SORTEE-Github-Hackathon/manuscript@143ad8b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/143ad8b782b1547260742213b38bc4df25efd764)
 on March 14, 2022.
 </em></small>
 
@@ -329,13 +329,10 @@ Most importantly, leveraging GitHub for collaborating on a variety of research t
 
 -   **merge**: Combining **commits** from two different branches together into one **branch**
 
--   **status**: Checking the status of the projects 
 
--   **init**: Initializing a new git database 
 
--   **log**: Check the history of the project 
-
-<!-- ERS: while having a definition for all common git commands might be helpful to some, I think this box should probably only include jargon that gets used in the manuscript. So I think we should remove any definitions not used in the manuscript before submission-->
+<!-- ERS: while having a definition for all common git commands might be helpful to some, I think this box should probably only include jargon that gets used in the manuscript. So I think we should remove any definitions not used in the manuscript before submission
+Ali: I agree with ERS and delete my additions except "merge" -->
 
 ### Box 2
 
@@ -481,6 +478,10 @@ But getting better?
 Tools that link with GitHub have been developed with synchronous writing in mind.
 HackMD provides a collaborative writing platform based on Markdown that integrates with GitHub.\
 We used this platform early on in the process of writing this manuscript to generate an outline.
+
+Later, we wrote the manuscript by Manubot, which is one of the important collaborative manuscript platform uses Markdown for writing and GitHub for storing and tracking changes over time [@https://doi.org/10.1371/journal.pcbi.1007128]
+
+Recently, more manuscripts were written on GitHub via Manubot(see examples <https://manubot.org/catalog/>)
 
 ### Peer-Review
 
@@ -708,7 +709,7 @@ In any case, Github has the advantage of making it easy to go back to any steps 
 Some gradute programs now include coursework on course Rmarkdown and GitHub.
 Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time.
 
-9- Try to begin commiting with GUI (Graphical user interface) tools e.g. [GitHub Desktop](https://desktop.github.com/), [git-gui](https://git-scm.com/docs/git-gui), [RStudio](https://www.rstudio.com/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [GitKraken](https://www.gitkraken.com/) tools instead CLI (Command line interface) tools such as Terminal or Console.
+9- Try to begin commiting with GUI (Graphical user interface) tools e.g. [GitHub Desktop](https://desktop.github.com/), [git-gui](https://git-scm.com/docs/git-gui), [RStudio](https://www.rstudio.com/), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [GitKraken](https://www.gitkraken.com/) tools. Later, you can switch to CLI (Command line interface) tools such as Terminal or Console for more advance features.
 
 10- Notifications of several Github active projects can be usually quite puzzling. 
 Try to use tools like [Octobox](https://octobox.io/) for disentangling and managing multiple notifications from distinct GitHub projects.
