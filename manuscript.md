@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-14'
+date-meta: '2022-03-18'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-14" />
-  <meta name="citation_publication_date" content="2022-03-14" />
+  <meta name="dc.date" content="2022-03-18" />
+  <meta name="citation_publication_date" content="2022-03-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d928630f9be141f2d63575bcf45482ad5c5bad6c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d928630f9be141f2d63575bcf45482ad5c5bad6c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d928630f9be141f2d63575bcf45482ad5c5bad6c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d928630f9be141f2d63575bcf45482ad5c5bad6c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@d928630](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d928630f9be141f2d63575bcf45482ad5c5bad6c)
-on March 14, 2022.
+from [SORTEE-Github-Hackathon/manuscript@4e6551a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4e6551a8d1ac54f49e75537da48e9de80c834321)
+on March 18, 2022.
 </em></small>
 
 ## Authors
@@ -398,7 +398,7 @@ Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel,
 
 *Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
 
-GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems.
+GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems (Figure 2).
 The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels. 
 The new GitHub "Discussion" feature serves as a message board for conversation.
 Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
@@ -623,7 +623,7 @@ This call comes in light of the continual shift toward a more open-science frame
 Until now, resources and practical guidance specifically focused on using GitHub within the EEB community have been dispersed in blog posts and video tutorials.
 We felt these resources have been extremely useful for us to learn to use Github in our own work, and we felt that a collation of the main ideas into one medium, while adding on our personal perspectives, would be of use in the EEB community. 
 
-In this paper, we describe 13 tractable ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research.  
+In this paper, we describe 13 tractable ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research (Figure 2).  
 Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just several hours of practice (e.g., storing data, creating virtual notebooks, making code citable).
 For example, storing code and data and making it citable generally just involve creating a repository on Github, pushing code to the repository, and then going through the necessary steps for creating a DOI for the repository.
 These actions are generally covered in any introduction to Github tutorial and take little overhead to make it work.
