@@ -1,14 +1,15 @@
 ﻿Role,Description,GitHub Feature,Use Case
-Project manager,"Owns the GitHub repository for a project, and leads the academic project (e.g., lead author of a manuscript).",Issues,Assign tasks to collaborators
-,,GitHub Repo,"Project README can contain contributor guidelines, citations to relevant manuscripts, and links to project websites"
-,,Releases,Trigger archival of code and data and DOI assignment by Zenodo or Dryad
-Co-author,"Contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub.",GitHub Pages,Create a simple website to share up-to-date reports and figures or draft manuscript with co-authors
-,,Discussions,Can be used as a forum to discuss proposed changes in a manuscript
-,,GitHub Repo,Edit Markdown text or add files through the GitHub web interface
-Code contributor,Contributes code to the project (may also contribute to writing and other aspects of research).,Pull Requests,"Contribute changes to code, initiate code review"
-,,Issues,Suggest code changes
-Code reviewer,"Reviews project code (e.g. a co-author or a peer-reviewer). They are familiar with coding, but not necessarily with git or GitHub (but they are willing to learn).",Issues,Highlight specific lines of code and make suggestions
-,,Pull Requests,Review pull requests (e.g. from code contributors) or make pull requests with recommended changes
+Project manager,"Owns the GitHub repository for a project, and leads the academic project (e.g., lead author of a manuscript).",Issue,Assign tasks to collaborators
+,,README,"Project descritption, citation, DOIs"
+,,GitHub repo,"Set contributor permissions, share code of conduct"
+,,Release,Trigger archival of code and data and DOI assignment
+Co-author,"Contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub.",GitHub Pages,"Share up-to-date reports, figures, or draft manuscript"
+,,Discussion,Discuss proposed changes to manuscript
+,,GitHub repo,Edit Markdown text or add files
+Code contributor,Contributes code to the project (may also contribute to writing and other aspects of research).,Pull Request,"Contribute changes to code, initiate code review"
+,,Issue,Suggest code changes
+Code reviewer,"Reviews project code (e.g. a co-author or a peer-reviewer). They are familiar with coding, but not necessarily with git or GitHub (but they are willing to learn).",Issue,Highlight specific lines of code and make suggestions
+,,Pull Request,Review or recommended changes in code
 Community,"Not involved in the project directly, but wishes to use or adapt data or code for their own analysis.",Fork,"Create a linked, editable copy of the repository"
-,,Discussions,Ask authors clarifying questions about data and code
-,,GitHub Pages,View a public-facing website for the project
+,,Discussion,Ask questions about data and code
+,,GitHub Pages,Project website

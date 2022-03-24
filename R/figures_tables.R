@@ -17,20 +17,27 @@ library(patchwork) #for multi-panel figures, if necessary
 # edit text in .csv file
 roles <- read_csv(here("R", "collaborator_roles.csv"))
 
-roles_gt <-
+roles_wide <-
   roles %>%
   tidyr::fill(Role, Description) %>% 
+  pivot_wider(names_from = `GitHub Feature`, values_from = `Use Case`) %>% 
+  select(Role, `GitHub repo`, README, Issue, Discussion, `Pull Request`, Fork, `GitHub Pages`)
+  
+  
+roles_table <-
+  roles_wide %>% 
   flextable() %>% 
-  merge_v(j = 1:2) %>% 
-  valign(j=1:3, valign = "top") %>% 
-  border_outer() %>% 
-  border_inner_h() %>% 
-  border_inner_v() %>% 
-  fix_border_issues() %>% 
+  valign(j=1:7, valign = "top") %>% 
+  add_header_row(values = c("", "GitHub Feature"),
+                 colwidths = c(1, ncol(roles_wide) -1)) %>%
+  theme_box() %>% 
   autofit()
+roles_table
+
 #TODO: make prettier
-save_as_image(roles_gt, here("content", "images", "roles_hires.pdf"))  
-save_as_image(roles_gt, here("content", "images", "roles.png"))  
+
+save_as_image(roles_table, here("content", "images", "roles_hires.pdf"))  
+save_as_image(roles_table, here("content", "images", "roles.png"))  
 
 
 
