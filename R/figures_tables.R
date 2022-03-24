@@ -15,10 +15,10 @@ library(patchwork) #for multi-panel figures, if necessary
 
 # table 2 - collaborator profiles table -------------------------------------------
 # edit text in .csv file
-table2 <- read_csv(here("R", "collaborator_roles.csv"))
+roles <- read_csv(here("R", "collaborator_roles.csv"))
 
-table2_gt <-
-  table2 %>%
+roles_gt <-
+  roles %>%
   tidyr::fill(Role, Description) %>% 
   flextable() %>% 
   merge_v(j = 1:2) %>% 
@@ -29,8 +29,8 @@ table2_gt <-
   fix_border_issues() %>% 
   autofit()
 #TODO: make prettier
-save_as_image(table2_gt, here("content", "images", "table2_hires.pdf"))  
-save_as_image(table2_gt, here("content", "images", "table2.png"))  
+save_as_image(roles_gt, here("content", "images", "roles_hires.pdf"))  
+save_as_image(roles_gt, here("content", "images", "roles.png"))  
 
 
 
