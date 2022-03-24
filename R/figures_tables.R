@@ -13,12 +13,12 @@ library(flextable) #another possible table formatting package.  Can output to ht
 library(patchwork) #for multi-panel figures, if necessary
 
 
-# Box 2 - collaborator profiles table -------------------------------------------
+# table 2 - collaborator profiles table -------------------------------------------
 # edit text in .csv file
-box2 <- read_csv(here("R", "collaborator_roles.csv"))
+table2 <- read_csv(here("R", "collaborator_roles.csv"))
 
-box2_gt <-
-  box2 %>%
+table2_gt <-
+  table2 %>%
   tidyr::fill(Role, Description) %>% 
   flextable() %>% 
   merge_v(j = 1:2) %>% 
@@ -29,8 +29,8 @@ box2_gt <-
   fix_border_issues() %>% 
   autofit()
 #TODO: make prettier
-save_as_image(box2_gt, here("content", "images", "box2_hires.pdf"))  
-save_as_image(box2_gt, here("content", "images", "box2.png"))  
+save_as_image(table2_gt, here("content", "images", "table2_hires.pdf"))  
+save_as_image(table2_gt, here("content", "images", "table2.png"))  
 
 
 
