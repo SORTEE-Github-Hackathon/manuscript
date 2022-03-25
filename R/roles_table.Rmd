@@ -3,7 +3,7 @@ knit: (function(input_file, encoding) {
   out_dir <- '../content';
   rmarkdown::render(input_file,
  encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, '09.figures-tables.md'))})
+ output_file=file.path(dirname(input_file), out_dir, '10.roles_table.md'))})
 output: 
   md_document:
     variant: gfm #for debugging, forces table to be markdown, not html
@@ -21,7 +21,7 @@ library(patchwork) #for multi-panel figures, if necessary
 options(knitr.table.format = 'pipe')
 ```
 
-## Tables
+<!--DO NOT EDIT. Generated from R/roles_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
 
 ```{r roles}
 roles <- read_csv(here("R", "collaborator_roles.csv"))
@@ -39,12 +39,3 @@ kable(roles_wide, caption = "Table: A non-exhaustive collection of ideas for how
 
 Test citation of the above table @tbl:roles
 
-
-## Figures
-
-
-Alternate way:
-
-![Caption for the example figure.](../content/images/figure-2.png){#fig:testfig}
-
-test citation for figure @fig:testfig
