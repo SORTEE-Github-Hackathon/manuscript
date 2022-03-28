@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-18'
+date-meta: '2022-03-28'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-18" />
-  <meta name="citation_publication_date" content="2022-03-18" />
+  <meta name="dc.date" content="2022-03-28" />
+  <meta name="citation_publication_date" content="2022-03-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/4e6551a8d1ac54f49e75537da48e9de80c834321/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@4e6551a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4e6551a8d1ac54f49e75537da48e9de80c834321)
-on March 18, 2022.
+from [SORTEE-Github-Hackathon/manuscript@9f2f24a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9f2f24a93f99f8a989da5fd9264614b7abe08e40)
+on March 28, 2022.
 </em></small>
 
 ## Authors
@@ -255,42 +255,45 @@ As more Ecologists and Evolutionary Biologists migrate their workflows to GitHub
 
 ## Introduction {.page_break_before}
 
-### General background about GitHub
+<!-- ### General introduction to the use of collaborative computational resources by scientists -->
+<!-- *Contributors to this section: PHPB* -->
+Most scientists, including ecologists and evolutionary biologists, have become critically dependent on computational tools in their research [see @doi:10.1109/SECSE.2009.5069155].
+Researchers now write and use code as part of their research workflow to perform a wide-variety of tasks facilitating scientific elaboration, ranging from data management, data analysis, study replication, to the application and the development of tools for hypothesis testing.
+This strong code-dependent workflow imposes steep requirements towards an efficient, well-documented process in the publication and collaboration of maintenaible scientific code [@doi:10.1038/d41586-020-02462-7].
+To facilitate this process, scientists have been increasingly borrowing and adopting tools from  information system technology, such as cloud-based services for documentation and version control [_e.g._ from the Google Suite (with Docs, Sheets and Drive), the Microsoft Suite (with Word, Excel and OneDrive), and Github] [@doi: 10.1038/538127a].
+However, most researchers lack exposure to adequate software development practices and are required to dedicate valuable time and effort to self-teach the use of research-faciliting tools, and thus may find practical barriers when applying adequate standards in the maintenance of their scientific code [@doi:10.1145/2063348.2063374; @doi:10.1371/journal.pbio.1001745; @doi:10.1109/SECSE.2009.5069155].
+Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, Github, and provide researchers in ecology and evolutionary biology with practical workflows aiming at facilitating their scientific code and management process.
 
-*Contributors to this section: RCO, SSHS*
+<!-- ### General background about GitHub and Git -->
+<!-- *Contributors to this section: RCO, SSHS, PHPB* -->
+With over 73 million registered users, GitHub is the most common web-platform used for documentation and collaboration on computer code [@https://github.com/about].
+[GitHub](https://github.com/) builds on the [Git](https://git-scm.com/) version control system, providing a simplified but powerful web interface that allows users to participate in projects, contribute code, report and discuss software bugs, discover existing code and data, as well as publishing their own.
+Through its version control, users have a detailed, chronological record on the files and directories stored in their repositories [@doi:10.1080/00031305.2017.1399928].
+This workflow provides a strong and clear advantage over receiving, processing and sending files back-and-forth, a process that can easily become challenging and time-consuming in projects extending in time and in the number of collaborators [@doi:10.1186/1751-0473-8-7].
+Through the combination of version control management and the network- and collaboration-based features,  
+GitHub can broadly facilitate openly available source code alongside concomitant collaborative development. [@doi:10.1371/journal.pcbi.1004947]
 
-With over 73 million registered users, GitHub and its underlying version control system Git, are a widely used platform for collaboration on computer code [@https://github.com/about].
-GitHub has become an indispensable tool for software developers because, through version control, users can track changes to multiple files and folders over time [@doi:10.1080/00031305.2017.1399928].
-Thus, users have an "audit trail" on the files they choose to store on their GitHub repositories which is simultaneously less *ad hoc* than passing files back and forth yet able to scale up as projects take on more files or collaborators [@doi:10.1186/1751-0473-8-7].
-GitHub as useful software and code repository service can broadly facilitate openly available source code alongside concomitant collaborative development.
-[@doi:10.1371/journal.pcbi.1004947]
+[Git](https://git-scm.com/) is the version control system that enable all the collaborative tools available on GitHub.
+In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line.
+Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see (Box 1)[#box-1-definitions]) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to manage their repositories without using command-line sessions. 
+We do not focus on Git in this study, but we recommend users to explore the many resources providing a detailed information on Git, such as journal articles [@doi:10.1371/journal.pcbi.1004668; @doi:10.1371/journal.pcbi.1004947], videos and books [@https://happygitwithr.com/].
 
-Researchers in ecology and evolutionary biology (EEB) are starting to collaborate on software as part of their research, and some are interacting with GitHub for the first time [@doi:10.1038/s41559-017-0160].
-For first-time users, the GitHub learning curve can seem overwhelming because the creation of the platform and its features were initially centered on collaboration for software development [@doi:10.1109/ASONAM.2016.7752419].
-However, by leveraging existing tools on GitHub and the wide range of collaborations they can enable, researchers in EEB can make the most out of their collaborative projects.
+<!-- ### General background on how GitHub is used by EEB researchers -->
+<!-- *Contributors to this section: RCO, PHPB* -->
+The voluminous user-community and the numerous resources providing pedagogical instruction material on how to use GitHub streamlined its widespread use (CITE).
+Nevertheless, although researchers in ecology and evolutionary biology (EEB) have been encouraged to adopt GitHub in part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
+Because GitHub and its features have been created centered on collaboration for software development in information systems [@doi:10.1109/ASONAM.2016.7752419], first-time users from domains without formal training in information technology can face challenging learning curves.
+Morever, domain-specific perspectives and resources providing tractable examples and practical guidance for researchers in ecology and evolution on GitHub are scarce (but see CITE, CITE, CITE).
+An increased availability of data and code managenent standards -- of which GitHub is one increasingly important component -- make research more reproducible and collaborative [@doi:10.1002/bes2.1801].
+More importantly, a widespread, common adoption of GitHub for collaborating on a variety of research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their scientific research [@doi:10.3897/rio.6.e56508].
 
-### What's already been written about GitHub
-
-*Contributors to this section: RCO, PHPB*
-
-[Git](https://git-scm.com/) is the version control system that enables all the collaborative tools available on GitHub.
-In Git, changes performed to files are registered as uniquely identified "commits", which are a snapshot of the line-by-line changes that have been made at that moment.
-Because the details of interacting with Git can get very technical very quick, we focus instead on the web platform GitHub.
-However, we suggest those interested in Git explore the many papers [@doi:10.1371/journal.pcbi.1004668; @doi:10.1371/journal.pcbi.1004947] and books [@https://happygitwithr.com/] that can provide an introduction to git.
-Because GitHub as web platform is so well documented and has a robust user community, scientists can take advantage of many collaborative aspects without knowing even a line of Git code.
-Despite the prevalence of technical papers and books that focus on Git or GitHub for the software development community, there are fewer resources for EEB researchers who want to begin collaborating through GitHub.
-We acknowledge that GitHub is not the only way for productive collaboration on cloud-based research documents and code, so we encourage researchers in EEB to take the elements of working with GitHub that fit into their workflow.
-
-### What's missing about GitHub in EcoEvo and our objective
-
-*Contributors to this section: RCO*
-
-Our manuscript is the result of a hackathon held during the 2021 conference for the [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)](https://www.sortee.org/).
-We convened a group of ~30 EEB researchers with varying levels of familiarity with using GitHub as part of their research.
-During the hackathon, we identified a need for a more friendly introduction to that ways EEB researchers can start using GitHub to make their research more collaborative and transparent.
-While there have been numerous calls for more researchers in the natural sciences to leverage GitHub's features [@doi:10.1038/538127a], few resources provide tractable examples and practical guidance for first-time GitHub users.
-Simple data and code manage habits (of which GitHub is one increasingly important component) make research more reproducible and collaborative (Alston and Rick 2021).
-Most importantly, leveraging GitHub for collaborating on a variety of research tasks, with others who do the same, can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their scientific research [@doi:10.3897/rio.6.e56508].
+<!-- ### Our objective -->
+<!-- *Contributors to this section: RCO, PHPB* -->
+This manuscript is the result from an academic hackathon held during the 2021 conference for the [Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)](https://www.sortee.org/).
+We convened a group of ~30 EEB researchers with varying levels of familiarity with using GitHub as part of their research projects to showcase and discuss how existing features can contribute to the documentation and collaboration in ecological and evolutionary research.
+During the hackathon, we identified the need for a formal discussion on how EEB researchers can benefit from GitHub and its features to make their research more collaborative and transparent.
+Here, we outline thirteen practical uses of (?) GitHub features that can help towards a more collaborative, transparent and reproducible EEB research.
+We also provide critical perspectives on features that could be improved and catered towards research development.
 
 ### Box 1: Definitions
 
@@ -328,7 +331,6 @@ Most importantly, leveraging GitHub for collaborating on a variety of research t
     Some automated tests may be run and review may be required before integrating your changes.
 
 -   **merge**: Combining **commits** from two different branches together into one **branch**
-
 
 
 <!-- ERS: while having a definition for all common git commands might be helpful to some, I think this box should probably only include jargon that gets used in the manuscript. So I think we should remove any definitions not used in the manuscript before submission
