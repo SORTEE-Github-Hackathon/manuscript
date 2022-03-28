@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@9f38d4e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e)
+from [SORTEE-Github-Hackathon/manuscript@fad78e9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/fad78e970422b39cb2fd0ea2d9677e210658bd21)
 on March 28, 2022.
 </em></small>
 
@@ -681,6 +681,8 @@ This approach is likely less practical when collaborating with people at later c
 Real-time collaboration via GitHub is also not possible without relying on additional tools such as hackmd, so there is a longer delay to receive feedback from other collaborators, and a greater likelihood of conflicts.
 
 Lack of GitHub help documents for non-English researchers in ecology and evolution leads them to miss the opportunity to fully understand the importance version control as well as the other benefits of GitHub.
+
+Moreover. It seems there are sometimes unwritten roles that need to be explored in a way to learn and use GitHub and that in such Github collaborations, practice and redo practice play an important role. For instance, in one case during cloning the project to work on it, there will be unknown conflicts and limitations for downloading and cloning process on local computers because of low internet speed. But it seems it would be much easier if we choose "open with GitHub desktop" instead of using " Download Zip
 
 ### Using GitHub is a good start, but lots of practices to make repo more user friendly
 

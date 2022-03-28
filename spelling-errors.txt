@@ -38,8 +38,8 @@ emblamatic
 emmajhudgins
 ESS
 faciliting
-Figshare
-findable
+figshare
+Findable
 Foroughirad
 Gainesville
 Gaynor
@@ -51,7 +51,7 @@ gradute
 Guilan
 Guncan
 Hackathon
-hackMD
+hackmd
 Hébert
 Hillemann
 Hudgins
@@ -110,6 +110,6 @@ vjf
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 ZenHub’s
-zenodo
+Zenodo
