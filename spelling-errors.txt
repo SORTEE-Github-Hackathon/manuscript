@@ -25,6 +25,7 @@ colebrookson
 collaboartive
 commiting
 compendia
+computional
 dataset
 Département
 DOI’s
@@ -37,8 +38,8 @@ emblamatic
 emmajhudgins
 ESS
 faciliting
-figshare
-Findable
+Figshare
+findable
 Foroughirad
 Gainesville
 Gaynor
@@ -49,8 +50,8 @@ Gomes
 gradute
 Guilan
 Guncan
-hackathon
-HackMD
+Hackathon
+hackMD
 Hébert
 Hillemann
 Hudgins
@@ -70,7 +71,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-Ornelas
+ornelas
 papr
 pargrah
 preprinting
@@ -109,6 +110,6 @@ vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
-Zenodo
+zenodo

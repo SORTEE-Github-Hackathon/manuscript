@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f2f24a93f99f8a989da5fd9264614b7abe08e40/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@9f2f24a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9f2f24a93f99f8a989da5fd9264614b7abe08e40)
+from [SORTEE-Github-Hackathon/manuscript@9f38d4e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9f38d4ecbf240d6b9ed510e61dffa580c7d76c7e)
 on March 28, 2022.
 </em></small>
 
@@ -247,11 +247,15 @@ on March 28, 2022.
 
 
 ## Abstract {.page_break_before}
-GitHub is a powerful platform used by nearly 75 million people to openly collaborate on software and code.  
-Despite Ecology and Evolution research becoming more collaborative and computationally intensive, the platform remains underused within these fields.  
-To help scientists start to leverage GitHub's many useful features in their own workflows, we review 13 practical ways to use GitHub that range from low technical difficulty (storing code, managing projects) to higher technical difficulty (collaborative coding, conducting peer review, and writing a manuscript).  
-Because not all GitHub features will be useful for every researcher, we link common roles on Ecology and Evolution research teams (e.g., project manager, coauthor, code contributor) to examples of how GitHub can fit in with existing workflows (e.g., tracking tasks, discussing edits to a manuscript, and submitting code to a repository, respectively).  
-As more Ecologists and Evolutionary Biologists migrate their workflows to GitHub, the broader scientific community stands to benefit from disciplines that push the boundaries of collaborative, transparent, and open research.  
+
+Ecological and evolutionary researchers have become critically dependent on computional code to achieve scientific elaboration.
+With this, the use of efficient forms to collaborate, share and reproduce code has become fundamental. 
+GitHub is an online, cloud-based service that can help researchers to track, organize, discuss, share and collaborate on software and code.
+While scientists in natural sciences have been encouraged to use GitHub, its adoption is not widespread due to the lack of domain-specific information and guidelines.
+To help ecology and evolutionary researchers adopt useful features from Github in their own workflows, we review thirteen practical ways to use the platform.
+We outline features ranging from low to high technical difficulty: storing code, managing projects, coding collaboratively, conducting peer review, and writing a manuscript.
+Because not all GitHub features are essentially useful for every researcher, we allocate existing development and collaborative workflows within Github -- such as, tracking tasks, discussing edits to a manuscript, and submitting code to a repository -- to the most common research development roles in ecology and evolution (project manager, coauthor, code contributor).
+As more ecologists and evolutionary biologists migrate their workflows to GitHub, the broader scientific community stands to benefit from disciplines that push the boundaries of collaborative, transparent, and open research.
 
 ## Introduction {.page_break_before}
 
