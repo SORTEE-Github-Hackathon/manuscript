@@ -23,13 +23,12 @@ Data for this figure was generated on a collaborative [google spread sheet](http
 Reading the data csv file:
 
 ```{r}
-library(readr)
-scatterblob_data <- readr::read_csv("scatterblob_data.csv")
+# library(readr)
+# scatterblob_data <- readr::read_csv("scatterblob_data.csv")
 library(googlesheets4)
 scatterblob_data <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit?pli=1#gid=0")
 
 View(scatterblob_data)
-
 ```
 
 Creating the `my_data` object from :
