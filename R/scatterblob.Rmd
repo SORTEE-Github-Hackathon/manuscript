@@ -52,7 +52,7 @@ Using original cognitive values.
 ```{r}
 my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 
-svg(filename = "scatterblob_0.svg", width = 7, height = 11, bg = "white")
+svg(filename = "scatterblob_0.svg", width = 7, height = 15, bg = "white")
 
 par(xpd = TRUE, mai = c(1.02, 0.82, 0.82, 1), bty="n")
 
@@ -71,21 +71,23 @@ for (i in seq(nrow(scatterblob_data))) {
     X1 <- X1 + 0.01
     adj_text <- -0.1
    } else {
-    adj_text <- 0.5
+    # adj_text <- 0.5
+    adj_text <- 0
    }
   segments(x0 = X0,
            x1 = X1,
            y0 = Y,
            col = my_colors[i],
-           lwd = 20)
-   text(x = median(c(X0, X1)), 
+           lwd = 25)
+   text(#x = median(c(X0, X1)),
+        x = X1,
        y = Y, 
        labels = my_data$`Ways to use GitHub`[i],
        adj = adj_text)
 }
 dev.off()
 ```
-![Fgure 1. Degree of collaboration VS technical difficulty](scatterblob_0.svg)
+![Figure 1. Degree of collaboration VS technical difficulty](scatterblob_0.svg)
 
 
 ### Second try

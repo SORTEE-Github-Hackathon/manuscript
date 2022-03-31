@@ -42,3 +42,4 @@ Thumbs.db
 ## Text Editors
 .vscode
 .Rproj.user
+*.Rproj
