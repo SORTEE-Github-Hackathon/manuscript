@@ -43,3 +43,4 @@ Thumbs.db
 .vscode
 .Rproj.user
 *.Rproj
+.Rhistory
