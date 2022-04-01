@@ -6,8 +6,7 @@ knit: (function(input_file, encoding) {
  output_file=file.path(dirname(input_file), out_dir, '10.roles_table.md'))})
 output: 
   md_document:
-    variant: gfm #for debugging, forces table to be markdown, not html
-    # variant: markdown
+    variant: gfm #forces table to be markdown, not html
 ---
 
 ```{r setup, include=FALSE}
@@ -37,5 +36,6 @@ roles_wide <-
 kable(roles_wide, caption = "Table: A non-exhaustive collection of ideas for how various GitHub features could be utilized for a research project. Here we have categorized contributors/collaborators into five roles. A Project Manager owns the GitHub repository for a project, and leads the academic project (e.g., lead author of a manuscript). A co-author contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub. A code contributor writes or edits analysis code for the project. A code reviewer could be a project collaborator or a peer reviewer who reviews project code. They are familiar with coding, but not necessarily with git or GitHub (but they are willing to learn). Finally, community members could be other researchers or non-researchers interested in reproducing results, re-using code or data, or communicating with researchers involved in the project. These roles are not mutually exclusive—a co-author could also be e code contributor and code reviewer, for example. For definitions of the GitHub features, see Box 1. {#tbl:roles}")
 ```
 
-Test citation of the above table @tbl:roles
+<!-- An example citation of this table (Table @tbl:roles). -->
+
 
