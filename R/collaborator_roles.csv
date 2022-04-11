@@ -2,14 +2,20 @@
 Project manager,"Owns the GitHub repository for a project, and leads the academic project (e.g., lead author of a manuscript).",Issue,Assign tasks to collaborators
 ,,README,"Project descritption, citation, DOIs"
 ,,GitHub repo,"Set contributor permissions, share code of conduct"
+,,Discussion,Open conversations about project directions and writing
+,,Pull Request,Approve and incorporate edits to code and/or writing
 ,,Release,Trigger archival of code and data and DOI assignment
-Co-author,"Contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub.",GitHub Pages,"Share up-to-date reports, figures, or draft manuscript"
-,,Discussion,Discuss proposed changes to manuscript
+,,GitHub Pages,"Share up-to-date reports, figures, or draft manuscript"
+Co-author,"Contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub.",Discussion,Discuss proposed changes to manuscript
+,,Issue,Propose task for code contributors (e.g. analyses and figures)
 ,,GitHub repo,Edit Markdown text or add files
 Code contributor,Contributes code to the project (may also contribute to writing and other aspects of research).,Pull Request,"Contribute changes to code, initiate code review"
+,,GitHub Pages,Contribute to project website
 ,,Issue,Suggest code changes
 Code reviewer,"Reviews project code (e.g. a co-author or a peer-reviewer). They are familiar with coding, but not necessarily with git or GitHub (but they are willing to learn).",Issue,Highlight specific lines of code and make suggestions
 ,,Pull Request,Review or recommended changes in code
+,,GitHub repo,Find all code related to a project
 Community,"Not involved in the project directly, but wishes to use or adapt data or code for their own analysis.",Fork,"Create a linked, editable copy of the repository"
 ,,Discussion,Ask questions about data and code
 ,,GitHub Pages,Project website
+,,Issue,Suggest additional features and report bugs
