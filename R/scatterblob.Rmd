@@ -55,12 +55,31 @@ Using original cognitive values.
 ```{r}
 my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
-# start the pdf connection and set graphical parameters
+# start the pdf/png connection and set graphical parameters
 ###############################################################
-pdf(file = "scatterblob_0.pdf",
-    width = 8.25,
-    height = 6,
-    bg = "transparent")
+# plot_format <- "pdf"
+plot_format <- "svg"
+# plot_format <- "png"
+if (plot_format == "pdf") {
+  pdf(file = "scatterblob_0.pdf",
+      width = 8.25,
+      height = 6,
+      bg = "transparent")  
+}
+if (plot_format == "svg") {
+  svg(filename = "scatterblob_0.svg",
+      width = 8.25,
+      height = 6,
+      bg = "transparent")  
+}
+if (plot_format == "png") {
+  png(file = "scatterblob_0.png",
+      width = 8.25,
+      height = 6,
+      units = "in",
+      res = 100,
+      bg = "transparent")  
+}
 par(xpd = NA,
     mai = c(1.02, 1, 0.82, 4),
     bty="n")
@@ -138,15 +157,37 @@ Distributing cognitive load evenly:
 ```{r}
 my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
-# start the pdf connection and set graphical parameters
+# start the pdf/png/svg connection and set graphical parameters
 ###############################################################
-pdf(file = "scatterblob_1.pdf",
-    width = 8.25,
-    height = 6,
-    bg = "transparent")
+# plot_format <- "pdf"
+# plot_format <- "svg"
+plot_format <- "png"
+if (plot_format == "pdf") {
+  pdf(file = "scatterblob_1.pdf",
+      width = 8.25,
+      height = 6,
+      bg = "transparent")  
+}
+if (plot_format == "svg") {
+  svg(filename = "scatterblob_1.svg",
+      width = 8.25,
+      height = 6,
+      bg = "transparent")  
+}
+if (plot_format == "png") {
+  png(file = "scatterblob_1.png",
+      width = 8.25,
+      height = 6,
+      units = "in",
+      res = 100,
+      bg = "transparent")  
+}
 par(xpd = NA,
     mai = c(1.02, 1, 0.82, 4),
     bty="n")
+###############################################################
+# create the plot background
+###############################################################
 plot(x = c(0.5, 5.5),
      y = c(0.5, 14),
      xlab = "",
