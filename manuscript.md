@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-03-28'
+date-meta: '2022-04-11'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-03-28" />
-  <meta name="citation_publication_date" content="2022-03-28" />
+  <meta name="dc.date" content="2022-04-11" />
+  <meta name="citation_publication_date" content="2022-04-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d5520248ee9db39013e4ebc87c9556a2f8ec2db1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d5520248ee9db39013e4ebc87c9556a2f8ec2db1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d5520248ee9db39013e4ebc87c9556a2f8ec2db1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/fad78e970422b39cb2fd0ea2d9677e210658bd21/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d5520248ee9db39013e4ebc87c9556a2f8ec2db1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@fad78e9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/fad78e970422b39cb2fd0ea2d9677e210658bd21)
-on March 28, 2022.
+from [SORTEE-Github-Hackathon/manuscript@d552024](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d5520248ee9db39013e4ebc87c9556a2f8ec2db1)
+on April 11, 2022.
 </em></small>
 
 ## Authors
@@ -350,7 +350,7 @@ Ali: I agree with ERS and delete my additions except "merge" -->
 ## GitHub in EcoEvo examples (Part 1)
 
 ### Storing and archiving version-controlled data
-*contributors to this section: Dylan Gomes, Emma Hudgins*
+<!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
 
 Many researchers often start their use of GitHub to backup their working data and code to a remote server (Just push and pull, see Box 1, from their own repo). 
 This saves the user time from backing up data and code on their own portable devices, such as hard drives. 
@@ -358,45 +358,42 @@ This also offers some peace of mind, as this information is retrievable even if 
 Thus, an additional benefit of this 'cloud' storage is that one's GitHub repository can be accessed by any machine with internet access, allowing the user to be more mobile if they wish to both work from home and the office from different computers. 
 Each time a user pushes changes to their repository, GitHub tracks what these changes are and stores this history. 
 This feature allows for version control, such that users can re-visit previous versions of data and code. 
-This is particularly useful if a mistake has been made where a user has unknowingly overwritten or deleted information that would otherwise be irretrievable without GitHub having saved that information.
+Version control is particularly useful if a mistake has been made where a user has unknowingly overwritten or deleted information that would otherwise be irretrievable without GitHub having saved that information.
 
 An even easier way to start using Github is for the archival of cleaned code and data, often accompanying preprinting, manuscript submission, or manuscript acceptance. 
-Many users prefer to host a separate, cleaned repository that they make public when they complete a papr, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
+Many users prefer to host a separate, cleaned repository that they make public when they complete a paper, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
 One benefit of using GitHub for this service is that it can integrate with a website called [Zenodo](www.zenodo.org), a free, long-term data archiving service funded by CERN. 
 After linking your GitHub account to Zenodo and turning on archiving, any time a release (Box 1) is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see `### Making code citable` below for more information).
-DOI's for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other hosting services (such as Dryad).
+DOI's for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other fee-based hosting services (such as Dryad).
 
 ### Virtual lab notebook
-*contributors to this section:*
+<!--*contributors to this section:* -->
 commits as a way to record daily progress
 issues as a way to keep track of short-term objectives/goals, and progress towards them
 
-
-
 ### Classroom teaching / educational materials
-*contributors to this section: Cole Brookson*
+<!-- *contributors to this section: Cole Brookson* -->
 
 GitHub provides a large variety of uses for hosting teaching/educational materials. 
-In fact, through taking advantage of the suite of GitHub features, the entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub. 
-As a matter of gross simplification, organizing a course (for example) could be broken down into: 1) developing the material (i.e. slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, and 4) dealing with student submissions and the subsequent grade returns.
+In fact, through taking advantage of the suite of GitHub features, the entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub.  
+As a matter of gross simplification, organizing a course (for example) could be broken down into: 1) developing the material (i.e., slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, and 4) accepting student work submissions and then returning graded material.  
 While of course there are other purpose-built platforms for this type of activity, few of them provide the usability at the price point GitHub does. 
-First, developing your course material, from slides to labs and everything in between, can be done on GitHub, out in the open, where others can see, review and offer feedback on your process! 
-Making presentations can be done through most major high-level programming languages such as [R, with `RMarkdown`](https://rmarkdown.rstudio.com/lesson-11.html), [Python, with `python-ppt`](https://python-pptx.readthedocs.io/en/latest/index.html), and [Julia, with `Remark.jl`](https://juliapackages.com/p/remark).
-Since all these programs work via code bases, they can be version-controlled through git and GitHub.
-Once you've made all the content for your course, hosting a course website can be done through GitHub pages, and there are [lots of templates available](https://github.com/topics/course-website) to borrow from.
-This way, not only can the course content be available to your enrolled students, but also to anyone interested in the course material.
-Since the course material can be easily housed on a GitHub pages website, it is then simple enough to deliver the content via that website, and/or a GitHub organization with template repositories for assignments etc.
-Student submissions are perhaps the least seamless component, but for assignments submitted as code files (i.e. `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new and far-from-perfect but still useful tool [GitHub classroom](https://classroom.github.com/) where instructors can host private assignments, and even build custom autograding tests, that will autograde assignments!
+
+First, developing course material, from slides to labs and everything in between, can be done on GitHub, out in the open, where others can see, review and offer feedback on your process!  
+Making presentations can be done through most major high-level programming languages such as [R, with `RMarkdown`](https://rmarkdown.rstudio.com/lesson-11.html), [Python, with `python-ppt`](https://python-pptx.readthedocs.io/en/latest/index.html), and [Julia, with `Remark.jl`](https://juliapackages.com/p/remark).  
+Since all these programs work via code bases, they can be version-controlled through git and GitHub.  
+Once you've made all the content for your course, hosting a course website can be done through GitHub pages, and there are [lots of templates available](https://github.com/topics/course-website).  
+This way, not only can the course content be available to your enrolled students, but also to a global pool of learners and teachers interested in the course material.  
+Since the course material can be easily housed on a GitHub pages website, it is then simple enough to deliver the content via that website, and/or a GitHub organization with template repositories for assignments etc.  
+Student submissions are perhaps the least seamless component, but for assignments submitted as code files (i.e., `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new and far-from-perfect but still useful tool [GitHub classroom](https://classroom.github.com/) where instructors can host private assignments, and even build custom autograding tests, that will autograde assignments!
  
 The previous section is meant to highlight the myriad tools GitHub can provide to centralize the delivery of educational materials.
-While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even *begin* learning about version control through interacting with git/GitHub, however minimally, through the course.
-There are (as always) no "points" awarded for using ALL GitHub materials ALL the time, but if a central tenant of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in the biological sciences use, then adopting a few of these tools can be a great way to do so.
+While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even *begin* learning about version control through interacting with git/GitHub, however minimally, through the course.  
+There are (as always) no "points" awarded for using ALL GitHub materials ALL the time, but if a central tenant of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
  
-
-
-Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel, Adam J. Sullivan & Maria Tackett (2021) Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses, Journal of Statistics and Data Science Education, 29:sup1, S132-S144, DOI: 10.1080/10691898.2020.1848485
-
-
+<!-- May want to incorporate the below citation into section on GitHub for teaching-->
+<!--
+Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel, Adam J. Sullivan & Maria Tackett (2021) Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses, Journal of Statistics and Data Science Education, 29:sup1, S132-S144, DOI: 10.1080/10691898.2020.1848485 -->
 
 ## GitHub in EcoEvo examples (Part 2)
 

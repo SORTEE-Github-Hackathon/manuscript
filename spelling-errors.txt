@@ -17,7 +17,6 @@ Brookson
 Carleton
 Carpentries
 CERN
-Çetinkaya
 cheatsheet
 citable
 CLI
@@ -38,20 +37,20 @@ emblamatic
 emmajhudgins
 ESS
 faciliting
-figshare
-Findable
+Figshare
+findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
 gradute
 Guilan
 Guncan
-Hackathon
-hackmd
+hackathon
+hackMD
 Hébert
 Hillemann
 Hudgins
@@ -71,8 +70,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-ornelas
-papr
+Ornelas
 pargrah
 preprinting
 QCBSRworkshops
@@ -89,7 +87,6 @@ robcrystalornelas
 rOpenSci
 rOpenSci’s
 RStudio
-Rundel
 Sabet
 Saeed
 SaeedSHSABET
@@ -100,7 +97,6 @@ Sherbrooke
 SORTEE
 Sowmeh
 Squarespace
-Tackett
 taxize
 togther
 tradeoffs
@@ -110,6 +106,6 @@ vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
 Zenodo
