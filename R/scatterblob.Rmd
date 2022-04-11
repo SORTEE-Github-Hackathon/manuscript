@@ -18,17 +18,18 @@ homogenizing titles of ways to use github
 
 ## The data
 
-Data for this figure was generated on a collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit#gid=0). Cognitive load [was measured in a different file](https://docs.google.com/spreadsheets/d/1OLBR3M0uV3PMSazWUYHgPeX28wllAgS4PIlJXaNu-2o/edit#gid=0). 
+Data for this figure was generated on a collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit#gid=0). Cognitive load [was measured in a different file](https://docs.google.com/spreadsheets/d/1OLBR3M0uV3PMSazWUYHgPeX28wllAgS4PIlJXaNu-2o/edit#gid=0).
 
 Reading the data csv file:
 
 ```{r}
-# library(readr)
-# scatterblob_data <- readr::read_csv("scatterblob_data.csv")
+library(readr)
+scatterblob_data <- readr::read_csv("scatterblob_data.csv")
 library(googlesheets4)
 scatterblob_data <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit?pli=1#gid=0")
 
 View(scatterblob_data)
+
 ```
 
 Creating the `my_data` object from :
@@ -56,49 +57,49 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
 # start the pdf connection and set graphical parameters
 ###############################################################
-pdf(file = "scatterblob_0.pdf", 
-    width = 8.25, 
-    height = 6, 
+pdf(file = "scatterblob_0.pdf",
+    width = 8.25,
+    height = 6,
     bg = "transparent")
-par(xpd = NA, 
-    mai = c(1.02, 1, 0.82, 4), 
+par(xpd = NA,
+    mai = c(1.02, 1, 0.82, 4),
     bty="n")
 ###############################################################
 # create the plot background
 ###############################################################
-plot(x = c(0.5, 5.5), 
-     y = c(1.75, 9.75), 
+plot(x = c(0.5, 5.5),
+     y = c(1.75, 9.75),
      xlab = "",
      ylab = "",
      col = "white",
      # "hide" the tick labels so we can put some words instead of numbers:
      col.axis = "white",
-     tck = 0.02) 
+     tck = 0.02)
 title(ylab="Technical difficulty", line=4, cex.lab=1)
 title(xlab="Degree of collaborativeness", line= 3.5, cex.lab=1)
 ###############################################################
 # add tick labels
 ###############################################################
 text(x = 1:5,
-     y = c(1, rep(1.05, 4)), 
+     y = c(1, rep(1.05, 4)),
      cex = 0.7,
-     labels = c("Personal", 
-                "Lab \nmembers", 
-                "Other \nlabs", 
-                "The \ncommunity", 
+     labels = c("Personal",
+                "Lab \nmembers",
+                "Other \nlabs",
+                "The \ncommunity",
                 "The \npublic"))
 text(x = c(1, 3, 5),
-     y = 0.5, 
+     y = 0.5,
      labels = c("Low", "Medium", "High"))
 # Technical difficulty levels from https://www.londonschool.com/level-scale/
 text(x = 0.2,
-     y = c(2, 4, 6, 8, 10), 
+     y = c(2, 4, 6, 8, 10),
      cex = 0.7,
      adj = 1,
-     labels = c("Elementary", 
-                "Low \nintermediate", 
-                "Intermediate", 
-                "Pre- \nAdvanced", 
+     labels = c("Elementary",
+                "Low \nintermediate",
+                "Intermediate",
+                "Pre- \nAdvanced",
                 "Very \nAdvanced"))
 ###############################################################
 # plot scatter blobs
@@ -121,7 +122,7 @@ for (i in seq(nrow(scatterblob_data))) {
 # add github uses text
 ###############################################################
 text(x = 5.5,
-    y = scatterblob_data$`Cognitive load`, 
+    y = scatterblob_data$`Cognitive load`,
     labels = my_data$`Ways to use GitHub`,
     adj = 0,
     col = my_colors)
@@ -139,21 +140,21 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
 # start the pdf connection and set graphical parameters
 ###############################################################
-pdf(file = "scatterblob_1.pdf", 
-    width = 8.25, 
-    height = 6, 
+pdf(file = "scatterblob_1.pdf",
+    width = 8.25,
+    height = 6,
     bg = "transparent")
-par(xpd = NA, 
-    mai = c(1.02, 1, 0.82, 4), 
+par(xpd = NA,
+    mai = c(1.02, 1, 0.82, 4),
     bty="n")
-plot(x = c(0.5, 5.5), 
-     y = c(0.5, 14), 
+plot(x = c(0.5, 5.5),
+     y = c(0.5, 14),
      xlab = "",
      ylab = "",
      col = "white",
      # "hide" the tick labels so we can put some words instead of numbers:
      col.axis = "white",
-     tck = 0.02) 
+     tck = 0.02)
 title(ylab="Technical difficulty", line=4, cex.lab=1)
 title(xlab="Degree of collaborativeness", line= 3.5, cex.lab=1)
 ###############################################################
@@ -204,7 +205,7 @@ for (i in seq(nrow(scatterblob_data))) {
 # add github uses text
 ###############################################################
 text(x = 5.5,
-    y = my_data$y, 
+    y = my_data$y,
     labels = my_data$`Ways to use GitHub`,
     adj = 0,
     col = my_colors)
@@ -215,4 +216,3 @@ dev.off()
 
 
 ![Figure 2. Degree of collaboration VS Even technical difficulty](scatterblob_1.pdf)
-
