@@ -1,0 +1,53 @@
+---
+knit: (function(input_file, encoding) {
+  out_dir <- '../content';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, '10.roles_table.md'))})
+output: 
+  md_document:
+    variant: gfm #forces table to be markdown, not html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(knitr)
+library(tidyverse) #data wrangling
+library(here) #for reproducible relative file paths
+library(flextable) #another possible table formatting package.  Can output to html, word, powerpoint, pdf.  Supports cell merging
+options(knitr.table.format = 'pipe')
+```
+
+<!--DO NOT EDIT. Generated from R/roles_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
+
+```{r wrangle, include=FALSE}
+roles <- read_csv(here("R", "collaborator_roles.csv"))
+
+roles_wide <-
+  roles %>%
+  tidyr::fill(Role, Description) %>% 
+  pivot_wider(names_from = `GitHub Feature`, values_from = `Use Case`) %>% 
+  select(Role, `GitHub repo`, README, Issue, Discussion, `Pull Request`, Fork, `GitHub Pages`) %>% 
+  mutate(across(everything(), ~replace_na(.x, "")))
+```
+
+
+```{r save-img, include=FALSE}
+#produce a png version using flextable()
+roles_table <- flextable(roles_wide) %>% 
+  valign(j=1:8, valign = "top") %>% 
+  border_outer() %>% 
+  border_inner_h() %>% 
+  border_inner_v()
+# save_as_image(roles_table, here("content", "images", "roles_hires.pdf"))  
+save_as_image(roles_table, here("content", "images", "roles.png"))
+```
+
+
+```{r roles}
+kable(roles_wide, caption = "Table: A non-exhaustive collection of ideas for how various GitHub features could be utilized for a research project. Here we have categorized contributors/collaborators into five roles. A Project Manager owns the GitHub repository for a project, and leads the academic project (e.g., lead author of a manuscript). A co-author contributes to writing and other aspects of research, but may have limited or no experience with programming, git, and/or GitHub. A code contributor writes or edits analysis code for the project. A code reviewer could be a project collaborator or a peer reviewer who reviews project code. They are familiar with coding, but not necessarily with git or GitHub (but they are willing to learn). Finally, community members could be other researchers or non-researchers interested in reproducing results, re-using code or data, or communicating with researchers involved in the project. These roles are not mutually exclusive—a co-author could also be e code contributor and code reviewer, for example. For definitions of the GitHub features, see Box 1. {#tbl:roles}")
+```
+
+<!-- An example citation of this table (Table @tbl:roles). -->
+
+
