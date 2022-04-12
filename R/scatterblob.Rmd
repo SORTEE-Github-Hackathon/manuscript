@@ -10,10 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Goal: This is a summary figure, e.g., "here are all the ways and here are the entry points with low technical difficulty, and some  for beginner s and the more advanced ways to use it".
 There are ways to use github that allows different degrees of collaboration that do not require too many technical skills.
 
-Use even notation across text and figure
-
-space out middle blobs
-labels to x and y axis
+Use even notation across text and figure:
 homogenizing titles of ways to use github
 
 ## The data
@@ -23,8 +20,8 @@ Data for this figure was generated on a collaborative [google spread sheet](http
 Reading the data csv file:
 
 ```{r}
-library(readr)
-scatterblob_data <- readr::read_csv("scatterblob_data.csv")
+#library(readr)
+#scatterblob_data <- readr::read_csv("scatterblob_data.csv")
 library(googlesheets4)
 scatterblob_data <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit?pli=1#gid=0")
 
@@ -36,11 +33,12 @@ Creating the `my_data` object from :
 
 ```{r}
 names(scatterblob_data)
-scatterblob_data$x1 <- scatterblob_data$`Degree of immediate collaborativeness X1`
-scatterblob_data$x2 <- scatterblob_data$`Degree of immediate collaborativeness X2`
-scatterblob_data$y <- scatterblob_data$`Cognitive load absolute`
+scatterblob_data$x1 <- scatterblob_data$`Min degree of collaborativeness X1`
+scatterblob_data$x2 <- scatterblob_data$`Max degree of collaborativeness X2`
+scatterblob_data$y_real <- scatterblob_data$`Cognitive load - real`
+scatterblob_data$y_seq <- scatterblob_data$`Cognitive load - sequential`
 
-my_data <- scatterblob_data[,c("Ways to use GitHub","y", "x1", "x2")]
+my_data <- scatterblob_data[,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
 my_data
 ```
 
@@ -58,8 +56,8 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 # start the pdf/png connection and set graphical parameters
 ###############################################################
 # plot_format <- "pdf"
-plot_format <- "svg"
-# plot_format <- "png"
+# plot_format <- "svg"
+plot_format <- "png"
 if (plot_format == "pdf") {
   pdf(file = "scatterblob_0.pdf",
       width = 8.25,
@@ -124,9 +122,9 @@ text(x = 0.2,
 # plot scatter blobs
 ###############################################################
 for (i in seq(nrow(scatterblob_data))) {
-  X0 <- scatterblob_data$x1[i]
-  X1 <- scatterblob_data$x2[i]
-  Y <- scatterblob_data$`Cognitive load`[i]
+  X0 <- my_data$x1[i]
+  X1 <- my_data$x2[i]
+  Y <- my_data$y_real[i]
   if (X0 == X1) {
     X0 <- X0 - 0.01
     X1 <- X1 + 0.01
@@ -141,7 +139,7 @@ for (i in seq(nrow(scatterblob_data))) {
 # add github uses text
 ###############################################################
 text(x = 5.5,
-    y = scatterblob_data$`Cognitive load`,
+    y = my_data$y_real,
     labels = my_data$`Ways to use GitHub`,
     adj = 0,
     col = my_colors)
@@ -159,9 +157,9 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
 # start the pdf/png/svg connection and set graphical parameters
 ###############################################################
-# plot_format <- "pdf"
+ plot_format <- "pdf"
 # plot_format <- "svg"
-plot_format <- "png"
+# plot_format <- "png"
 if (plot_format == "pdf") {
   pdf(file = "scatterblob_1.pdf",
       width = 8.25,
@@ -189,7 +187,7 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(0.5, 14),
+     y = c(0.5, nrow(my_data)),
      xlab = "",
      ylab = "",
      col = "white",
@@ -214,7 +212,7 @@ text(x = c(1, 3, 5),
      labels = c("Low", "Medium", "High"))
 # Technical difficulty levels from https://www.londonschool.com/level-scale/
 text(x = 0.2,
-     y = c(0, 2, 4, 6, 8, 10, 12, 14), 
+     y = c(0, 2, 4, 6, 8, 10, 12, 14, 15.5), 
      cex = 0.7,
      adj = 1,
      labels = c("Beginner",
@@ -223,7 +221,8 @@ text(x = 0.2,
                 "Pre-\nintermediate",
                 "Intermediate", 
                 "Upper\nintermediate",
-                "Pre-\nAdvanced", 
+                "Pre-\nAdvanced",
+                "Advanced",
                 "Very\nAdvanced"))
 ###############################################################
 # plot scatter blobs on sequential cognitive load
@@ -231,7 +230,7 @@ text(x = 0.2,
 for (i in seq(nrow(scatterblob_data))) {
   X0 <- my_data$x1[i]
   X1 <- my_data$x2[i]
-  Y <- my_data$y[i]
+  Y <- my_data$y_seq[i]
   if (X0 == X1) {
     X0 <- X0 - 0.01
     X1 <- X1 + 0.01
@@ -246,7 +245,7 @@ for (i in seq(nrow(scatterblob_data))) {
 # add github uses text
 ###############################################################
 text(x = 5.5,
-    y = my_data$y,
+    y = my_data$y_seq,
     labels = my_data$`Ways to use GitHub`,
     adj = 0,
     col = my_colors)
