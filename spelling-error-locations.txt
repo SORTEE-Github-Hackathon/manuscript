@@ -16,8 +16,8 @@ content/02.introduction.md:38:EEB
 content/02.introduction.md:38:hackathon
 content/02.introduction.md:39:EEB
 content/02.introduction.md:46:RCO
-content/02.introduction.md:48:repo
-content/02.introduction.md:82:RCO
+content/02.introduction.md:49:repo
+content/02.introduction.md:85:RCO
 content/03.use-cases-a.md:1:EcoEvo
 content/03.use-cases-a.md:4:Gomes
 content/03.use-cases-a.md:4:Hudgins
@@ -199,3 +199,7 @@ content/08.statements.md:3:SORTEE
 content/08.statements.md:5:RCO
 content/08.statements.md:9:Hackathon
 content/08.statements.md:9:SORTEE
+content/10.roles_table.md:3:README
+content/10.roles_table.md:3:repo
+content/10.roles_table.md:5:descritption
+content/10.roles_table.md:5:DOIs

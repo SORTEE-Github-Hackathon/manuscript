@@ -27,6 +27,7 @@ compendia
 computional
 dataset
 Département
+descritption
 DOI’s
 DOIs
 dylangomes
@@ -36,7 +37,7 @@ else’s
 emblamatic
 emmajhudgins
 ESS
-Figshare
+figshare
 findable
 Foroughirad
 Gainesville
@@ -66,7 +67,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 pargrah
 preprinting
 QCBSRworkshops

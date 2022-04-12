@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4878dcbf88f1bc507dbc1b4d524ef9b848cac0f9/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4878dcbf88f1bc507dbc1b4d524ef9b848cac0f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4878dcbf88f1bc507dbc1b4d524ef9b848cac0f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2d575e9ea2648a3c2a2d384bcaacc06ee3c67617/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2d575e9ea2648a3c2a2d384bcaacc06ee3c67617/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2d575e9ea2648a3c2a2d384bcaacc06ee3c67617/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/4878dcbf88f1bc507dbc1b4d524ef9b848cac0f9/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2d575e9ea2648a3c2a2d384bcaacc06ee3c67617/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@4878dcb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4878dcbf88f1bc507dbc1b4d524ef9b848cac0f9)
+from [SORTEE-Github-Hackathon/manuscript@2d575e9](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2d575e9ea2648a3c2a2d384bcaacc06ee3c67617)
 on April 12, 2022.
 </em></small>
 
@@ -304,7 +304,8 @@ We also provide critical perspectives on features that could be improved and cat
 
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. RCO: I think it's great. Super helpful to have these types of glossarys for github papers -->
 
--   **repository**: A collection of files (e.g. a directory) tracked by git. Commonly shortened to "repo"
+-   **repository**: A collection of files (e.g. a directory) tracked by git.
+    Commonly shortened to "repo"
 
 -   **commit**: Commits are like snapshots in the development of a project.
     Commits can include changes in multiple files and must include a brief commit message describing the changes made.
@@ -335,15 +336,12 @@ We also provide critical perspectives on features that could be improved and cat
 
 -   **merge**: Combining **commits** from two different branches together into one **branch**
 
-
+-   **Release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a repository.
+    While this GitHub feature is designed with releases of new versions of software in mind (e.g., v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.
+    
 <!-- ERS: while having a definition for all common git commands might be helpful to some, I think this box should probably only include jargon that gets used in the manuscript. So I think we should remove any definitions not used in the manuscript before submission
 Ali: I agree with ERS and delete my additions except "merge".
 RCO: Sounds good to me. This list is going to be super helpful, and we'll see if we need to remove any before submission. -->
-
-### Box 2
-
-<!--TODO: add brief text describing table here -->
-![](images/box2.png)
 
 
 
@@ -715,6 +713,45 @@ RCO was funded by the U.S. Department of Energy, Office of Science, Office of Bi
 ## Code and data availability
 
 The source code and data for this manuscript are available at https://github.com/SORTEE-Github-Hackathon/manuscript.
+
+## Figures {.page_break_before}
+
+![Overview of the GitHub web interface...](images/figure-2.png){#fig:github}
+
+<!--Here's a ref to that figure (Figure @fig:github).-->
+
+## Tables
+
+
+<!--DO NOT EDIT. Generated from R/roles_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
+
+| Role             | GitHub repo                                        | README                               | Issue                                                   | Discussion                             | Pull Request                                         | Fork                                             | GitHub Pages                                           |
+|:-----------------|:---------------------------------------------------|:-------------------------------------|:--------------------------------------------------------|:---------------------------------------|:-----------------------------------------------------|:-------------------------------------------------|:-------------------------------------------------------|
+| Project manager  | Set contributor permissions, share code of conduct | Project descritption, citation, DOIs | Assign tasks to collaborators                           | Discuss project directions and goals   | Approve and incorporate edits to code and/or writing |                                                  | Share up-to-date reports, figures, or draft manuscript |
+| Co-author        | Edit Markdown text or add files                    |                                      | Propose changes involving code (e.g. analyses, figures) | Discuss proposed changes to manuscript |                                                      |                                                  |                                                        |
+| Code contributor |                                                    |                                      | Suggest code changes                                    |                                        | Contribute changes to code, initiate code review     |                                                  | Contribute to project website                          |
+| Code reviewer    | Find all code related to a project                 |                                      | Highlight specific lines of code and make suggestions   |                                        | Review or recommended changes in code                |                                                  |                                                        |
+| Community        |                                                    |                                      | Suggest additional features and report bugs             | Ask questions about data and code      |                                                      | Create a linked, editable copy of the repository | View project website                                   |
+
+Table: A non-exhaustive collection of ideas for how various GitHub
+features could be utilized for a research project. Here we have
+categorized contributors/collaborators into five roles. A Project
+Manager owns the GitHub repository for a project, and leads the academic
+project (e.g., lead author of a manuscript). A co-author contributes to
+writing and other aspects of research, but may have limited or no
+experience with programming, git, and/or GitHub. A code contributor
+writes or edits analysis code for the project. A code reviewer could be
+a project collaborator or a peer reviewer who reviews project code. They
+are familiar with coding, but not necessarily with git or GitHub (but
+they are willing to learn). Finally, community members could be other
+researchers or non-researchers interested in reproducing results,
+re-using code or data, or communicating with researchers involved in the
+project. These roles are not mutually exclusive—a co-author could also
+be e code contributor and code reviewer, for example. For definitions of
+the GitHub features, see Box 1. {#tbl:roles}
+
+<!-- An example citation of this table (Table @tbl:roles). -->
+
 
 ## References {.page_break_before}
 
