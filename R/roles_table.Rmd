@@ -21,7 +21,7 @@ options(knitr.table.format = 'pipe')
 <!--DO NOT EDIT. Generated from R/roles_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
 
 ```{r wrangle, include=FALSE}
-roles <- read_csv(here("R", "collaborator_roles.csv"))
+roles <- read_csv(here("data", "collaborator_roles.csv"))
 
 roles_wide <-
   roles %>%
