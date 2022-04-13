@@ -50,7 +50,7 @@ gradute
 Guilan
 Guncan
 hackathon
-hackmd
+HackMD
 Hébert
 Hillemann
 Hudgins
@@ -105,4 +105,4 @@ wetlab
 Wix
 ZenHub
 ZenHub’s
-Zenodo
+zenodo
