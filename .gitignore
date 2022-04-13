@@ -42,3 +42,5 @@ Thumbs.db
 ## Text Editors
 .vscode
 .Rproj.user
+.Rhistory
+manuscript.Rproj

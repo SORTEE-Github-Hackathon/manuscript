@@ -1,0 +1,16 @@
+Ways to use GitHub,technical difficulty,Degree of immediate collaborativeness X1,Degree of immediate collaborativeness X2,Example,
+Working diaries/ blogs,1,1,1,https://github.com/BrandonEdwards/life-list,1 = present you and future you
+Storing own data/code,1,1,1,link,2 = future collaborators
+Virtual Lab notebook,2,2,4,link 1 link 2,3 = future public (people you do not know)
+Responding to reviews,4,1,3,link,4 = present collaborators
+Websites,2,2,5,https://github.com/cabinetofcuriosity,5 = present public
+Making code citable,2,1,3,,
+Course material,3,1,5,Tidy Tuesday,Difficulty
+Coding clubs,3,4,4,https://github.com/riffomonas/code_club,1 = single upload to GitHub or use exclusively of the GitHub website
+Collaborative coding,4,4,4,,2 = some push/pull/forking required
+Writing manuscript,5,2,4,https://github.com/PoisotLab/manuscript-template,3 = some markdown knowledge in addition to github
+"Open science discussions (e.g., github issues)",1,4,5,,4 = resolving conflicts
+Developing data standards,4,5,5,https://github.com/ess-dive-community,5= more complex GitHub tools like actions
+Project continuity,1,2,5,,
+Asynchronous working,4,4,4,,
+GitHub Organizations,2,5,5,https://github.com/SORTEE-Github-Hackathon,
