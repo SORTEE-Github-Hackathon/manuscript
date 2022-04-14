@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-13'
+date-meta: '2022-04-14'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-13" />
-  <meta name="citation_publication_date" content="2022-04-13" />
+  <meta name="dc.date" content="2022-04-14" />
+  <meta name="citation_publication_date" content="2022-04-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ff723df4c0a4cfafb10719a3fec25baf46a36d63/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ff723df4c0a4cfafb10719a3fec25baf46a36d63/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ff723df4c0a4cfafb10719a3fec25baf46a36d63/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ff723df4c0a4cfafb10719a3fec25baf46a36d63/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ff723df](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ff723df4c0a4cfafb10719a3fec25baf46a36d63)
-on April 13, 2022.
+from [SORTEE-Github-Hackathon/manuscript@0136964](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/013696448229c866ac60eda37fc3790fbeec2a3d)
+on April 14, 2022.
 </em></small>
 
 ## Authors
@@ -365,9 +365,13 @@ After linking your GitHub account to Zenodo and turning on archiving, any time a
 DOI's for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other fee-based hosting services (such as Dryad).
 
 ### Virtual lab notebook
-<!--*contributors to this section:* -->
-commits as a way to record daily progress
-issues as a way to keep track of short-term objectives/goals, and progress towards them
+<!--*contributors to this section: RCO* -->
+Lab notebooks have been indispensible tools for keeping track of research methods and laboratory policies [@doi:10.1186/s13321-017-0221-3].  
+Digital lab notebooks, stored in the cloud, provide clear benefits given the ease with which documents can be shared with new employees and updated as policy changes or experimental methods are modified [@doi:10.1371/journal.pcbi.1004385].  
+Increasingly, researchers are leveraging GitHub's underlying version control to keep and share digital lab notebooks [@doi:10.1038/538127a].  
+At a minimum, commit statements can provide a record of daily changes made to any code stored on GitHub [@doi:10.1186/1751-0473-8-7].  
+GitHub issues can be used to track and prioritize lab objectives and goals, as well as tracking any status updates.  
+Some EEB labs have even turned their lab notebooks into shareable websites [@url:https://scheuerell-lab.github.io/lab-book/; @url:https://github.com/HuckleyLab/how_we_work] as a centralized location for all lab resources.  
 
 ### Classroom teaching / educational materials
 <!-- *contributors to this section: Cole Brookson* -->

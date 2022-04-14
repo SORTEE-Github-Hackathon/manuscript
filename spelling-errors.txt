@@ -42,7 +42,7 @@ findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
@@ -55,6 +55,7 @@ Hébert
 Hillemann
 Hudgins
 iDiv
+indispensible
 integrations
 Interoperable
 Kaitlyn
@@ -67,7 +68,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-Ornelas
+ornelas
 pargrah
 preprinting
 QCBSRworkshops
@@ -105,4 +106,4 @@ wetlab
 Wix
 ZenHub
 ZenHub’s
-zenodo
+Zenodo
