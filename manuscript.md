@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-14'
+date-meta: '2022-04-15'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-14" />
-  <meta name="citation_publication_date" content="2022-04-14" />
+  <meta name="dc.date" content="2022-04-15" />
+  <meta name="citation_publication_date" content="2022-04-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/013696448229c866ac60eda37fc3790fbeec2a3d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@0136964](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/013696448229c866ac60eda37fc3790fbeec2a3d)
-on April 14, 2022.
+from [SORTEE-Github-Hackathon/manuscript@485b20b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/485b20be518f7f803c8449d085b105b3c697f81d)
+on April 15, 2022.
 </em></small>
 
 ## Authors
@@ -720,9 +720,13 @@ The source code and data for this manuscript are available at https://github.com
 
 ## Figures {.page_break_before}
 
-![Overview of the GitHub web interface...](images/figure-2.png){#fig:github}
+![An overview of the features of a GitHub repository. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities. D) CONTRIBUTING.md, LICENCE.md, & README.md files can allow new team members or others wanting to use materials to understand the project components and learn how they can engage with the project and existing team members.](images/github_diagram.png){#fig:github-diagram}
 
-<!--Here's a ref to that figure (Figure @fig:github).-->
+<!--Reference this figure in text like this (Figure @fig:github-diagram).-->
+
+![A summary of ways GitHub can be used showing technical difficulty and degree of collaborativity for each. Activities higher on the vertiucal axis require usage knowledge of more GitHub features than activities lower on the axis.  On the horizontal axis, each activity spans a region representing who is potentially involved with or benefits from each activity.  For example, storing data and code mainly benefits individual researchers or members of a lab group while making data and code citable and reproducible benefit other labs and the larger community as well. Independently of a users knowledge level of GitHub features, there are ways to use GitHub that allow tapping unto one of the most salient benefits of the platform: facilitating and enhancing collaboration.](images/scatterblob_1.png){#fig:scatterblob}
+
+<!--Reference this figure in text like this (Figure @fig:scatterblob).-->
 
 ## Tables
 

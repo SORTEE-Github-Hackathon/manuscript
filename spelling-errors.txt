@@ -22,6 +22,7 @@ citable
 CLI
 colebrookson
 collaboartive
+collaborativity
 commiting
 compendia
 computional
@@ -50,7 +51,7 @@ gradute
 Guilan
 Guncan
 hackathon
-HackMD
+hackmd
 Hébert
 Hillemann
 Hudgins
@@ -99,11 +100,12 @@ taxize
 togther
 tradeoffs
 Université
+vertiucal
 vforoughirad
 vjf
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 ZenHub’s
 Zenodo
