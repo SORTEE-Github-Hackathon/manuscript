@@ -56,7 +56,9 @@ The directories and main files are as follows:
 + [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
 + [`CONTRIBUTING.md`](CONTRIBUTING.md) contains procedures and directions for prospective authors to contribute to this manuscript.
 + [`USAGE.md`](USAGE.md) contains a getting started with Git guidelines, information on formatting text, citing references, adding figures and tables, and other manuscript editing.
-+ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
++ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references and figures.
++ [`R`](R) contains R scripts and RMarkdown documents used to generate some of the figures and tables.
++ [`data`](data) contains .csv files with raw data used in generating some figures and tables.
 + [`output`](output) (and the `output` and `gh-pages` branches) contains the outputs (generated files) from Manubot including the resulting manuscript files (in `HTML`, `PDF`, and other formats).
   You should not edit these files manually, because they will be overwritten by the Manubot.
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
@@ -77,6 +79,8 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 + **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
+
+**NOTE**: Currently the CI build process does not run and render R Markdown documents.  For full reproducibility, files in `/R/` need to be 'knit' manually to generate some files needed to build the complete manuscript.
 
 ## License
 

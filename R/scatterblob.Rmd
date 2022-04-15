@@ -5,6 +5,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(googlesheets4)
+library(here)
+library(readr)
 ```
 
 Goal: This is a summary figure, e.g., "here are all the ways and here are the entry points with low technical difficulty, and some  for beginner s and the more advanced ways to use it".
@@ -20,13 +23,8 @@ Data for this figure was generated on a collaborative [google spread sheet](http
 Reading the data csv file:
 
 ```{r}
-#library(readr)
-#scatterblob_data <- readr::read_csv("scatterblob_data.csv")
-library(googlesheets4)
-scatterblob_data <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit?pli=1#gid=0")
-
-View(scatterblob_data)
-
+scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
+# View(scatterblob_data)
 ```
 
 Creating the `my_data` object from :
@@ -44,6 +42,9 @@ my_data
 
 
 ## Plotting the data
+```{r}
+outpath <- here("content", "images")
+```
 
 
 ### First try
@@ -55,23 +56,24 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
 # start the pdf/png connection and set graphical parameters
 ###############################################################
-# plot_format <- "pdf"
+plot_format <- "pdf"
 # plot_format <- "svg"
-plot_format <- "png"
+# plot_format <- "png"
+
 if (plot_format == "pdf") {
-  pdf(file = "scatterblob_0.pdf",
+  pdf(file = here(outpath, "scatterblob_0.pdf"),
       width = 8.25,
       height = 6,
       bg = "transparent")  
 }
 if (plot_format == "svg") {
-  svg(filename = "scatterblob_0.svg",
+  svg(filename = here(outpath, "scatterblob_0.svg"),
       width = 8.25,
       height = 6,
       bg = "transparent")  
 }
 if (plot_format == "png") {
-  png(file = "scatterblob_0.png",
+  png(file = here(outpath, "scatterblob_0.png"),
       width = 8.25,
       height = 6,
       units = "in",
@@ -157,23 +159,24 @@ my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
 ###############################################################
 # start the pdf/png/svg connection and set graphical parameters
 ###############################################################
- plot_format <- "pdf"
-# plot_format <- "svg"
+plot_format <- "pdf"
 # plot_format <- "png"
+# plot_format <- "svg"
+
 if (plot_format == "pdf") {
-  pdf(file = "scatterblob_1.pdf",
+  pdf(file = here(outpath, "scatterblob_1.pdf"),
       width = 8.25,
       height = 6,
       bg = "transparent")  
 }
 if (plot_format == "svg") {
-  svg(filename = "scatterblob_1.svg",
+  svg(filename = here(outpath, "scatterblob_1.svg"),
       width = 8.25,
       height = 6,
       bg = "transparent")  
 }
 if (plot_format == "png") {
-  png(file = "scatterblob_1.png",
+  png(file = here(outpath, "scatterblob_1.png"),
       width = 8.25,
       height = 6,
       units = "in",
