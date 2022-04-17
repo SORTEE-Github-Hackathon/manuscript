@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-15'
+date-meta: '2022-04-17'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-15" />
-  <meta name="citation_publication_date" content="2022-04-15" />
+  <meta name="dc.date" content="2022-04-17" />
+  <meta name="citation_publication_date" content="2022-04-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/485b20be518f7f803c8449d085b105b3c697f81d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@485b20b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/485b20be518f7f803c8449d085b105b3c697f81d)
-on April 15, 2022.
+from [SORTEE-Github-Hackathon/manuscript@045f811](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/045f811c6820c4e6c8d69923e1cbd19564742ff7)
+on April 17, 2022.
 </em></small>
 
 ## Authors
@@ -702,11 +702,11 @@ Moreover. It seems there are sometimes unwritten roles that need to be explored 
 | 10. **Get help deciphering GitHub Notifications.** Try using tools like [Octobox](https://octobox.io/) to disentangle and manage multiple notifications from distinct GitHub projects. |
 
 ## Conclusion  
-We provide 13 practical ways that Ecologists and Evolutionary Biologists can incorporate GitHub into their workflows.  
-GitHub is still an emerging platform for many working in EEB, and so we include definitions (Box 1) and key user groups (Box 2) that can help researchers prioritize which GitHub skills to learn first.  
-Some of the ways we outline for using GitHub are highly collaborative (e.g., open science discussion and collaborative code editing) while others are focused on individual actions (e.g., storing code/data, building a website).  
-Regardless of the degree of immediate collaboration, adoption of GitHub in Ecology and Evolution has the potential to make the field more open and transparent than ever before.  
-Our paper provides the most comprehensive review of applications of GitHub within EEB to date, and we encourage EEB researchers at any career stage studying any topic to try GitHub as a platform for sharing and collaboration.  
+We provide 13 practical ways that Ecologists and Evolutionary Biologists can incorporate GitHub into their research workflows.  
+GitHub is still an emerging platform for many working in EEB, and so we include definitions (Box 1) and key user groups (Figure 1) that can help researchers prioritize which GitHub skills to learn first.  
+Some GitHub uses are highly collaborative (e.g., open science discussion and collaborative code editing) while others are focused on individual actions (e.g., storing code/data, building a website).  
+Regardless of the degree of collaboration, GitHub use in Ecology and Evolution has the potential to make the field more open and transparent than ever before.  
+Our paper provides the most comprehensive review of how EEB researchers can use GitHub to date, and we encourage EEB researchers at any career stage studying any topic to try GitHub as a platform for sharing and collaboration.  
 
 ## Acknowledgements
 

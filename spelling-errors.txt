@@ -38,7 +38,7 @@ else’s
 emblamatic
 emmajhudgins
 ESS
-figshare
+Figshare
 findable
 Foroughirad
 Gainesville
@@ -69,7 +69,7 @@ Octobox
 OneDrive
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 pargrah
 preprinting
 QCBSRworkshops
@@ -108,4 +108,4 @@ wetlab
 Wix
 Zenhub
 ZenHub’s
-Zenodo
+zenodo
