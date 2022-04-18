@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-17'
+date-meta: '2022-04-18'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-17" />
-  <meta name="citation_publication_date" content="2022-04-17" />
+  <meta name="dc.date" content="2022-04-18" />
+  <meta name="citation_publication_date" content="2022-04-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1a6aade647fc8d95ba42db2a65319608c63dc951/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1a6aade647fc8d95ba42db2a65319608c63dc951/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1a6aade647fc8d95ba42db2a65319608c63dc951/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/045f811c6820c4e6c8d69923e1cbd19564742ff7/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1a6aade647fc8d95ba42db2a65319608c63dc951/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@045f811](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/045f811c6820c4e6c8d69923e1cbd19564742ff7)
-on April 17, 2022.
+from [SORTEE-Github-Hackathon/manuscript@1a6aade](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1a6aade647fc8d95ba42db2a65319608c63dc951)
+on April 18, 2022.
 </em></small>
 
 ## Authors
@@ -401,7 +401,7 @@ Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel,
 
 ### Project management
 
-*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
+<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
 
 GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems (Figure 2).
 The "Issues" feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels. 
@@ -416,7 +416,7 @@ GitHub is currently beta testing a similar project management feature called [Gi
 
 ### Building website
 
-*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*   
+<!--*Contributors to this section: Rob Crystal-Ornelas, Emma J. Hudgins*-->   
 It is now common for many scientists to have personal, project, or lab websites (hereafter, personal websites) to share and promote their work.  
 There are many options for creating and hosting websites.  
 Some sites are built through a point-and-click user interface that requires no coding experience, but these services tend to have monthly or annual fees (e.g., Wix, Squarespace, Wordpress).  
@@ -431,7 +431,7 @@ Both of these tools require some additional learning because they are deployed v
 
 ### Making code citable
 
-*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins, Dylan Gomes*  
+<!--*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins, Dylan Gomes*-->  
 GitHub makes it easy to store and share a variety of data files in the cloud. 
 If a repository is made "public" the URL to the repository can be shared freely with others.
 However, for a variety of reasons (e.g., privately owned company, ability to make repositories private, accounts can be deleted at will) GitHub is not considered a long-term data or code repository like [zenodo](https://zenodo.org/) and [figshare](https://figshare.com/) [@doi:10.1038/538127a; @doi:10.1371/journal.pcbi.1004947]. 
@@ -462,7 +462,7 @@ If you do not wish to receive attribution and are open to private use, consider 
 
 ### Collaborative (code) editing
 
-*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*
+<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
 
 From its inception, one of the primary uses of GitHub has been for collaborative coding.
 We acknowledge that there are important differences between the average software developer and ecology/evolution researcher using GitHub, and that not all GitHub collaboration features are optimal for research purposes.
@@ -477,16 +477,30 @@ Periodic code review can also help advisors to identify errors early in the proc
 
 ### Writing manuscript
 
-*contributors to this section:*\
-Caveat that GitHub has been called out for not being so user-friendly for manuscript development (Ram 2013).
-But getting better?
-Tools that link with GitHub have been developed with synchronous writing in mind.
-HackMD provides a collaborative writing platform based on Markdown that integrates with GitHub.\
-We used this platform early on in the process of writing this manuscript to generate an outline.
+<!--*contributors to this section:* Emma J. Hudgins-->
 
-Later, we wrote the manuscript by Manubot, which is one of the important collaborative manuscript platform uses Markdown for writing and GitHub for storing and tracking changes over time [@https://doi.org/10.1371/journal.pcbi.1007128]
+Beyond supporting collaboration at the level of code, GitHub can even be used for collaborative writing of manuscripts. 
+Writing a manuscript in GitHub and storing it with associated data and code all in the same repository increases scientific reproducibility because files associated with a manuscript can be found in one place.
+Co-authors can contribute new text to a manuscript or suggest revisions through GitHub's robust pull request feature which provides a sentence-by-sentence view of all proposed changes.
+Further, authors can make use of the Discussions tab to suggest relevant papers to be cited, and can raise issues during the writing process that can be assigned to collaborators.
 
-Recently, more manuscripts were written on GitHub via Manubot(see examples <https://manubot.org/catalog/>)
+While GitHub is not considered as user-friendly for manuscript development as conventional word processors [@doi:10.1186/1751-0473-8-7], it has been substantially improved with recent tools.
+Manuscripts can be written on GitHub with Mardown which is a simple, easy to learn markup language that helps users format and stylize plain text documents.
+Add-ons like [HackMD](https://hackmd.io), can enable real-time collaboration like Google Docs for individual Markdown documents.
+We used HackMD early in the process of writing this manuscript to generate an outline.
+Many tools exist for extending Markdown and Pandoc to add formatting features necessary for scietnific writing like in-text citations and figure and table cross references.
+
+We wrote this manuscript using Manubot, a collaborative manuscript platform that uses Markdown for writing and GitHub for storing and tracking changes to a manuscript over time [@https://doi.org/10.1371/journal.pcbi.1007128]. 
+Manubot uses a GitHub Actions-based typesetting system to compile individual Markdown files stored in a GitHub repository into a single LaTeX document, which can be displayed in Word, HTML, or PDF formats.
+The resulting manuscript can also be compiled using a journal's .tex template to match their formatting requirements.
+Since this tool reruns the entire manuscript compilation process with any change to the underlying repository, it can also accomodate continuous integration of code updates into figures and tables with additional GitHub Actions (as we have done in this manuscript).
+Manubot also allows for straightforward citation management based on URLs or DOIs. 
+Manubot is being used for an increasing number of manuscripts (see examples <https://manubot.org/catalog>).
+
+Since Manubot works on documents in a distributed format, it can be difficult to edit manuscripts for overall flow with only this tool.
+We employed [hypothes.is](https://hypothes.is) to write comments on the HTML manuscript document produced by Manubot, which we then addressed by committing changes to the underlying Markdown files via pull requests. 
+Other authors can reply to the comments to indicate agreement or disagreement, and to note when changes have been made.
+Other tools can also be used for version control of scientific manuscripts including R Markdown via the bookdown package [@https://bookdown.org/], jupyter notebooks [@doi:10.1038/s42005-020-00403-4] and a relatively new tool, Quarto [@https://quarto.org].
 
 ### Peer-Review
 
