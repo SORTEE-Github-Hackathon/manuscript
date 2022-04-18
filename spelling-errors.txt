@@ -22,6 +22,8 @@ CERN
 cheatsheet
 citable
 CLI
+Colab
+colalboration
 colebrookson
 collaboartive
 collaborativity
@@ -41,11 +43,11 @@ emblamatic
 emmajhudgins
 ESS
 figshare
-findable
+Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
@@ -53,7 +55,7 @@ gradute
 Guilan
 Guncan
 hackathon
-hackmd
+HackMD
 Hébert
 Hillemann
 Hudgins
@@ -75,7 +77,8 @@ OneDrive
 ons
 OpenAIRE
 Ordu
-ornelas
+Ornelas
+OSF
 Pandoc
 pargrah
 preprinting
@@ -109,11 +112,12 @@ togther
 tradeoffs
 Université
 vertiucal
+Vesion
 vforoughirad
 vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
 Zenodo
