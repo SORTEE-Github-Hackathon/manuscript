@@ -1,0 +1,14 @@
+﻿Guild,Software,Vesion control,Backup (cloud),Passive collaboration,Active real-time colalboration,Free $,Permanent (DOI),Storage limits,GitHub Integration
+Multi-tool,GitHub,yes,yes,yes,,Broadly limited free version. Advanced features are provided for free to students and education professionals.,"A DOI can only be obtained when integrating to other services that can mint DOI (e.g. Zenodo, OSF).","100MB per file, 500MB per private repo (2GB for paid accounts). 100GB for public repos. Larger files (up to 2GB) can be attached to releases",NA
+Multi-tool,OSF,yes,yes,yes,yes,yes,yes,"25GB for private projects, up to 5GB per file, plus partner add-ons, 50GB for public projects",yes
+Long-term (public) data repositories,PANGAEA,yes,yes,yes,,yes,yes,10 GB free,
+Long-term (public) data repositories,Zenodo,after published,after published,,,yes,yes,50 GB per dataset,yes
+Long-term (public) data repositories,Dryad,after published,after published,,,some journals cover cost,yes,300 GB per publication,Can link to individual files (not entire repo); not really integrated
+Long-term (public) data repositories,Figshare,yes,yes,yes,,yes,yes,"20 GB free, up to 5 TB",yes
+Temporary (personal) drive storage,Google Drive,yes,yes,yes,yes,limited free version & paid,,"15GB free, up to 100GB with Google One",yes
+Temporary (personal) drive storage,Box,limited,yes,?,?,,,Unlimited total size for subscription,yes
+Temporary (personal) drive storage,DropBox,limited,yes,yes,yes,limited free version & paid,,2GB free,yes
+Temporary (personal) drive storage,OneDrive and the Office Suite,yes,yes,yes,yes,limited free version & paid,,"5 GB free, up to 1TB paid",yes
+Collaborative code/text editors,Overleaf (online latex editor),yes,yes,yes,,,,"1MB for individual .tex, 50MB for individual files, unlimited project size",yes
+Collaborative code/text editors,Jupyter Notebook,yes,?,yes,with Colab,yes,,"via Binder: no hard limit, but suggests no files >100MB, can also store on GitHub or Google Colab",yes
+Collaborative code/text editors,HackMD,yes,yes,yes,yes,yes,,"3 documents free, private invitee limits",yes
