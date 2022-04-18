@@ -1,6 +1,5 @@
 content/00.front-matter.md:4:Pandoc
 content/00.front-matter.md:8:citable
-content/01.abstract.md:3:computional
 content/02.introduction.md:8:OneDrive
 content/02.introduction.md:10:EEB
 content/02.introduction.md:13:RCO
@@ -49,7 +48,6 @@ content/04.use-cases-b.md:5:Gaynor
 content/04.use-cases-b.md:5:Kaitlyn
 content/04.use-cases-b.md:5:Ornelas
 content/04.use-cases-b.md:14:ZenHub
-content/04.use-cases-b.md:15:togther
 content/04.use-cases-b.md:15:ZenHub
 content/04.use-cases-b.md:15:ZenHub's
 content/04.use-cases-b.md:16:bGitHub
@@ -120,7 +118,6 @@ content/05.use-cases-c.md:39:EEB
 content/05.use-cases-c.md:41:EEB
 content/05.use-cases-c.md:42:reproducibility
 content/05.use-cases-c.md:47:Binley
-content/05.use-cases-c.md:54:seemlessly
 content/05.use-cases-c.md:63:else's
 content/05.use-cases-c.md:63:hackathon
 content/05.use-cases-c.md:63:sortee

@@ -29,7 +29,6 @@ collaboartive
 collaborativity
 commiting
 compendia
-computional
 dataset
 Département
 descritption
@@ -42,12 +41,12 @@ else’s
 emblamatic
 emmajhudgins
 ESS
-figshare
+Figshare
 Findable
 Foroughirad
 Gainesville
 Gaynor
-gists
+Gists
 GitKraken
 GitLab
 Gomes
@@ -64,7 +63,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -100,7 +99,6 @@ Sabet
 Saeed
 SaeedSHSABET
 scietnific
-seemlessly
 Shafiei
 shafieisabets
 Sherbrooke
@@ -108,7 +106,6 @@ SORTEE
 Sowmeh
 Squarespace
 taxize
-togther
 tradeoffs
 Université
 vertiucal

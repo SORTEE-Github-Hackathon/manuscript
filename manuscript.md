@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/798dd3ab3b8af3ddc3975c06940921c06020e7a2/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/798dd3ab3b8af3ddc3975c06940921c06020e7a2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/798dd3ab3b8af3ddc3975c06940921c06020e7a2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c62658f6c56e9927ae69f6b521eb13cd4e00cb2e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c62658f6c56e9927ae69f6b521eb13cd4e00cb2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c62658f6c56e9927ae69f6b521eb13cd4e00cb2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/798dd3ab3b8af3ddc3975c06940921c06020e7a2/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c62658f6c56e9927ae69f6b521eb13cd4e00cb2e/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@798dd3a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/798dd3ab3b8af3ddc3975c06940921c06020e7a2)
+from [SORTEE-Github-Hackathon/manuscript@c62658f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c62658f6c56e9927ae69f6b521eb13cd4e00cb2e)
 on April 18, 2022.
 </em></small>
 
@@ -248,7 +248,7 @@ on April 18, 2022.
 
 ## Abstract {.page_break_before}
 
-Ecological and evolutionary researchers have become critically dependent on computional code to achieve scientific elaboration.
+Ecological and evolutionary researchers have become critically dependent on computational code to achieve scientific elaboration.
 With this, the use of efficient forms to collaborate, share and reproduce code has become fundamental. 
 GitHub is an online, cloud-based service that can help researchers to track, organize, discuss, share and collaborate on software and code.
 While scientists in natural sciences have been encouraged to use GitHub, its adoption is not widespread due to the lack of domain-specific information and guidelines.
@@ -302,7 +302,7 @@ We also provide critical perspectives on features that could be improved and cat
 
 <!-- Contributors to this section: ERS, Ali -->
 
-<!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. RCO: I think it's great. Super helpful to have these types of glossarys for github papers -->
+<!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. RCO: I think it's great. Super helpful to have this type of glossary for github papers -->
 
 -   **repository**: A collection of files (e.g. a directory) tracked by git.
     Commonly shortened to "repo"
@@ -392,10 +392,6 @@ Student submissions are perhaps the least seamless component, but for assignment
 The previous section is meant to highlight the myriad tools GitHub can provide to centralize the delivery of educational materials.
 While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even *begin* learning about version control through interacting with git/GitHub, however minimally, through the course.  
 There are (as always) no "points" awarded for using ALL GitHub materials ALL the time, but if a central tenant of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
- 
-<!-- May want to incorporate the below citation into section on GitHub for teaching-->
-<!--
-Matthew D. Beckman, Mine Çetinkaya-Rundel, Nicholas J. Horton, Colin W. Rundel, Adam J. Sullivan & Maria Tackett (2021) Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses, Journal of Statistics and Data Science Education, 29:sup1, S132-S144, DOI: 10.1080/10691898.2020.1848485 -->
 
 ## GitHub in EcoEvo examples (Part 2)
 
@@ -411,7 +407,7 @@ The use of GitHub for all project-related conversation and planning, rather than
 This is because unlike emails and messages which can get lost as more new tasks arise, GitHub issues exist until they are intentionally closed by repository administrators.
 Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
 For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests. 
-ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks as well as link issues togther when they are related to a shared project goal or milestone.
+ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks as well as link issues together when they are related to a shared project goal or milestone.
 GitHub is currently beta testing a similar project management feature called [GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects). GitHub can bGitHub can also be integrated with other project management software like Slack or Zenhub.
 
 ### Building website
@@ -567,7 +563,7 @@ Github served as an excellent environment for asynchronous communication and col
 Researchers can easily collaborate without being in same place and time.
 
 One of the most useful aspects of Github is its propensity to facilitate remote and asynchronous collaboration. 
-Researchers can seemlessly access and contribute to data and code regardless of disparities in schedules or location. 
+Researchers can seamlessly access and contribute to data and code regardless of disparities in schedules or location. 
 This is particularly important given the increase in remote work in recent years, but the benefits can also extend far beyond the "work from home" model. 
 Improving remote collaboration can encourage the exchange of ideas among researchers at different institutions and in different countries, which can serve to improve the quality of the research itself. 
 Researchers can work directly with experts from all over the world, who have access to the same data and code as they do. 
@@ -587,19 +583,19 @@ The [version control](https://sortee-github-hackathon.github.io/manuscript/v/lat
 *Contributors to this section: Katherine Hébert, Cole Brookson*
 
 Whether experiments are done in a wetlab, data are gathered in a field site, or analyses are run in a shared office, even conceptually distinct projects are often carried out in a common physical space. 
-GitHub Organisations offer a shared virtual space that allows a team to work in different repositories, while remaining tied together under a larger figurehead, such as a laboratory, a department, an organisation, or a large project involving several teams. 
-Organisations are well-suited to ensure larger projects with many steps or moving parts are constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on any one individual. 
+GitHub Organizations offer a shared virtual space that allows a team to work in different repositories, while remaining tied together under a larger figurehead, such as a laboratory, a department, an organization, or a large project involving several teams. 
+Organizations are well-suited to ensure larger projects with many steps or moving parts are constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on any one individual. 
 Because the repositories are grouped in one virtual space, members can reference and contribute to each other's work without necessarily being part of the same repository, broadening the accessibility and longevity of code and writing contributions. 
 
-Contributors can be assembled into teams within an organisation, which allows administrators to assign roles and tasks to groups of people. 
+Contributors can be assembled into teams within an organization, which allows administrators to assign roles and tasks to groups of people. 
 Whereas access to repositories is usually assigned to individual contributors, Organizations facilitate the management of access permissions by allowing each team to be granted access to certain repositories, and not to others. 
 This ensures that more sensitive repositories remain as restricted as needed, while repositories with greater general interest can be easily accessible to many members at once.
 
 As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues. 
 In this way, students or teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on (or upgraded their computers). 
 This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the [German Centre for Integrative Biodiversity Research (iDiv)](https://github.com/idiv-biodiversity).
-Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organisation, presentation, and outcomes of working groups such as the hackathon which inspired this paper ([SORTEE-Github-Hackathon](https://github.com/SORTEE-Github-Hackathon)) by keeping track of all materials as ideas develop and take shape in one virtual space.
-Organisations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series ([QCBSRworkshops](https://github.com/QCBSRworkshops)) or the University of Edinburgh's Coding Club ([Coding Club](https://github.com/ourcodingclub)), which may be updated by an ever-evolving group of contributors over time.
+Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organization, presentation, and outcomes of working groups such as the hackathon which inspired this paper ([SORTEE-Github-Hackathon](https://github.com/SORTEE-Github-Hackathon)) by keeping track of all materials as ideas develop and take shape in one virtual space.
+Organizations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series ([QCBSRworkshops](https://github.com/QCBSRworkshops)) or the University of Edinburgh's Coding Club ([Coding Club](https://github.com/ourcodingclub)), which may be updated by an ever-evolving group of contributors over time.
 
 Utilizing GitHub organizations as a research group or even for a handful of individuals working on a group of projects can be incredibly useful for all involved. 
 GitHub organizations are relatively easy to set up, and especially easy to manage as membership to the organization changes through time. 
