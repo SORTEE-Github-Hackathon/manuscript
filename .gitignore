@@ -44,3 +44,6 @@ Thumbs.db
 .Rproj.user
 .Rhistory
 manuscript.Rproj
+
+## Adding editorial communication generated HTML
+editorial-communication/**.html

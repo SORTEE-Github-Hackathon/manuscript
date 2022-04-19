@@ -1,10 +1,11 @@
 name: Rendering Editorial Communication Material
 on:
   push:
-    branches:
-       - main
     paths:
        - editorial-communication/**
+  pull_request:
+    paths:
+       - editorial-communication/**  
 
 jobs:
   editorial-communication-rendering:
