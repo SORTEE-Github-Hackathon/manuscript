@@ -11,14 +11,6 @@ output:
 ```{r include=FALSE}
 knitr::opts_chunk$set(fig.retina = 2)
 ```
-
-```{r ipsum_setup, message=FALSE, warning=FALSE, cache=FALSE, echo=FALSE}
-library(hrbrthemes)
-library(tidyverse)
-
-update_geom_font_defaults(font_rc)
-```
-
 Dear Editor,
 
 We would like to submit our manuscript entitled “Not just for programmers: A friendly guide on the versatility of GitHub for accelerating collaborative research in Ecology and Evolution” for consideration to be published in OUR_CHOICE_OF_JOURNAL. 
