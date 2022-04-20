@@ -43,15 +43,15 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-gists
+Gists
 GitKraken
 GitLab
 Gomes
 gradute
 Guilan
 Guncan
-Hackathon
-hackMD
+hackathon
+hackmd
 Hébert
 Hudgins
 hypothes
@@ -112,6 +112,6 @@ vjf
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 ZenHub’s
 Zenodo

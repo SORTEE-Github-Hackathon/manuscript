@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39179adb21cdb4263746d0770a1dcf9977affeb3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39179adb21cdb4263746d0770a1dcf9977affeb3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39179adb21cdb4263746d0770a1dcf9977affeb3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c3f150c4bd089a92ead4d11a122720635b3da1a4/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c3f150c4bd089a92ead4d11a122720635b3da1a4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c3f150c4bd089a92ead4d11a122720635b3da1a4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/39179adb21cdb4263746d0770a1dcf9977affeb3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c3f150c4bd089a92ead4d11a122720635b3da1a4/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@39179ad](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/39179adb21cdb4263746d0770a1dcf9977affeb3)
+from [SORTEE-Github-Hackathon/manuscript@c3f150c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c3f150c4bd089a92ead4d11a122720635b3da1a4)
 on April 20, 2022.
 </em></small>
 
@@ -720,13 +720,14 @@ Our paper provides the most comprehensive review of how EEB researchers can use 
 
 ## Acknowledgements
 
-This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in 2020.
+This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021.
 
 RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231. 
 
 ## Code and data availability
 
 The source code and data for this manuscript are available at https://github.com/SORTEE-Github-Hackathon/manuscript.
+
 
 ## Figures {.page_break_before}
 
