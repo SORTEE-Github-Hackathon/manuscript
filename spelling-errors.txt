@@ -43,15 +43,15 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
 gradute
 Guilan
 Guncan
-hackathon
-HackMD
+Hackathon
+hackMD
 Hébert
 Hudgins
 hypothes
@@ -59,7 +59,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -72,7 +72,7 @@ OneDrive
 ons
 OpenAIRE
 Ordu
-Ornelas
+ornelas
 OSF
 Pandoc
 pargrah
