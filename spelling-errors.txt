@@ -23,9 +23,7 @@ CLI
 Colab
 colalboration
 colebrookson
-collaboartive
 collaborativity
-commiting
 compendia
 dataset
 Département
@@ -35,7 +33,6 @@ dylangomes
 EcoEvo
 EEB
 else’s
-emblamatic
 emmajhudgins
 ESS
 Figshare
@@ -43,15 +40,14 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
-gradute
 Guilan
 Guncan
-hackathon
-hackmd
+Hackathon
+HackMD
 Hébert
 Hudgins
 hypothes
@@ -59,7 +55,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -75,7 +71,6 @@ Ordu
 ornelas
 OSF
 Pandoc
-pargrah
 preprinting
 QCBSRworkshops
 Québec
@@ -94,6 +89,7 @@ RStudio
 Sabet
 Saeed
 SaeedSHSABET
+scatterblob
 scietnific
 Shafiei
 shafieisabets
@@ -101,9 +97,11 @@ Sherbrooke
 SORTEE
 Sowmeh
 Squarespace
+synch
 taxize
 togther
 tradeoffs
+transferrable
 Université
 vertiucal
 Vesion
@@ -112,6 +110,6 @@ vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
 Zenodo
