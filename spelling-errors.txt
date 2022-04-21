@@ -40,14 +40,14 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-gists
+Gists
 GitKraken
 GitLab
 Gomes
 Guilan
 Guncan
-Hackathon
-HackMD
+hackathon
+hackMD
 Hébert
 Hudgins
 hypothes
@@ -68,7 +68,7 @@ OneDrive
 ons
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 preprinting
@@ -110,6 +110,6 @@ vjf
 webpage
 wetlab
 Wix
-ZenHub
+Zenhub
 ZenHub’s
 Zenodo
