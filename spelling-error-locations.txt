@@ -14,12 +14,13 @@ content/02.introduction.md:35:hackathon
 content/02.introduction.md:35:sortee
 content/02.introduction.md:35:SORTEE
 content/02.introduction.md:36:EEB
+content/02.introduction.md:36:EEB
 content/02.introduction.md:37:EEB
 content/02.introduction.md:37:hackathon
 content/02.introduction.md:38:EEB
-content/02.introduction.md:46:RCO
-content/02.introduction.md:49:repo
-content/02.introduction.md:86:RCO
+content/02.introduction.md:45:RCO
+content/02.introduction.md:48:repo
+content/02.introduction.md:60:RCO
 content/03.use-cases-a.md:1:EcoEvo
 content/03.use-cases-a.md:4:Gomes
 content/03.use-cases-a.md:4:Hudgins
