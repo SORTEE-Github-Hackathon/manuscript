@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cae8e4c18b9be9e56f3e9bda476c5281f5ebf9d2/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cae8e4c18b9be9e56f3e9bda476c5281f5ebf9d2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cae8e4c18b9be9e56f3e9bda476c5281f5ebf9d2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4144ba8d5d0c81cb21d1686511fd8a62fb295c38/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4144ba8d5d0c81cb21d1686511fd8a62fb295c38/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4144ba8d5d0c81cb21d1686511fd8a62fb295c38/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +132,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cae8e4c18b9be9e56f3e9bda476c5281f5ebf9d2/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4144ba8d5d0c81cb21d1686511fd8a62fb295c38/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/cae8e4c18b9be9e56f3e9bda476c5281f5ebf9d2">SORTEE-Github-Hackathon/manuscript@cae8e4c</a>
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4144ba8d5d0c81cb21d1686511fd8a62fb295c38">SORTEE-Github-Hackathon/manuscript@4144ba8</a>
 on April 21, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -332,14 +332,15 @@ RCO: Sounds good to me. This list is going to be super helpful, and we'll see if
 <h2 id="github-in-ecoevo-examples">GitHub in EcoEvo Examples</h2>
 <h3 id="storing-and-archiving-version-controlled-data">Storing and archiving version-controlled data</h3>
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
-<p>Many researchers often start their use of GitHub to backup their working data and code to a remote server (Just push and pull, see Box <span class="citation" data-cites="box:box-1-definitions">[<a href="#ref-box:box-1-definitions" role="doc-biblioref"><strong>box:box-1-definitions?</strong></a>]</span>, from their own repo).
-This saves the user time from backing up data and code on their own portable devices, such as hard drives.
+<p>Many researchers often start their use of GitHub to backup their working code and data to a remote server (Just push and pull, see Box <span class="citation" data-cites="box:box-1-definitions">[<a href="#ref-box:box-1-definitions" role="doc-biblioref"><strong>box:box-1-definitions?</strong></a>]</span>, from their own repo).
+This saves the user time from backing up code on their own portable devices, such as hard drives.
 This also offers some peace of mind, as this information is retrievable even if one’s laptop ends up at the bottom of a lake.
 Thus, an additional benefit of this ‘cloud’ storage is that one’s GitHub repository can be accessed by any machine with internet access, allowing the user to be more mobile if they wish to both work from home and the office from different computers.
 Each time a user pushes changes to their repository, GitHub tracks what these changes are and stores this history.
-This feature allows for version control, such that users can re-visit previous versions of data and code.
+This feature allows for version control, such that users can re-visit previous versions code.
 Version control is particularly useful if a mistake has been made where a user has unknowingly overwritten or deleted information that would otherwise be irretrievable without GitHub having saved that information.</p>
-<p>An even easier way to start using Github is for the archival of cleaned code and data, often accompanying preprinting, manuscript submission, or manuscript acceptance.
+<p>Although common, data (as opposed to code) storage on GitHub is actually discouraged as the platform is explicitly about sharing code. Commits (see Box <span class="citation" data-cites="box:box-1-definitions">[<a href="#ref-box:box-1-definitions" role="doc-biblioref"><strong>box:box-1-definitions?</strong></a>]</span>) greater than 50 MB receive a warning and there is a hard block on commits larger than 100 MB (https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Large datasets therefore may not be able to pushed up to GitHub repositories. Data greater than 50 MB can be stored in any one of many data repositories that can be integrated or linked with GitHub (e.g. osf.io) or one can make use of large file storage from GitHub (https://git-lfs.github.com/; which may have some costs associated with it).</p>
+<p>An even easier way to start using Github is for the archival of cleaned code and data (less than 50 MB in size), often accompanying preprinting, manuscript submission, or manuscript acceptance.
 Many users prefer to host a separate, cleaned repository that they make public when they complete a paper, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
 One benefit of using GitHub for this service is that it can integrate with a website called Zenodo, a free, long-term data archiving service funded by CERN <span class="citation" data-cites="12ZCiHwlf">[<a href="#ref-12ZCiHwlf" role="doc-biblioref">20</a>]</span>.
 After linking your GitHub account to Zenodo and turning on archiving, any time a release is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see ‘Making code citable’ below for more information).
@@ -367,7 +368,7 @@ Since the course material can be easily housed on a GitHub pages website, it is 
 Student submissions are perhaps the least seamless component, but for assignments submitted as code files (i.e., <code>.R</code> &amp; <code>.Rmd</code> as two of the most common) and/or <code>.pdf</code> files, GitHub has a new and far-from-perfect but still useful tool GitHub classroom <span class="citation" data-cites="TliRl7TP">[<a href="#ref-TliRl7TP" role="doc-biblioref">29</a>]</span> where instructors can host private assignments, and even build custom autograding tests, that will autograde assignments.</p>
 <p>The previous section is meant to highlight the myriad tools GitHub can provide to centralize the delivery of educational materials.
 While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even <em>begin</em> learning about version control through interacting with git/GitHub, however minimally, through the course.<br />
-There are (as always) no “points” awarded for using ALL GitHub materials ALL the time, but if a central tenant of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.</p>
+There are (as always) no “points” awarded for using ALL GitHub materials ALL the time, but if a central tenet of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.</p>
 <!--## GitHub in EcoEvo examples (Part 2)-->
 <h3 id="project-management">Project management</h3>
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->

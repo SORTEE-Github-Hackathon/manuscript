@@ -26,6 +26,7 @@ colebrookson
 collaborativity
 compendia
 dataset
+datasets
 Département
 descritption
 DOIs
@@ -36,7 +37,7 @@ else’s
 emmajhudgins
 ESS
 Figshare
-Findable
+findable
 Foroughirad
 Gainesville
 Gaynor
@@ -47,7 +48,7 @@ Gomes
 Guilan
 Guncan
 hackathon
-hackMD
+HackMD
 Hébert
 Hudgins
 hypothes
@@ -55,7 +56,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -110,6 +111,6 @@ vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
 Zenodo
