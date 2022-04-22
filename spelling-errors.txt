@@ -1,5 +1,6 @@
 Aariq
 accomodate
+acquistion
 adbinley
 advisees
 Aguncan
@@ -23,7 +24,9 @@ CLI
 Colab
 colalboration
 colebrookson
+collaboartive
 collaborativity
+colloboration
 compendia
 compremised
 dataset
@@ -35,6 +38,7 @@ dylangomes
 EcoEvo
 EEB
 else’s
+emblamatic
 emmajhudgins
 ESS
 Figshare
@@ -42,7 +46,7 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
@@ -90,7 +94,6 @@ RStudio
 Sabet
 Saeed
 SaeedSHSABET
-scatterblob
 scietnific
 Shafiei
 shafieisabets
@@ -98,11 +101,9 @@ Sherbrooke
 SORTEE
 Sowmeh
 Squarespace
-synch
 taxize
 togther
 tradeoffs
-transferrable
 Université
 vertiucal
 Vesion
