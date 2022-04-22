@@ -25,6 +25,7 @@ colalboration
 colebrookson
 collaborativity
 compendia
+compremised
 dataset
 datasets
 Département
@@ -37,7 +38,7 @@ else’s
 emmajhudgins
 ESS
 Figshare
-findable
+Findable
 Foroughirad
 Gainesville
 Gaynor
@@ -48,7 +49,7 @@ Gomes
 Guilan
 Guncan
 hackathon
-hackMD
+HackMD
 Hébert
 Hudgins
 hypothes
@@ -62,14 +63,13 @@ kaitlyngaynor
 kat
 katherinehebert
 labmates
-Mardown
 mentorship
 Octobox
 OneDrive
 ons
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 preprinting
@@ -111,6 +111,6 @@ vjf
 webpage
 wetlab
 Wix
-Zenhub
+ZenHub
 ZenHub’s
 Zenodo

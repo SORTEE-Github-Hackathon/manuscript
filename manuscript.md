@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-21'
+date-meta: '2022-04-22'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-21" />
-  <meta name="citation_publication_date" content="2022-04-21" />
+  <meta name="dc.date" content="2022-04-22" />
+  <meta name="citation_publication_date" content="2022-04-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d38dd3149ff9f76f78d30abeea486a3a0889e6b2/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d38dd3149ff9f76f78d30abeea486a3a0889e6b2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d38dd3149ff9f76f78d30abeea486a3a0889e6b2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d807462110992c07362dcdb7cd40c462646ce8f2/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d807462110992c07362dcdb7cd40c462646ce8f2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d807462110992c07362dcdb7cd40c462646ce8f2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d38dd3149ff9f76f78d30abeea486a3a0889e6b2/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d807462110992c07362dcdb7cd40c462646ce8f2/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@d38dd31](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d38dd3149ff9f76f78d30abeea486a3a0889e6b2)
-on April 21, 2022.
+from [SORTEE-Github-Hackathon/manuscript@d807462](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d807462110992c07362dcdb7cd40c462646ce8f2)
+on April 22, 2022.
 </em></small>
 
 ## Authors
@@ -387,7 +387,7 @@ This is because unlike emails and messages which can get lost as more new tasks 
 Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
 For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests. 
 ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks as well as link issues togther when they are related to a shared project goal or milestone.
-GitHub is currently beta testing a similar project management feature called GitHub Projects [@https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects]. GitHub can also be integrated with other project management software like Slack or Zenhub.
+GitHub is currently beta testing a similar project management feature called GitHub Projects [@https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects]. GitHub can also be integrated with other project management software such as Slack.
 
 ### Building website
 
@@ -427,21 +427,21 @@ Even if code is rough, it shows the exact steps taken to conduct an analysis, an
 This is important in light of the reproducibility crisis [@doi:10.1038/533452a] and will become increasingly important to the collective scientific enterprise as advances in computing power and accessibility unlock the ability to conduct 'big data' meta research with data that has already been collected by others. 
 Failing to include data and code with our publications leaves future scientists with many fewer resources from which to understand the world. 
 
-The standard GitHub licensing options are best suited for software.
-If your code is intended only for your specific analysis, consider a Creative Commons License.
-The [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
-If you wish to allow anyone to re-use your code, consider a CC0 1.0 public domain dedication.
-If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license, which requires attribution upon reuse. 
-If you have build an app, tool, package, or other product that you would like others to use and would like attribution for any reuse of your code, consider the GNU General Public License v3. 
+An important aspect of making your code citable and reusable is adding an appropriate licence. 
+Code without a licence is (by default) actually provided more protection from reuse than code with an open licence meaning that the openness of your science could be compremised. 
+The standard GitHub licensing options are best suited for software, so depending on how you want your code to be used you can choose one of the other license options.
+For example, if your code is intended only for your specific analysis, consider a Creative Commons License. 
+If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license.
+If you have built an app, tool, package, or other product that you would like others to use and would like attribution for any reuse of your code, consider the GNU General Public License v3. 
 This license also prohibits the re-user from making their re-used version private.
-If you do not wish to receive attribution and are open to private use, consider the MIT license.
+To help navigate through the potential licenses available to you and their attributes the [Choose a License](https://choosealicense.com/non-software/) website can offer further guidance.
 
 ### Collaborative (code) editing
 
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
 
 From its inception, one of the primary uses of GitHub has been for collaborative coding.
-We acknowledge that there are important differences between the average software developer and ecology/evolution researcher using GitHub, and that not all GitHub collaboration features are optimal for research purposes.
+We acknowledge that there are important differences between the average software developer and EEB researcher using GitHub, and that not all GitHub collaboration features are optimal for research purposes.
 However, core features of git like forking and branching can allow for simultaneous coding on different versions of the same research project, and alternative versions can be easily discussed and resolved with GitHub.
 While a complete review of these features is beyond the scope of our paper, there are many free resources for learning how to use these collaborative features of GitHub [@10.1016/j.patter.2021.100206]. (e.g. <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request>)
 It is often best to develop comfort with features like pull requests and merges on "practice" repositories with colleagues before integrating these tools fully into a collaborative workflow.
@@ -461,7 +461,7 @@ Co-authors can contribute new text to a manuscript or suggest revisions through 
 Further, authors can make use of the Discussions tab to suggest relevant papers to be cited, and can raise issues during the writing process that can be assigned to collaborators.
 
 While GitHub is not considered as user-friendly for manuscript development as conventional word processors [@doi:10.1186/1751-0473-8-7], it has been substantially improved with recent tools.
-Manuscripts can be written on GitHub with Mardown which is a simple, easy to learn markup language that helps users format and stylize plain text documents.
+Manuscripts can be written on GitHub with Markdown which is a simple, easy to learn markup language that helps users format and stylize plain text documents.
 Add-ons like [HackMD](https://hackmd.io), can enable real-time collaboration like Google Docs for individual Markdown documents.
 We used HackMD early in the process of writing this manuscript to generate an outline.
 Many tools exist for extending Markdown and Pandoc to add formatting features necessary for scietnific writing like in-text citations and figure and table cross references.
@@ -483,7 +483,7 @@ Other tools can also be used for version control of scientific manuscripts inclu
 <!--*contributors to this section:* Eric R. Scott-->
 
 Peer review of research software by rOpenSci (<https://ropensci.org/software-review/>) and of research software and associated manuscripts by the Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
-<!--# not sure if links are really necessary -->GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
+GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
 If the code associated with a manuscript is made available at the time of submission (e.g. via a link to a GitHub repository in a Data Availability Statement), peer-reviewers may be able to offer more helpful suggestions on written methods and may even make comments on the code itself, potentially catching bugs or errors before publication <!--# would be nice to have an example to link to here.  I suspect it is rare that reviewers look at code, but it's happened to me (ERS) -->.
 GitHub issues can also be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example [here](https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+)).
 When reviewer comments are posted as separate issues, authors can comment on the issues to discuss possible changes and assign themselves to indicate which comments they intend to handle.

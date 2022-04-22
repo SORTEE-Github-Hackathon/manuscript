@@ -54,7 +54,6 @@ content/04.use-cases-b.md:14:ZenHub
 content/04.use-cases-b.md:15:togther
 content/04.use-cases-b.md:15:ZenHub
 content/04.use-cases-b.md:15:ZenHub's
-content/04.use-cases-b.md:16:Zenhub
 content/04.use-cases-b.md:20:Hudgins
 content/04.use-cases-b.md:20:Ornelas
 content/04.use-cases-b.md:23:Squarespace
@@ -84,14 +83,16 @@ content/04.use-cases-b.md:44:Zenodo
 content/04.use-cases-b.md:46:findable
 content/04.use-cases-b.md:46:Zenodo
 content/04.use-cases-b.md:53:reproducibility
+content/04.use-cases-b.md:56:citable
+content/04.use-cases-b.md:57:compremised
 content/04.use-cases-b.md:67:Gaynor
 content/04.use-cases-b.md:67:Kaitlyn
 content/04.use-cases-b.md:67:Ornelas
+content/04.use-cases-b.md:70:EEB
 content/04.use-cases-b.md:75:advisees
 content/04.use-cases-b.md:76:mentorship
 content/04.use-cases-b.md:82:Hudgins
 content/04.use-cases-b.md:85:reproducibility
-content/04.use-cases-b.md:90:Mardown
 content/04.use-cases-b.md:91:hackmd
 content/04.use-cases-b.md:91:HackMD
 content/04.use-cases-b.md:91:ons
