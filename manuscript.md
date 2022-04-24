@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-22'
+date-meta: '2022-04-24'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-22" />
-  <meta name="citation_publication_date" content="2022-04-22" />
+  <meta name="dc.date" content="2022-04-24" />
+  <meta name="citation_publication_date" content="2022-04-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/bafdf771df2553ccdeefb1a3dcc6ce8623cfdef6/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/bafdf771df2553ccdeefb1a3dcc6ce8623cfdef6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/bafdf771df2553ccdeefb1a3dcc6ce8623cfdef6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5c63a34ddb88675993ac3d019634a00c868664cc/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5c63a34ddb88675993ac3d019634a00c868664cc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5c63a34ddb88675993ac3d019634a00c868664cc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,10 +112,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/bafdf771df2553ccdeefb1a3dcc6ce8623cfdef6/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/5c63a34ddb88675993ac3d019634a00c868664cc/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@bafdf77](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/bafdf771df2553ccdeefb1a3dcc6ce8623cfdef6)
-on April 22, 2022.
+from [SORTEE-Github-Hackathon/manuscript@5c63a34](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/5c63a34ddb88675993ac3d019634a00c868664cc)
+on April 24, 2022.
 </em></small>
 
 ## Authors
@@ -252,7 +252,7 @@ Researchers in ecology and evolutionary biology are increasingly dependent on co
 With the growing role of data science in ecology and evolutionary biology (EEB), the use of efficient methods to collaborate, share, and reproduce code has become fundamental. 
 GitHub is an online, cloud-based service that can help researchers to track, organize, discuss, share, and collaborate on software and code.
 Despite these benefits, the use of GitHub by EEB researchers is not widespread due to the lack of domain-specific information and guidelines.
-To help ecology and evolutionary researchers adopt useful features from GitHub in their own workflows, we review thirteen practical ways to use the platform.
+To help EEB researchers adopt useful features from GitHub in their own workflows, we review thirteen practical ways to use the platform.
 We outline features ranging from low to high technical difficulty: storing code, managing projects, coding collaboratively, conducting peer review, and writing a manuscript.
 Given that members of a research team may have different technical skills and responsibilities, we describe how the optimal use of GitHub features may vary among members of a research collaboration.
 As more ecologists and evolutionary biologists establish their workflows using GitHub, the faster our collective scientific progress, and the more our fields can be at the forefront of pushing the boundaries of collaborative, transparent, and open research.
@@ -283,9 +283,9 @@ We do not focus on Git in this paper, but we recommend users explore the many re
 
 <!-- ### General background on how GitHub is used by EEB researchers -->
 <!-- *Contributors to this section: RCO, PHPB* -->
-The voluminous user-community and the numerous resources providing pedagogical instruction material on how to use GitHub streamlined its widespread use (CITE).
+The expansive user-community and the numerous resources providing pedagogical instruction material on how to use GitHub streamlined its widespread use [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928, @https://happygitwithr.com/, @https://ourcodingclub.github.io].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
-Because GitHub and its features have been centered on collaboration for software development in information systems [@doi:10.1109/ASONAM.2016.7752419], first-time users from domains without formal training in information technology may face steep learning curves.
+First-time users from domains without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for software development in information systems [@doi:10.1109/ASONAM.2016.7752419].
 Moreover, domain-specific perspectives and resources providing tractable examples and practical guidance for researchers in ecology and evolution on GitHub are scarce (but see [@https://ourcodingclub.github.io; @https://www.openscapes.org]).
 An increased availability of data and code management standards -- of which GitHub is one increasingly important component -- make research more reproducible and collaborative [@doi:10.1002/bes2.1801].
 More importantly, a widespread, common adoption of GitHub for collaborating on a variety of research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their scientific research [@doi:10.3897/rio.6.e56508].
@@ -338,7 +338,7 @@ Although common, data (as opposed to code) storage on GitHub is actually discour
 
 An even easier way to start using Github is for the archival of cleaned code and data (less than 50 MB in size), often accompanying preprinting, manuscript submission, or manuscript acceptance. 
 Many users prefer to host a separate, cleaned repository that they make public when they complete a paper, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
-One benefit of using GitHub for this service is that it can integrate with a website called Zenodo, a free, long-term data archiving service funded by CERN [@https://www.zenodo.org]. 
+One benefit of using GitHub for this service is that it can integrate with a website called Zenodo, a free, long-term data archiving service funded by CERN [@https://www.zenodo.org] for datasets up to 50 GB. 
 After linking your GitHub account to Zenodo and turning on archiving, any time a release is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see 'Making code citable' below for more information).
 DOIs for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other fee-based hosting services (such as Dryad).
 
@@ -351,25 +351,25 @@ At a minimum, commit statements can provide a record of daily changes made to an
 GitHub issues can be used to track and prioritize lab objectives and goals, as well as tracking any status updates.
 Some EEB labs have even turned their lab notebooks into shareable websites [@url:https://scheuerell-lab.github.io/lab-book; @url:https://github.com/HuckleyLab/how_we_work] as a centralized location for all lab resources.  
 
-### Classroom teaching / educational materials
+### Educational materials
 <!-- *contributors to this section: Cole Brookson* -->
 
-GitHub provides a large variety of uses for hosting teaching/educational materials.
-In fact, through taking advantage of the suite of GitHub features, the entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub.
-As a matter of gross simplification, organizing a course (for example) could be broken down into: 1) developing the material (i.e., slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, and 4) accepting student work submissions and then returning graded material.
-While of course there are other purpose-built platforms for this type of activity, few of them provide the usability at the price point GitHub does. 
+GitHub supports a broad set of mechanisms for hosting educational materials.
+The entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub.
+For example, organizing a course could be broken down into: 1) developing the material (i.e., slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, 4) accepting student work submissions and 5) returning graded material.
+While there are other purpose-built platforms for this, GitHub provides a free, open-source alernative.
 
-First, developing course material, from slides to labs and everything in between, can be done on GitHub, out in the open, where others can see, review and offer feedback on your process.
+GitHub's open nature allows colleagues to see, review and offer feedback on your process.
 Making presentations can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338], Python, with `python-ppt` [@https://python-pptx.readthedocs.io/en/latest/index.html]), and Julia, with `Remark.jl` [@https://juliapackages.com/p/remark].
 Since all these programs work via code bases, they can be version-controlled through git and GitHub.
-Once you've made all the content for your course, hosting a course website can be done through GitHub pages, and there are lots of templates available (e.g., see [@https://github.com/topics/course-website]).
-This way, not only can the course content be available to your enrolled students, but also to a global pool of learners and teachers interested in the course material.
-Since the course material can be easily housed on a GitHub pages website, it is then simple enough to deliver the content via that website, and/or a GitHub organization with template repositories for assignments etc.
-Student submissions are perhaps the least seamless component, but for assignments submitted as code files (i.e., `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new and far-from-perfect but still useful tool GitHub classroom [@https://classroom.github.com] where instructors can host private assignments, and even build custom autograding tests, that will autograde assignments.
+Once content is made, hosting a course website can be done through GitHub Pages, and there are lots of templates available (e.g., see [@https://github.com/topics/course-website]).
+This way, not only can the course content be available to enrolled students, but also to a global pool of learners and teachers interested in the course material.
+Content can then be delivered via the course website, and/or a GitHub organization with, for example, template repositories for assignments.
+Student submissions are perhaps the most challenging component, but for assignments submitted as code files (i.e., `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new tool in development  - GitHub classroom [@https://classroom.github.com] - where instructors can host private assignments, and even build custom autograding tests.
  
-The previous section is meant to highlight the myriad tools GitHub can provide to centralize the delivery of educational materials.
-While most instructors will likely choose to pick from this selection and end up having a mix of tools to deliver their content to students, it is still valuable to utilize some of these, if only for the reason that it can encourage students to even *begin* learning about version control through interacting with git/GitHub, however minimally, through the course.  
-There are (as always) no "points" awarded for using ALL GitHub materials ALL the time, but if a central tenet of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
+
+While most instructors can feasibly only incorporate some of these tools to deliver their content to students, it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.  
+Especially if a central tenet of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
 
 
 <!--## GitHub in EcoEvo examples (Part 2)-->

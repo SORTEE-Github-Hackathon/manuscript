@@ -2,6 +2,7 @@ content/00.front-matter.md:4:Pandoc
 content/00.front-matter.md:8:citable
 content/01.abstract.md:4:EEB
 content/01.abstract.md:6:EEB
+content/01.abstract.md:7:EEB
 content/02.introduction.md:8:OneDrive
 content/02.introduction.md:10:EEB
 content/02.introduction.md:13:RCO
@@ -30,6 +31,7 @@ content/03.use-cases-a.md:14:osf
 content/03.use-cases-a.md:16:preprinting
 content/03.use-cases-a.md:17:OneDrive
 content/03.use-cases-a.md:18:CERN
+content/03.use-cases-a.md:18:datasets
 content/03.use-cases-a.md:18:zenodo
 content/03.use-cases-a.md:18:Zenodo
 content/03.use-cases-a.md:19:citable
@@ -42,8 +44,8 @@ content/03.use-cases-a.md:23:RCO
 content/03.use-cases-a.md:24:indispensible
 content/03.use-cases-a.md:29:EEB
 content/03.use-cases-a.md:32:Brookson
+content/03.use-cases-a.md:37:alernative
 content/03.use-cases-a.md:40:RMarkdown
-content/03.use-cases-a.md:45:autograde
 content/03.use-cases-a.md:45:autograding
 content/03.use-cases-a.md:49:EEB
 content/04.use-cases-b.md:1:EcoEvo
