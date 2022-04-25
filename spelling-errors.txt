@@ -49,7 +49,7 @@ Findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
+gists
 GitKraken
 GitLab
 Gomes
@@ -59,13 +59,15 @@ Guncan
 hackathon
 HackMD
 Hébert
+helenweierbach
 Hudgins
+HWeierbach
 hypothes
 iDiv
 indispensible
 integrations
 Interoperable
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -118,6 +120,7 @@ Vesion
 vforoughirad
 vjf
 webpage
+Weierbach
 wetlab
 Wix
 yml

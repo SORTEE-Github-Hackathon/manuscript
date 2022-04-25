@@ -21,6 +21,7 @@ author-meta:
 - Eric R. Scott
 - Allison D. Binley
 - Matthew J. Grainger
+- Helen Weierbach
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -87,15 +88,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
   <meta name="citation_author_orcid" content="0000-0001-8426-6495" />
   <meta name="twitter:creator" content="@Ed_pheasant" />
+  <meta name="citation_author" content="Helen Weierbach" />
+  <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-6348-9120" />
+  <meta name="twitter:creator" content="@HWeierbach" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7b786e52131ce014d711cb684f79f7763d57732f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7b786e52131ce014d711cb684f79f7763d57732f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7b786e52131ce014d711cb684f79f7763d57732f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -117,9 +122,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/7b786e52131ce014d711cb684f79f7763d57732f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@d58143e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d58143effb66061eeb33dcc2276dc5387bd33dd0)
+from [SORTEE-Github-Hackathon/manuscript@7b786e5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/7b786e52131ce014d711cb684f79f7763d57732f)
 on April 25, 2022.
 </em></small>
 
@@ -258,6 +263,17 @@ on April 25, 2022.
     [Ed_pheasant](https://twitter.com/Ed_pheasant)<br>
   <small>
      Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
+  </small>
+
++ **Helen Weierbach**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6348-9120](https://orcid.org/0000-0001-6348-9120)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [helenweierbach](https://github.com/helenweierbach)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [HWeierbach](https://twitter.com/HWeierbach)<br>
+  <small>
+     Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
 
