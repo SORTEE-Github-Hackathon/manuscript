@@ -20,6 +20,7 @@ author-meta:
 - Saeed Shafiei Sabet
 - Eric R. Scott
 - Allison D. Binley
+- Matthew J. Grainger
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -82,15 +83,19 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
   <meta name="twitter:creator" content="@AllisonBinley" />
+  <meta name="citation_author" content="Matthew J. Grainger" />
+  <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
+  <meta name="citation_author_orcid" content="0000-0001-8426-6495" />
+  <meta name="twitter:creator" content="@Ed_pheasant" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +117,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@de9574c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/de9574c76be5024c05b7536782ab537897d62b75)
+from [SORTEE-Github-Hackathon/manuscript@d58143e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d58143effb66061eeb33dcc2276dc5387bd33dd0)
 on April 25, 2022.
 </em></small>
 
@@ -242,6 +247,17 @@ on April 25, 2022.
     [AllisonBinley](https://twitter.com/AllisonBinley)<br>
   <small>
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  </small>
+
++ **Matthew J. Grainger**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8426-6495](https://orcid.org/0000-0001-8426-6495)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [DrMattG](https://github.com/DrMattG)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [Ed_pheasant](https://twitter.com/Ed_pheasant)<br>
+  <small>
+     Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
   </small>
 
 

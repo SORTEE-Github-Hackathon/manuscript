@@ -35,6 +35,7 @@ datasets
 Département
 descritption
 DOIs
+DrMattG
 dylangomes
 EcoEvo
 EEB
@@ -52,10 +53,11 @@ Gists
 GitKraken
 GitLab
 Gomes
+Grainger
 Guilan
 Guncan
 hackathon
-hackMD
+HackMD
 Hébert
 Hudgins
 hypothes
@@ -63,7 +65,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -107,6 +109,7 @@ Sowmeh
 Squarespace
 taxize
 togther
+Torgarden
 tradeoffs
 txt
 Université

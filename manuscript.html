@@ -16,6 +16,7 @@
   <meta name="author" content="Saeed Shafiei Sabet" />
   <meta name="author" content="Eric R. Scott" />
   <meta name="author" content="Allison D. Binley" />
+  <meta name="author" content="Matthew J. Grainger" />
   <meta name="dcterms.date" content="2022-04-25" />
   <meta name="keywords" content="Github, Reproducible research, Collaboration, Ecology and evolution" />
   <title>Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution</title>
@@ -107,15 +108,19 @@
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
   <meta name="twitter:creator" content="@AllisonBinley" />
+  <meta name="citation_author" content="Matthew J. Grainger" />
+  <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
+  <meta name="citation_author_orcid" content="0000-0001-8426-6495" />
+  <meta name="twitter:creator" content="@Ed_pheasant" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -132,9 +137,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/de9574c76be5024c05b7536782ab537897d62b75/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d58143effb66061eeb33dcc2276dc5387bd33dd0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/de9574c76be5024c05b7536782ab537897d62b75">SORTEE-Github-Hackathon/manuscript@de9574c</a>
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d58143effb66061eeb33dcc2276dc5387bd33dd0">SORTEE-Github-Hackathon/manuscript@d58143e</a>
 on April 25, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -248,6 +253,16 @@ Department of Wildlife Ecology and Conservation, University of Florida, Gainesvi
 <a href="https://twitter.com/AllisonBinley">AllisonBinley</a><br>
 <small>
 Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+</small></p></li>
+<li><p><strong>Matthew J. Grainger</strong><br>
+<img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0001-8426-6495">0000-0001-8426-6495</a>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/DrMattG">DrMattG</a>
+· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
+<a href="https://twitter.com/Ed_pheasant">Ed_pheasant</a><br>
+<small>
+Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
@@ -419,7 +434,7 @@ Additionally, referencing a DOI for data and code is preferable to submitting th
 <p>Many researchers believe that their code is not useful because their analysis is context-specific and not designed for re-use like software.
 However, there are many reasons to share data and code beyond re-use.
 Even if code is rough, it shows the exact steps taken to conduct an analysis, and therefore provides the most detailed look into how to reproduce a given analysis <span class="citation" data-cites="uBJwnPbq">[<a href="#ref-uBJwnPbq" role="doc-biblioref">39</a>]</span>.
-This is important in light of the reproducibility crisis <span class="citation" data-cites="1HZdsK5Kn">[<a href="#ref-1HZdsK5Kn" role="doc-biblioref">40</a>]</span> and will become increasingly important to the collective scientific enterprise as advances in computing power and accessibility unlock the ability to conduct ‘big data’ meta research with data that has already been collected by others.
+This is important in light of the reproducibility crisis <span class="citation" data-cites="doi:10.1038/533452a">[<a href="#ref-doi:10.1038/533452a" role="doc-biblioref"><strong>doi:10.1038/533452a?</strong></a>]</span> and will become increasingly important to the collective scientific enterprise as advances in computing power and accessibility unlock the ability to conduct ‘big data’ meta research with data that has already been collected by others.
 Failing to include data and code with our publications leaves future scientists with many fewer resources from which to understand the world.</p>
 <p>An important aspect of making your code citable and reusable is adding an appropriate licence.
 Code without a licence is (by default) actually provided more protection from reuse than code with an open licence meaning that the openness of your science could be compremised.
@@ -428,7 +443,7 @@ For example, if your code is intended only for your specific analysis, consider 
 If you wish to receive attribution for any reuse of your code, consider a CC BY 4.0 license.
 If you have built an app, tool, package, or other product that you would like others to use and would like attribution for any reuse of your code, consider the GNU General Public License v3.
 This license also prohibits the re-user from making their re-used version private.
-To help navigate through the potential licenses available to you and their attributes the Choose a License <span class="citation" data-cites="TpEjsYOK">[<a href="#ref-TpEjsYOK" role="doc-biblioref">41</a>/]</span> website can offer further guidance.</p>
+To help navigate through the potential licenses available to you and their attributes the Choose a License <span class="citation" data-cites="TpEjsYOK">[<a href="#ref-TpEjsYOK" role="doc-biblioref">40</a>/]</span> website can offer further guidance.</p>
 <h3 id="collaborative-code-editing-and-asynchronous-working">Collaborative (code) editing and asynchronous working</h3>
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas, Ali, Allison Binley*-->
 <p>From its inception, one of the primary uses of GitHub has been for collaborative coding.
@@ -436,8 +451,8 @@ We acknowledge that there are important differences between the average software
 However, core features of git like forking and branching can allow for simultaneous coding on different versions of the same research project, and alternative versions can be easily discussed and resolved with GitHub.
 Researchers can easily stay abreast of progress made by other collaborators without the need for meetings or emails.
 Collaborative project work can also be clearly split among team members, giving them the flexibility to contribute when it best fits their schedule.
-The version control <span class="citation" data-cites="K7nbP1Ty">[<a href="#ref-K7nbP1Ty" role="doc-biblioref">42</a>]</span> features also allow users to make progress and changes without worrying about irreparably writing over someone else’s work.
-While a complete review of these features is beyond the scope of our paper, there are many free resources for learning how to use these collaborative features of GitHub <span class="citation" data-cites="WrDwZxcM">[<a href="#ref-WrDwZxcM" role="doc-biblioref">43</a>]</span>. (e.g. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request" class="uri">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request</a>)
+The version control <span class="citation" data-cites="K7nbP1Ty">[<a href="#ref-K7nbP1Ty" role="doc-biblioref">41</a>]</span> features also allow users to make progress and changes without worrying about irreparably writing over someone else’s work.
+While a complete review of these features is beyond the scope of our paper, there are many free resources for learning how to use these collaborative features of GitHub <span class="citation" data-cites="WrDwZxcM">[<a href="#ref-WrDwZxcM" role="doc-biblioref">42</a>]</span>. (e.g. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request" class="uri">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request</a>)
 It is often best to develop comfort with features like pull requests and merges on “practice” repositories with colleagues before integrating these tools fully into a collaborative workflow.</p>
 <p>GitHub can also facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
 Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills.</p>
@@ -454,25 +469,25 @@ Co-authors can contribute new text to a manuscript or suggest revisions through 
 Further, authors can make use of the Discussions tab to suggest relevant papers to be cited, and can raise issues during the writing process that can be assigned to collaborators.</p>
 <p>While GitHub is not considered as user-friendly for manuscript development as conventional word processors <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">9</a>]</span>, it has been substantially improved with recent tools.
 Manuscripts can be written on GitHub with Mardown which is a simple, easy to learn markup language that helps users format and stylize plain text documents.
-Add-ons like HackMD <span class="citation" data-cites="12ytlgyL8">[<a href="#ref-12ytlgyL8" role="doc-biblioref">44</a>]</span>, can enable real-time collaboration like Google Docs for individual Markdown documents.
+Add-ons like HackMD <span class="citation" data-cites="12ytlgyL8">[<a href="#ref-12ytlgyL8" role="doc-biblioref">43</a>]</span>, can enable real-time collaboration like Google Docs for individual Markdown documents.
 We used HackMD early in the process of writing this manuscript to generate an outline.
 Many tools exist for extending Markdown and Pandoc to add formatting features necessary for scietnific writing like in-text citations and figure and table cross references.</p>
-<p>We wrote this manuscript using Manubot, a collaborative manuscript platform that uses Markdown for writing and GitHub for storing and tracking changes to a manuscript over time <span class="citation" data-cites="nxqXElqz">[<a href="#ref-nxqXElqz" role="doc-biblioref">45</a>]</span>.
+<p>We wrote this manuscript using Manubot, a collaborative manuscript platform that uses Markdown for writing and GitHub for storing and tracking changes to a manuscript over time <span class="citation" data-cites="nxqXElqz">[<a href="#ref-nxqXElqz" role="doc-biblioref">44</a>]</span>.
 Manubot uses a GitHub Actions-based typesetting system to compile individual Markdown files stored in a GitHub repository into a single LaTeX document, which can be displayed in Word, HTML, or PDF formats.
 The resulting manuscript can also be compiled using a journal’s .tex template to match their formatting requirements.
 Since this tool reruns the entire manuscript compilation process with any change to the underlying repository, it can also accomodate continuous integration of code updates into figures and tables with additional GitHub Actions (as we have done in this manuscript).
 Manubot also allows for straightforward citation management based on URLs or DOIs.
-Manubot is being used for an increasing number of manuscripts (see examples in <span class="citation" data-cites="16SQCSB2x">[<a href="#ref-16SQCSB2x" role="doc-biblioref">46</a>]</span>).</p>
+Manubot is being used for an increasing number of manuscripts (see examples in <span class="citation" data-cites="16SQCSB2x">[<a href="#ref-16SQCSB2x" role="doc-biblioref">45</a>]</span>).</p>
 <p>Since Manubot works on documents in a distributed format, it can be difficult to edit manuscripts for overall flow with only this tool.
-We employed hypothes.is <span class="citation" data-cites="VIHFjegX">[<a href="#ref-VIHFjegX" role="doc-biblioref">47</a>]</span> to write comments on the HTML manuscript document produced by Manubot, which we then addressed by committing changes to the underlying Markdown files via pull requests.
+We employed hypothes.is <span class="citation" data-cites="VIHFjegX">[<a href="#ref-VIHFjegX" role="doc-biblioref">46</a>]</span> to write comments on the HTML manuscript document produced by Manubot, which we then addressed by committing changes to the underlying Markdown files via pull requests.
 Other authors can reply to the comments to indicate agreement or disagreement, and to note when changes have been made.
-Other tools can also be used for version control of scientific manuscripts including R Markdown via the bookdown package <span class="citation" data-cites="FMzJsf3g">[<a href="#ref-FMzJsf3g" role="doc-biblioref">48</a>/]</span>, jupyter notebooks <span class="citation" data-cites="i4FOZpjN">[<a href="#ref-i4FOZpjN" role="doc-biblioref">49</a>]</span> and a relatively new tool, Quarto <span class="citation" data-cites="yeWMI40f">[<a href="#ref-yeWMI40f" role="doc-biblioref">50</a>]</span>.</p>
+Other tools can also be used for version control of scientific manuscripts including R Markdown via the bookdown package <span class="citation" data-cites="FMzJsf3g">[<a href="#ref-FMzJsf3g" role="doc-biblioref">47</a>/]</span>, jupyter notebooks <span class="citation" data-cites="i4FOZpjN">[<a href="#ref-i4FOZpjN" role="doc-biblioref">48</a>]</span> and a relatively new tool, Quarto <span class="citation" data-cites="yeWMI40f">[<a href="#ref-yeWMI40f" role="doc-biblioref">49</a>]</span>.</p>
 <h3 id="peer-review">Peer-Review</h3>
 <!--*contributors to this section:* Eric R. Scott-->
 <p>Peer review of research software by rOpenSci (<a href="https://ropensci.org/software-review/" class="uri">https://ropensci.org/software-review/</a>) and of research software and associated manuscripts by the Journal of Open Source Software (<a href="https://joss.readthedocs.io/en/latest/submitting.html" class="uri">https://joss.readthedocs.io/en/latest/submitting.html</a>) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
 GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
 If the code associated with a manuscript is made available at the time of submission (e.g. via a link to a GitHub repository in a Data Availability Statement), peer-reviewers may be able to offer more helpful suggestions on written methods and may even make comments on the code itself, potentially catching bugs or errors before publication <!--# would be nice to have an example to link to here.  I suspect it is rare that reviewers look at code, but it's happened to me (ERS) -->.
-GitHub issues can also be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example in <span class="citation" data-cites="vCFWtlK3">[<a href="#ref-vCFWtlK3" role="doc-biblioref">51</a>, =is%3Aissue+label%3A%22reviewer+comment%22+]</span>.
+GitHub issues can also be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example in <span class="citation" data-cites="vCFWtlK3">[<a href="#ref-vCFWtlK3" role="doc-biblioref">50</a>, =is%3Aissue+label%3A%22reviewer+comment%22+]</span>.
 When reviewer comments are posted as separate issues, authors can comment on the issues to discuss possible changes and assign themselves to indicate which comments they intend to handle.
 Co-authors can then integrate their edits and responses to reviewers using pull requests.</p>
 <!--## GitHub in EcoEvo examples (Part 3)-->
@@ -482,14 +497,14 @@ Co-authors can then integrate their edits and responses to reviewers using pull 
 Granting readers access to code and other documentation of the analysis allows them to retrace and comprehend analytical decisions.
 Github provides a platform to access all aspects of the project, using citable DOIs, rather than just the final manuscript.
 While often thought of as storage for data and code, github repositories can also be used to publish a time-stamped preregistration of research plans and hypotheses.</p>
-<p>Github is a tool for managing and sharing components of any research project, that can help accelerate progress towards Open Science goals <span class="citation" data-cites="1A97a4UwU">[<a href="#ref-1A97a4UwU" role="doc-biblioref">52</a>]</span>, from developing the analysis through to publication and ensuring reproducibility.
+<p>Github is a tool for managing and sharing components of any research project, that can help accelerate progress towards Open Science goals <span class="citation" data-cites="1A97a4UwU">[<a href="#ref-1A97a4UwU" role="doc-biblioref">51</a>]</span>, from developing the analysis through to publication and ensuring reproducibility.
 Conventional research practices typically rely on one or two people running and checking the data analyses, while most coauthors (and readers of the subsequent publication) see only the final results and a verbal description of the analytical steps.
-In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort results <span class="citation" data-cites="18PTmKJkq">[<a href="#ref-18PTmKJkq" role="doc-biblioref">53</a>]</span>.
+In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort results <span class="citation" data-cites="18PTmKJkq">[<a href="#ref-18PTmKJkq" role="doc-biblioref">52</a>]</span>.
 Collaborators are better positioned to discover questionable findings if they have full and transparent access to the project.</p>
 <p>This transparency can similarly be extended beyond coauthors to the entire scientific community.
-Publishing the data and reproducible workflows along with the manuscript allows any reader to review the analysis and reproduce the experiment <span class="citation" data-cites="NOgBWVAr">[<a href="#ref-NOgBWVAr" role="doc-biblioref">54</a>]</span>.
+Publishing the data and reproducible workflows along with the manuscript allows any reader to review the analysis and reproduce the experiment <span class="citation" data-cites="NOgBWVAr">[<a href="#ref-NOgBWVAr" role="doc-biblioref">53</a>]</span>.
 Supplying code for (novel) methods that are proposed or used also reduces barriers to knowledge and can greatly improve the ability of others to build on existing work, resulting in greater proliferation and accessibility for a broader audience.
-Github even provides a useful Discussions Forum <span class="citation" data-cites="E0tpYdxU">[<a href="#ref-E0tpYdxU" role="doc-biblioref">55</a>]</span> that aids the direct communication with repository owners, as well as the Github Community <span class="citation" data-cites="10JQOdZ5A">[<a href="#ref-10JQOdZ5A" role="doc-biblioref">56</a>/]</span> forum for more general questions and sharing of expertise.</p>
+Github even provides a useful Discussions Forum <span class="citation" data-cites="E0tpYdxU">[<a href="#ref-E0tpYdxU" role="doc-biblioref">54</a>]</span> that aids the direct communication with repository owners, as well as the Github Community <span class="citation" data-cites="10JQOdZ5A">[<a href="#ref-10JQOdZ5A" role="doc-biblioref">55</a>/]</span> forum for more general questions and sharing of expertise.</p>
 <p>If the methods and analyses used are fully available during the peer-review process, they can be as critically evaluated as the rest of the manuscript.
 However, fear of being scooped feeds into cultural reluctance to do science openly due to worries of intellectual property.
 A solution would be to allow sharing a private link with a citable DOI for peer review, and update the DOI post-acceptance or post-publication.
@@ -498,14 +513,14 @@ Alternatively, github users can to keep their data and code repository private u
 <h3 id="project-continuity">Project continuity</h3>
 <!--*Contributors to this section: BPME, VF*  -->
 <p>The development of research software continues to be on the rise, and with that comes the need to consider the continuity of the research software.
-This is particularly relevant for software developed for relatively short-term research projects, such as projects developed by graduate students or postdoctoral fellows <span class="citation" data-cites="D4C4k4ak">[<a href="#ref-D4C4k4ak" role="doc-biblioref">57</a>]</span>.
+This is particularly relevant for software developed for relatively short-term research projects, such as projects developed by graduate students or postdoctoral fellows <span class="citation" data-cites="D4C4k4ak">[<a href="#ref-D4C4k4ak" role="doc-biblioref">56</a>]</span>.
 Often with these projects, once the research contract expires, the research software upkeep tends to fall off as the researchers move on to new projects.
 Additionally, if the research software is kept on only the researcher’s hard drive, it becomes increasingly difficult to access the software and code for future uses.</p>
-<p>When the project owner is finished with the project, or their contract expires, there generally should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed <span class="citation" data-cites="D4C4k4ak 4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">9</a>,<a href="#ref-D4C4k4ak" role="doc-biblioref">57</a>]</span>.
+<p>When the project owner is finished with the project, or their contract expires, there generally should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed <span class="citation" data-cites="D4C4k4ak 4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">9</a>,<a href="#ref-D4C4k4ak" role="doc-biblioref">56</a>]</span>.
 GitHub facilitates project continuity among research software and research code by providing tools that make this handover period easier.
 As we have already mentioned, using Git for code in Ecology and Evolution can allow for a “paper trail” of sorts to be created for the research software, thus allowing for future owners of the code access to the entire history of the project <span class="citation" data-cites="3DKwn1sY">[<a href="#ref-3DKwn1sY" role="doc-biblioref">14</a>]</span>.
-Additionally, GitHub allows for repositories and organizations to have designated Code Owners <span class="citation" data-cites="s91uGRZ2">[<a href="#ref-s91uGRZ2" role="doc-biblioref">58</a>]</span>; these code owners can change through time allowing for the transition of research software from one cohort of researchers to the next <span class="citation" data-cites="iIEKCTLU">[<a href="#ref-iIEKCTLU" role="doc-biblioref">38</a>]</span>. There are also multiple means by which to archive package version information with GitHub. Most simply, package versions can be included in README files. More sophisticated recording options include adding an enviornment.yml and/or an environment.txt file, or using tools such as Packrat <span class="citation" data-cites="ezNGOtU2">[<a href="#ref-ezNGOtU2" role="doc-biblioref">59</a>/]</span> to store all packages in the repository itself. This ensures that as packages continue to develop with new syntax, code will still run as it did when it was developed.</p>
-<p>Within EEB projects, tasks are often divided among contributors taking various roles (see CRediT taxonomy <span class="citation" data-cites="13Na6gqjq">[<a href="#ref-13Na6gqjq" role="doc-biblioref">60</a>/]</span>).
+Additionally, GitHub allows for repositories and organizations to have designated Code Owners <span class="citation" data-cites="s91uGRZ2">[<a href="#ref-s91uGRZ2" role="doc-biblioref">57</a>]</span>; these code owners can change through time allowing for the transition of research software from one cohort of researchers to the next <span class="citation" data-cites="iIEKCTLU">[<a href="#ref-iIEKCTLU" role="doc-biblioref">38</a>]</span>. There are also multiple means by which to archive package version information with GitHub. Most simply, package versions can be included in README files. More sophisticated recording options include adding an enviornment.yml and/or an environment.txt file, or using tools such as Packrat <span class="citation" data-cites="ezNGOtU2">[<a href="#ref-ezNGOtU2" role="doc-biblioref">58</a>/]</span> to store all packages in the repository itself. This ensures that as packages continue to develop with new syntax, code will still run as it did when it was developed.</p>
+<p>Within EEB projects, tasks are often divided among contributors taking various roles (see CRediT taxonomy <span class="citation" data-cites="13Na6gqjq">[<a href="#ref-13Na6gqjq" role="doc-biblioref">59</a>/]</span>).
 The creation of project repositories is commonly the purview of those involved in the software, formal analysis, and/or visualization components of the project through their roles as code writers.
 However, the structural components of a typical GitHub repository and the derived EEB-specific templates can provide functional ways for other non-code writers to be engaged in aspects of repository design in a way that improves institutional memory and facilitates project continuity.
 Non-code writers can offer many contributions to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
@@ -521,9 +536,9 @@ Whereas access to repositories is usually assigned to individual contributors, O
 This ensures that more sensitive repositories remain as restricted as needed, while repositories with greater general interest can be easily accessible to many members at once.</p>
 <p>As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues.
 In this way, students or teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on (or upgraded their computers).
-This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the German Centre for Integrative Biodiversity Research (iDiv)<span class="citation" data-cites="QcDl5qk6">[<a href="#ref-QcDl5qk6" role="doc-biblioref">61</a>]</span>.
-Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organization, presentation, and outcomes of working groups such as the hackathon which inspired this paper (SORTEE-Github-Hackathon <span class="citation" data-cites="B9xQcBxn">[<a href="#ref-B9xQcBxn" role="doc-biblioref">62</a>]</span> by keeping track of all materials as ideas develop and take shape in one virtual space.
-Organizations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <span class="citation" data-cites="cGHCAMJx">[<a href="#ref-cGHCAMJx" role="doc-biblioref">63</a>]</span>) or the University of Edinburgh’s Coding Club (Coding Club, <span class="citation" data-cites="18ziJhkJ7">[<a href="#ref-18ziJhkJ7" role="doc-biblioref">64</a>]</span>), which may be updated by an ever-evolving group of contributors over time.</p>
+This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the German Centre for Integrative Biodiversity Research (iDiv)<span class="citation" data-cites="QcDl5qk6">[<a href="#ref-QcDl5qk6" role="doc-biblioref">60</a>]</span>.
+Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organization, presentation, and outcomes of working groups such as the hackathon which inspired this paper (SORTEE-Github-Hackathon <span class="citation" data-cites="B9xQcBxn">[<a href="#ref-B9xQcBxn" role="doc-biblioref">61</a>]</span> by keeping track of all materials as ideas develop and take shape in one virtual space.
+Organizations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <span class="citation" data-cites="cGHCAMJx">[<a href="#ref-cGHCAMJx" role="doc-biblioref">62</a>]</span>) or the University of Edinburgh’s Coding Club (Coding Club, <span class="citation" data-cites="18ziJhkJ7">[<a href="#ref-18ziJhkJ7" role="doc-biblioref">63</a>]</span>), which may be updated by an ever-evolving group of contributors over time.</p>
 <p>Utilizing GitHub organizations as a research group or even for a handful of individuals working on a group of projects can be incredibly useful for all involved.
 GitHub organizations are relatively easy to set up, and especially easy to manage as membership to the organization changes through time.
 Not only is it a useful way to store repositories of lab-related research products, but it’s also incredibly helpful for storing “living documents” that may be edited frequently, and may be linked to a lab website (that could also be generated via a repository that lives within the organization!).
@@ -535,12 +550,12 @@ Indeed, providing new students with access to the organization and ideally a tem
 <h3 id="additional-uses-for-github-in-ecoevo-research">Additional uses for GitHub in EcoEvo research</h3>
 <p><em>Contributors to this section: RCO, Ali</em></p>
 <p>There are many more ways that EEB researchers can use GitHub for accelerating research collaborations, and we briefly highlight several here.
-First, there are increasing calls for ecological data to be more Findable, Accessible, Interoperable, and Reusable (FAIR) <span class="citation" data-cites="1GuRfvMeX 6DjakjNS">[<a href="#ref-1GuRfvMeX" role="doc-biblioref">65</a>,<a href="#ref-6DjakjNS" role="doc-biblioref">66</a>]</span>.
+First, there are increasing calls for ecological data to be more Findable, Accessible, Interoperable, and Reusable (FAIR) <span class="citation" data-cites="1GuRfvMeX 6DjakjNS">[<a href="#ref-1GuRfvMeX" role="doc-biblioref">64</a>,<a href="#ref-6DjakjNS" role="doc-biblioref">65</a>]</span>.
 A key component of data reusability is standardizing the ways (e.g., variable names, file formats) that research data are archived in long-term repositories.
-Recently, community-led data standardization efforts are taking place on GitHub <span class="citation" data-cites="1Du6fzB8g">[<a href="#ref-1Du6fzB8g" role="doc-biblioref">37</a>]</span>, where documents and templates can be version controlled and commented on by the user community (e.g., ESS-DIVE’s GitHub Community Space, <span class="citation" data-cites="LvQoEJ2d">[<a href="#ref-LvQoEJ2d" role="doc-biblioref">67</a>]</span>).</p>
-<p>Ecologists who write code often use the R programming language, and the rOpenSci <span class="citation" data-cites="x5xfRy4u">[<a href="#ref-x5xfRy4u" role="doc-biblioref">68</a>/]</span> community has a well-established software peer review process that involves both rOpenSci’s staff software engineers and the broader R user community.
-Their software review GitHub repository <span class="citation" data-cites="cfkRDVlA">[<a href="#ref-cfkRDVlA" role="doc-biblioref">69</a>/]</span> provides instructions for submitting an R package for review as well as guidelines for code reviewers.
-rOpenSci’s efforts have resulted in many well-used R packages for ecology research including rfishbase <span class="citation" data-cites="Xsdcv6q">[<a href="#ref-Xsdcv6q" role="doc-biblioref">70</a>]</span> and taxize <span class="citation" data-cites="FVBWKkZu">[<a href="#ref-FVBWKkZu" role="doc-biblioref">71</a>]</span>.</p>
+Recently, community-led data standardization efforts are taking place on GitHub <span class="citation" data-cites="1Du6fzB8g">[<a href="#ref-1Du6fzB8g" role="doc-biblioref">37</a>]</span>, where documents and templates can be version controlled and commented on by the user community (e.g., ESS-DIVE’s GitHub Community Space, <span class="citation" data-cites="LvQoEJ2d">[<a href="#ref-LvQoEJ2d" role="doc-biblioref">66</a>]</span>).</p>
+<p>Ecologists who write code often use the R programming language, and the rOpenSci <span class="citation" data-cites="x5xfRy4u">[<a href="#ref-x5xfRy4u" role="doc-biblioref">67</a>/]</span> community has a well-established software peer review process that involves both rOpenSci’s staff software engineers and the broader R user community.
+Their software review GitHub repository <span class="citation" data-cites="cfkRDVlA">[<a href="#ref-cfkRDVlA" role="doc-biblioref">68</a>/]</span> provides instructions for submitting an R package for review as well as guidelines for code reviewers.
+rOpenSci’s efforts have resulted in many well-used R packages for ecology research including rfishbase <span class="citation" data-cites="Xsdcv6q">[<a href="#ref-Xsdcv6q" role="doc-biblioref">69</a>]</span> and taxize <span class="citation" data-cites="FVBWKkZu">[<a href="#ref-FVBWKkZu" role="doc-biblioref">70</a>]</span>.</p>
 <p>Lastly, GitHub gists let users create and share snippets of code, notes, and files quickly.
 Rather than create an entire GitHub repository for saving a small code chunk you want to use in a presentation or share with a colleague, GitHub gists provide a lightweight way to write, save, and share code.
 Gists are associated with your Github account and can be public or private.
@@ -566,7 +581,7 @@ Despite the many potential applications of GitHub to EEB research, we acknowledg
 First, because of the underlying version control system which tracks “pushed” changes through “commits”, real-time collaborative editing (e.g., as on a shared Google Doc or a Word document stored on Dropbox) is not possible on GitHub.<br />
 There are now websites outside of the GitHub ecosystem that are built on top of the GitHub architecture that allow real-time collaboartive editing (e.g., <a href="https://hackmd.io/">hackMD</a>).<br />
 We used HackMD at two key points in writing our manuscript when real-time co-writing was essential: when taking meeting notes and writing the outline of our paper.<br />
-Despite the extra layer of coordination required to use GitHub to write a paper, many journals are changing their manuscript formatting requirements to allow for manuscript format output from GitHub <span class="citation" data-cites="AE0QcVgJ">[<a href="#ref-AE0QcVgJ" role="doc-biblioref">72</a>]</span>.<br />
+Despite the extra layer of coordination required to use GitHub to write a paper, many journals are changing their manuscript formatting requirements to allow for manuscript format output from GitHub <span class="citation" data-cites="AE0QcVgJ">[<a href="#ref-AE0QcVgJ" role="doc-biblioref">71</a>]</span>.<br />
 Second, we looked to other software when working on figures and tables.
 Creating tables and figures on GitHub using markdown or other scripting languages is possible, we found that it was not practical at the early brainstorming stages.
 We needed to rapidly iterate on figure and table design, share feedback through comments, and merge/reorder ideas when necessary.
@@ -600,22 +615,22 @@ GitHub has both free and paid plans. When projects get highly collaborative they
 </thead>
 <tbody>
 <tr class="odd">
-<td>1. <strong>Check for an existing solution to your problem</strong> The GitHub Help webpage <span class="citation" data-cites="1A4JoMMLJ">[<a href="#ref-1A4JoMMLJ" role="doc-biblioref">73</a>]</span> contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs e.g. <span class="citation" data-cites="ZHUG9iPH">[<a href="#ref-ZHUG9iPH" role="doc-biblioref">74</a>/]</span>, Twitter accounts or YouTube channels that regularly post practical solutions about common GitHub issues.</td>
+<td>1. <strong>Check for an existing solution to your problem</strong> The GitHub Help webpage <span class="citation" data-cites="1A4JoMMLJ">[<a href="#ref-1A4JoMMLJ" role="doc-biblioref">72</a>]</span> contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs e.g. <span class="citation" data-cites="ZHUG9iPH">[<a href="#ref-ZHUG9iPH" role="doc-biblioref">73</a>/]</span>, Twitter accounts or YouTube channels that regularly post practical solutions about common GitHub issues.</td>
 </tr>
 <tr class="even">
-<td>2. <strong>Consider taking free courses</strong> such as those from Software Carpentries <span class="citation" data-cites="b3nRaDXG">[<a href="#ref-b3nRaDXG" role="doc-biblioref">75</a>/]</span> and sharing these courses with your lab members or colleagues.</td>
+<td>2. <strong>Consider taking free courses</strong> such as those from Software Carpentries <span class="citation" data-cites="b3nRaDXG">[<a href="#ref-b3nRaDXG" role="doc-biblioref">74</a>/]</span> and sharing these courses with your lab members or colleagues.</td>
 </tr>
 <tr class="odd">
-<td>3. <strong>Take the advantage of GitHub as an asynchronous working tool for team-based projects</strong> See the repository for this paper <span class="citation" data-cites="1Hsk5d3bL">[<a href="#ref-1Hsk5d3bL" role="doc-biblioref">76</a>/]</span> as an example of a collaborative manuscript that includes discussions, issues, and a website via GitHub.</td>
+<td>3. <strong>Take the advantage of GitHub as an asynchronous working tool for team-based projects</strong> See the repository for this paper <span class="citation" data-cites="1Hsk5d3bL">[<a href="#ref-1Hsk5d3bL" role="doc-biblioref">75</a>/]</span> as an example of a collaborative manuscript that includes discussions, issues, and a website via GitHub.</td>
 </tr>
 <tr class="even">
-<td>4. <strong>The GitHub Learning Lab<span class="citation" data-cites="iJnVyFea">[<a href="#ref-iJnVyFea" role="doc-biblioref">77</a>/]</span></strong> allows you to learn GitHub basics through short projects and tasks, and allows you to get feedback from their Learning Lab bot.</td>
+<td>4. <strong>The GitHub Learning Lab<span class="citation" data-cites="iJnVyFea">[<a href="#ref-iJnVyFea" role="doc-biblioref">76</a>/]</span></strong> allows you to learn GitHub basics through short projects and tasks, and allows you to get feedback from their Learning Lab bot.</td>
 </tr>
 <tr class="odd">
-<td>5. <strong>Check out the following markdown cheatsheet <span class="citation" data-cites="x0gLj5W6">[<a href="#ref-x0gLj5W6" role="doc-biblioref">78</a>/]</span></strong> so that you can write clear metadata README files for your repositories.</td>
+<td>5. <strong>Check out the following markdown cheatsheet <span class="citation" data-cites="x0gLj5W6">[<a href="#ref-x0gLj5W6" role="doc-biblioref">77</a>/]</span></strong> so that you can write clear metadata README files for your repositories.</td>
 </tr>
 <tr class="even">
-<td>6. <strong>The Jenny Bryan universe of GitHub material</strong> provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book <span class="citation" data-cites="ZvrOcg9w">[<a href="#ref-ZvrOcg9w" role="doc-biblioref">79</a>]</span>, statistics course <span class="citation" data-cites="6CMMeSeD">[<a href="#ref-6CMMeSeD" role="doc-biblioref">80</a>/]</span> and academic article <span class="citation" data-cites="RVetqmsg">[<a href="#ref-RVetqmsg" role="doc-biblioref">8</a>]</span>.</td>
+<td>6. <strong>The Jenny Bryan universe of GitHub material</strong> provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book <span class="citation" data-cites="ZvrOcg9w">[<a href="#ref-ZvrOcg9w" role="doc-biblioref">78</a>]</span>, statistics course <span class="citation" data-cites="6CMMeSeD">[<a href="#ref-6CMMeSeD" role="doc-biblioref">79</a>/]</span> and academic article <span class="citation" data-cites="RVetqmsg">[<a href="#ref-RVetqmsg" role="doc-biblioref">8</a>]</span>.</td>
 </tr>
 <tr class="odd">
 <td>7. <strong>Don’t be afraid of trial and error</strong> One of the best ways to learn Github is the trial and error method. Learning from your own mistakes can be the better way to master your GitHub abilities. In any case, GitHub has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes.</td>
@@ -624,10 +639,10 @@ GitHub has both free and paid plans. When projects get highly collaborative they
 <td>8. <strong>If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in your curricula</strong>. Some graduate programs now include coursework on course Rmarkdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time.</td>
 </tr>
 <tr class="odd">
-<td>9. <strong>Try to begin committing with GUI (Graphical user interface) tools</strong> like GitHub Desktop <span class="citation" data-cites="1V8gez2v">[<a href="#ref-1V8gez2v" role="doc-biblioref">81</a>/]</span>, git-gui <span class="citation" data-cites="jJgj7oqq">[<a href="#ref-jJgj7oqq" role="doc-biblioref">82</a>]</span>, RStudio <span class="citation" data-cites="15Xir6Mp8">[<a href="#ref-15Xir6Mp8" role="doc-biblioref">83</a>/]</span>, Visual Studio Code <span class="citation" data-cites="llnpg0Du">[<a href="#ref-llnpg0Du" role="doc-biblioref">84</a>/]</span>, Atom <span class="citation" data-cites="HYwZJ66F">[<a href="#ref-HYwZJ66F" role="doc-biblioref">85</a>/]</span>, GitKraken <span class="citation" data-cites="D30wOZ60">[<a href="#ref-D30wOZ60" role="doc-biblioref">86</a>/]</span> tools instead CLI (Command line interface) tools such as Terminal or Console for more advanced features.</td>
+<td>9. <strong>Try to begin committing with GUI (Graphical user interface) tools</strong> like GitHub Desktop <span class="citation" data-cites="1V8gez2v">[<a href="#ref-1V8gez2v" role="doc-biblioref">80</a>/]</span>, git-gui <span class="citation" data-cites="jJgj7oqq">[<a href="#ref-jJgj7oqq" role="doc-biblioref">81</a>]</span>, RStudio <span class="citation" data-cites="15Xir6Mp8">[<a href="#ref-15Xir6Mp8" role="doc-biblioref">82</a>/]</span>, Visual Studio Code <span class="citation" data-cites="llnpg0Du">[<a href="#ref-llnpg0Du" role="doc-biblioref">83</a>/]</span>, Atom <span class="citation" data-cites="HYwZJ66F">[<a href="#ref-HYwZJ66F" role="doc-biblioref">84</a>/]</span>, GitKraken <span class="citation" data-cites="D30wOZ60">[<a href="#ref-D30wOZ60" role="doc-biblioref">85</a>/]</span> tools instead CLI (Command line interface) tools such as Terminal or Console for more advanced features.</td>
 </tr>
 <tr class="even">
-<td>10. <strong>Get help deciphering GitHub Notifications.</strong> Try using tools like Octobox <span class="citation" data-cites="IXTSo4nz">[<a href="#ref-IXTSo4nz" role="doc-biblioref">87</a>/]</span> to disentangle and manage multiple notifications from distinct GitHub projects.</td>
+<td>10. <strong>Get help deciphering GitHub Notifications.</strong> Try using tools like Octobox <span class="citation" data-cites="IXTSo4nz">[<a href="#ref-IXTSo4nz" role="doc-biblioref">86</a>/]</span> to disentangle and manage multiple notifications from distinct GitHub projects.</td>
 </tr>
 </tbody>
 </table>
@@ -1065,149 +1080,146 @@ the GitHub features, see Box 1. </caption>
 <div id="ref-uBJwnPbq" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">39. </div><div class="csl-right-inline"><strong>Elevating The Status of Code in Ecology</strong> <div class="csl-block">KAS Mislan, Jeffrey M Heer, Ethan P White</div> <em>Trends in Ecology &amp;amp; Evolution</em> (2016-01) <a href="https://doi.org/gg43mk">https://doi.org/gg43mk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.tree.2015.11.006">10.1016/j.tree.2015.11.006</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26704455">26704455</a></div></div>
 </div>
-<div id="ref-1HZdsK5Kn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">40. </div><div class="csl-right-inline"><strong>1,500 scientists lift the lid on reproducibility</strong> <div class="csl-block">Monya Baker</div> <em>Nature</em> (2016-05-25) <a href="https://doi.org/gdgzjx">https://doi.org/gdgzjx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/533452a">10.1038/533452a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27225100">27225100</a></div></div>
-</div>
 <div id="ref-TpEjsYOK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">41. </div><div class="csl-right-inline"><strong>Non-Software Licenses</strong> <div class="csl-block">Choose a License</div> <a href="https://choosealicense.com/non-software/">https://choosealicense.com/non-software/</a></div>
+<div class="csl-left-margin">40. </div><div class="csl-right-inline"><strong>Non-Software Licenses</strong> <div class="csl-block">Choose a License</div> <a href="https://choosealicense.com/non-software/">https://choosealicense.com/non-software/</a></div>
 </div>
 <div id="ref-K7nbP1Ty" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">42. </div><div class="csl-right-inline"><strong>Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution</strong> <div class="csl-block">Dylan GE Gomes, Cole B Brookson, Robert Crystal-Ornelas, Ali Guncan, Brandon PM Edwards, Kaitlyn M Gaynor, Vivienne Foroughirad, Katherine Hébert, Emma J Hudgins, Saeed Shafiei Sabet, … Allison D Binley</div> <em>Manubot</em> (2022-04-24) <a href="https://SORTEE-Github-Hackathon.github.io/manuscript/">https://SORTEE-Github-Hackathon.github.io/manuscript/</a></div>
+<div class="csl-left-margin">41. </div><div class="csl-right-inline"><strong>Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution</strong> <div class="csl-block">Dylan GE Gomes, Cole B Brookson, Robert Crystal-Ornelas, Ali Guncan, Brandon PM Edwards, Kaitlyn M Gaynor, Vivienne Foroughirad, Katherine Hébert, Emma J Hudgins, Saeed Shafiei Sabet, … Allison D Binley</div> <em>Manubot</em> (2022-04-25) <a href="https://SORTEE-Github-Hackathon.github.io/manuscript/">https://SORTEE-Github-Hackathon.github.io/manuscript/</a></div>
 </div>
 <div id="ref-WrDwZxcM" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">43. </div><div class="csl-right-inline"><strong>Barely sufficient practices in scientific computing</strong> <div class="csl-block">Graham Lee, Sebastian Bacon, Ian Bush, Laura Fortunato, David Gavaghan, Thibault Lestang, Caroline Morton, Martin Robinson, Philippe Rocca-Serra, Susanna-Assunta Sansone, Helena Webb</div> <em>Patterns</em> (2021-02) <a href="https://doi.org/gjpcb6">https://doi.org/gjpcb6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.patter.2021.100206">10.1016/j.patter.2021.100206</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33659915">33659915</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7892476">PMC7892476</a></div></div>
+<div class="csl-left-margin">42. </div><div class="csl-right-inline"><strong>Barely sufficient practices in scientific computing</strong> <div class="csl-block">Graham Lee, Sebastian Bacon, Ian Bush, Laura Fortunato, David Gavaghan, Thibault Lestang, Caroline Morton, Martin Robinson, Philippe Rocca-Serra, Susanna-Assunta Sansone, Helena Webb</div> <em>Patterns</em> (2021-02) <a href="https://doi.org/gjpcb6">https://doi.org/gjpcb6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.patter.2021.100206">10.1016/j.patter.2021.100206</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33659915">33659915</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7892476">PMC7892476</a></div></div>
 </div>
 <div id="ref-12ytlgyL8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">44. </div><div class="csl-right-inline"><strong>HackMD - Collaborative Markdown Knowledge Base</strong> <div class="csl-block">HackMD</div> <a href="https://hackmd.io">https://hackmd.io</a></div>
+<div class="csl-left-margin">43. </div><div class="csl-right-inline"><strong>HackMD - Collaborative Markdown Knowledge Base</strong> <div class="csl-block">HackMD</div> <a href="https://hackmd.io">https://hackmd.io</a></div>
 </div>
 <div id="ref-nxqXElqz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a></div></div>
+<div class="csl-left-margin">44. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a></div></div>
 </div>
 <div id="ref-16SQCSB2x" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Manubot Catalog</strong> <a href="https://manubot.org">https://manubot.org</a></div>
+<div class="csl-left-margin">45. </div><div class="csl-right-inline"><strong>Manubot Catalog</strong> <a href="https://manubot.org">https://manubot.org</a></div>
 </div>
 <div id="ref-VIHFjegX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>Home</strong> <div class="csl-block">dwhly</div> <em>Hypothesis</em> <a href="https://web.hypothes.is/">https://web.hypothes.is/</a></div>
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><strong>Home</strong> <div class="csl-block">dwhly</div> <em>Hypothesis</em> <a href="https://web.hypothes.is/">https://web.hypothes.is/</a></div>
 </div>
 <div id="ref-FMzJsf3g" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>Home | Bookdown</strong> <a href="https://bookdown.org/home/">https://bookdown.org/home/</a></div>
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>Home | Bookdown</strong> <a href="https://bookdown.org/home/">https://bookdown.org/home/</a></div>
 </div>
 <div id="ref-i4FOZpjN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Creating an executable paper is a journey through Open Science</strong> <div class="csl-block">Jana Lasser</div> <em>Communications Physics</em> (2020-08-19) <a href="https://doi.org/gg89zd">https://doi.org/gg89zd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42005-020-00403-4">10.1038/s42005-020-00403-4</a></div></div>
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>Creating an executable paper is a journey through Open Science</strong> <div class="csl-block">Jana Lasser</div> <em>Communications Physics</em> (2020-08-19) <a href="https://doi.org/gg89zd">https://doi.org/gg89zd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42005-020-00403-4">10.1038/s42005-020-00403-4</a></div></div>
 </div>
 <div id="ref-yeWMI40f" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>Quarto</strong> <a href="https://quarto.org/">https://quarto.org/</a></div>
+<div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>Quarto</strong> <a href="https://quarto.org/">https://quarto.org/</a></div>
 </div>
 <div id="ref-vCFWtlK3" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>Issues · BrunaLab/HeliconiaDemography</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/BrunaLab/HeliconiaDemography">https://github.com/BrunaLab/HeliconiaDemography</a></div>
+<div class="csl-left-margin">50. </div><div class="csl-right-inline"><strong>Issues · BrunaLab/HeliconiaDemography</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/BrunaLab/HeliconiaDemography">https://github.com/BrunaLab/HeliconiaDemography</a></div>
 </div>
 <div id="ref-1A97a4UwU" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>The Open Knowledge Foundation: Open Data Means Better Science</strong> <div class="csl-block">Jennifer C Molloy</div> <em>PLoS Biology</em> (2011-12-06) <a href="https://doi.org/g3b">https://doi.org/g3b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pbio.1001195">10.1371/journal.pbio.1001195</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22162946">22162946</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232214">PMC3232214</a></div></div>
+<div class="csl-left-margin">51. </div><div class="csl-right-inline"><strong>The Open Knowledge Foundation: Open Data Means Better Science</strong> <div class="csl-block">Jennifer C Molloy</div> <em>PLoS Biology</em> (2011-12-06) <a href="https://doi.org/g3b">https://doi.org/g3b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pbio.1001195">10.1371/journal.pbio.1001195</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22162946">22162946</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232214">PMC3232214</a></div></div>
 </div>
 <div id="ref-18PTmKJkq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>#PruittData and the Ethics of Data in Science</strong> <div class="csl-block">Professor Lee BKass January 18, 2022 2:51 Pm</div> <em>Ecology for the Masses</em> (2020-02-04) <a href="https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/">https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/</a></div>
+<div class="csl-left-margin">52. </div><div class="csl-right-inline"><strong>#PruittData and the Ethics of Data in Science</strong> <div class="csl-block">Professor Lee BKass January 18, 2022 2:51 Pm</div> <em>Ecology for the Masses</em> (2020-02-04) <a href="https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/">https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science/</a></div>
 </div>
 <div id="ref-NOgBWVAr" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>Low availability of code in ecology: A call for urgent action</strong> <div class="csl-block">Antica Culina, Ilona van den Berg, Simon Evans, Alfredo Sánchez-Tójar</div> <em>PLOS Biology</em> (2020-07-28) <a href="https://doi.org/gg6rgf">https://doi.org/gg6rgf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pbio.3000763">10.1371/journal.pbio.3000763</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32722681">32722681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7386629">PMC7386629</a></div></div>
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><strong>Low availability of code in ecology: A call for urgent action</strong> <div class="csl-block">Antica Culina, Ilona van den Berg, Simon Evans, Alfredo Sánchez-Tójar</div> <em>PLOS Biology</em> (2020-07-28) <a href="https://doi.org/gg6rgf">https://doi.org/gg6rgf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pbio.3000763">10.1371/journal.pbio.3000763</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32722681">32722681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7386629">PMC7386629</a></div></div>
 </div>
 <div id="ref-E0tpYdxU" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>GitHub Discussions Documentation</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en/discussions">http://ghdocs-prod.azurewebsites.net:80/en/discussions</a></div>
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><strong>GitHub Discussions Documentation</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en/discussions">http://ghdocs-prod.azurewebsites.net:80/en/discussions</a></div>
 </div>
 <div id="ref-10JQOdZ5A" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>GitHub Community</strong> <div class="csl-block">GitHub Community</div> <a href="https://github.community/">https://github.community/</a></div>
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><strong>GitHub Community</strong> <div class="csl-block">GitHub Community</div> <a href="https://github.community/">https://github.community/</a></div>
 </div>
 <div id="ref-D4C4k4ak" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>Sustainable Research Software Hand-Over</strong> <div class="csl-block">J Fehr, C Himpe, S Rave, J Saak</div> <em>Journal of Open Research Software</em> (2021-04-30) <a href="https://doi.org/g4n4">https://doi.org/g4n4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5334/jors.307">10.5334/jors.307</a></div></div>
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><strong>Sustainable Research Software Hand-Over</strong> <div class="csl-block">J Fehr, C Himpe, S Rave, J Saak</div> <em>Journal of Open Research Software</em> (2021-04-30) <a href="https://doi.org/g4n4">https://doi.org/g4n4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5334/jors.307">10.5334/jors.307</a></div></div>
 </div>
 <div id="ref-s91uGRZ2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">58. </div><div class="csl-right-inline"><strong>About code owners</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners">http://ghdocs-prod.azurewebsites.net:80/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners</a></div>
+<div class="csl-left-margin">57. </div><div class="csl-right-inline"><strong>About code owners</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners">http://ghdocs-prod.azurewebsites.net:80/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners</a></div>
 </div>
 <div id="ref-ezNGOtU2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">59. </div><div class="csl-right-inline"><strong>Packrat: Reproducible package management for R</strong> <a href="https://rstudio.github.io/packrat/">https://rstudio.github.io/packrat/</a></div>
+<div class="csl-left-margin">58. </div><div class="csl-right-inline"><strong>Packrat: Reproducible package management for R</strong> <a href="https://rstudio.github.io/packrat/">https://rstudio.github.io/packrat/</a></div>
 </div>
 <div id="ref-13Na6gqjq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">60. </div><div class="csl-right-inline"><strong>CRediT - Contributor Roles Taxonomy</strong> <div class="csl-block">CASRAI</div> <a href="https://casrai.org/credit/">https://casrai.org/credit/</a></div>
+<div class="csl-left-margin">59. </div><div class="csl-right-inline"><strong>CRediT - Contributor Roles Taxonomy</strong> <div class="csl-block">CASRAI</div> <a href="https://casrai.org/credit/">https://casrai.org/credit/</a></div>
 </div>
 <div id="ref-QcDl5qk6" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">61. </div><div class="csl-right-inline"><strong>German Centre for Integrative Biodiversity Research (iDiv)</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/idiv-biodiversity">https://github.com/idiv-biodiversity</a></div>
+<div class="csl-left-margin">60. </div><div class="csl-right-inline"><strong>German Centre for Integrative Biodiversity Research (iDiv)</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/idiv-biodiversity">https://github.com/idiv-biodiversity</a></div>
 </div>
 <div id="ref-B9xQcBxn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">62. </div><div class="csl-right-inline"><strong>SORTEE Hackathon #4: Promoting the use of Github in Ecology and Evolution</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/SORTEE-Github-Hackathon">https://github.com/SORTEE-Github-Hackathon</a></div>
+<div class="csl-left-margin">61. </div><div class="csl-right-inline"><strong>SORTEE Hackathon #4: Promoting the use of Github in Ecology and Evolution</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/SORTEE-Github-Hackathon">https://github.com/SORTEE-Github-Hackathon</a></div>
 </div>
 <div id="ref-cGHCAMJx" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">63. </div><div class="csl-right-inline"><strong>QCBS R Workshop Series / Série d'ateliers R du CSBQ</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/QCBSRworkshops">https://github.com/QCBSRworkshops</a></div>
+<div class="csl-left-margin">62. </div><div class="csl-right-inline"><strong>QCBS R Workshop Series / Série d'ateliers R du CSBQ</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/QCBSRworkshops">https://github.com/QCBSRworkshops</a></div>
 </div>
 <div id="ref-18ziJhkJ7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">64. </div><div class="csl-right-inline"><strong>Coding Club</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ourcodingclub">https://github.com/ourcodingclub</a></div>
+<div class="csl-left-margin">63. </div><div class="csl-right-inline"><strong>Coding Club</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ourcodingclub">https://github.com/ourcodingclub</a></div>
 </div>
 <div id="ref-1GuRfvMeX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">65. </div><div class="csl-right-inline"><strong>Ecological Data Should Not Be So Hard to Find and Reuse</strong> <div class="csl-block">Timothée Poisot, Anne Bruneau, Andrew Gonzalez, Dominique Gravel, Pedro Peres-Neto</div> <em>Trends in Ecology &amp;amp; Evolution</em> (2019-06) <a href="https://doi.org/gg43mw">https://doi.org/gg43mw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.tree.2019.04.005">10.1016/j.tree.2019.04.005</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31056219">31056219</a></div></div>
+<div class="csl-left-margin">64. </div><div class="csl-right-inline"><strong>Ecological Data Should Not Be So Hard to Find and Reuse</strong> <div class="csl-block">Timothée Poisot, Anne Bruneau, Andrew Gonzalez, Dominique Gravel, Pedro Peres-Neto</div> <em>Trends in Ecology &amp;amp; Evolution</em> (2019-06) <a href="https://doi.org/gg43mw">https://doi.org/gg43mw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.tree.2019.04.005">10.1016/j.tree.2019.04.005</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31056219">31056219</a></div></div>
 </div>
 <div id="ref-6DjakjNS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">66. </div><div class="csl-right-inline"><strong>The FAIR Guiding Principles for scientific data management and stewardship</strong> <div class="csl-block">Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E Bourne, … Barend Mons</div> <em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></div></div>
+<div class="csl-left-margin">65. </div><div class="csl-right-inline"><strong>The FAIR Guiding Principles for scientific data management and stewardship</strong> <div class="csl-block">Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E Bourne, … Barend Mons</div> <em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></div></div>
 </div>
 <div id="ref-LvQoEJ2d" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>ESS-DIVE Community Space</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ess-dive-community">https://github.com/ess-dive-community</a></div>
+<div class="csl-left-margin">66. </div><div class="csl-right-inline"><strong>ESS-DIVE Community Space</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ess-dive-community">https://github.com/ess-dive-community</a></div>
 </div>
 <div id="ref-x5xfRy4u" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">68. </div><div class="csl-right-inline"><strong>rOpenSci</strong> <a href="https://ropensci.org/">https://ropensci.org/</a></div>
+<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>rOpenSci</strong> <a href="https://ropensci.org/">https://ropensci.org/</a></div>
 </div>
 <div id="ref-cfkRDVlA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>GitHub - ropensci/software-review: rOpenSci Software Peer Review.</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ropensci/software-review">https://github.com/ropensci/software-review</a></div>
+<div class="csl-left-margin">68. </div><div class="csl-right-inline"><strong>GitHub - ropensci/software-review: rOpenSci Software Peer Review.</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/ropensci/software-review">https://github.com/ropensci/software-review</a></div>
 </div>
 <div id="ref-Xsdcv6q" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>rfishbase: exploring, manipulating and visualizing FishBase data from R</strong> <div class="csl-block">C Boettiger, DT Lang, PC Wainwright</div> <em>Journal of Fish Biology</em> (2012-11) <a href="https://doi.org/gh5x27">https://doi.org/gh5x27</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/j.1095-8649.2012.03464.x">10.1111/j.1095-8649.2012.03464.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23130696">23130696</a></div></div>
+<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>rfishbase: exploring, manipulating and visualizing FishBase data from R</strong> <div class="csl-block">C Boettiger, DT Lang, PC Wainwright</div> <em>Journal of Fish Biology</em> (2012-11) <a href="https://doi.org/gh5x27">https://doi.org/gh5x27</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/j.1095-8649.2012.03464.x">10.1111/j.1095-8649.2012.03464.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23130696">23130696</a></div></div>
 </div>
 <div id="ref-FVBWKkZu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>taxize: taxonomic search and retrieval in R</strong> <div class="csl-block">Scott A Chamberlain, Eduard Szöcs</div> <em>F1000Research</em> (2013-10-28) <a href="https://doi.org/ggdskx">https://doi.org/ggdskx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.12688/f1000research.2-191.v2">10.12688/f1000research.2-191.v2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24555091">24555091</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901538">PMC3901538</a></div></div>
+<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>taxize: taxonomic search and retrieval in R</strong> <div class="csl-block">Scott A Chamberlain, Eduard Szöcs</div> <em>F1000Research</em> (2013-10-28) <a href="https://doi.org/ggdskx">https://doi.org/ggdskx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.12688/f1000research.2-191.v2">10.12688/f1000research.2-191.v2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24555091">24555091</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901538">PMC3901538</a></div></div>
 </div>
 <div id="ref-AE0QcVgJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>Synchronized editing: the future of collaborative writing</strong> <div class="csl-block">Jeffrey M Perkel</div> <em>Nature</em> (2020-03-31) <a href="https://doi.org/ggqk8s">https://doi.org/ggqk8s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-020-00916-6">10.1038/d41586-020-00916-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32235940">32235940</a></div></div>
+<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>Synchronized editing: the future of collaborative writing</strong> <div class="csl-block">Jeffrey M Perkel</div> <em>Nature</em> (2020-03-31) <a href="https://doi.org/ggqk8s">https://doi.org/ggqk8s</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/d41586-020-00916-6">10.1038/d41586-020-00916-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32235940">32235940</a></div></div>
 </div>
 <div id="ref-1A4JoMMLJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>GitHub.com Help Documentation</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en">http://ghdocs-prod.azurewebsites.net:80/en</a></div>
+<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>GitHub.com Help Documentation</strong> <div class="csl-block">GitHub Docs</div> <a href="http://ghdocs-prod.azurewebsites.net:80/en">http://ghdocs-prod.azurewebsites.net:80/en</a></div>
 </div>
 <div id="ref-ZHUG9iPH" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>The GitHub Blog</strong> <div class="csl-block">The GitHub Blog</div> <a href="https://github.blog/">https://github.blog/</a></div>
+<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>The GitHub Blog</strong> <div class="csl-block">The GitHub Blog</div> <a href="https://github.blog/">https://github.blog/</a></div>
 </div>
 <div id="ref-b3nRaDXG" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>Version Control with Git</strong> <a href="https://swcarpentry.github.io/git-novice/">https://swcarpentry.github.io/git-novice/</a></div>
+<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>Version Control with Git</strong> <a href="https://swcarpentry.github.io/git-novice/">https://swcarpentry.github.io/git-novice/</a></div>
 </div>
 <div id="ref-1Hsk5d3bL" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>GitHub - SORTEE-Github-Hackathon/manuscript: This repository implements an automated system to write our collaborative manuscript, while tracking changes and contributions.</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/SORTEE-Github-Hackathon/manuscript">https://github.com/SORTEE-Github-Hackathon/manuscript</a></div>
+<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>GitHub - SORTEE-Github-Hackathon/manuscript: This repository implements an automated system to write our collaborative manuscript, while tracking changes and contributions.</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/SORTEE-Github-Hackathon/manuscript">https://github.com/SORTEE-Github-Hackathon/manuscript</a></div>
 </div>
 <div id="ref-iJnVyFea" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>GitHub Learning Lab</strong> <div class="csl-block">GitHub Learning Lab</div> <a href="https://lab.github.com/">https://lab.github.com/</a></div>
+<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>GitHub Learning Lab</strong> <div class="csl-block">GitHub Learning Lab</div> <a href="https://lab.github.com/">https://lab.github.com/</a></div>
 </div>
 <div id="ref-x0gLj5W6" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>Basic Syntax | Markdown Guide</strong> <a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></div>
+<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>Basic Syntax | Markdown Guide</strong> <a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></div>
 </div>
 <div id="ref-ZvrOcg9w" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>Let’s Git started | Happy Git and GitHub for the useR</strong> <div class="csl-block">Jenny Bryan Hester the STAT 545 TAs, Jim</div> <a href="https://happygitwithr.com/">https://happygitwithr.com/</a></div>
+<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>Let’s Git started | Happy Git and GitHub for the useR</strong> <div class="csl-block">Jenny Bryan Hester the STAT 545 TAs, Jim</div> <a href="https://happygitwithr.com/">https://happygitwithr.com/</a></div>
 </div>
 <div id="ref-6CMMeSeD" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>STAT 545</strong> <div class="csl-block">Jenny Bryan, The STAT 545 TAs</div> <a href="https://stat545.com/">https://stat545.com/</a></div>
+<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>STAT 545</strong> <div class="csl-block">Jenny Bryan, The STAT 545 TAs</div> <a href="https://stat545.com/">https://stat545.com/</a></div>
 </div>
 <div id="ref-1V8gez2v" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>GitHub Desktop</strong> <div class="csl-block">GitHub Desktop</div> <a href="https://desktop.github.com/">https://desktop.github.com/</a></div>
+<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>GitHub Desktop</strong> <div class="csl-block">GitHub Desktop</div> <a href="https://desktop.github.com/">https://desktop.github.com/</a></div>
 </div>
 <div id="ref-jJgj7oqq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>Git - git-gui Documentation</strong> <a href="https://git-scm.com/docs/git-gui">https://git-scm.com/docs/git-gui</a></div>
+<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>Git - git-gui Documentation</strong> <a href="https://git-scm.com/docs/git-gui">https://git-scm.com/docs/git-gui</a></div>
 </div>
 <div id="ref-15Xir6Mp8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>RStudio | Open source &amp; professional software for data science teams</strong> <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
+<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>RStudio | Open source &amp; professional software for data science teams</strong> <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
 </div>
 <div id="ref-llnpg0Du" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>Visual Studio Code - Code Editing. Redefined</strong> <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></div>
+<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>Visual Studio Code - Code Editing. Redefined</strong> <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></div>
 </div>
 <div id="ref-HYwZJ66F" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>A hackable text editor for the 21st Century</strong> <div class="csl-block">Atom</div> <a href="https://atom.io/">https://atom.io/</a></div>
+<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>A hackable text editor for the 21st Century</strong> <div class="csl-block">Atom</div> <a href="https://atom.io/">https://atom.io/</a></div>
 </div>
 <div id="ref-D30wOZ60" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>GitKraken Legendary Git Tools | GitKraken</strong> <a href="https://www.gitkraken.com">https://www.gitkraken.com</a></div>
+<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>GitKraken Legendary Git Tools | GitKraken</strong> <a href="https://www.gitkraken.com">https://www.gitkraken.com</a></div>
 </div>
 <div id="ref-IXTSo4nz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">87. </div><div class="csl-right-inline"><strong>Octobox</strong> <div class="csl-block">Octobox</div> <a href="https://octobox.io/">https://octobox.io/</a></div>
+<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>Octobox</strong> <div class="csl-block">Octobox</div> <a href="https://octobox.io/">https://octobox.io/</a></div>
 </div>
 </div>
 <!-- default theme -->
