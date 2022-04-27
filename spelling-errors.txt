@@ -45,7 +45,7 @@ emmajhudgins
 enviornment
 ESS
 Figshare
-Findable
+findable
 Foroughirad
 Gainesville
 Gaynor
