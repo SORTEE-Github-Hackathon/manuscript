@@ -67,7 +67,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat

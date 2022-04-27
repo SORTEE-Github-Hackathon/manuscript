@@ -98,9 +98,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2ce55a333544721013f5b1071f76b54b9b72bc45/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2ce55a333544721013f5b1071f76b54b9b72bc45/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/2ce55a333544721013f5b1071f76b54b9b72bc45/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -122,9 +122,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/2ce55a333544721013f5b1071f76b54b9b72bc45/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@2ce55a3](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/2ce55a333544721013f5b1071f76b54b9b72bc45)
+from [SORTEE-Github-Hackathon/manuscript@f51e293](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f51e293445ed9cacd9289a1591244cc84af08a5c)
 on April 27, 2022.
 </em></small>
 
@@ -297,7 +297,7 @@ As more ecologists and evolutionary biologists establish their workflows using G
 Most scientists, including ecologists and evolutionary biologists, are increasingly dependent on computational tools in their research [see @doi:10.1109/SECSE.2009.5069155].
 Researchers now write and use code as part of their scientific workflow to perform a wide-variety of tasks ranging from data management, data analysis, study replication, to the application and the development of tools for hypothesis testing.
 This code-dependent workflow imposes steep requirements towards an efficient, well-documented process in the publication and collaboration of maintainable scientific code [@doi:10.1038/d41586-020-02462-7].
-To facilitate this process, scientists have been increasingly borrowing and adopting tools from information system technology, such as cloud-based services for documentation and version control (_e.g._ from the Google Suite (with Docs, Sheets and Drive), the Microsoft Suite (with Word, Excel and OneDrive), and Github, [@doi:10.1038/538127a]).
+To facilitate this process, scientists have been increasingly borrowing and adopting tools from information system technology, such as cloud-based services for documentation and version control (_e.g._ from the Google Suite (with Docs, Sheets and Drive), the Microsoft Suite (with Word, Excel and OneDrive), and GitHub, [@doi:10.1038/538127a]).
 However, most researchers lack exposure to adequate software development practices and are required to dedicate valuable time and effort to self-teach the use of research-facilitating tools, and thus may find practical barriers when applying adequate standards to maintain their scientific code [@doi:10.1145/2063348.2063374; @doi:10.1371/journal.pbio.1001745; @doi:10.1109/SECSE.2009.5069155].
 Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in ecology and evolutionary biology (EEB) with practical workflows aimed at facilitating their scientific code and management process.
 
@@ -337,7 +337,7 @@ We also provide critical perspectives on features that could be improved and cat
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. RCO: I think it's great. Super helpful to have this type of glossary for github papers -->
 | Glossary |
 |---|
-|**repository**: A collection of files (e.g. a directory) tracked by git. Commonly shortened to "repo". Repositories are managed by an owner and can be listed as "public" where the repository will be visible to all github users or "private" where the repository is visible only to added team members.|
+|**repository**: A collection of files (e.g. a directory) tracked by git. Commonly shortened to "repo". Repositories are managed by an owner and can be listed as "public" where the repository will be visible to all GitHub users or "private" where the repository is visible only to added team members.|
 |**commit**: Commits are like snapshots in the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, make a commit (e.g. "generate and include fig1 in results"), and after several commits **push** those commits to the remote GitHub **repository**.|
 |**clone**: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**. If you have access to **push** to a **repository**, this can be a first step to contributing to a project.|
 |**branch**: Development branches can be created at any point in time and work on each branch can continue independently.This is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that arise when conflicting edits are pushed to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**.|
@@ -368,7 +368,7 @@ Version control is particularly useful if a mistake has been made where a user h
 
 Although common, data (as opposed to code) storage on GitHub is actually discouraged as the platform is explicitly about sharing code. Commits (see Box @box:box-1-definitions) greater than 50 MB receive a warning and there is a hard block on commits larger than 100 MB (https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Large datasets therefore may not be able to pushed up to GitHub repositories. Data greater than 50 MB can be stored in any one of many data repositories that can be integrated or linked with GitHub (e.g. osf.io) or one can make use of large file storage from GitHub (https://git-lfs.github.com/; which may have some costs associated with it). 
 
-An even easier way to start using Github is for the archival of cleaned code and data (less than 50 MB in size), often accompanying preprinting, manuscript submission, or manuscript acceptance. 
+An even easier way to start using GitHub is for the archival of cleaned code and data (less than 50 MB in size), often accompanying preprinting, manuscript submission, or manuscript acceptance. 
 Many users prefer to host a separate, cleaned repository that they make public when they complete a paper, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
 One benefit of using GitHub for this service is that it can integrate with a website called Zenodo, a free, long-term data archiving service funded by CERN [@https://www.zenodo.org] for datasets up to 50 GB. 
 After linking your GitHub account to Zenodo and turning on archiving, any time a release is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see 'Making code citable' below for more information).
@@ -539,10 +539,10 @@ Co-authors can then integrate their edits and responses to reviewers using pull 
 
 Research papers are condensed outputs that hide the underlying intellectual and computational workflows, including the treatment of the raw data and analytical steps. 
 Granting readers access to code and other documentation of the analysis allows them to retrace and comprehend analytical decisions. 
-Github provides a platform to access all aspects of the project, using citable DOIs, rather than just the final manuscript. 
-While often thought of as storage for data and code, github repositories can also be used to publish a time-stamped preregistration of research plans and hypotheses. 
+GitHub provides a platform to access all aspects of the project, using citable DOIs, rather than just the final manuscript. 
+While often thought of as storage for data and code, GitHub repositories can also be used to publish a time-stamped preregistration of research plans and hypotheses. 
 
-Github is a tool for managing and sharing components of any research project, that can help accelerate progress towards Open Science goals [@doi:10.1371/journal.pbio.1001195], from developing the analysis through to publication and ensuring reproducibility. 
+GitHub is a tool for managing and sharing components of any research project, that can help accelerate progress towards Open Science goals [@doi:10.1371/journal.pbio.1001195], from developing the analysis through to publication and ensuring reproducibility. 
 Conventional research practices typically rely on one or two people running and checking the data analyses, while most coauthors (and readers of the subsequent publication) see only the final results and a verbal description of the analytical steps. 
 In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors. Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort results [@https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science]. 
 Collaborators are better positioned to discover questionable findings if they have full and transparent access to the project. 
@@ -550,13 +550,13 @@ Collaborators are better positioned to discover questionable findings if they ha
 This transparency can similarly be extended beyond coauthors to the entire scientific community. 
 Publishing the data and reproducible workflows along with the manuscript allows any reader to review the analysis and reproduce the experiment [@doi:10.1371/journal.pbio.3000763]. 
 Supplying code for (novel) methods that are proposed or used also reduces barriers to knowledge and can greatly improve the ability of others to build on existing work, resulting in greater proliferation and accessibility for a broader audience. 
-Github even provides a useful Discussions Forum [@https://docs.github.com/en/discussions] that aids the direct communication with repository owners, as well as the Github Community [@https://github.community/] forum for more general questions and sharing of expertise. 
+GitHub even provides a useful Discussions Forum [@https://docs.github.com/en/discussions] that aids the direct communication with repository owners, as well as the GitHub Community [@https://github.community/] forum for more general questions and sharing of expertise. 
 
 If the methods and analyses used are fully available during the peer-review process, they can be as critically evaluated as the rest of the manuscript.
 However, fear of being scooped feeds into cultural reluctance to do science openly due to worries of intellectual property. 
 A solution would be to allow sharing a private link with a citable DOI for peer review, and update the DOI post-acceptance or post-publication. 
-Updating DOIs is currently yet a missing feature of github, but implemented in other open-access repositories such as Zenodo, which was developed under the European OpenAIRE program and is being hosted by CERN. 
-Alternatively, github users can to keep their data and code repository private until publication, and then make it public.
+Updating DOIs is currently yet a missing feature of GitHub, but implemented in other open-access repositories such as Zenodo, which was developed under the European OpenAIRE program and is being hosted by CERN. 
+Alternatively, GitHub users can to keep their data and code repository private until publication, and then make it public.
 
 ### Project continuity
 <!--*Contributors to this section: BPME, VF*  -->
@@ -617,7 +617,7 @@ Recently, community-led data standardization efforts are taking place on GitHub 
 
 Lastly, GitHub gists let users create and share snippets of code, notes, and files quickly.
 Rather than create an entire GitHub repository for saving a small code chunk you want to use in a presentation or share with a colleague, GitHub gists provide a lightweight way to write, save, and share code.
-Gists are associated with your Github account and can be public or private.
+Gists are associated with your GitHub account and can be public or private.
 Though gists lack all the features embedded in a GitHub repository, gists can still be forked, starred, downloaded, and easily added into a website or blog post.   
 
 
@@ -680,7 +680,7 @@ GitHub has both free and paid plans. When projects get highly collaborative they
 | 4. **The GitHub Learning Lab[@https://lab.github.com/]** allows you to learn GitHub basics through short projects and tasks, and allows you to get feedback from their Learning Lab bot.|
 | 5. **Check out the following markdown cheatsheet [@http://markdownguide.org/basic-syntax/]** so that you can write clear metadata README files for your repositories.| 
 | 6. **The Jenny Bryan universe of GitHub material** provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com/] and academic article [@doi:10.1080/00031305.2017.1399928]. |
-| 7. **Don't be afraid of trial and error** One of the best ways to learn Github is the trial and error method. Learning from your own mistakes can be the better way to master your GitHub abilities. In any case, GitHub has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. |
+| 7. **Don't be afraid of trial and error** One of the best ways to learn GitHub is the trial and error method. Learning from your own mistakes can be the better way to master your GitHub abilities. In any case, GitHub has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. |
 | 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in your curricula**. Some graduate programs now include coursework on course Rmarkdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time. |
 | 9. **Try to begin committing with GUI (Graphical user interface) tools** like GitHub Desktop [@https://desktop.github.com/], git-gui [@https://git-scm.com/docs/git-gui], RStudio [@https://www.rstudio.com/], Visual Studio Code [@https://code.visualstudio.com/], Atom [@https://atom.io/], GitKraken [@https://www.gitkraken.com/] tools instead CLI (Command line interface) tools such as Terminal or Console for more advanced features.
 | 10. **Get help deciphering GitHub Notifications.** Try using tools like Octobox [@https://octobox.io/] to disentangle and manage multiple notifications from distinct GitHub projects. |
