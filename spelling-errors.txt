@@ -49,7 +49,7 @@ findable
 Foroughirad
 Gainesville
 Gaynor
-gists
+Gists
 GitKraken
 GitLab
 Gomes
@@ -67,7 +67,7 @@ iDiv
 indispensible
 integrations
 Interoperable
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -80,7 +80,7 @@ OneDrive
 ons
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 OSF
 Packrat
 Pandoc

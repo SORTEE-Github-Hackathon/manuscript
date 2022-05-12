@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-04-27'
+date-meta: '2022-05-12'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-04-27" />
-  <meta name="citation_publication_date" content="2022-04-27" />
+  <meta name="dc.date" content="2022-05-12" />
+  <meta name="citation_publication_date" content="2022-05-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -98,9 +98,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1caf6873dffe3d0530a303aa267fff453d4a8fe9/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1caf6873dffe3d0530a303aa267fff453d4a8fe9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1caf6873dffe3d0530a303aa267fff453d4a8fe9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -122,10 +122,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f51e293445ed9cacd9289a1591244cc84af08a5c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1caf6873dffe3d0530a303aa267fff453d4a8fe9/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f51e293](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f51e293445ed9cacd9289a1591244cc84af08a5c)
-on April 27, 2022.
+from [SORTEE-Github-Hackathon/manuscript@1caf687](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1caf6873dffe3d0530a303aa267fff453d4a8fe9)
+on May 12, 2022.
 </em></small>
 
 ## Authors
@@ -310,7 +310,7 @@ This workflow raises a strong and clear advantage over receiving, processing and
 Through the combination of version control management and the network- and collaboration-based features, GitHub can broadly facilitate openly available source code alongside concomitant collaborative development [@doi:10.1371/journal.pcbi.1004947].
 
 Git is the version control system that enables all the collaborative tools available on GitHub.
-Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see Box @box:box-1-definitions) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to manage their repositories without using more technical command-line sessions. 
+Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to manage their repositories without using more technical command-line sessions. 
 We do not focus on Git in this paper, but we recommend users explore the many resources providing detailed information on Git, such as journal articles [@doi:10.1371/journal.pcbi.1004668; @doi:10.1371/journal.pcbi.1004947], video tutorials, and books [@https://happygitwithr.com].
 
 <!-- ### General background on how GitHub is used by EEB researchers -->
@@ -330,7 +330,7 @@ During the hackathon, we identified the need for a formal discussion on how EEB 
 Here, we outline thirteen practical ways that EEB researchers can use GitHub features for more collaborative, transparent, and reproducible science.
 We also provide critical perspectives on features that could be improved and catered towards research development.
 
-### Box 1 {#box:box-1-definitions}
+### Box 1 {#definitions}
 
 <!-- Contributors to this section: ERS, Ali -->
 
