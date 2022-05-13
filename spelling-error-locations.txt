@@ -1,5 +1,6 @@
 content/00.front-matter.md:4:Pandoc
 content/00.front-matter.md:8:citable
+content/01.abstract.md:3:EEB
 content/01.abstract.md:4:EEB
 content/01.abstract.md:6:EEB
 content/01.abstract.md:7:EEB
@@ -9,7 +10,8 @@ content/02.introduction.md:13:RCO
 content/02.introduction.md:24:EEB
 content/02.introduction.md:25:RCO
 content/02.introduction.md:27:EEB
-content/02.introduction.md:31:EEB
+content/02.introduction.md:29:EEB
+content/02.introduction.md:30:EEB
 content/02.introduction.md:34:RCO
 content/02.introduction.md:35:hackathon
 content/02.introduction.md:35:sortee
@@ -20,8 +22,7 @@ content/02.introduction.md:37:EEB
 content/02.introduction.md:37:hackathon
 content/02.introduction.md:38:EEB
 content/02.introduction.md:45:RCO
-content/02.introduction.md:48:repo
-content/02.introduction.md:60:RCO
+content/02.introduction.md:55:repo
 content/03.use-cases-a.md:1:EcoEvo
 content/03.use-cases-a.md:4:Gomes
 content/03.use-cases-a.md:4:Hudgins
@@ -47,7 +48,7 @@ content/03.use-cases-a.md:32:Brookson
 content/03.use-cases-a.md:37:alernative
 content/03.use-cases-a.md:40:RMarkdown
 content/03.use-cases-a.md:45:autograding
-content/03.use-cases-a.md:49:EEB
+content/03.use-cases-a.md:48:EEB
 content/04.use-cases-b.md:1:EcoEvo
 content/04.use-cases-b.md:5:Gaynor
 content/04.use-cases-b.md:5:Kaitlyn
@@ -100,14 +101,12 @@ content/04.use-cases-b.md:83:ESS
 content/04.use-cases-b.md:84:Ornelas
 content/04.use-cases-b.md:95:Hudgins
 content/04.use-cases-b.md:98:reproducibility
-content/04.use-cases-b.md:103:Mardown
 content/04.use-cases-b.md:104:hackmd
 content/04.use-cases-b.md:104:HackMD
 content/04.use-cases-b.md:104:ons
 content/04.use-cases-b.md:105:HackMD
 content/04.use-cases-b.md:106:Pandoc
 content/04.use-cases-b.md:106:scietnific
-content/04.use-cases-b.md:111:accomodate
 content/04.use-cases-b.md:112:DOIs
 content/04.use-cases-b.md:116:hypothes
 content/04.use-cases-b.md:116:hypothes

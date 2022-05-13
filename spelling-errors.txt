@@ -1,5 +1,4 @@
 Aariq
-accomodate
 adbinley
 advisees
 Aguncan
@@ -51,7 +50,7 @@ Grainger
 Guilan
 Guncan
 hackathon
-HackMD
+hackMD
 Hébert
 helenweierbach
 Hudgins
@@ -60,20 +59,19 @@ hypothes
 iDiv
 indispensible
 integrations
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
 katherinehebert
 labmates
-Mardown
 mentorship
 Octobox
 OneDrive
 ons
 OpenAIRE
 Ordu
-Ornelas
+ornelas
 OSF
 Packrat
 Pandoc
