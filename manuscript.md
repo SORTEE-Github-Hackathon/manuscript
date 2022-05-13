@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-05-12'
+date-meta: '2022-05-13'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-05-12" />
-  <meta name="citation_publication_date" content="2022-05-12" />
+  <meta name="dc.date" content="2022-05-13" />
+  <meta name="citation_publication_date" content="2022-05-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -98,9 +98,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ba9a64937102a382d27d2bbb594ad32e15a7163d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ba9a64937102a382d27d2bbb594ad32e15a7163d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ba9a64937102a382d27d2bbb594ad32e15a7163d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cab84e236fb68d249b7902c510e134c63b91e88b/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cab84e236fb68d249b7902c510e134c63b91e88b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/cab84e236fb68d249b7902c510e134c63b91e88b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -122,10 +122,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ba9a64937102a382d27d2bbb594ad32e15a7163d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/cab84e236fb68d249b7902c510e134c63b91e88b/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ba9a649](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ba9a64937102a382d27d2bbb594ad32e15a7163d)
-on May 12, 2022.
+from [SORTEE-Github-Hackathon/manuscript@cab84e2](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/cab84e236fb68d249b7902c510e134c63b91e88b)
+on May 13, 2022.
 </em></small>
 
 ## Authors
@@ -484,6 +484,11 @@ It is often best to develop comfort with features like pull requests and merges 
 GitHub can also facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
 Periodic code review can also help advisors to identify errors early in the process, and inform further training and mentorship to fill gaps in skills.
 
+Of course, EEB researchers can use GitHub for accelerating research collaborations beyond working on computer code.
+Recently, a community-led data standardization effort supported by the ESS-DIVE data repository took place on GitHub [@doi:10.1029/2021EA001797] and involved dozens of scientists across the U.S. Department of Energy National Labs.
+The researchers leveraged GitHub to version control and share data formatting instructions and templates with the broader community of environmental scientists (e.g., ESS-DIVE's GitHub Community Space, [@https://github.com/ess-dive-community]).
+In this effort, teams of environmental scientists, software developers, and informatics specialists worked asynchronously across many time zones to create, edit, and received community input on their proposed data standardization guidelines (Crystal-Ornelas et al. in review).
+
 Recently, asynchronous communication tools have become essential for workplace productivity, especially given the growing role of remote work. 
 With GitHub, researchers can seamlessly access and contribute to data and code regardless of disparities in schedules or location. 
 However, the benefits of asynchronous work can also extend far beyond the "work from home" model. 
@@ -606,19 +611,6 @@ The organization structure also allows for easy tracking of issues, projects, an
 
 Additionally, organizations provide a convenient location for students to archive the code for their projects, for use/reference by future students in the research group, thus providing a type of knowledge communication that may not exist otherwise. 
 Indeed, providing new students with access to the organization and ideally a template repository for lab projects can soften the burden on those new to the software, in that it provides them with examples to work off of, and an online location to ask for help from their labmates and/or advisors through tools like projects, discussions, and issues.
-
-### Additional uses for GitHub in EcoEvo research 
-*Contributors to this section: RCO, Ali*  
-
-There are many more ways that EEB researchers can use GitHub for accelerating research collaborations, and we briefly highlight several here.
-First, there are increasing calls for ecological data to be more Findable, Accessible, Interoperable, and Reusable (FAIR) [@doi:10.1016/j.tree.2019.04.005; @doi:10.1038/sdata.2016.18].
-A key component of data reusability is standardizing the ways (e.g., variable names, file formats) that research data are archived in long-term repositories.
-Recently, community-led data standardization efforts are taking place on GitHub [@doi:10.1029/2021EA001797], where documents and templates can be version controlled and commented on by the user community (e.g., ESS-DIVE's GitHub Community Space, [@https://github.com/ess-dive-community]).  
-
-Lastly, GitHub gists let users create and share snippets of code, notes, and files quickly.
-Rather than create an entire GitHub repository for saving a small code chunk you want to use in a presentation or share with a colleague, GitHub gists provide a lightweight way to write, save, and share code.
-Gists are associated with your GitHub account and can be public or private.
-Though gists lack all the features embedded in a GitHub repository, gists can still be forked, starred, downloaded, and easily added into a website or blog post.   
 
 
 ## Discussion

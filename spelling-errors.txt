@@ -40,11 +40,10 @@ emmajhudgins
 enviornment
 ESS
 Figshare
-Findable
+findable
 Foroughirad
 Gainesville
 Gaynor
-Gists
 GitKraken
 GitLab
 Gomes
@@ -52,7 +51,7 @@ Grainger
 Guilan
 Guncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Hudgins
@@ -61,8 +60,7 @@ hypothes
 iDiv
 indispensible
 integrations
-Interoperable
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -75,7 +73,7 @@ OneDrive
 ons
 OpenAIRE
 Ordu
-ornelas
+Ornelas
 OSF
 Packrat
 Pandoc
@@ -88,7 +86,6 @@ replit
 repo
 repos
 reproducibility
-reusability
 rfishbase
 Rmarkdown
 robcrystalornelas
