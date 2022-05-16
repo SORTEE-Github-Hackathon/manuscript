@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-05-13'
+date-meta: '2022-05-16'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-05-13" />
-  <meta name="citation_publication_date" content="2022-05-13" />
+  <meta name="dc.date" content="2022-05-16" />
+  <meta name="citation_publication_date" content="2022-05-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -98,9 +98,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c58f1905e26012f9c6d5cfe54aa92486f15eef81/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c58f1905e26012f9c6d5cfe54aa92486f15eef81/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c58f1905e26012f9c6d5cfe54aa92486f15eef81/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5892c840283fcc7e215a50c18d1c204540c89d79/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5892c840283fcc7e215a50c18d1c204540c89d79/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/5892c840283fcc7e215a50c18d1c204540c89d79/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -122,10 +122,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c58f1905e26012f9c6d5cfe54aa92486f15eef81/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/5892c840283fcc7e215a50c18d1c204540c89d79/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c58f190](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c58f1905e26012f9c6d5cfe54aa92486f15eef81)
-on May 13, 2022.
+from [SORTEE-Github-Hackathon/manuscript@5892c84](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/5892c840283fcc7e215a50c18d1c204540c89d79)
+on May 16, 2022.
 </em></small>
 
 ## Authors
@@ -349,34 +349,23 @@ We also provide critical perspectives on features that could be improved and cat
 
 
 
-## GitHub in EcoEvo Examples
+## 13 Practical ways of using GitHub in EEB
 
-### Storing and archiving version-controlled data
+### Storing a research compendium
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
 
-Many researchers often start their use of GitHub to backup their working code and data to a remote server (Just push and pull, see [Box 1](#definitions), from their own repo). 
-This saves the user time from backing up code on their own portable devices, such as hard drives. 
-This also offers some peace of mind, as this information is retrievable even if one's laptop ends up at the bottom of a lake. 
-Thus, an additional benefit of this 'cloud' storage is that one's GitHub repository can be accessed by any machine with internet access, allowing the user to be more mobile if they wish to both work from home and the office from different computers. 
-Each time a user pushes changes to their repository, GitHub tracks what these changes are and stores this history. 
-This feature allows for version control, such that users can re-visit previous versions code. 
-Version control is particularly useful if a mistake has been made where a user has unknowingly overwritten or deleted information that would otherwise be irretrievable without GitHub having saved that information.
-
-Although common, data (as opposed to code) storage on GitHub is actually discouraged as the platform is explicitly about sharing code. Commits ([Box 1](#definitions)) greater than 50 MB receive a warning and there is a hard block on commits larger than 100 MB (https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Large datasets therefore may not be able to pushed up to GitHub repositories. Data greater than 50 MB can be stored in any one of many data repositories that can be integrated or linked with GitHub (e.g. osf.io) or one can make use of large file storage from GitHub (https://git-lfs.github.com/; which may have some costs associated with it). 
-
-An even easier way to start using GitHub is for the archival of cleaned code and data (less than 50 MB in size), often accompanying preprinting, manuscript submission, or manuscript acceptance. 
-Many users prefer to host a separate, cleaned repository that they make public when they complete a paper, while keeping the original folders as either a private GitHub repository, or on another cloud storage service such as OneDrive, Dropbox, etc.
-One benefit of using GitHub for this service is that it can integrate with a website called Zenodo, a free, long-term data archiving service funded by CERN [@https://www.zenodo.org] for datasets up to 50 GB. 
-After linking your GitHub account to Zenodo and turning on archiving, any time a release is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI (see 'Making code citable' below for more information).
-DOIs for data and code are increasingly being required by journals for paper acceptance (e.g., Journal of Applied Ecology), and Zenodo provides a free alternative to other fee-based hosting services (such as Dryad).
+Many researchers often start using GitHub to backup their working code and data to a remote server (Just push and pull, see [Box 1](#definitions), from their own repo). 
+The GitHub repository serves as an additional backup and also allows the user to synchronize files and work on any computer with internet access. Because GitHub is built on git, version control features are also available, allowing users to re-visit or even restore previous versions of the repository.
+Although it is not recommended to use GitHub for long term data archiving, GitHub integrates with Zenodo, a CERN-funded long-term data archiving service. Zenodo can be linked to your GitHub account and archival activated for any public repository. Then, every time a release ([Box 1](#definitions)) is made, a snapshot of the entire repository is archived in Zenodo with a versioned, citable DOI that can be mentioned in a Data Availability Statement (see 'Making code citable' below for further discussion).
+Unfortunately, both GitHub and Zenodo have file size limits. For GitHub, commits (see Box 1 [@box:box-1-definitions]) greater than 50 MB receive a warning and there is a hard block on commits larger than 100 MB (@https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Large datasets therefore may not be able to pushed up to GitHub repositories. Data greater than 50 MB can be stored in any one of many data repositories that can be integrated or linked with GitHub (e.g. osf.io) or one can make use of large file storage from GitHub (@https://git-lfs.github.com/; which may have some costs associated with it). Zenodo has a similar limit of 50GB per dataset, but the user can upload multiple datasets and in addition the Zenodo help files suggest that larger datasets can be accommodated if users contact Zenodo (again a cost may be associated with this; see  @https://help.zenodo.org/#:~:text=What%20are%20the%20size%20limits,our%20best%20to%20help%20you).
 
 ### Virtual lab notebook
 <!--*contributors to this section: RCO* -->
 Lab notebooks have been indispensible tools for keeping track of research methods and laboratory policies [@doi:10.1186/s13321-017-0221-3].
-Digital lab notebooks, stored in the cloud, provide clear benefits given the ease with which documents can be shared with new employees and updated as policy changes or experimental methods are modified [@doi:10.1371/journal.pcbi.1004385].
-Increasingly, researchers are leveraging GitHub's underlying version control to keep and share digital lab notebooks [@doi:10.1038/538127a].
-At a minimum, commit statements can provide a record of daily changes made to any code stored on GitHub [@doi:10.1186/1751-0473-8-7].  
-GitHub issues can be used to track and prioritize lab objectives and goals, as well as tracking any status updates.
+Digital lab notebooks stored in the cloud provide clear benefits given the ease with which documents can be shared with new employees and updated as policy changes or experimental methods are modified [@doi:10.1371/journal.pcbi.1004385].
+Increasingly, researchers are leveraging GitHub's underlying version control system to maintain and share digital lab notebooks [@doi:10.1038/538127a].
+At least for aspects of a research project that involve writing code, a GitHub repository is a form of a lab notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit (Box 1 [@box:box-1-definitions]) accompanied by a message describing the changes and the reason for them. Later, the entire history of commits and their messages are viewable and can be audited similar to a physical lab notebook [@doi.org/10.1186/1751-0473-8-7].
+GitHub issues (Box 1 [@box:box-1-definitions]) can be used to prioritize lab objectives and goals, as well as track any status updates.
 Some EEB labs have even turned their lab notebooks into shareable websites [@url:https://scheuerell-lab.github.io/lab-book; @url:https://github.com/HuckleyLab/how_we_work] as a centralized location for all lab resources.  
 
 ### Educational materials
@@ -385,18 +374,18 @@ Some EEB labs have even turned their lab notebooks into shareable websites [@url
 GitHub supports a broad set of mechanisms for hosting educational materials.
 The entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub.
 For example, organizing a course could be broken down into: 1) developing the material (i.e., slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, 4) accepting student work submissions and 5) returning graded material.
-While there are other purpose-built platforms for this, GitHub provides a free, open-source alernative.
+While there are other purpose-built platforms for this, GitHub provides a free, open-source alternative.
 
 GitHub's open nature allows colleagues to see, review and offer feedback on your process.
-Making presentations can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338], Python, with `python-ppt` [@https://python-pptx.readthedocs.io/en/latest/index.html]), and Julia, with `Remark.jl` [@https://juliapackages.com/p/remark].
+Making presentations can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338]; Python, with `python-ppt` [@https://python-pptx.readthedocs.io/en/latest/index.html]); and Julia, with `Remark.jl` [@https://juliapackages.com/p/remark].
 Since all these programs work via code bases, they can be version-controlled through git and GitHub.
-Once content is made, hosting a course website can be done through GitHub Pages, and there are lots of templates available (e.g., see [@https://github.com/topics/course-website]).
+Once content is made, hosting a course website can be done through GitHub Pages, and there are numerous templates available (e.g., see [@https://github.com/topics/course-website]).
 This way, not only can the course content be available to enrolled students, but also to a global pool of learners and teachers interested in the course material.
 Content can then be delivered via the course website, and/or a GitHub organization with, for example, template repositories for assignments.
 Student submissions are perhaps the most challenging component, but for assignments submitted as code files (i.e., `.R` & `.Rmd` as two of the most common) and/or `.pdf` files, GitHub has a new tool in development  - GitHub classroom [@https://classroom.github.com] - where instructors can host private assignments, and even build custom autograding tests.
  
 While most instructors can feasibly only incorporate some of these tools to deliver their content to students, it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.  
-Especially if a central tenet of a given course or educational unit is to introduce or give students experience to version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
+Especially if a central tenet of a given course or educational unit is to introduce or give students experience with version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
 
 
 <!--## GitHub in EcoEvo examples (Part 2)-->
