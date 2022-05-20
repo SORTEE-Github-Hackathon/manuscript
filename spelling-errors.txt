@@ -34,7 +34,6 @@ dylangomes
 EEB
 else’s
 emmajhudgins
-enviornment
 Figshare
 findable
 Foroughirad
@@ -46,7 +45,7 @@ Gomes
 Grainger
 Guilan
 Guncan
-Hackathon
+hackathon
 HackMD
 Hébert
 helenweierbach
@@ -54,7 +53,6 @@ hidding
 Hudgins
 HWeierbach
 hypothes
-iDiv
 indispensible
 integrations
 jupyter
@@ -69,7 +67,7 @@ OneDrive
 ons
 Ordu
 Ornelas
-OSF
+osf
 Pandoc
 QCBSRworkshops
 Québec
@@ -81,7 +79,7 @@ repo
 repos
 reproducibility
 rfishbase
-Rmarkdown
+RMarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
@@ -97,7 +95,6 @@ Sherbrooke
 SORTEE
 Sowmeh
 taxize
-togther
 Torgarden
 txt
 Université
