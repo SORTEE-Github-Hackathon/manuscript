@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-05-20'
+date-meta: '2022-05-27'
 author-meta:
 - Dylan G. E. Gomes
 - Cole B. Brookson
@@ -16,6 +16,7 @@ author-meta:
 - Kaitlyn M. Gaynor
 - Vivienne Foroughirad
 - Katherine Hébert
+- Friederike Hillemann
 - Emma J. Hudgins
 - Saeed Shafiei Sabet
 - Eric R. Scott
@@ -32,8 +33,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
   <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-05-20" />
-  <meta name="citation_publication_date" content="2022-05-20" />
+  <meta name="dc.date" content="2022-05-27" />
+  <meta name="citation_publication_date" content="2022-05-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,6 +71,9 @@ header-includes: |-
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
   <meta name="twitter:creator" content="@hebert_kat" />
+  <meta name="citation_author" content="Friederike Hillemann" />
+  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
+  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
@@ -98,9 +102,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50b26db4b6a85ec054e981a48840b54d5104cce6/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50b26db4b6a85ec054e981a48840b54d5104cce6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50b26db4b6a85ec054e981a48840b54d5104cce6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c63ace8bab3df506dab0ec54be6610e4e6e9faf2/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c63ace8bab3df506dab0ec54be6610e4e6e9faf2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c63ace8bab3df506dab0ec54be6610e4e6e9faf2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -122,10 +126,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/50b26db4b6a85ec054e981a48840b54d5104cce6/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c63ace8bab3df506dab0ec54be6610e4e6e9faf2/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@50b26db](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/50b26db4b6a85ec054e981a48840b54d5104cce6)
-on May 20, 2022.
+from [SORTEE-Github-Hackathon/manuscript@c63ace8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c63ace8bab3df506dab0ec54be6610e4e6e9faf2)
+on May 27, 2022.
 </em></small>
 
 ## Authors
@@ -212,6 +216,15 @@ on May 20, 2022.
     [hebert_kat](https://twitter.com/hebert_kat)<br>
   <small>
      Département de biologie, Université de Sherbrooke, Québec, Canada
+  </small>
+
++ **Friederike Hillemann**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [fhillemann](https://github.com/fhillemann)<br>
+  <small>
+     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
 + **Emma J. Hudgins**<br>

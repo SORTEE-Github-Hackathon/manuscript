@@ -122,6 +122,7 @@ content/04.use-cases-b.md:103:rOpenSci
 content/04.use-cases-b.md:103:rOpenSci's
 content/04.use-cases-b.md:103:taxize
 content/05.use-cases-c.md:4:Binley
+content/05.use-cases-c.md:4:Hillemann
 content/05.use-cases-c.md:8:citable
 content/05.use-cases-c.md:8:DOIs
 content/05.use-cases-c.md:22:citable

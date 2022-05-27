@@ -34,9 +34,11 @@ dylangomes
 EEB
 else’s
 emmajhudgins
+fhillemann
 Figshare
 findable
 Foroughirad
+Friederike
 Gainesville
 Gaynor
 GitKraken
@@ -46,10 +48,11 @@ Grainger
 Guilan
 Guncan
 hackathon
-HackMD
+hackMD
 Hébert
 helenweierbach
 hidding
+Hillemann
 Hudgins
 HWeierbach
 hypothes
@@ -66,8 +69,8 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
-osf
+ornelas
+OSF
 Pandoc
 QCBSRworkshops
 Québec
@@ -79,7 +82,7 @@ repo
 repos
 reproducibility
 rfishbase
-RMarkdown
+Rmarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
