@@ -43,7 +43,8 @@ authors:
     orcid: 0000-0001-7668-2528
     email: sanchez.reyes.luna@gmail.com
     twitter: LunaSare
-    affiliations: School of Natural Sciences, University of California, Merced, USA
+    affiliations:
+      - School of Natural Sciences, University of California, Merced, USA
   - github: Aariq
     name: Eric R. Scott
     initials: ERS
