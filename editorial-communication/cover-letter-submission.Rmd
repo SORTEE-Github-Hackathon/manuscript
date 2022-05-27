@@ -25,12 +25,10 @@ This may present a plethora of practical barriers to applying adequate standards
 
 The adoption of GitHub in EEB workflows is not widespread in part because there have been only a few disparate attempts at creating domain-specific information and guidelines.
 In our study, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in EEB with comprehensive and practical workflows aimed at facilitating their scientific code and management process.
-<!-- Added adjective 'comprehensive' because I think it adds to showing that this mauscript improves upon previous 'disparate' attempts at such resources -->
 
 Our manuscript is the most accessible and practical guide to using GitHub in EEB research to date. 
 We build upon some existing resources, which are mainly targeted at other disciplines, and our own experiences (from across many EEB subdisciplines) in writing and sharing code openly, to highlight steps EEB researchers can take to improve their research practices in a reproducible, collaborative, and transparent way.
 Our manuscript is important for the *Nature Ecology & Evolution* readership because it will give EEB researchers key resources and workflows to guide them through migrating workflows to GitHub and supporting more open and collaborative science.
-<!-- Reworded for emphasis -->
 
 The enclosed manuscript is available as a preprint on the NAME OF SERVER AND CITATION, but is not published or in review elsewhere.
 All authors have contributed and reviewed the current version of the manuscript and agreed to its submission to *Nature Ecology & Evolution*.
