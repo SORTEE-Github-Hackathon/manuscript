@@ -1,37 +1,12 @@
 ---
-title: "Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution"
+title: "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution"
 keywords:
-  - Github
+  - GitHub
   - Reproducible research
   - Collaboration
   - Ecology and evolution
 lang: en-US
 authors:
-  # - github: hermionejeangranger
-  #   name: Hermione Jean Granger
-  #   initials: HJG
-  #   orcid: XXXX-XXXX-XXXX-XXXX
-  #   email: hermione.granger@bministryofmagic.uk
-  #   twitter: hermionejeangranger
-  #   affiliations:
-  #     - Department for the Regulation and Control of Magical Creatures, British Ministry of Magic, United Kingdom
-  #     - Department of Magical Law Enforcement, British Ministry of Magic, United Kingdom
-  #   funders:
-  #     - Hogwarts Grant XXXXXX-XX.
-  - github: dylangomes
-    name: Dylan G. E. Gomes
-    initials: DGEG
-    orcid: 0000-0002-2642-3728
-    email: dylan.ge.gomes@gmail.com
-    affiliations:
-      - Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
-  - github: colebrookson
-    name: Cole B. Brookson
-    initials: CBB
-    orcid: 0000-0003-1237-4096
-    email: cole.brookson@gmail.com
-    affiliations:
-      - Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
   - github: robcrystalornelas
     name: Robert Crystal-Ornelas
     initials: RCO
@@ -40,14 +15,6 @@ authors:
     twitter: rob_c_ornelas
     affiliations:
       - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
-  - github: Aguncan
-    name: Ali Guncan
-    initials: AG
-    orcid: 0000-0003-1765-648X
-    email: guncan.ali@gmail.com
-    twitter: aliguncan
-    affiliations:
-      - Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
   - github: BrandonEdwards
     name: Brandon P.M. Edwards
     initials: BPME
@@ -55,23 +22,6 @@ authors:
     email: brandonedwards3@cmail.carleton.ca
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
-  - github: kaitlyngaynor
-    name: Kaitlyn M. Gaynor
-    initials: KMG
-    orcid: 0000-0002-5747-0543
-    email: gaynor@zoology.ubc.ca
-    twitter: kaitlyngaynor
-    affiliations:
-      - Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada
-      - National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
-  - github: vjf2
-    name: Vivienne Foroughirad
-    initials: VF
-    orcid: 0000-0002-8656-7440
-    email: vjf5@georgetown.edu
-    twitter: vforoughirad
-    affiliations:
-      - Department of Biology, Georgetown University, Washington, DC, USA  
   - github: katherinehebert
     name: Katherine Hébert
     initials: KH
@@ -87,14 +37,13 @@ authors:
     email: emma.hudgins@carleton.ca
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
-  - github: shafieisabets
-    name: Saeed Shafiei Sabet
-    initials: SSHS
-    orcid: 0000-0001-5919-2527
-    email: s.shafiei.sabet@guilan.ac.ir
-    twitter: SaeedSHSABET
-    affiliations:
-      - Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+   - github: LunaSare
+    name: Luna L. Sánchez Reyes
+    initials: LLSR
+    orcid: 0000-0001-7668-2528
+    email: sanchez.reyes.luna@gmail.com
+    twitter: LunaSare
+    affiliations: School of Natural Sciences, University of California, Merced, USA
   - github: Aariq
     name: Eric R. Scott
     initials: ERS
@@ -102,6 +51,22 @@ authors:
     email: scottericr@gmail.com
     affiliations:
       - Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+  - github: DrMattG
+    name: Matthew J. Grainger
+    initials: MJG
+    orcid: 0000-0001-8426-6495
+    email: matthew.grainger@nina.no
+    twitter: Ed_pheasant
+    affiliations:
+      - Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway 
+  - github: vjf2
+    name: Vivienne Foroughirad
+    initials: VF
+    orcid: 0000-0002-8656-7440
+    email: vjf5@georgetown.edu
+    twitter: vforoughirad
+    affiliations:
+      - Department of Biology, Georgetown University, Washington, DC, USA
   - github: adbinley
     name: Allison D. Binley
     initials: ADB
@@ -110,14 +75,45 @@ authors:
     twitter: AllisonBinley
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
-  - github: DrMattG
-    name: Matthew J. Grainger
-    initials: MJG
-    orcid: 0000-0001-8426-6495
-    email: matthew.grainger@nina.no
-    twitter: Ed_pheasant
+  - github: colebrookson
+    name: Cole B. Brookson
+    initials: CBB
+    orcid: 0000-0003-1237-4096
+    email: cole.brookson@gmail.com
     affiliations:
-      - Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
+      - Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
+  - github: kaitlyngaynor
+    name: Kaitlyn M. Gaynor
+    initials: KMG
+    orcid: 0000-0002-5747-0543
+    email: gaynor@zoology.ubc.ca
+    twitter: kaitlyngaynor
+    affiliations:
+      - Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada
+      - National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
+  - github: shafieisabets
+    name: Saeed Shafiei Sabet
+    initials: SSHS
+    orcid: 0000-0001-5919-2527
+    email: s.shafiei.sabet@guilan.ac.ir
+    twitter: SaeedSHSABET
+    affiliations:
+      - Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+  - github: Aguncan
+    name: Ali Güncan
+    initials: AG
+    orcid: 0000-0003-1765-648X
+    email: guncan.ali@gmail.com
+    twitter: aliguncan
+    affiliations:
+      - Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
+  - github: fhillemann
+    name: Friederike Hillemann
+    initials: FH
+    orcid: 0000-0002-8992-0676
+    email: f.hillemann@web.de
+    affiliations:
+      - Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   - github: helenweierbach
     name: Helen Weierbach
     initials: HW
@@ -126,3 +122,19 @@ authors:
     twitter: HWeierbach
     affiliations:
       - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+  - github: dylangomes
+    name: Dylan G. E. Gomes
+    initials: DGEG
+    orcid: 0000-0002-2642-3728
+    email: dylan.ge.gomes@gmail.com
+    affiliations:
+      - (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112
+      - (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
+  - github: pedrohbraga
+    name: Pedro Henrique Pereira Braga
+    initials: PHPB
+    orcid: 0000-0002-1308-1562
+    email: ph.pereirabraga@gmail.com
+    twitter: pedrohp_braga
+    affiliations:
+      - Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
