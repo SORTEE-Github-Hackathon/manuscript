@@ -47,7 +47,7 @@ Gomes
 Grainger
 Guilan
 Guncan
-hackathon
+Hackathon
 hackMD
 Hébert
 helenweierbach
@@ -58,7 +58,7 @@ HWeierbach
 hypothes
 indispensible
 integrations
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
