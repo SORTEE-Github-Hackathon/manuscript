@@ -1,9 +1,5 @@
 content/00.front-matter.md:4:Pandoc
 content/00.front-matter.md:8:citable
-content/01.abstract.md:3:EEB
-content/01.abstract.md:4:EEB
-content/01.abstract.md:6:EEB
-content/01.abstract.md:7:EEB
 content/02.introduction.md:8:OneDrive
 content/02.introduction.md:10:EEB
 content/02.introduction.md:13:RCO

@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -50,8 +50,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
-hackMD
+Hackathon
+HackMD
 Hébert
 helenweierbach
 Henrique
@@ -75,7 +75,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 pedrohbraga
@@ -91,7 +91,7 @@ repo
 repos
 reproducibility
 rfishbase
-RMarkdown
+Rmarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
