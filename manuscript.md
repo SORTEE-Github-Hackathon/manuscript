@@ -117,9 +117,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b5326c4c9a85c96a9fd6a85a6072c2a55589bdc5/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b5326c4c9a85c96a9fd6a85a6072c2a55589bdc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b5326c4c9a85c96a9fd6a85a6072c2a55589bdc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f81e3982dd5a48719f7e5a6edb6c51b2338f5a33/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f81e3982dd5a48719f7e5a6edb6c51b2338f5a33/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f81e3982dd5a48719f7e5a6edb6c51b2338f5a33/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b5326c4c9a85c96a9fd6a85a6072c2a55589bdc5/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f81e3982dd5a48719f7e5a6edb6c51b2338f5a33/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@b5326c4](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b5326c4c9a85c96a9fd6a85a6072c2a55589bdc5)
+from [SORTEE-Github-Hackathon/manuscript@f81e398](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f81e3982dd5a48719f7e5a6edb6c51b2338f5a33)
 on May 31, 2022.
 </em></small>
 
@@ -374,11 +374,11 @@ We do not focus on Git in this paper, but for readers who are interested in the 
 
 <!-- ### General background on how GitHub is used by EEB researchers -->
 <!-- *Contributors to this section: RCO, PHPB* -->
-The expansive user-community and the numerous resources on how to use GitHub has encouraged its growing popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; https://happygitwithr.com/; https://ourcodingclub.github.io].
+The expansive user-community and the numerous resources on how to use GitHub has encouraged its growing popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; @url:https://happygitwithr.com/; @url:https://ourcodingclub.github.io].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
 First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for software development in information systems [@doi:10.1109/ASONAM.2016.7752419].
 Moreover, domain-specific perspectives and resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce (but see https://ourcodingclub.github.io; https://www.openscapes.org).
-A common adoption of GitHub for collaborating on a variety of research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their scientific research [@doi:10.3897/rio.6.e56508].
+A common adoption of GitHub for collaborating on a variety of research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their research [@doi:10.3897/rio.6.e56508].
 More importantly, an increased availability of data and code management standards -- of which GitHub is one increasingly important component -- make research more reproducible and collaborative [@doi:10.1002/bes2.1801].
 
 <!-- ### Our objective -->

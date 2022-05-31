@@ -50,7 +50,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
+hackathon
 HackMD
 Hébert
 helenweierbach
@@ -62,7 +62,7 @@ HWeierbach
 hypothes
 indispensible
 integrations
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -75,7 +75,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 Pandoc
 pedrohbraga
@@ -91,7 +91,7 @@ repo
 repos
 reproducibility
 rfishbase
-Rmarkdown
+RMarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
