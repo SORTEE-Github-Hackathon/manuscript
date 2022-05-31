@@ -1,72 +1,56 @@
 ---
-title: 'Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution'
+title: 'Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution'
 keywords:
-- Github
+- GitHub
 - Reproducible research
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-05-27'
+date-meta: '2022-05-31'
 author-meta:
-- Dylan G. E. Gomes
-- Cole B. Brookson
 - Robert Crystal-Ornelas
-- Ali Guncan
 - Brandon P.M. Edwards
-- Kaitlyn M. Gaynor
-- Vivienne Foroughirad
 - Katherine Hébert
 - Friederike Hillemann
 - Emma J. Hudgins
-- Saeed Shafiei Sabet
+- Luna L. Sánchez Reyes
 - Eric R. Scott
-- Allison D. Binley
 - Matthew J. Grainger
+- Vivienne Foroughirad
+- Allison D. Binley
+- Cole B. Brookson
+- Kaitlyn M. Gaynor
+- Saeed Shafiei Sabet
+- Ali Güncan
+- Friederike Hillemann
 - Helen Weierbach
+- Dylan G. E. Gomes
+- Pedro Henrique Pereira Braga
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="citation_title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta property="og:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta property="twitter:title" content="Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution" />
-  <meta name="dc.date" content="2022-05-27" />
-  <meta name="citation_publication_date" content="2022-05-27" />
+  <meta name="dc.title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
+  <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
+  <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
+  <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
+  <meta name="dc.date" content="2022-05-31" />
+  <meta name="citation_publication_date" content="2022-05-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Dylan G. E. Gomes" />
-  <meta name="citation_author_institution" content="Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
-  <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
-  <meta name="citation_author" content="Cole B. Brookson" />
-  <meta name="citation_author_institution" content="Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada" />
-  <meta name="citation_author_orcid" content="0000-0003-1237-4096" />
   <meta name="citation_author" content="Robert Crystal-Ornelas" />
   <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
   <meta name="citation_author_orcid" content="0000-0002-6339-1139" />
   <meta name="twitter:creator" content="@rob_c_ornelas" />
-  <meta name="citation_author" content="Ali Guncan" />
-  <meta name="citation_author_institution" content="Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey" />
-  <meta name="citation_author_orcid" content="0000-0003-1765-648X" />
-  <meta name="twitter:creator" content="@aliguncan" />
   <meta name="citation_author" content="Brandon P.M. Edwards" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0003-0865-3076" />
-  <meta name="citation_author" content="Kaitlyn M. Gaynor" />
-  <meta name="citation_author_institution" content="Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada" />
-  <meta name="citation_author_institution" content="National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-5747-0543" />
-  <meta name="twitter:creator" content="@kaitlyngaynor" />
-  <meta name="citation_author" content="Vivienne Foroughirad" />
-  <meta name="citation_author_institution" content="Department of Biology, Georgetown University, Washington, DC, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-8656-7440" />
-  <meta name="twitter:creator" content="@vforoughirad" />
   <meta name="citation_author" content="Katherine Hébert" />
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
@@ -77,34 +61,65 @@ header-includes: |-
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
-  <meta name="citation_author" content="Saeed Shafiei Sabet" />
-  <meta name="citation_author_institution" content="Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran" />
-  <meta name="citation_author_orcid" content="0000-0001-5919-2527" />
-  <meta name="twitter:creator" content="@SaeedSHSABET" />
+  <meta name="citation_author" content="Luna L. Sánchez Reyes" />
+  <meta name="citation_author_institution" content="School of Natural Sciences, University of California, Merced, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-7668-2528" />
+  <meta name="twitter:creator" content="@LunaSare" />
   <meta name="citation_author" content="Eric R. Scott" />
   <meta name="citation_author_institution" content="Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
-  <meta name="citation_author" content="Allison D. Binley" />
-  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
-  <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
-  <meta name="twitter:creator" content="@AllisonBinley" />
   <meta name="citation_author" content="Matthew J. Grainger" />
   <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
   <meta name="citation_author_orcid" content="0000-0001-8426-6495" />
   <meta name="twitter:creator" content="@Ed_pheasant" />
+  <meta name="citation_author" content="Vivienne Foroughirad" />
+  <meta name="citation_author_institution" content="Department of Biology, Georgetown University, Washington, DC, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-8656-7440" />
+  <meta name="twitter:creator" content="@vforoughirad" />
+  <meta name="citation_author" content="Allison D. Binley" />
+  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
+  <meta name="twitter:creator" content="@AllisonBinley" />
+  <meta name="citation_author" content="Cole B. Brookson" />
+  <meta name="citation_author_institution" content="Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada" />
+  <meta name="citation_author_orcid" content="0000-0003-1237-4096" />
+  <meta name="citation_author" content="Kaitlyn M. Gaynor" />
+  <meta name="citation_author_institution" content="Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada" />
+  <meta name="citation_author_institution" content="National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-5747-0543" />
+  <meta name="twitter:creator" content="@kaitlyngaynor" />
+  <meta name="citation_author" content="Saeed Shafiei Sabet" />
+  <meta name="citation_author_institution" content="Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran" />
+  <meta name="citation_author_orcid" content="0000-0001-5919-2527" />
+  <meta name="twitter:creator" content="@SaeedSHSABET" />
+  <meta name="citation_author" content="Ali Güncan" />
+  <meta name="citation_author_institution" content="Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey" />
+  <meta name="citation_author_orcid" content="0000-0003-1765-648X" />
+  <meta name="twitter:creator" content="@aliguncan" />
+  <meta name="citation_author" content="Friederike Hillemann" />
+  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
+  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Helen Weierbach" />
   <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
   <meta name="citation_author_orcid" content="0000-0001-6348-9120" />
   <meta name="twitter:creator" content="@HWeierbach" />
+  <meta name="citation_author" content="Dylan G. E. Gomes" />
+  <meta name="citation_author_institution" content="(Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112" />
+  <meta name="citation_author_institution" content="(Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
+  <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
+  <meta name="citation_author" content="Pedro Henrique Pereira Braga" />
+  <meta name="citation_author_institution" content="Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0002-1308-1562" />
+  <meta name="twitter:creator" content="@pedrohp_braga" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7e78aea37b37b7249327e51fbb371a699f1ece2c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7e78aea37b37b7249327e51fbb371a699f1ece2c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/7e78aea37b37b7249327e51fbb371a699f1ece2c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55a76ff544c991032592e210d0684e550d6a23d1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55a76ff544c991032592e210d0684e550d6a23d1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55a76ff544c991032592e210d0684e550d6a23d1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -126,33 +141,15 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/7e78aea37b37b7249327e51fbb371a699f1ece2c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/55a76ff544c991032592e210d0684e550d6a23d1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@7e78aea](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/7e78aea37b37b7249327e51fbb371a699f1ece2c)
-on May 27, 2022.
+from [SORTEE-Github-Hackathon/manuscript@55a76ff](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/55a76ff544c991032592e210d0684e550d6a23d1)
+on May 31, 2022.
 </em></small>
 
 ## Authors
 
 
-
-+ **Dylan G. E. Gomes**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-2642-3728](https://orcid.org/0000-0002-2642-3728)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dylangomes](https://github.com/dylangomes)<br>
-  <small>
-     Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
-  </small>
-
-+ **Cole B. Brookson**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-1237-4096](https://orcid.org/0000-0003-1237-4096)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [colebrookson](https://github.com/colebrookson)<br>
-  <small>
-     Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
-  </small>
 
 + **Robert Crystal-Ornelas**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -165,17 +162,6 @@ on May 27, 2022.
      Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
-+ **Ali Guncan**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-1765-648X](https://orcid.org/0000-0003-1765-648X)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [Aguncan](https://github.com/Aguncan)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [aliguncan](https://twitter.com/aliguncan)<br>
-  <small>
-     Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
-  </small>
-
 + **Brandon P.M. Edwards**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-0865-3076](https://orcid.org/0000-0003-0865-3076)
@@ -183,28 +169,6 @@ on May 27, 2022.
     [BrandonEdwards](https://github.com/BrandonEdwards)<br>
   <small>
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
-  </small>
-
-+ **Kaitlyn M. Gaynor**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-5747-0543](https://orcid.org/0000-0002-5747-0543)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [kaitlyngaynor](https://github.com/kaitlyngaynor)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [kaitlyngaynor](https://twitter.com/kaitlyngaynor)<br>
-  <small>
-     Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada; National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
-  </small>
-
-+ **Vivienne Foroughirad**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8656-7440](https://orcid.org/0000-0002-8656-7440)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [vjf2](https://github.com/vjf2)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [vforoughirad](https://twitter.com/vforoughirad)<br>
-  <small>
-     Department of Biology, Georgetown University, Washington, DC, USA
   </small>
 
 + **Katherine Hébert**<br>
@@ -236,15 +200,15 @@ on May 27, 2022.
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
-+ **Saeed Shafiei Sabet**<br>
++ **Luna L. Sánchez Reyes**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-5919-2527](https://orcid.org/0000-0001-5919-2527)
+    [0000-0001-7668-2528](https://orcid.org/0000-0001-7668-2528)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [shafieisabets](https://github.com/shafieisabets)
+    [LunaSare](https://github.com/LunaSare)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [SaeedSHSABET](https://twitter.com/SaeedSHSABET)<br>
+    [LunaSare](https://twitter.com/LunaSare)<br>
   <small>
-     Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+     School of Natural Sciences, University of California, Merced, USA
   </small>
 
 + **Eric R. Scott**<br>
@@ -254,17 +218,6 @@ on May 27, 2022.
     [Aariq](https://github.com/Aariq)<br>
   <small>
      Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
-  </small>
-
-+ **Allison D. Binley**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-8790-9935](https://orcid.org/0000-0001-8790-9935)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [adbinley](https://github.com/adbinley)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [AllisonBinley](https://twitter.com/AllisonBinley)<br>
-  <small>
-     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
 + **Matthew J. Grainger**<br>
@@ -278,6 +231,79 @@ on May 27, 2022.
      Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
   </small>
 
++ **Vivienne Foroughirad**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8656-7440](https://orcid.org/0000-0002-8656-7440)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [vjf2](https://github.com/vjf2)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [vforoughirad](https://twitter.com/vforoughirad)<br>
+  <small>
+     Department of Biology, Georgetown University, Washington, DC, USA
+  </small>
+
++ **Allison D. Binley**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8790-9935](https://orcid.org/0000-0001-8790-9935)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [adbinley](https://github.com/adbinley)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [AllisonBinley](https://twitter.com/AllisonBinley)<br>
+  <small>
+     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  </small>
+
++ **Cole B. Brookson**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1237-4096](https://orcid.org/0000-0003-1237-4096)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [colebrookson](https://github.com/colebrookson)<br>
+  <small>
+     Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
+  </small>
+
++ **Kaitlyn M. Gaynor**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-5747-0543](https://orcid.org/0000-0002-5747-0543)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [kaitlyngaynor](https://github.com/kaitlyngaynor)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [kaitlyngaynor](https://twitter.com/kaitlyngaynor)<br>
+  <small>
+     Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada; National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
+  </small>
+
++ **Saeed Shafiei Sabet**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5919-2527](https://orcid.org/0000-0001-5919-2527)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [shafieisabets](https://github.com/shafieisabets)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [SaeedSHSABET](https://twitter.com/SaeedSHSABET)<br>
+  <small>
+     Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
+  </small>
+
++ **Ali Güncan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1765-648X](https://orcid.org/0000-0003-1765-648X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [Aguncan](https://github.com/Aguncan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [aliguncan](https://twitter.com/aliguncan)<br>
+  <small>
+     Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
+  </small>
+
++ **Friederike Hillemann**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [fhillemann](https://github.com/fhillemann)<br>
+  <small>
+     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
+  </small>
+
 + **Helen Weierbach**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6348-9120](https://orcid.org/0000-0001-6348-9120)
@@ -287,6 +313,26 @@ on May 27, 2022.
     [HWeierbach](https://twitter.com/HWeierbach)<br>
   <small>
      Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+  </small>
+
++ **Dylan G. E. Gomes**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2642-3728](https://orcid.org/0000-0002-2642-3728)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dylangomes](https://github.com/dylangomes)<br>
+  <small>
+     (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112; (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
+  </small>
+
++ **Pedro Henrique Pereira Braga**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1308-1562](https://orcid.org/0000-0002-1308-1562)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [pedrohbraga](https://github.com/pedrohbraga)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [pedrohp_braga](https://twitter.com/pedrohp_braga)<br>
+  <small>
+     Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
   </small>
 
 
