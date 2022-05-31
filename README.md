@@ -1,4 +1,4 @@
-# Not just for programmers: A friendly guide on the benefits of GitHub for accelerating collaborative research in Ecology and Evolution
+# Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution
 
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
