@@ -1,5 +1,5 @@
-﻿Guild,Software,Vesion control,Backup (cloud),Passive collaboration,Active real-time colalboration,Free $,Permanent (DOI),Storage limits,GitHub Integration
-Multi-tool,GitHub,yes,yes,yes,,Broadly limited free version. Advanced features are provided for free to students and education professionals.,"A DOI can only be obtained when integrating to other services that can mint DOI (e.g. Zenodo, OSF).","100MB per file, 500MB per private repo (2GB for paid accounts). 100GB for public repos. Larger files (up to 2GB) can be attached to releases",NA
+Guild,Software,Vesion control,Backup (cloud),Passive collaboration,Active real-time colalboration,Free $,Permanent (DOI),Storage limits,GitHub Integration
+Multi-tool,GitHub,yes,yes,yes,,Broadly limited free version. Advanced features are provided for free to students and education professionals.,"A DOI can only be obtained when integrating to other services that can mint DOI (e.g. Zenodo, OSF).","100MB per file, 500MB per private repository (2GB for paid accounts). 100GB for public repositories. Larger files (up to 2GB) can be attached to releases",NA
 Multi-tool,OSF,yes,yes,yes,yes,yes,yes,"25GB for private projects, up to 5GB per file, plus partner add-ons, 50GB for public projects",yes
 Long-term (public) data repositories,PANGAEA,yes,yes,yes,,yes,yes,10 GB free,
 Long-term (public) data repositories,Zenodo,after published,after published,,,yes,yes,50 GB per dataset,yes
