@@ -19,4 +19,25 @@
     }
   ]
 }
+{
+  "author": [
+    {
+      "family": "Ushey",
+      "given": "Kevin"
+    }
+  ],
+  "genre": "Manual",
+  "id": "ushey2022",
+  "issued": {
+    "date-parts": [
+      [
+        2022
+      ]
+    ]
+  },
+  "title": "Renv: Project environments",
+  "title-short": "Renv",
+  "type": "book",
+  "URL": "https://CRAN.R-project.org/package=renv"
+}
 ]
