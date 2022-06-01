@@ -61,6 +61,17 @@ Using original cognitive values.
 
 ```{r}
 my_colors <- viridis::turbo(n = nrow(my_data), alpha = 0.9)
+
+some_colors <- viridis::turbo(n = 30, alpha = 0.9)
+
+plot(1:30, 1:30, col = some_colors, pch = 8)
+```
+
+```{r}
+my_colors <- some_colors[c(3:4,
+                           8,10,12,
+                           20,21,22,23,24,
+                           28,30)]
 ###############################################################
 # start the pdf/png connection and set graphical parameters
 ###############################################################
@@ -163,25 +174,35 @@ dev.off()
 Distributing cognitive load evenly:
 
 ```{r}
-my_colors <- viridis::turbo(n = nrow(my_data), alpha = 0.9)
+some_colors <- viridis::turbo(n = 100, alpha = 0.9)
+
+plot(1:100, 1:100, col = some_colors, pch = 8)
+```
+
+
+```{r}
+my_colors <- some_colors[c(15,20,
+                           26,28,30,
+                           66,68,70,72,74,
+                           85,95)]
 ###############################################################
 # start the pdf/png/svg connection and set graphical parameters
 ###############################################################
-plot_format <- "pdf"
+#plot_format <- "pdf"
 # plot_format <- "png"
-# plot_format <- "svg"
+ plot_format <- "svg"
 
 if (plot_format == "pdf") {
   pdf(file = here(outpath, "scatterblob_1.pdf"),
       width = 8.25,
       height = 6,
-      bg = "transparent")  
+      bg = "white")  
 }
 if (plot_format == "svg") {
   svg(filename = here(outpath, "scatterblob_1.svg"),
       width = 8.25,
       height = 6,
-      bg = "transparent")  
+      bg = "white")  
 }
 if (plot_format == "png") {
   png(file = here(outpath, "scatterblob_1.png"),
@@ -189,7 +210,7 @@ if (plot_format == "png") {
       height = 6,
       units = "in",
       res = 100,
-      bg = "transparent")  
+      bg = "white")  
 }
 par(xpd = NA,
     mai = c(1.02, 1, 0.82, 4),
@@ -198,7 +219,7 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(0.5, nrow(my_data)),
+     y = c(0.4, 12.5),
      xlab = "",
      ylab = "",
      col = "white",
@@ -223,7 +244,7 @@ text(x = c(1, 3, 5),
      labels = c("Low", "Medium", "High"))
 # Technical difficulty levels from https://www.londonschool.com/level-scale/
 text(x = 0.2,
-     y = c(0, 2, 4, 6, 8, 10, 12, 14, 15.5), 
+     y = c(0, 1.5, 3, 4.5, 6, 7.5, 9, 10.5, 12 ), 
      cex = 0.7,
      adj = 1,
      labels = c("Beginner",
@@ -238,7 +259,7 @@ text(x = 0.2,
 ###############################################################
 # plot scatter blobs on sequential cognitive load
 ###############################################################
-for (i in seq(nrow(scatterblob_data))) {
+for (i in seq(nrow(my_data))) {
   X0 <- my_data$x1[i]
   X1 <- my_data$x2[i]
   Y <- my_data$y_seq[i]
