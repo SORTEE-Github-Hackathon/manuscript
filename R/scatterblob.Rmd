@@ -16,15 +16,24 @@ There are ways to use github that allows different degrees of collaboration that
 Use even notation across text and figure:
 homogenizing titles of ways to use github
 
-## The data
+## The data 
 
-Data for this figure was generated on a collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit#gid=0). Cognitive load [was measured in a different file](https://docs.google.com/spreadsheets/d/1OLBR3M0uV3PMSazWUYHgPeX28wllAgS4PIlJXaNu-2o/edit#gid=0).
+Data was generated using Google docs, then manually saved as csv file "scatterblob_data_raw.csv" in the `data` folder.
+
+Data for this figure was generated on a collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1Ls0DofQWSZQsqtP4OLFj326sGfWsklrI2tA1GNUTR6g/edit#gid=0). 
+
+[Data, version 2](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0).
+
+Cognitive load [was measured in a different file](https://docs.google.com/spreadsheets/d/1OLBR3M0uV3PMSazWUYHgPeX28wllAgS4PIlJXaNu-2o/edit#gid=0).
+
+[Cognitive load, version 2](https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0).
+
 
 Reading the data csv file:
 
 ```{r}
 scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
-# View(scatterblob_data)
+#  View(scatterblob_data)
 ```
 
 Creating the `my_data` object from :
@@ -33,11 +42,10 @@ Creating the `my_data` object from :
 names(scatterblob_data)
 scatterblob_data$x1 <- scatterblob_data$`Min degree of collaborativeness X1`
 scatterblob_data$x2 <- scatterblob_data$`Max degree of collaborativeness X2`
-scatterblob_data$y_real <- scatterblob_data$`Cognitive load - real`
+scatterblob_data$y_real <- scatterblob_data$`Cognitive load - real - non-overlapping`
 scatterblob_data$y_seq <- scatterblob_data$`Cognitive load - sequential`
-
-my_data <- scatterblob_data[,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
-my_data
+my_data <- scatterblob_data[1:12,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
+ my_data
 ```
 
 
@@ -52,7 +60,7 @@ outpath <- here("content", "images")
 Using original cognitive values.
 
 ```{r}
-my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
+my_colors <- viridis::turbo(n = nrow(my_data), alpha = 0.9)
 ###############################################################
 # start the pdf/png connection and set graphical parameters
 ###############################################################
@@ -64,13 +72,13 @@ if (plot_format == "pdf") {
   pdf(file = here(outpath, "scatterblob_0.pdf"),
       width = 8.25,
       height = 6,
-      bg = "transparent")  
+      bg = "white")  
 }
 if (plot_format == "svg") {
   svg(filename = here(outpath, "scatterblob_0.svg"),
       width = 8.25,
       height = 6,
-      bg = "transparent")  
+      bg = "white")  
 }
 if (plot_format == "png") {
   png(file = here(outpath, "scatterblob_0.png"),
@@ -78,7 +86,7 @@ if (plot_format == "png") {
       height = 6,
       units = "in",
       res = 100,
-      bg = "transparent")  
+      bg = "white")  
 }
 par(xpd = NA,
     mai = c(1.02, 1, 0.82, 4),
@@ -123,7 +131,7 @@ text(x = 0.2,
 ###############################################################
 # plot scatter blobs
 ###############################################################
-for (i in seq(nrow(scatterblob_data))) {
+for (i in seq(nrow(my_data))) {
   X0 <- my_data$x1[i]
   X1 <- my_data$x2[i]
   Y <- my_data$y_real[i]
@@ -155,7 +163,7 @@ dev.off()
 Distributing cognitive load evenly:
 
 ```{r}
-my_colors <- viridis::turbo(n = nrow(scatterblob_data), alpha = 0.9)
+my_colors <- viridis::turbo(n = nrow(my_data), alpha = 0.9)
 ###############################################################
 # start the pdf/png/svg connection and set graphical parameters
 ###############################################################
