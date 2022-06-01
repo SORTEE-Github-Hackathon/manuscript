@@ -1,5 +1,4 @@
 Aariq
-accomodate
 adbinley
 advisees
 Aguncan
@@ -12,12 +11,11 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
 Carpentries
-CERN
 cheatsheet
 citable
 CLI
@@ -60,7 +58,7 @@ Hillemann
 Hudgins
 HWeierbach
 hypothes
-indispensible
+iDiv
 integrations
 jupyter
 Kaitlyn
@@ -88,7 +86,6 @@ README
 renv
 replit
 repo
-repos
 reproducibility
 rfishbase
 RMarkdown
