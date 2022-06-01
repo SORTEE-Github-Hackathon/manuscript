@@ -137,7 +137,7 @@ text(x = 0.2,
      labels = c("Elementary",
                 "Low \nintermediate",
                 "Intermediate",
-                "Pre- \nAdvanced",
+                "Pre \nAdvanced",
                 "Very \nAdvanced"))
 ###############################################################
 # plot scatter blobs
@@ -250,10 +250,10 @@ text(x = 0.2,
      labels = c("Beginner",
                 "Elementary", 
                 "Low\nintermediate",
-                "Pre-\nintermediate",
+                "Pre\nintermediate",
                 "Intermediate", 
                 "Upper\nintermediate",
-                "Pre-\nAdvanced",
+                "Pre\nAdvanced",
                 "Advanced",
                 "Very\nAdvanced"))
 ###############################################################
