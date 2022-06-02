@@ -22,7 +22,7 @@
   <meta name="author" content="Helen Weierbach" />
   <meta name="author" content="Dylan G. E. Gomes" />
   <meta name="author" content="Pedro Henrique Pereira Braga" />
-  <meta name="dcterms.date" content="2022-06-01" />
+  <meta name="dcterms.date" content="2022-06-02" />
   <meta name="keywords" content="GitHub, Reproducible research, Collaboration, Ecology and evolution" />
   <title>Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution</title>
   <style>
@@ -61,8 +61,8 @@
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-01" />
-  <meta name="citation_publication_date" content="2022-06-01" />
+  <meta name="dc.date" content="2022-06-02" />
+  <meta name="citation_publication_date" content="2022-06-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -142,9 +142,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39e9af16da300372b67c8c6d67435c7db37c484e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39e9af16da300372b67c8c6d67435c7db37c484e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39e9af16da300372b67c8c6d67435c7db37c484e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -161,10 +161,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/39e9af16da300372b67c8c6d67435c7db37c484e/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/39e9af16da300372b67c8c6d67435c7db37c484e">SORTEE-Github-Hackathon/manuscript@39e9af1</a>
-on June 1, 2022.
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/af1c38c607ba84198de018f068ce555b9f4c8d6a">SORTEE-Github-Hackathon/manuscript@af1c38c</a>
+on June 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -423,8 +423,9 @@ We also provide critical perspectives on features that could be improved and cat
 <h2 id="practical-ways-of-using-github-in-eeb">12 Practical ways of using GitHub in EEB</h2>
 <h3 id="storing-a-research-compendium">Storing a research compendium</h3>
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
-<p>Many researchers start their use of GitHub as a means to backup a research compendium <span class="citation" data-cites="MwwMapRG">[<a href="#ref-MwwMapRG" role="doc-biblioref">18</a>]</span> (i.e. code, data, and other files related to a project or manuscript) to a remote server.
-With only one user and only one computer, this is one of the simplest uses of GitHub (Just push and pull, see <a href="#definitions">Box 1</a>, from their own repository).
+<p>In EEB, a research compendium includes all research products including data, code for analyses, and other files related to a project or manuscript.
+Having multiple copies of these data and code are important to ensure that research can continue should one copy of a file be accidentally modified or deleted.
+Many researchers start their use of GitHub as a means to backup a research compendium <span class="citation" data-cites="MwwMapRG">[<a href="#ref-MwwMapRG" role="doc-biblioref">18</a>]</span> to a remote server (pull-commit-push, see <a href="#definitions">Box 1</a>.
 The GitHub repository serves as an additional backup and also allows the user to synchronize files and work on any computer with internet access.
 Because GitHub is built on git, version control features are also available, allowing users to re-visit or even restore previous versions of the repository.
 Storing a research compendium as a GitHub repository has additional benefits such as facilitating collaboration, integration with data and code archiving services, and contribution to open science, all discussed in sections below.</p>
@@ -433,28 +434,25 @@ Commits (see <a href="#definitions">Box 1</a>]) greater than 50 MB receive a war
 Therefore, it is recommended that large datasets are stored only locally or using other cloud services.</p>
 <h3 id="virtual-lab-notebook">Virtual lab notebook</h3>
 <!--*contributors to this section: RCO* -->
-<p>Lab notebooks have been indispensable tools for keeping track of research methods and laboratory policies <span class="citation" data-cites="wwHxTOtm">[<a href="#ref-wwHxTOtm" role="doc-biblioref">20</a>]</span>.
+<p>Lab notebooks are the virtual or physical notebooks used to help researchers at any career stage keep track of their research methods or laboratory policies <span class="citation" data-cites="wwHxTOtm">[<a href="#ref-wwHxTOtm" role="doc-biblioref">20</a>]</span>.
 Digital lab notebooks stored in the cloud provide clear benefits given the ease with which documents can be shared with new employees and updated as policy changes or experimental methods are modified <span class="citation" data-cites="10V7x4H4l">[<a href="#ref-10V7x4H4l" role="doc-biblioref">21</a>]</span>.
 Increasingly, researchers are leveraging GitHub’s underlying version control system to maintain and share digital lab notebooks <span class="citation" data-cites="10ghgV3S8">[<a href="#ref-10ghgV3S8" role="doc-biblioref">3</a>]</span>.
-At least for aspects of a research project that involve writing code, a GitHub repository is a form of a lab notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit (<a href="#definitions">Box 1</a>) accompanied by a message describing the changes and the reason for them.
-Later, the entire history of commits and their messages are viewable and can be audited similar to a physical lab notebook <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">8</a>]</span>.
+At least for aspects of a research project that involve writing code, a GitHub repository is a form of a lab notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit (<a href="#definitions">Box 1</a>) accompanied by a message describing the changes and the reason for them. Later, the entire history of commits and their messages are viewable and can be audited similar to a physical lab notebook <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">8</a>]</span>.
 GitHub issues (<a href="#definitions">Box 1</a>) can be used to prioritize lab objectives and goals, as well as track any status updates.
 Some EEB labs have even turned their lab notebooks into shareable websites (<a href="https://scheuerell-lab.github.io/lab-book" class="uri">https://scheuerell-lab.github.io/lab-book</a>; <a href="https://github.com/HuckleyLab/how_we_work" class="uri">https://github.com/HuckleyLab/how_we_work</a>) as a centralized location for all lab resources.</p>
 <h3 id="educational-materials">Educational materials</h3>
 <!-- *contributors to this section: Cole Brookson* -->
 <p>GitHub supports a broad set of mechanisms for hosting educational materials.
-The entire process of running a course, workshop, or even just a lecture, can all be done openly on GitHub.
-For example, organizing a course could be broken down into: 1) developing the material (i.e., slides, examples, relevant readings, labs, etc.), 2) hosting the course on some online platform for students to access, 3) delivering the content, 4) accepting student work submissions and 5) returning graded material.
+The entire process of running a course, workshop, or lecture, can all be done openly on GitHub including material development, web hosting, and delivery, and even the submission and grading of assignments.
 While there are other purpose-built platforms for this, GitHub provides a free, open-source alternative.</p>
-<p>GitHub’s open nature allows colleagues to see, review and offer feedback on your process.
-Making presentations can be done through most major high-level programming languages such as R, with <code>RMarkdown</code> <span class="citation" data-cites="QqMezOMg">[<a href="#ref-QqMezOMg" role="doc-biblioref">22</a>]</span>, Python, with <code>python-ppt</code> (<a href="https://python-pptx.readthedocs.io" class="uri">https://python-pptx.readthedocs.io</a>), and Julia, with <code>Remark.jl</code> (<a href="https://juliapackages.com/p/remark" class="uri">https://juliapackages.com/p/remark</a>).
+<p>Making presentations can be done through most major high-level programming languages such as R, with <code>RMarkdown</code> <span class="citation" data-cites="QqMezOMg">[<a href="#ref-QqMezOMg" role="doc-biblioref">22</a>]</span>, Python, with <code>python-ppt</code> (<a href="https://python-pptx.readthedocs.io" class="uri">https://python-pptx.readthedocs.io</a>), and Julia, with <code>Remark.jl</code> (<a href="https://juliapackages.com/p/remark" class="uri">https://juliapackages.com/p/remark</a>).
 Since all these programs work via code bases, they can be version-controlled through git and GitHub.
 Once content is made, hosting a course website can be done through GitHub Pages, and there are lots of templates available (e.g., see <a href="https://github.com/topics/course-website" class="uri">https://github.com/topics/course-website</a>).
-This way, not only can the course content be available to enrolled students, but also to a global pool of learners and teachers interested in the course material.
+This way, the course content can be available to enrolled students, as well as a global pool of learners and teachers interested in the course material.
 Content can then be delivered via the course website, and/or a GitHub organization with, for example, template repositories for assignments.
-Student submissions are perhaps the most challenging component, but for assignments submitted as code files (i.e., <code>.R</code> &amp; <code>.Rmd</code> as two of the most common) and/or <code>.pdf</code> files, GitHub has a new tool in development - GitHub classroom (<a href="https://classroom.github.com" class="uri">https://classroom.github.com</a>) - where instructors can host private assignments, and even build custom autograding tests.</p>
-<p>While most instructors can feasibly only incorporate some of these tools to deliver their content to students, it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.
-Especially if a central tenet of a given course or educational unit is to introduce or give students experience with version control and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.</p>
+Student submissions are perhaps the most challenging component, but the new GitHub Classroom tool (https://classroom.github.com) allows instructors to host private assignments submitted as code files (.R or .Rmd) or .pdf files, and even build custom autograding tests.</p>
+<p>Instructors may only need to incorporate some of these tools given the time required to implement various GitHub features, however it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.
+Especially if a central tenet of a given course or educational unit is to introduce or give students experience with version control, reproducibility, and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.</p>
 <!--## GitHub in EcoEvo examples (Part 2)-->
 <h3 id="project-management">Project management</h3>
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
