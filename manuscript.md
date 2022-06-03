@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-06-02'
+date-meta: '2022-06-03'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -36,8 +36,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-02" />
-  <meta name="citation_publication_date" content="2022-06-02" />
+  <meta name="dc.date" content="2022-06-03" />
+  <meta name="citation_publication_date" content="2022-06-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -117,9 +117,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,10 +141,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/af1c38c607ba84198de018f068ce555b9f4c8d6a/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@af1c38c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/af1c38c607ba84198de018f068ce555b9f4c8d6a)
-on June 2, 2022.
+from [SORTEE-Github-Hackathon/manuscript@04a7108](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/04a710838693dbcbd5afed7d6684918d72eeef65)
+on June 3, 2022.
 </em></small>
 
 ## Authors
@@ -405,6 +405,7 @@ We also provide critical perspectives on features that could be improved and cat
 |**push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date.|
 |**repository**: Commonly shortened to "repo", a repository is a collection of files (_e.g._, a directory) tracked by Git. Repositories are managed by an owner and can be listed as "public" where the repository will be visible to all GitHub users or "private", where the repository is visible only to authorized users.|
 |**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of software in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.|
+|**community**: A forum where GitHub users can ask for advice, offer solutions to questions, and share ideas (https://github.community/).|
 
 
 ## 12 Practical ways of using GitHub in EEB
@@ -579,79 +580,67 @@ Although the use of GitHub in peer-review is currently restricted to these speci
 
 <!--*Contributors to this section: Freddy Hillemann, Allison Binley*-->
 
-Research papers are condensed outputs that hide the underlying intellectual and computational workflows, including the treatment of the raw data and analytical steps.
+Research papers are condensed outputs that hide the underlying intellectual and computational workflows, including the treatment of the raw data and analytical steps. 
 Granting readers access to code and other documentation of the analysis allows them to retrace and comprehend analytical decisions.
-GitHub provides a platform to access all aspects of the project, using citable DOIs, rather than just the final manuscript.
+GitHub provides a platform to access all aspects of the project, and can be linked to platforms that create citable DOIs, rather than just the final manuscript.
 While often thought of as storage for data and code, GitHub repositories can also be used to publish a time-stamped preregistration of research plans and hypotheses.
 
 Conventional research practices typically rely on one or two people running and checking the data analyses, while most coauthors (and readers of the subsequent publication) see only the final results and a verbal description of the analytical steps.
 In the developmental stages, collaborators can directly see the code for the analysis, manipulate and explore the data themselves, and check for errors.
 Cynically, there is also more insurance against nefarious colleagues that may be tempted to distort results [@url:https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science].
-Collaborators are better positioned to discover questionable findings if they have full and transparent access to the project.
+Collaborators as well as pre-publication and post-publication reviewers are better positioned to discover questionable findings if they have full and transparent access to the project.
 
 This transparency can similarly be extended beyond coauthors to the entire scientific community.
 Publishing the data and reproducible workflows along with the manuscript allows any reader to review the analysis and reproduce the experiment [@doi:10.1371/journal.pbio.3000763].
 Supplying code for (novel) methods that are proposed or used also reduces barriers to knowledge and can greatly improve the ability of others to build on existing work, resulting in greater proliferation and accessibility for a broader audience.
-GitHub even provides a useful Discussions Forum (<https://docs.github.com/en/discussions>) that aids the direct communication with repository owners, as well as the GitHub Community (<https://github.community/>) forum for more general questions and sharing of expertise ([Table 1](#tbl:roles)).
-
-If the methods and analyses used are fully available during the peer-review process, they can be as critically evaluated as the rest of the manuscript.
-However, fear of being scooped feeds into cultural reluctance to do science openly due to worries of intellectual property.
-A solution would be to allow sharing a private link with a citable DOI for peer review, and update the DOI post-acceptance or post-publication.
-Alternatively, GitHub users can to keep their data and code repository private until publication, and then make it public.
+GitHub even provides a useful Discussions Forum (<https://docs.github.com/en/discussions>) that aids the direct communication with repository owners, as well as the GitHub Community (<https://github.community/>) forum for more general questions and sharing of expertise ([Table 1](#tbl:roles).
 
 ### Project continuity
 
 <!--*Contributors to this section: BPME, VF*  -->
 
-The development of research software continues to be on the rise, and with that comes the need to consider continuity.
-This is particularly relevant for software developed for relatively short-term research projects, such as projects developed by graduate students or postdoctoral fellows [@doi:10.5334/jors.307].
-Often with these projects, once the research contract expires, the research software upkeep tends to fall off as the researchers move on to new projects.
-Additionally, if the research software is kept on only the researcher's hard drive, it becomes increasingly difficult to access the software and code for future uses.
+The development of research software continues, and so does the need to consider project continuity, especially in EEB where graduate students, research assistants, and postdoctoral fellows often hold relatively short-term positions [@doi:10.5334/jors.307].
+Often with these types of short-term research projects, once the contract expires, the research software upkeep tends to fall off as the researchers move on to new projects.
+Additionally, if the research software is kept on only the researcher's personal devices, it becomes increasingly difficult to access the software and code for future uses.
+As projects or contracts end, there should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
 
-When the project owner is finished with the project, or their contract expires, there generally should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
-GitHub facilitates project continuity among research software and research code by providing tools that make this handover period easier.
-As we have already mentioned, using Git for code in Ecology and Evolution can allow for a "paper trail" of sorts to be created for the research software, thus allowing for future owners of the code access to the entire history of the project [@doi:10.1038/s41559-017-0160].
+GitHub facilitates project continuity among research software and research code by providing tools that make this handover period easier. 
+As we have already mentioned, using Git for code in Ecology and Evolution can allow for a "paper trail" of sorts to be created for the research software, thus allowing for future users of the code access to the entire history of the project [@doi:10.1038/s41559-017-0160]. 
 Additionally, GitHub allows for repositories and organizations to have designated Code Owners [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]; these code owners can change through time allowing for the transition of research software from one cohort of researchers to the next [@doi:10.1890/ES14-00402.1].
-There are also multiple means by which to archive package version information with GitHub.
-Most simply, package versions can be included in README files.
-More sophisticated recording options include adding an environment.yml and/or an environment.txt file, or using tools such as renv [@ushey2022] to store all packages in the repository itself.
+There are also multiple means by which to archive software dependency information with GitHub.
+Dependencies can be described in README files, added to environment.yml and/or an environment.txt file, or stored in a repository using tools such as renv (<https://rstudio.github.io/renv/articles/renv.html>).
 This ensures that as packages continue to develop with new syntax, code will still run as it did when it was developed.
 
 Within EEB projects, tasks are often divided among contributors taking various roles (see CRediT taxonomy, <https://casrai.org/credit/>).
 The creation of project repositories is commonly the purview of those involved in the software, formal analysis, and/or visualization components of the project through their roles as code writers.
-However, the structural components of a typical GitHub repository and the derived EEB-specific templates can provide functional ways for other non-code writers to be engaged in aspects of repository design in a way that improves institutional memory and facilitates project continuity.
-Non-code writers can offer many contributions to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
-In (Figure @fig:scatterblob), we highlight several elements of good repository structure, and the various ways that contributors may interact with them.
+However, the structural components of a typical GitHub repository and the derived EEB-specific templates can provide functional ways for other collaborators not contributing to code to be engaged in aspects of repository design in a way that improves institutional memory and facilitates project continuity.
+These other collaborators can offer many contributions to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
+In (Figure @fig:scatterblob), we highlight several elements of good repository structure, and the various ways that contributors may interact with them. 
 
 ### GitHub Organizations
 
 <!--*Contributors to this section: Katherine Hébert, Cole Brookson*-->
 
-Whether experiments are done in a wet lab, data are gathered in a field site, or analyses are run in a shared office, even conceptually distinct projects are often carried out in a common physical space.
-GitHub Organizations offer a shared virtual space that allows a team to work in different repositories, while remaining tied together under a larger figurehead, such as a laboratory, a department, an organization, or a large project involving several teams.
-Organizations are well-suited to ensure larger projects with many steps or moving parts are constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on any one individual.
-Because the repositories are grouped in one virtual space, members can reference and contribute to each other's work without necessarily being part of the same repository, broadening the accessibility and longevity of code and writing contributions.
+GitHub Organizations offer a shared virtual space that allows a team to work in different repositories, while remaining tied together under a larger figurehead, such as a laboratory, a department, an organization, or a large project involving several teams. 
+Organizations are well-suited to ensure larger projects with many steps or moving parts are constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on any one individual. 
+Because the repositories are grouped in one virtual space, members can reference and contribute to each other's work without necessarily being part of the same repository, broadening the accessibility and longevity of code and writing contributions. 
 
 Contributors can be assembled into teams within an organization, which allows administrators to assign roles and tasks to groups of people.
 Whereas access to repositories is usually assigned to individual contributors, Organizations facilitate the management of access permissions by allowing each team to be granted access to certain repositories, and not to others.
 This ensures that more sensitive repositories remain as restricted as needed, while repositories with greater general interest can be easily accessible to many members at once.
 
-As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues.
-In this way, students or teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on (or upgraded their computers).
-This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the German Centre for Integrative Biodiversity Research (iDiv,<https://github.com/idiv-biodiversity>).
+As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues. 
+In this way, teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or lost their copies of project data. 
+This application extends to research centres, which may include several distinct projects that remain linked under a given institution, such as the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>).
 Of course, the utility of this tool goes beyond laboratories - they are useful to structure the organization, presentation, and outcomes of working groups such as the hackathon which inspired this paper (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) by keeping track of all materials as ideas develop and take shape in one virtual space.
 Organizations are also convenient for hosting a set of related learning materials such as a set of lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be updated by an ever-evolving group of contributors over time.
 
-Using GitHub organizations as a research group or even for a handful of individuals working on a group of projects can be incredibly useful for all involved.
-GitHub organizations are relatively easy to set up, and especially easy to manage as membership to the organization changes through time.
-Not only is it a useful way to store repositories of lab-related research products, but it is also incredibly helpful for storing "living documents" that may be edited frequently, and may be linked to a lab website (that could also be generated via a repository that lives within the organization).
-The use of the "Teams" feature can allow certain groups to have varying levels of access to repositories in the organization with a select group having push access to some repositories but not others.
-This can manifest in a group working on some common dataset(s) (e.g. some genetic data) to have push access to the handful of repositories used for processing sequence data, while another group of students/researchers may have push access to an entirely different set of repositories.
-The organization structure also allows for easy tracking of issues, projects, and discussions related to the research group, and provides PIs/group leads an easy birds-eye view of the progress going on across multiple projects.
-
-Additionally, organizations provide a convenient location for students to archive the code for their projects, for use/reference by future students in the research group, thus providing a type of knowledge communication that may not exist otherwise.
-Indeed, providing new students with access to the organization and ideally a template repository for lab projects can soften the burden on those new to the software, in that it provides them with examples to work off of, and an online location to ask for help from their labmates and/or advisors through tools like projects, discussions, and issues.
-
+Using GitHub organizations as a research group or even for a handful of individuals working on a group of projects can be incredibly useful for all involved. 
+GitHub organizations are relatively easy to set up, and especially easy to manage as membership to the organization changes through time. 
+Not only is it a useful way to store repositories of lab-related research products, but it is also incredibly helpful for storing "living documents" that may be edited frequently, and may be linked to a lab website (that could also be generated via a repository that lives within the organization). 
+The use of the "Teams" feature can allow certain groups to have varying levels of access to repositories in the organization with a select group having push access to some repositories but not others. 
+This can manifest in a group working on some common dataset(s) to have push access to the handful of repositories used for processing sequence data, while another group of students/researchers may have push access to an entirely different set of repositories. 
+The organization structure also allows for easy tracking of issues, projects, and discussions related to the research group, and provides group leads an easy birds-eye view of the progress going on across multiple projects.
 
 ## Discussion
 <!--*Contributors to this section: Rob, Brandon*-->

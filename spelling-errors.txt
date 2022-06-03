@@ -11,7 +11,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -65,7 +65,6 @@ Kaitlyn
 kaitlyngaynor
 kat
 katherinehebert
-labmates
 LunaSare
 mentorship
 Merced
@@ -73,12 +72,13 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 Pandoc
 pedrohbraga
 pedrohp
 Pereira
+pre
 QCBSRworkshops
 Québec
 RCO
