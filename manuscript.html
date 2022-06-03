@@ -142,9 +142,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8206a266ac3d9d01ea01652f78fb24a5118d6f47/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8206a266ac3d9d01ea01652f78fb24a5118d6f47/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8206a266ac3d9d01ea01652f78fb24a5118d6f47/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -161,9 +161,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/04a710838693dbcbd5afed7d6684918d72eeef65/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8206a266ac3d9d01ea01652f78fb24a5118d6f47/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/04a710838693dbcbd5afed7d6684918d72eeef65">SORTEE-Github-Hackathon/manuscript@04a7108</a>
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8206a266ac3d9d01ea01652f78fb24a5118d6f47">SORTEE-Github-Hackathon/manuscript@8206a26</a>
 on June 3, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -426,10 +426,10 @@ We also provide critical perspectives on features that could be improved and cat
 <h2 id="practical-ways-of-using-github-in-eeb">12 Practical ways of using GitHub in EEB</h2>
 <h3 id="storing-a-research-compendium">Storing a research compendium</h3>
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
-<p>In EEB, a research compendium includes all research products including data, code for analyses, and other files related to a project or manuscript.
-Having multiple copies of these data and code are important to ensure that research can continue should one copy of a file be accidentally modified or deleted.
-Many researchers start their use of GitHub as a means to backup a research compendium <span class="citation" data-cites="MwwMapRG">[<a href="#ref-MwwMapRG" role="doc-biblioref">18</a>]</span> to a remote server (pull-commit-push, see <a href="#definitions">Box 1</a>.
-The GitHub repository serves as an additional backup and also allows the user to synchronize files and work on any computer with internet access.
+<p>In EEB, a research compendium includes all computational materials related to research production, including data, code for analyses and protocols.
+Having multiple copies of these files is important to ensure that research can continue should one copy of a file be accidentally modified or deleted.
+Many researchers begin using GitHub as a means to backup their research compendium <span class="citation" data-cites="MwwMapRG">[<a href="#ref-MwwMapRG" role="doc-biblioref">18</a>]</span> to a remote server (pull-commit-push, see <a href="#definitions">Box 1</a>).
+The GitHub repository serves as a centralized backup and also allows users to synchronize files and work on any device with internet access.
 Because GitHub is built on git, version control features are also available, allowing users to re-visit or even restore previous versions of the repository.
 Storing a research compendium as a GitHub repository has additional benefits such as facilitating collaboration, integration with data and code archiving services, and contribution to open science, all discussed in sections below.</p>
 <p>Unfortunately, GitHub repositories have file size limits, so they may not be appropriate for synchronizing large data files.
@@ -443,12 +443,25 @@ Increasingly, researchers are leveraging GitHub’s underlying version control s
 At least for aspects of a research project that involve writing code, a GitHub repository is a form of a lab notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit (<a href="#definitions">Box 1</a>) accompanied by a message describing the changes and the reason for them. Later, the entire history of commits and their messages are viewable and can be audited similar to a physical lab notebook <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">8</a>]</span>.
 GitHub issues (<a href="#definitions">Box 1</a>) can be used to prioritize lab objectives and goals, as well as track any status updates.
 Some EEB labs have even turned their lab notebooks into shareable websites (<a href="https://scheuerell-lab.github.io/lab-book" class="uri">https://scheuerell-lab.github.io/lab-book</a>; <a href="https://github.com/HuckleyLab/how_we_work" class="uri">https://github.com/HuckleyLab/how_we_work</a>) as a centralized location for all lab resources.</p>
+<h3 id="project-management">Project management</h3>
+<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
+<p>Modern EEB research is highly collaborative, bringing together multidisciplinary teams from various institutions.
+On GitHub, collaborators can share feedback, brainstorm ideas, and troubleshoot problems (Figure <a href="#fig:github-diagram">1</a>).
+GitHub has an “Issues” feature that allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels.
+The new GitHub “Discussion” feature serves as a message board for conversation.
+Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
+The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
+Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
+Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
+For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests.
+ZenHub’s web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks and link issues together when they are related to a shared project goal or milestone.
+GitHub is currently beta testing a similar project management feature called GitHub Projects <span class="citation" data-cites="RhBKe0MG">[<a href="#ref-RhBKe0MG" role="doc-biblioref">22</a>]</span>. GitHub can also be integrated with other project management software such as Slack (https://slack.github.com/) so that teams are notified through a Slack group chat when updates are made to a repository.</p>
 <h3 id="educational-materials">Educational materials</h3>
 <!-- *contributors to this section: Cole Brookson* -->
 <p>GitHub supports a broad set of mechanisms for hosting educational materials.
 The entire process of running a course, workshop, or lecture, can all be done openly on GitHub including material development, web hosting, and delivery, and even the submission and grading of assignments.
 While there are other purpose-built platforms for this, GitHub provides a free, open-source alternative.</p>
-<p>Making presentations can be done through most major high-level programming languages such as R, with <code>RMarkdown</code> <span class="citation" data-cites="QqMezOMg">[<a href="#ref-QqMezOMg" role="doc-biblioref">22</a>]</span>, Python, with <code>python-ppt</code> (<a href="https://python-pptx.readthedocs.io" class="uri">https://python-pptx.readthedocs.io</a>), and Julia, with <code>Remark.jl</code> (<a href="https://juliapackages.com/p/remark" class="uri">https://juliapackages.com/p/remark</a>).
+<p>Making presentations can be done through most major high-level programming languages such as R, with <code>RMarkdown</code> <span class="citation" data-cites="QqMezOMg">[<a href="#ref-QqMezOMg" role="doc-biblioref">23</a>]</span>, Python, with <code>python-ppt</code> (<a href="https://python-pptx.readthedocs.io" class="uri">https://python-pptx.readthedocs.io</a>), and Julia, with <code>Remark.jl</code> (<a href="https://juliapackages.com/p/remark" class="uri">https://juliapackages.com/p/remark</a>).
 Since all these programs work via code bases, they can be version-controlled through git and GitHub.
 Once content is made, hosting a course website can be done through GitHub Pages, and there are lots of templates available (e.g., see <a href="https://github.com/topics/course-website" class="uri">https://github.com/topics/course-website</a>).
 This way, the course content can be available to enrolled students, as well as a global pool of learners and teachers interested in the course material.
@@ -457,30 +470,17 @@ Student submissions are perhaps the most challenging component, but the new GitH
 <p>Instructors may only need to incorporate some of these tools given the time required to implement various GitHub features, however it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.
 Especially if a central tenet of a given course or educational unit is to introduce or give students experience with version control, reproducibility, and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.</p>
 <!--## GitHub in EcoEvo examples (Part 2)-->
-<h3 id="project-management">Project management</h3>
-<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
-<p>GitHub can be a powerful tool for team-based project management, allowing collaborators to share feedback, brainstorm ideas, and troubleshoot problems (Figure <a href="#fig:github-diagram">1</a>).
-The “Issues” feature of GitHub allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels.
-The new GitHub “Discussion” feature serves as a message board for conversation.
-Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
-The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
-This is because unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hidding the issue from view (closed issues remain accessible but not immediately visable).
-Fortunately, it is not essential for all team members to have proficiency in git or programming (<a href="#tbl:roles">Table 1</a>), as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
-For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub can help prioritize issues and pull requests.
-ZenHub’s web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks as well as link issues together when they are related to a shared project goal or milestone.
-GitHub is currently beta testing a similar project management feature called GitHub Projects <span class="citation" data-cites="RhBKe0MG">[<a href="#ref-RhBKe0MG" role="doc-biblioref">23</a>]</span>.
-GitHub can also be integrated with other project management software such as Slack.</p>
 <h3 id="creating-a-website">Creating a website</h3>
 <!--*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*   -->
-<p>GitHub Pages [<a href="https://pages.github.com" class="uri">https://pages.github.com</a>] is a feature that, when activated for a public repository, renders content written in markdown or HTML (e.g., <a href="https://github.com/SORTEE-Github-Hackathon/main-website" class="uri">https://github.com/SORTEE-Github-Hackathon/main-website</a>) as a web page with a URL (e.g., <a href="https://sortee-github-hackathon.github.io/main-website/" class="uri">https://sortee-github-hackathon.github.io/main-website/</a>).
+<p>Personal or lab websites are one method of improving the dissemination of research findings and coordination of research efforts, but most EEB researchers have little experience in building or hosting webpages.
+GitHub Pages (<a href="https://pages.github.com" class="uri">https://pages.github.com</a>) is a feature that, when activated for a repository, renders content written in markdown (e.g., <a href="https://github.com/SORTEE-Github-Hackathon/main-website" class="uri">https://github.com/SORTEE-Github-Hackathon/main-website</a>) as an HTML web page with a URL (e.g., <a href="https://sortee-github-hackathon.github.io/main-website/" class="uri">https://sortee-github-hackathon.github.io/main-website/</a>).
 This can be useful for sharing reports (e.g. written with RMarkdown and rendered to HTML) with collaborators, or for more complex projects like personal, project, or lab websites.
-For more complex projects, GitHub offers website templates and it is also possible to create a website by forking (<a href="#definitions">Box 1</a>) a repository hosting a GitHub Pages site as a starting point.
+GitHub also offers website templates and it is possible to create a website by forking (<a href="#definitions">Box 1</a>) a repository hosting a GitHub Pages site as a starting point.
 Aside from free hosting services, another benefit is that GitHub Pages are autogenerated, meaning that when content is modified in the associated GitHub repository, the website instantly updates <span class="citation" data-cites="RVetqmsg">[<a href="#ref-RVetqmsg" role="doc-biblioref">7</a>]</span>.
 Though the templates are useful for quickly starting up a new website, users are able to fully customize their Pages websites (for technical details of customizing GitHub Pages site see <span class="citation" data-cites="MXxgZJ45">[<a href="#ref-MXxgZJ45" role="doc-biblioref">24</a>]</span>).
-We emphasize that despite the many benefits of using GitHub pages (free hosting, templates, customization), this avenue for creating a website will often be more time intensive than the out-of-the-box platforms.
-“Static websites” (i.e., websites where ever user sees the same content) can be created using Jekyll (<a href="https://jekyllrb.com" class="uri">https://jekyllrb.com</a>) and Hugo (<a href="https://gohugo.io" class="uri">https://gohugo.io</a>), which also include template libraries for websites that can be hosted freely via GitHub pages.
+We emphasize that despite the many benefits of using GitHub pages (free hosting, templates, customization), this avenue for creating a website will often be more time intensive than the out-of-the-box platforms. “Static websites” (i.e., websites where every user sees the same content) can be created using Jekyll (<a href="https://jekyllrb.com" class="uri">https://jekyllrb.com</a>) and Hugo (<a href="https://gohugo.io" class="uri">https://gohugo.io</a>), which also include template libraries for websites that can be hosted freely via GitHub pages.
 Several R packages such as distill (<a href="https://github.com/rstudio/distill" class="uri">https://github.com/rstudio/distill</a>) and blogdown (<a href="https://bookdown.org/yihui/blogdown" class="uri">https://bookdown.org/yihui/blogdown</a>) have made the interface to these website generators more accessible.
-In addition, Quarto (<a href="https://quarto.org" class="uri">https://quarto.org</a>) has options for creating websites (<a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>) as well as the code-free website generator wowchemy (<a href="https://wowchemy.com" class="uri">https://wowchemy.com</a>) which utilises Hugo.</p>
+In addition, Quarto (<a href="https://quarto.org" class="uri">https://quarto.org</a>) has options for creating websites (<a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>) as well as the code-free website generator wowchemy (<a href="https://wowchemy.com" class="uri">https://wowchemy.com</a>) which uses Hugo.</p>
 <h3 id="archiving-citable-code-and-data">Archiving citable code and data</h3>
 <!--*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins, Dylan Gomes*-->
 <p>GitHub makes it easy to store and share a variety of data files in the cloud.
@@ -508,38 +508,42 @@ This license also prohibits the re-user from making their re-used version privat
 To help navigate through the potential licenses available to you and their attributes the Choose a License (<a href="https://choosealicense.com/non-software/" class="uri">https://choosealicense.com/non-software/</a>) website can offer further guidance.</p>
 <h3 id="collaborative-code-editing-and-asynchronous-working">Collaborative (code) editing and asynchronous working</h3>
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas, Ali, Allison Binley*-->
-<p>GitHub facilitates collaborative coding and asynchronous working; researchers can seamlessly access and contribute to data and code regardless of disparities in schedules or location.
+<p>GitHub facilitates collaborative coding and asynchronous working because researchers can seamlessly access and contribute to data and code regardless of disparities in schedules or location.
 Project work can also be clearly split among team members, giving them the flexibility to contribute when it best fits their schedule.
 We acknowledge that there are important differences between the average software developer and EEB researcher using GitHub, and that not all of GitHub’s features are useful for research workflows (<a href="#tbl:roles">Table 1</a>).
-However, core features of git like forking and branching (<a href="#definitions">Box 1</a>) allow for simultaneous coding on different versions of the same research project, and alternative versions can be easily discussed and resolved with GitHub.
-When EEB projects are contained on the GitHub platform, researchers can easily stay abreast of progress made by other collaborators without the need for meetings or emails.
+However, git’s core features such as forking and branching (<a href="#definitions">Box 1</a>) allow for simultaneous coding on different versions of the same research project, and alternative versions can be discussed and resolved with GitHub.
+When EEB projects are contained on the GitHub platform, researchers can stay abreast of progress made by other collaborators without the need for meetings or emails.
 Version control <span class="citation" data-cites="K7nbP1Ty">[<a href="#ref-K7nbP1Ty" role="doc-biblioref">29</a>]</span> features also allow users to make progress and changes without worrying about irreparably writing over someone else’s work.
-By enabling more comprehensive remote collaboration, GitHub encourages the exchange of ideas among researchers at different institutions and in different countries, which can serve to improve the quality of the research itself by providing open access to data and code.</p>
-<p>In academic settings, GitHub can also facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
+By enabling more comprehensive remote collaboration, GitHub encourages the exchange of ideas among researchers at different institutions and in different countries, which can serve to improve the quality of the research itself by providing open access to data and code.
+In academic settings, GitHub can also facilitate interactions between research advisors and advisees, providing a platform for students or other trainees to share in-progress code, and flag specific challenges or questions for their supervisors or mentors.
 Periodic code review <span class="citation" data-cites="hm9PaCLD">[<a href="#ref-hm9PaCLD" role="doc-biblioref">30</a>]</span> can also help advisors identify errors early in the process, and inform further training and mentorship to fill gaps in skills.</p>
 <h3 id="writing-a-manuscript">Writing a manuscript</h3>
 <!--*contributors to this section:* Emma J. Hudgins-->
-<p>Beyond supporting collaboration at the level of code, GitHub can even be used for collaboratively writing manuscripts.
+<p>Beyond supporting collaboration at the level of code, GitHub can be used for collaboratively writing manuscripts.
 Writing a manuscript in GitHub and storing it with associated data and code all in the same repository increases scientific reproducibility because files associated with a manuscript can be found in one place.
 Co-authors can contribute new text to a manuscript or suggest revisions through GitHub’s robust pull request feature (<a href="#definitions">Box 1</a>) which provides a line-by-line view of all proposed changes.
 Further, authors can make use of the Discussions tab to suggest relevant papers to be cited, and can raise issues during the writing process that can be assigned to collaborators (<a href="#tbl:roles">Table 1</a>).</p>
-<p>While GitHub is not considered as user-friendly for manuscript development as conventional word processors <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">8</a>]</span>, it has been substantially improved with recent tools.
+<p>While GitHub is not considered as user-friendly for manuscript development as conventional text processors <span class="citation" data-cites="4ny1onB0">[<a href="#ref-4ny1onB0" role="doc-biblioref">8</a>]</span>, it has been substantially improved with recent tools.
 Manuscripts can be written on GitHub with Markdown.
-Add-ons like HackMD (<a href="https://hackmd.io" class="uri">https://hackmd.io</a>), can enable real-time collaboration like Google Docs for individual Markdown documents.
-Many tools exist for extending Markdown and Pandoc to add formatting features necessary for scietnific writing like in-text citations and figure and table cross references.</p>
+Add-ons like HackMD (<a href="https://hackmd.io" class="uri">https://hackmd.io</a>), can enable real-time collaboration for individual Markdown documents.
+Many tools exist for extending Markdown and Pandoc to add formatting features necessary for scientific writing like in-text citations and figure and table cross references.</p>
 <p>We wrote this manuscript using Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">31</a>]</span>, a collaborative manuscript platform that uses Markdown for writing and GitHub for storing and tracking changes to a manuscript over time.
 Manubot uses a GitHub Actions-based typesetting system to compile individual Markdown files stored in a GitHub repository into a single LaTeX document, which can be displayed in Word, HTML, or PDF formats.
 The resulting manuscript can also be compiled using a journal’s .tex template to match their formatting requirements.
-Since this tool reruns the entire manuscript compilation process with any change to the underlying repository, it can also accommodate continuous integration of code updates into figures and tables with additional GitHub Actions (e.g. <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/.github/workflows" class="uri">https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/.github/workflows</a>).
+Since this tool reruns the entire manuscript compilation process with any change to the underlying repository, it can also accomodate continuous integration of code updates into figures and tables with additional GitHub Actions (e.g. https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/.github/workflows).
 Manubot also allows for straightforward citation management based on URLs or DOIs.
-Manubot is being used for an increasing number of manuscripts (see examples in <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">31</a>]</span>).</p>
+For more examples of Manubot being used for manuscripts, see <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">31</a>]</span>.</p>
 <p>Since Manubot works on documents in a distributed format, it can be difficult to edit manuscripts for overall flow with only this tool.
 We employed hypothes.is (<a href="https://hypothes.is" class="uri">https://hypothes.is</a>) to write comments on the HTML manuscript document produced by Manubot, which we then addressed by committing changes to the underlying Markdown files via pull requests.
 Other authors can reply to the comments to indicate agreement or disagreement, and to note when changes have been made.
 Other tools can also be used for version control of scientific manuscripts including R Markdown via the bookdown package (<a href="https://bookdown.org/" class="uri">https://bookdown.org/</a>), jupyter notebooks <span class="citation" data-cites="i4FOZpjN">[<a href="#ref-i4FOZpjN" role="doc-biblioref">32</a>]</span> and a relatively new tool, Quarto (<a href="https://quarto.org" class="uri">https://quarto.org</a>).</p>
 <h3 id="peer-review">Peer-Review</h3>
 <!--*contributors to this section:* Eric R. Scott-->
-<p>While it is still relatively uncommon that code or data be made available during the peer-review process, there are a number of ways GitHub can help facilitate peer-review and subsequent revisions.
+<p>Peer review plays a critical role in the scientific evaluation of EEB research.
+GitHub provides an open and transparent platform that can be used for either directly providing feedback on research products or building a to-do list from reviewer comments.
+Peer review of research software by the open software development community rOpenSci (https://ropensci.org/software-review/) and of research software and associated manuscripts by the Journal of Open Source Software (https://joss.readthedocs.io/en/latest/submitting.html) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
+rOpenSci’s efforts have resulted in many well-used R packages for ecology research including rfishbase <span class="citation" data-cites="Xsdcv6q">[<a href="#ref-Xsdcv6q" role="doc-biblioref">33</a>]</span> and taxize <span class="citation" data-cites="FVBWKkZu">[<a href="#ref-FVBWKkZu" role="doc-biblioref">34</a>]</span>.</p>
+<p>GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
 If the code associated with a manuscript is made available at the time of submission (e.g. via a link to a GitHub repository in a Data Availability Statement), peer-reviewers may be able to offer more helpful suggestions on written methods and may even make comments on the code itself, potentially catching bugs or errors before publication.
 GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
 GitHub issues can be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example in <a href="https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+" class="uri">https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+</a>).
@@ -1070,11 +1074,11 @@ the GitHub features, see Box 1. </caption>
 <div id="ref-10V7x4H4l" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Ten Simple Rules for a Computational Biologist’s Laboratory Notebook</strong> <div class="csl-block">Santiago Schnell</div> <em>PLOS Computational Biology</em> (2015-09-10) <a href="https://doi.org/gf5fnr">https://doi.org/gf5fnr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004385">10.1371/journal.pcbi.1004385</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26356732">26356732</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4565690">PMC4565690</a></div></div>
 </div>
-<div id="ref-QqMezOMg" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>R Markdown: the definitive guide</strong> <div class="csl-block">Yihui Xie, JJ Allaire, Garrett Grolemund</div> <em>CRC Press, Taylor and Francis Group</em> (2019) <div class="csl-block">ISBN: 9780429782961</div></div>
-</div>
 <div id="ref-RhBKe0MG" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>About projects (beta)</strong> <div class="csl-block">GitHub Docs</div> <a href="https://ghdocs-prod.azurewebsites.net/en/issues/trying-out-the-new-projects-experience/about-projects">https://ghdocs-prod.azurewebsites.net/en/issues/trying-out-the-new-projects-experience/about-projects</a></div>
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>About projects (beta)</strong> <div class="csl-block">GitHub Docs</div> <a href="https://ghdocs-prod.azurewebsites.net/en/issues/trying-out-the-new-projects-experience/about-projects">https://ghdocs-prod.azurewebsites.net/en/issues/trying-out-the-new-projects-experience/about-projects</a></div>
+</div>
+<div id="ref-QqMezOMg" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>R Markdown: the definitive guide</strong> <div class="csl-block">Yihui Xie, JJ Allaire, Garrett Grolemund</div> <em>CRC Press, Taylor and Francis Group</em> (2019) <div class="csl-block">ISBN: 9780429782961</div></div>
 </div>
 <div id="ref-MXxgZJ45" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Building tools with GitHub: customize your workflow</strong> <div class="csl-block">Chris Dawson</div> <em>O'Reilly</em> (2016) <div class="csl-block">ISBN: 9781491933503</div></div>
@@ -1092,7 +1096,7 @@ the GitHub features, see Box 1. </caption>
 <div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>1,500 scientists lift the lid on reproducibility</strong> <div class="csl-block">Monya Baker</div> <em>Nature</em> (2016-05-25) <a href="https://doi.org/gdgzjx">https://doi.org/gdgzjx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/533452a">10.1038/533452a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27225100">27225100</a></div></div>
 </div>
 <div id="ref-K7nbP1Ty" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution</strong> <div class="csl-block">Robert Crystal-Ornelas, Brandon PM Edwards, Katherine Hébert, Friederike Hillemann, Emma J Hudgins, Luna LSánchez Reyes, Eric R Scott, Matthew J Grainger, Vivienne Foroughirad, Allison D Binley, … Pedro Henrique Pereira Braga</div> <em>Manubot</em> (2022-06-02) <a href="https://SORTEE-Github-Hackathon.github.io/manuscript/">https://SORTEE-Github-Hackathon.github.io/manuscript/</a></div>
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution</strong> <div class="csl-block">Robert Crystal-Ornelas, Brandon PM Edwards, Katherine Hébert, Friederike Hillemann, Emma J Hudgins, Luna LSánchez Reyes, Eric R Scott, Matthew J Grainger, Vivienne Foroughirad, Allison D Binley, … Pedro Henrique Pereira Braga</div> <em>Manubot</em> (2022-06-03) <a href="https://SORTEE-Github-Hackathon.github.io/manuscript/">https://SORTEE-Github-Hackathon.github.io/manuscript/</a></div>
 </div>
 <div id="ref-hm9PaCLD" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>Using Peer Code Review as an Educational Tool</strong> <div class="csl-block">Xiangyu Song, Seth Copen Goldstein, Majd Sakr</div> <em>Proceedings of the 2020 ACM Conference on Innovation and Technology in Computer Science Education</em> (2020-06-02) <a href="https://doi.org/gp58rg">https://doi.org/gp58rg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3341525.3387370">10.1145/3341525.3387370</a></div></div>
