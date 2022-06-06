@@ -1,6 +1,6 @@
 ---
 title: Letter to the Editor
-author: "Not just for programmers: A friendly guide on the benefits of GitHub for accelerating collaborative research in Ecology and Evolution"
+author: "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution"
 date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(fig.retina = 2)
 
 Dear Editor,
 
-We would like to submit our manuscript entitled “Not just for programmers: A friendly guide on the benefits of GitHub for accelerating collaborative research in Ecology and Evolution” for consideration to be published in *Nature Ecology & Evolution*. 
+We would like to submit our manuscript entitled “Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution” for consideration to be published in *Nature Ecology & Evolution*. 
 Our study provides researchers with a critical review of twelve practical ways they can use Github -- an online, cloud-based service for cooperative and documented code development -- to make their research more collaborative, transparent, and reproducible.
 
 Most scientists, including researchers in ecology and evolutionary biology, have become critically dependent on computational tools in their research.
