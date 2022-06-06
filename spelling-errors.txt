@@ -89,7 +89,7 @@ replit
 repo
 reproducibility
 rfishbase
-Rmarkdown
+RMarkdown
 Rmd
 robcrystalornelas
 rOpenSci
