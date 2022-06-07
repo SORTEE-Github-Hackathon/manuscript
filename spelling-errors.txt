@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -23,7 +23,6 @@ CLI
 Colab
 colalboration
 colebrookson
-collaborativity
 compendia
 Concordia
 dataset
@@ -61,7 +60,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -85,6 +84,7 @@ Québec
 RCO
 README
 renv
+reopository
 replit
 repo
 reproducibility
@@ -109,7 +109,6 @@ taxize
 Torgarden
 txt
 Université
-vertiucal
 Vesion
 vforoughirad
 vjf
