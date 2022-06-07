@@ -49,7 +49,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
+Hackathon
 hackMD
 Hébert
 helenweierbach
@@ -89,7 +89,7 @@ replit
 repo
 reproducibility
 rfishbase
-RMarkdown
+Rmarkdown
 Rmd
 robcrystalornelas
 rOpenSci
