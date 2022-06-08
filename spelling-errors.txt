@@ -60,7 +60,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
