@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -49,8 +49,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
-HackMD
+hackathon
+hackMD
 Hébert
 helenweierbach
 Henrique
@@ -60,7 +60,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -72,7 +72,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 pedrohbraga
