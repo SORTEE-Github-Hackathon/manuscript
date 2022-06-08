@@ -18,9 +18,9 @@ DOCKER_RUNNING="$(docker info &> /dev/null && echo "true" || (true && echo "fals
 # Set option defaults
 CI="${CI:-false}"
 BUILD_PDF="${BUILD_PDF:-true}"
-BUILD_DOCX="${BUILD_DOCX:-false}"
-BUILD_LATEX="${BUILD_LATEX:-false}"
-SPELLCHECK="${SPELLCHECK:-false}"
+BUILD_DOCX="${BUILD_DOCX:-true}"
+BUILD_LATEX="${BUILD_LATEX:-true}"
+SPELLCHECK="${SPELLCHECK:-true}"
 MANUBOT_USE_DOCKER="${MANUBOT_USE_DOCKER:-$DOCKER_RUNNING}"
 # Pandoc's configuration is specified via files of option defaults
 # located in the $PANDOC_DATA_DIR/defaults directory.
