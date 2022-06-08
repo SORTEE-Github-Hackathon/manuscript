@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -60,7 +60,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -72,7 +72,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 pedrohbraga
@@ -89,7 +89,7 @@ replit
 repo
 reproducibility
 rfishbase
-Rmarkdown
+RMarkdown
 Rmd
 robcrystalornelas
 rOpenSci
