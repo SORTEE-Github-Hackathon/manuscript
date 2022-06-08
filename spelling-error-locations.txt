@@ -181,7 +181,6 @@ content/06.discussion-a.md:54:reproducibility
 content/06.discussion-a.md:58:GitLab
 content/06.discussion-a.md:59:EEB
 content/06.discussion-a.md:67:webpage
-content/06.discussion-a.md:68:Carpentries
 content/06.discussion-a.md:68:zenodo
 content/06.discussion-a.md:69:Hackathon
 content/06.discussion-a.md:69:SORTEE
@@ -203,6 +202,7 @@ content/08.statements.md:3:SORTEE
 content/08.statements.md:5:RCO
 content/08.statements.md:9:Hackathon
 content/08.statements.md:9:SORTEE
+content/09.figures-tables.md:3:git's
 content/09.figures-tables.md:3:README
 content/09.figures-tables.md:7:citable
 content/09.figures-tables.md:7:scatterblob
@@ -222,7 +222,6 @@ content/11.comparison_table.md:8:dataset
 content/11.comparison_table.md:8:Zenodo
 content/11.comparison_table.md:9:reopository
 content/11.comparison_table.md:10:Figshare
-content/11.comparison_table.md:14:OneDrive
 content/11.comparison_table.md:16:Colab
 content/11.comparison_table.md:16:Colab
 content/11.comparison_table.md:16:Jupyter
