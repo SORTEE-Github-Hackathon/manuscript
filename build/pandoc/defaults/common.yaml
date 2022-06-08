@@ -9,5 +9,5 @@ filters:
 - citeproc
 wrap: preserve
 metadata:
-  csl: build/assets/style.csl
+  csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
   link-citations: true
