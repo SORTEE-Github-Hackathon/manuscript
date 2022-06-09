@@ -25,7 +25,7 @@ Data was assembled collaboratively using Google docs, then manually saved as a "
 
 The collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0), features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:12], collapse = "; " )`).
 
-The column _`r column_names[6]`_ corresponds to the degree of difficulty that was perceived by the authors. when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors. 
+The column _`r column_names[6]`_ corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors. 
 
 The columns tagged as _Cognitive load -_ showcase a different way to assess technical difficulty of GitHub uses, measured as cognitive load (explained in the next section). 
 
