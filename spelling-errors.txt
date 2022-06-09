@@ -59,7 +59,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -71,7 +71,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 Pandoc
 pedrohbraga
