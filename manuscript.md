@@ -11,6 +11,7 @@ author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
 - Katherine Hébert
+- Friederike Hillemann
 - Emma J. Hudgins
 - Luna L. Sánchez Reyes
 - Eric R. Scott
@@ -54,6 +55,9 @@ header-includes: |-
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
   <meta name="twitter:creator" content="@hebert_kat" />
+  <meta name="citation_author" content="Friederike Hillemann" />
+  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
+  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
@@ -113,9 +117,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@6f8258b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6f8258b509eed4946bfc21d796eab05bbae47d1d)
+from [SORTEE-Github-Hackathon/manuscript@55dfe2a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/55dfe2ab70354dd7be425790d6bcbeb459fbb92e)
 on June 9, 2022.
 </em></small>
 
@@ -176,6 +180,15 @@ on June 9, 2022.
     [hebert_kat](https://twitter.com/hebert_kat)<br>
   <small>
      Département de biologie, Université de Sherbrooke, Québec, Canada
+  </small>
+
++ **Friederike Hillemann**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [fhillemann](https://github.com/fhillemann)<br>
+  <small>
+     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
 + **Emma J. Hudgins**<br>

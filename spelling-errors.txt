@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -71,7 +71,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 Pandoc
 pedrohbraga
