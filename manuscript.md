@@ -6,12 +6,11 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-06-08'
+date-meta: '2022-06-09'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
 - Katherine Hébert
-- Friederike Hillemann
 - Emma J. Hudgins
 - Luna L. Sánchez Reyes
 - Eric R. Scott
@@ -36,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-08" />
-  <meta name="citation_publication_date" content="2022-06-08" />
+  <meta name="dc.date" content="2022-06-09" />
+  <meta name="citation_publication_date" content="2022-06-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +54,6 @@ header-includes: |-
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
   <meta name="twitter:creator" content="@hebert_kat" />
-  <meta name="citation_author" content="Friederike Hillemann" />
-  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
-  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
@@ -117,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c579f2e6dabd3334b02f563bb8ac53bfd042db72/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c579f2e6dabd3334b02f563bb8ac53bfd042db72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c579f2e6dabd3334b02f563bb8ac53bfd042db72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c579f2e6dabd3334b02f563bb8ac53bfd042db72/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6f8258b509eed4946bfc21d796eab05bbae47d1d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c579f2e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c579f2e6dabd3334b02f563bb8ac53bfd042db72)
-on June 8, 2022.
+from [SORTEE-Github-Hackathon/manuscript@6f8258b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6f8258b509eed4946bfc21d796eab05bbae47d1d)
+on June 9, 2022.
 </em></small>
 
 ## Authors
@@ -180,15 +176,6 @@ on June 8, 2022.
     [hebert_kat](https://twitter.com/hebert_kat)<br>
   <small>
      Département de biologie, Université de Sherbrooke, Québec, Canada
-  </small>
-
-+ **Friederike Hillemann**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [fhillemann](https://github.com/fhillemann)<br>
-  <small>
-     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
 + **Emma J. Hudgins**<br>
@@ -396,17 +383,16 @@ We also provide critical perspectives on features that could be improved and cat
 <!--# I thought it might be helpful to have a box with short definitions of git/GitHub terminology used in the manuscript. If any of these are discussed more in depth in the main text, they may not need to be here. RCO: I think it's great. Super helpful to have this type of glossary for github papers -->
 | Glossary |
 |---|
-|**branch**: A git branch is an alternative line of development for a project (repository). Branches allow to add new features or modifications to the project without affecting the main part of the project. Development branches can be created at any point in time and work on each branch can continue independently. Branching is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that may arise if conflicting edits are **pushed** to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**.|
-|**clone**: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**. If you have access to **push** to a **repository**, this can be a first step to contributing to a project.|
-|**commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (e.g. "generate and include fig1 in results"), and after several commits **push** those commits to the remote (i.e., cloud-based) GitHub **repository**.|
-|**fork**: A fork is a copy of a **repository** hosted on GitHub. If a repository is public, then anyone can make a fork. Even if they do not have access to **push** to the original repository, they can make a fork and edit it independently. Forks are linked to the original GitHub repository and "upstream" changes (i.e. those in the original repository) can be **merged** to keep the fork up to date with the original project. Changes made in the fork can be integrated into the original project via **pull requests**.|
-| **merge**: Combining **commits** from two different branches together into one **branch**|
-|**pull request**: A pull request is a request that the owner(s) of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**. When you initiate a pull request, you must provide a description of what changes were made. Some automated tests may be run and review may be required before integrating your changes into the main **branch**.|
-|**push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date.|
 |**repository**: Commonly shortened to "repo", a repository is a collection of files (_e.g._, a directory) tracked by Git. Repositories are managed by an owner and can be listed as "public" where the repository will be visible to all GitHub users or "private", where the repository is visible only to authorized users.|
+|**fork**: A fork is a copy of a **repository** hosted on GitHub. If a repository is public, then anyone can make a fork. Even if they do not have access to **push** to the original repository, they can make a fork and edit it independently. Forks are linked to the original GitHub repository and "upstream" changes (i.e. those in the original repository) can be **merged** to keep the fork up to date with the original project. Changes made in the fork can be integrated into the original project via **pull requests**.|
+|**clone**: Cloning a **repository** is a way of making a local copy (i.e. on your computer) of a GitHub **repository**. If you have access to **push** to a **repository**, this can be a first step to contributing to a project.|
+|**branch**: A git branch is an alternative line of development for a project (repository). Branches allow to add new features or modifications to the project without affecting the main part of the project. Development branches can be created at any point in time and work on each branch can continue independently. Branching is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that may arise if conflicting edits are **pushed** to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**.|
+|**commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (e.g. "generate and include fig1 in results"), and after several commits **push** those commits to the remote (_i.e._, cloud-based) GitHub **repository**.|
+|**push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date.|
+|**pull request**: A pull request is a request that the owner(s) of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**. When you initiate a pull request, you must provide a description of what changes were made. Some automated tests may be run and review may be required before integrating your changes into the main **branch**.|
+| **merge**: Combining **commits** from two different branches together into one **branch**|
 |**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of software in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.|
-|**community**: A forum where GitHub users can ask for advice, offer solutions to questions, and share ideas (https://github.community/).|
-
+|**community**: A forum where GitHub users can ask for advice, offer solutions to questions, and share ideas (<https://github.community/>).|
 
 ## 12 Practical ways of using GitHub in EEB
 

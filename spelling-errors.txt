@@ -49,7 +49,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-HackMD
+hackMD
 Hébert
 helenweierbach
 Henrique
@@ -59,7 +59,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-jupyter
+Jupyter
 Kaitlyn
 kaitlyngaynor
 kat
@@ -71,7 +71,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 Pandoc
 pedrohbraga
