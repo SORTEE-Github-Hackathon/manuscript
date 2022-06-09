@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -88,7 +88,7 @@ replit
 repo
 reproducibility
 rfishbase
-RMarkdown
+Rmarkdown
 Rmd
 robcrystalornelas
 rOpenSci

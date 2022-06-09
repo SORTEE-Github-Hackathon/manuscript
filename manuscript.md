@@ -11,7 +11,6 @@ author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
 - Katherine Hébert
-- Friederike Hillemann
 - Emma J. Hudgins
 - Luna L. Sánchez Reyes
 - Eric R. Scott
@@ -55,9 +54,6 @@ header-includes: |-
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
   <meta name="twitter:creator" content="@hebert_kat" />
-  <meta name="citation_author" content="Friederike Hillemann" />
-  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
-  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
@@ -117,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f4614eb536313e122f922ad46d0e4f9f246b724a/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f4614eb536313e122f922ad46d0e4f9f246b724a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f4614eb536313e122f922ad46d0e4f9f246b724a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/55dfe2ab70354dd7be425790d6bcbeb459fbb92e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f4614eb536313e122f922ad46d0e4f9f246b724a/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@55dfe2a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/55dfe2ab70354dd7be425790d6bcbeb459fbb92e)
+from [SORTEE-Github-Hackathon/manuscript@f4614eb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f4614eb536313e122f922ad46d0e4f9f246b724a)
 on June 9, 2022.
 </em></small>
 
@@ -180,15 +176,6 @@ on June 9, 2022.
     [hebert_kat](https://twitter.com/hebert_kat)<br>
   <small>
      Département de biologie, Université de Sherbrooke, Québec, Canada
-  </small>
-
-+ **Friederike Hillemann**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [fhillemann](https://github.com/fhillemann)<br>
-  <small>
-     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
 + **Emma J. Hudgins**<br>
@@ -354,21 +341,21 @@ As more ecologists and evolutionary biologists establish their workflows using G
 <!-- ### General introduction to the use of collaborative computational resources by scientists -->
 <!-- *Contributors to this section: PHPB* -->
 Most scientists, including ecologists and evolutionary biologists, are increasingly dependent on computational tools in their research [@doi:10.1109/SECSE.2009.5069155].
-Researchers write and use code as part of their scientific workflow to perform a wide-variety of tasks ranging from data management, data analysis, and study replication, to the application and the development of tools for hypothesis testing.
+Researchers write and use software packages or data analysis code (hereafter, code) as part of their scientific workflow to perform a wide-variety of tasks ranging from data management, data analysis, and study replication, to the application and the development of tools for hypothesis testing.
 To maintain code for scientific collaboration requires an efficient and well-documented work-flow [@doi:10.1038/d41586-020-02462-7].
 To facilitate this process, scientists have been increasingly adopting tools from information and systems technology, such as cloud-based services for documentation and version control (_e.g._, from the Google Suite, with Docs, Sheets, and Drive; the Microsoft Suite, with Word, Excel, and OneDrive; and GitHub; @doi:10.1038/538127a).
-However, most researchers lack exposure to adequate software development practices and are required to dedicate valuable time and effort to self-teach the use of research-facilitating tools, and thus may be limited in their ability to adhere to adequate standards of scientific code quality and maintenance [@doi:10.1145/2063348.2063374; @doi:10.1371/journal.pbio.1001745; @doi:10.1109/SECSE.2009.5069155].
+However, most researchers lack exposure to adequate code development practices and are required to dedicate valuable time and effort to self-teach the use of research-facilitating tools, and thus may be limited in their ability to adhere to adequate standards of scientific code quality and maintenance [@doi:10.1145/2063348.2063374; @doi:10.1371/journal.pbio.1001745; @doi:10.1109/SECSE.2009.5069155].
 Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in ecology and evolutionary biology (EEB) with practical workflows aimed at facilitating their scientific code and management process.
 
 <!-- ### General background about GitHub and Git -->
 <!-- *Contributors to this section: RCO, SSHS, PHPB* -->
 With over 73 million registered users, as of 2022, GitHub is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
-GitHub provides a simplified but powerful web interface that allows users to participate in projects, contribute code, report and discuss software bugs, discover existing code and data, and publish new code.
+GitHub provides a simplified but powerful web interface that allows users to participate in projects, contribute code, report and discuss code bugs, discover existing code and data, and publish new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories (see [Box 1](#definitions); [@doi:10.1080/00031305.2017.1399928]).
 This workflow provides a strong and clear advantage over receiving, processing and sending files back-and-forth (e.g. via email), a process that can easily become challenging and time-consuming in projects extending in time and in the number of collaborators [@doi:10.1186/1751-0473-8-7].
 Through the combination of version control management and the network- and collaboration-based features, GitHub can broadly facilitate openly available source code alongside concomitant collaborative development [@doi:10.1371/journal.pcbi.1004947].
 
-Git is the version control software system that enables all the collaborative tools available on GitHub.
+Git is the version control system that enables all the collaborative tools available on GitHub.
 Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions.
 Still, GitHub users are encouraged to explore and improve their proficiency in Git when feeling comfortable, so they can feel confident in performing more flexible, complex operations (such as integrating changes from one branch into another branch with `git merge` and `git rebase`). Examples of extensive explanations on Git can be found in journal articles [@doi:10.1371/journal.pcbi.1004668; @doi:10.1371/journal.pcbi.1004947], video tutorials [@url:https://youtu.be/USjZcfj8yxE], and books [@url:https://happygitwithr.com].
 
@@ -376,7 +363,7 @@ Still, GitHub users are encouraged to explore and improve their proficiency in G
 <!-- *Contributors to this section: RCO, PHPB* -->
 The expansive GitHub user-community and the numerous resources on how to use GitHub have boosted its growing popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; @url:https://happygitwithr.com/; @url:https://ourcodingclub.github.io].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
-First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for software development in information systems [@doi:10.1109/ASONAM.2016.7752419].
+First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for code development in information systems [@doi:10.1109/ASONAM.2016.7752419].
 Moreover, domain-specific perspectives and resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce (but see https://ourcodingclub.github.io; https://www.openscapes.org).
 A common adoption of GitHub for collaborating on a variety of research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their research [@doi:10.3897/rio.6.e56508].
 More importantly, increasing the availability of data and code management standards -- of which GitHub is one increasingly important component -- make research more reproducible and collaborative [@doi:10.1002/bes2.1801].
@@ -404,8 +391,10 @@ We also provide critical perspectives on features that could be improved and cat
 |**push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date.|
 |**pull request**: A pull request is a request that the owner(s) of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**. When you initiate a pull request, you must provide a description of what changes were made. Some automated tests may be run and review may be required before integrating your changes into the main **branch**.|
 | **merge**: Combining **commits** from two different branches together into one **branch**|
-|**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of software in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.|
+|**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of code in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.|
 |**community**: A forum where GitHub users can ask for advice, offer solutions to questions, and share ideas (<https://github.community/>).|
+
+
 
 ## 12 Practical ways of using GitHub in EEB
 
@@ -447,7 +436,8 @@ Unlike emails and messages which can get lost as more new tasks arise, GitHub is
 Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
 For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests. 
 ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks and link issues together when they are related to a shared project goal or milestone.
-GitHub is currently beta testing a similar project management feature called GitHub Projects [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects]. GitHub can also be integrated with other project management software such as Slack (https://slack.github.com/) so that teams are notified through a Slack group chat when updates are made to a repository.
+GitHub is currently beta testing a similar project management feature called GitHub Projects [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects]. 
+GitHub can also be integrated with other project management software such as Slack (https://slack.github.com/) so that teams are notified through a Slack group chat when updates are made to a repository.
 
 ### Educational materials
 
@@ -559,7 +549,7 @@ Other tools can also be used for version control of scientific manuscripts inclu
 <!--*contributors to this section:* Eric R. Scott-->
 Peer review plays a critical role in the scientific evaluation of EEB research.
 GitHub provides an open and transparent platform that can be used for either directly providing feedback on research products or building a to-do list from reviewer comments.
-Peer review of research software by the open software development community rOpenSci (https://ropensci.org/software-review/) and of research software and associated manuscripts by the Journal of Open Source Software (https://joss.readthedocs.io/en/latest/submitting.html) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
+Peer review of research code by the open software development community rOpenSci (<https://ropensci.org/software-review/>) and of research software and associated manuscripts by the Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>) requires that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
 rOpenSci's efforts have resulted in many well-used R packages for ecology research including rfishbase [@doi:10.1111/j.1095-8649.2012.03464.x] and taxize [@doi:10.12688/F1000RESEARCH.2-191.V2].  
 
 GitHub can also be used as a hub for reviewers and authors during the peer review process of an ordinary research manuscript.
@@ -568,11 +558,6 @@ GitHub can also be used as a hub for reviewers and authors during the peer revie
 GitHub issues can be used to organize and discuss reviewer suggestions and to assign them to co-authors (See example in <https://github.com/BrunaLab/HeliconiaDemography/issues?q=is%3Aissue+label%3A%22reviewer+comment%22+>).
 When reviewer comments are posted as separate issues, authors can comment on the issues to discuss possible changes and assign themselves to indicate which comments they intend to handle.
 Co-authors can then integrate their edits and responses to reviewers using pull requests.
-
-Some specialized journals, such as the the Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>), require that submitted work is hosted on GitHub and their review processes make use of GitHub issues.
-Peer review of research software by rOpenSci (<https://ropensci.org/software-review/>) also makes use of many features of GitHub to streamline and automate parts of the review process.
-rOpenSci's efforts have resulted in many well-used R packages for ecology research including rfishbase [@doi:10.1111/j.1095-8649.2012.03464.x] and taxize [@doi:10.12688/F1000RESEARCH.2-191.V2].
-Although the use of GitHub in peer-review is currently restricted to these specialized cases, they may provide a model for peer-review in more traditional EEB journals for manuscripts that make use of code.
 
 
 <!--## GitHub in EcoEvo examples (Part 3)-->
@@ -600,20 +585,20 @@ GitHub even provides a useful Discussions Forum (<https://docs.github.com/en/dis
 
 <!--*Contributors to this section: BPME, VF*  -->
 
-The development of research software continues, and so does the need to consider project continuity, especially in EEB where graduate students, research assistants, and postdoctoral fellows often hold relatively short-term positions [@doi:10.5334/jors.307].
-Often with these types of short-term research projects, once the contract expires, the research software upkeep tends to fall off as the researchers move on to new projects.
-Additionally, if the research software is kept on only the researcher's personal devices, it becomes increasingly difficult to access the software and code for future uses.
-As projects or contracts end, there should be a handover period of this software in order for the next cohort of researchers to reuse what was already developed [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
+The development of research code continues, and so does the need to consider project continuity, especially in EEB where graduate students, research assistants, and postdoctoral fellows often hold relatively short-term positions [@doi:10.5334/jors.307].
+Often with these types of short-term research projects, once the contract expires, the research code upkeep tends to fall off as the researchers move on to new projects.
+Additionally, if the code is kept on only the researcher's personal devices, it becomes increasingly difficult to access the code for future uses.
+As projects or contracts end, there should be a handover period of this code in order for the next cohort of researchers to reuse what was already developed [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
 
-GitHub facilitates project continuity among research software and research code by providing tools that make this handover period easier. 
-As we have already mentioned, using Git for code in Ecology and Evolution can allow for a "paper trail" of sorts to be created for the research software, thus allowing for future users of the code access to the entire history of the project [@doi:10.1038/s41559-017-0160]. 
-Additionally, GitHub allows for repositories and organizations to have designated Code Owners [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]; these code owners can change through time allowing for the transition of research software from one cohort of researchers to the next [@doi:10.1890/ES14-00402.1].
-There are also multiple means by which to archive software dependency information with GitHub.
+GitHub facilitates project continuity among research code by providing tools that make this handover period easier. 
+As we have already mentioned, using Git for code in Ecology and Evolution can allow for a "paper trail" of sorts to be created for the code, thus allowing for future users of the code access to the entire history of the project [@doi:10.1038/s41559-017-0160]. 
+Additionally, GitHub allows for repositories and organizations to have designated Code Owners [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]; these code owners can change through time allowing for the transition of code from one cohort of researchers to the next [@doi:10.1890/ES14-00402.1].
+There are also multiple means by which to archive code dependency information with GitHub.
 Dependencies can be described in README files, added to environment.yml and/or an environment.txt file, or stored in a repository using tools such as renv (<https://rstudio.github.io/renv/articles/renv.html>).
 This ensures that as packages continue to develop with new syntax, code will still run as it did when it was developed.
 
 Within EEB projects, tasks are often divided among contributors taking various roles (see CRediT taxonomy, <https://casrai.org/credit/>).
-The creation of project repositories is commonly the purview of those involved in the software, formal analysis, and/or visualization components of the project through their roles as code writers.
+The creation of project repositories is commonly the purview of those involved in the code, formal analysis, and/or visualization components of the project through their roles as code writers.
 However, the structural components of a typical GitHub repository and the derived EEB-specific templates can provide functional ways for other collaborators not contributing to code to be engaged in aspects of repository design in a way that improves institutional memory and facilitates project continuity.
 These other collaborators can offer many contributions to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
 In (Figure @fig:scatterblob), we highlight several elements of good repository structure, and the various ways that contributors may interact with them. 
