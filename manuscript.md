@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/995c4b12819cee4b095a8c81c7f5303afab9534e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/995c4b12819cee4b095a8c81c7f5303afab9534e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/995c4b12819cee4b095a8c81c7f5303afab9534e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/397be525b3f7dd06eb5e7e570a461d840fcb5a26/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/397be525b3f7dd06eb5e7e570a461d840fcb5a26/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/397be525b3f7dd06eb5e7e570a461d840fcb5a26/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/995c4b12819cee4b095a8c81c7f5303afab9534e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/397be525b3f7dd06eb5e7e570a461d840fcb5a26/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@995c4b1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/995c4b12819cee4b095a8c81c7f5303afab9534e)
+from [SORTEE-Github-Hackathon/manuscript@397be52](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/397be525b3f7dd06eb5e7e570a461d840fcb5a26)
 on June 9, 2022.
 </em></small>
 
@@ -701,7 +701,7 @@ At this point however, there is little practical difference for EEB researchers 
 | 5. **Check out the following markdown cheatsheet (<http://markdownguide.org/basic-syntax>).** so that you can write clear metadata README files for your repositories. |
 | 6. **The Jenny Bryan universe of GitHub material.** provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
 | 7. **Don't be afraid of trial and error.** One of the best ways to learn GitHub is the trial and error method. Learning from your own mistakes can be the better way to master your GitHub abilities. In any case, GitHub has the advantage of making it easy to go back to any steps that you desire via version controlling if you make mistakes. |
-| 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course Rmarkdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time. |
+| 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course Rmarkdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time. (see example <https://github.com/rmcelreath/stat_rethinking_2022>) |
 | 9. **Try to begin committing with GUI (Graphical user interface) tools.** like GitHub Desktop (<https://desktop.github.com>), git-gui (<https://git-scm.com/docs/git-gui>), RStudio (<https://www.rstudio.com>), Visual Studio Code (<https://code.visualstudio.com>), Atom (<https://atom.io>), GitKraken (<https://www.gitkraken.com>) tools instead of CLI (Command line interface) tools such as Terminal or Console for more advanced features.
 | 10. **Get help deciphering GitHub Notifications.** Try using tools like Octobox (<https://octobox.io>) to disentangle and manage multiple notifications from distinct GitHub projects. |
 
