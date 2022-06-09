@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -49,7 +49,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique
@@ -88,7 +88,7 @@ replit
 repo
 reproducibility
 rfishbase
-Rmarkdown
+RMarkdown
 Rmd
 robcrystalornelas
 rOpenSci
