@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-06-09'
+date-meta: '2022-06-10'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-09" />
-  <meta name="citation_publication_date" content="2022-06-09" />
+  <meta name="dc.date" content="2022-06-10" />
+  <meta name="citation_publication_date" content="2022-06-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/024357f04df193fe87662943d6e0029321eca2a5/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/024357f04df193fe87662943d6e0029321eca2a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/024357f04df193fe87662943d6e0029321eca2a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ea3d52568405d25c555daffaef4bbf5a40954c92/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ea3d52568405d25c555daffaef4bbf5a40954c92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ea3d52568405d25c555daffaef4bbf5a40954c92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/024357f04df193fe87662943d6e0029321eca2a5/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ea3d52568405d25c555daffaef4bbf5a40954c92/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@024357f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/024357f04df193fe87662943d6e0029321eca2a5)
-on June 9, 2022.
+from [SORTEE-Github-Hackathon/manuscript@ea3d525](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ea3d52568405d25c555daffaef4bbf5a40954c92)
+on June 10, 2022.
 </em></small>
 
 ## Authors
@@ -396,67 +396,60 @@ We also provide critical perspectives on features that could be improved and cat
 
 
 
-## 12 Practical ways of using GitHub in EEB
+## Twelve practical ways GitHub can accelerate research in ecology and evolution
 
-### Storing a research compendium
+### Storing and sharing research compendia
 
-<!--*contributors to this section: Dylan Gomes, Emma Hudgins* -->
-In EEB, a research compendium includes all computational materials related to research production, including data, code for analyses and protocols.
-Having multiple copies of these files is important to ensure that research can continue should one copy of a file be accidentally modified or deleted.
-Many researchers begin using GitHub as a means to backup their research compendium [@doi:10.1080/00031305.2017.1375986] to a remote server (pull-commit-push, see [Box 1](#definitions)).
-The GitHub repository serves as a centralized backup and also allows users to synchronize files and work on any device with internet access. 
-Because GitHub is built on git, version control features are also available, allowing users to re-visit or even restore previous versions of the repository.
-Storing a research compendium as a GitHub repository has additional benefits such as facilitating collaboration, integration with data and code archiving services, and contribution to open science, all discussed in sections below.
+<!--*contributors to this section: Dylan Gomes, Emma Hudgins, Pedro Braga* -->
+An EEB research compendium includes all computational materials related to research production, including data, code for analyses and protocols.
+Having copies of these files safely stored is essential to protect against accidental modifications or deletions.
+Many researchers begin using GitHub as a means to store (or backup) their research compendium [@doi:10.1080/00031305.2017.1375986] to a centralized, readily-available remote server (see [Box 1](#definitions)).
+A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below).
 
-Unfortunately, GitHub repositories have file size limits, so they may not be appropriate for synchronizing large data files.
-Commits (see [Box 1](#definitions)]) greater than 50 MB receive a warning and commits larger than 100 MB are blocked (@https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
-Therefore, it is recommended that large datasets are stored only locally or using other cloud services.
+GitHub limits committed file sizes to 100 Mb (megabytes) (@https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), which can make it challenging for centralizing research compedia containing larger file sizes. 
+Users may still version large files using Git Large File Storage (LFS; @https://git-lfs.github.com/) text pointers, but may have to rely on external file storage alternatives (such as local or cloud-hosting).
 
-### Virtual lab notebook
+### Virtual laboratory notebooks
 
 <!--*contributors to this section: RCO* -->
-Lab notebooks are the virtual or physical notebooks used to help researchers at any career stage keep track of their research methods or laboratory policies [@doi:10.1186/s13321-017-0221-3].
-Digital lab notebooks stored in the cloud provide clear benefits given the ease with which documents can be shared with new employees and updated as policy changes or experimental methods are modified [@doi:10.1371/journal.pcbi.1004385].
-Increasingly, researchers are leveraging GitHub's underlying version control system to maintain and share digital lab notebooks [@doi:10.1038/538127a].
-At least for aspects of a research project that involve writing code, a GitHub repository is a form of a lab notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit ([Box 1](#definitions)) accompanied by a message describing the changes and the reason for them. Later, the entire history of commits and their messages are viewable and can be audited similar to a physical lab notebook [@doi:10.1186/1751-0473-8-7].
-GitHub issues ([Box 1](#definitions)) can be used to prioritize lab objectives and goals, as well as track any status updates.
-Some EEB labs have even turned their lab notebooks into shareable websites (<https://scheuerell-lab.github.io/lab-book>; <https://github.com/HuckleyLab/how_we_work>) as a centralized location for all lab resources.
+Laboratory notebooks help researchers track their research notes, methods, policies and protocols [@doi:10.1186/s13321-017-0221-3].
+Virtual laboratory notebooks can be stored in GitHub repositories and provide the benefits of simultaneous, centralized and selective access, and allows for the easy update of policies and experiment protocols [@doi:10.1371/journal.pcbi.1004385].
+Researchers have been increasingly using GitHub to maintain versions and share digital laboratory notebooks [@doi:10.1038/538127a] (_e.g._, <https://scheuerell-lab.github.io/lab-book>; <https://github.com/HuckleyLab/how_we_work>). 
+
+At least for aspects of a research project that involve writing code, a GitHub repository is a form of a laboratory notebook; when changes are made to files in a version controlled repository, the author of those changes makes a commit ([Box 1](#definitions)) accompanied by a description of changes. 
+Later, the entire history of commits and their commit messages are viewable and can be audited similar to a physical laboratory notebook [@doi:10.1186/1751-0473-8-7].
+GitHub issues ([Box 1](#definitions)) can be used to prioritize laboratory objectives and goals, as well as track any status updates.
 
 ### Project management
 
-<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas*-->
+<!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas, Pedro Braga*-->
 
-Modern EEB research is highly collaborative, bringing together multidisciplinary teams from various institutions.
+Modern research in ecology and evolution is highly collaborative, bringing together multidisciplinary teams from various institutions.
 On GitHub, collaborators can share feedback, brainstorm ideas, and troubleshoot problems (Figure @fig:github-diagram).
-GitHub has an "Issues" feature that allows for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels. 
-The new GitHub "Discussion" feature serves as a message board for conversation.
-Scripts, commit messages, and pull requests can be linked directly to issues and discussions, providing a clear record of project workflow.
+Project management can happen via three GitHub repository features: "Issues", "Discussion" and "Projects".
+Github Issues allow for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels.
+Github Discussions serve as a message board for conversation.
+Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
+Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
 The use of GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
-Fortunately, it is not essential for all team members to have proficiency in git or programming, as users can interact with Issues and Discussions via web browser or e-mail (e-mail responses still get tracked as comments on the focal GitHub issue).
-For larger projects with many team members and tens or hundreds of GitHub issues to sort through, project management software like ZenHub, can help prioritize issues and pull requests. 
-ZenHub's web interface includes a GitHub Issue visualizer where users can organize issues into high priority or backlogged tasks and link issues together when they are related to a shared project goal or milestone.
-GitHub is currently beta testing a similar project management feature called GitHub Projects [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects]. 
-GitHub can also be integrated with other project management software such as Slack (https://slack.github.com/) so that teams are notified through a Slack group chat when updates are made to a repository.
+Project management in GitHub can also be integrated with third-party applications, such as ZenHub (https://www.zenhub.com/) or Slack (https://slack.github.com/).
+ZenHub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [@url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
 
 ### Educational materials
 
 <!-- *contributors to this section: Cole Brookson* -->
 
 GitHub supports a broad set of mechanisms for hosting educational materials.
-The entire process of running a course, workshop, or lecture, can all be done openly on GitHub including material development, web hosting, and delivery, and even the submission and grading of assignments.
+The entire process of running a course, workshop, or lecture, can all be done openly on GitHub including material development, web hosting, and delivery, and even submission and grading of assignments.
 While there are other purpose-built platforms for this, GitHub provides a free, open-source alternative.
 
-Making presentations can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338], Python, with `python-ppt` (<https://python-pptx.readthedocs.io>), and Julia, with `Remark.jl` (<https://juliapackages.com/p/remark>).
-Since all these programs work via code bases, they can be version-controlled through git and GitHub.
-Once content is made, hosting a course website can be done through GitHub Pages, and there are lots of templates available (e.g., see <https://github.com/topics/course-website>).
+Making presentations, syllabi and other course materials can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338], Python, with `python-ppt` (<https://python-pptx.readthedocs.io>), and Julia, with `Remark.jl` (<https://juliapackages.com/p/remark>), and be version-controlled and stored in GitHub.
+Once content is made, hosting a course website can be done through GitHub Pages [@url:https://docs.github.com/en/pages/quickstart] (_e.g._, https://github.com/topics/course-website>).
 This way, the course content can be available to enrolled students, as well as a global pool of learners and teachers interested in the course material.
-Content can then be delivered via the course website, and/or a GitHub organization with, for example, template repositories for assignments.
-Student submissions are perhaps the most challenging component, but the new GitHub Classroom tool (https://classroom.github.com) allows instructors to host private assignments submitted as code files (.R or .Rmd) or .pdf files, and even build custom autograding tests.
- 
-Instructors may only need to incorporate some of these tools given the time required to implement various GitHub features, however it is still valuable to do so and to encourage students to begin learning about version control through interacting with git/GitHub, however minimally, through the course.
-Especially if a central tenet of a given course or educational unit is to introduce or give students experience with version control, reproducibility, and the tools that working professionals in EEB use, then adopting a few of these tools can be a great way to do so.
-
+Content can then be delivered via the course website, and/or a GitHub Organization with, for example, template repositories for assignments.
+Student submissions are perhaps the most challenging component, but the new GitHub Classroom tool (<https://classroom.github.com>) allows instructors to host private assignments to be submitted collaboratively or individually as code or PDF files, and even build autograding tests.
+Although time-consuming to establish, using these features can integrate learning version control and GitHub with the learning course content, and thus boost students feelings of self-efficacy and confidence [@doi:10.1187/cbe.13-12-0241]. 
 
 
 <!--## GitHub in EcoEvo examples (Part 2)-->

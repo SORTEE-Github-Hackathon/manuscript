@@ -22,10 +22,10 @@ CLI
 Colab
 colalboration
 colebrookson
+compedia
 compendia
 Concordia
 dataset
-datasets
 Département
 descritption
 DOIs
@@ -48,7 +48,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
+Hackathon
 hackMD
 Hébert
 helenweierbach
@@ -64,6 +64,7 @@ Kaitlyn
 kaitlyngaynor
 kat
 katherinehebert
+LFS
 LunaSare
 mentorship
 Merced
@@ -88,8 +89,7 @@ replit
 repo
 reproducibility
 rfishbase
-Rmarkdown
-Rmd
+RMarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
@@ -104,6 +104,7 @@ shafieisabets
 Sherbrooke
 SORTEE
 Sowmeh
+syllabi
 taxize
 Torgarden
 txt
@@ -117,5 +118,4 @@ Weierbach
 wowchemy
 yml
 ZenHub
-ZenHub’s
 Zenodo
