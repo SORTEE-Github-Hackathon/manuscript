@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -48,7 +48,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
+hackathon
 hackMD
 Hébert
 helenweierbach
@@ -59,7 +59,7 @@ HWeierbach
 hypothes
 iDiv
 integrations
-Jupyter
+jupyter
 Kaitlyn
 kaitlyngaynor
 kat
