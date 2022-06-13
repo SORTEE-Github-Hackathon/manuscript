@@ -12,7 +12,7 @@ Binley
 biologie
 blogdown
 bookdown
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -48,8 +48,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
-HackMD
+Hackathon
+hackMD
 Hébert
 helenweierbach
 Henrique
