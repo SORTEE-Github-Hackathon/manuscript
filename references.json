@@ -1772,14 +1772,13 @@
   {
     "id": "QqMezOMg",
     "type": "book",
-    "collection-title": "Chapman & Hall/CRC, the R series",
-    "event-place": "Boca Raton London New York",
-    "ISBN": "9781138359338",
-    "language": "eng",
-    "number-of-pages": "303",
-    "publisher": "CRC Press, Taylor & Francis Group",
-    "publisher-place": "Boca Raton London New York",
-    "source": "K10plus ISBN",
+    "call-number": "TK5105.8885.M39",
+    "event-place": "Boca Raton",
+    "ISBN": "9780429782961",
+    "number-of-pages": "1",
+    "publisher": "CRC Press, Taylor and Francis Group",
+    "publisher-place": "Boca Raton",
+    "source": "Library of Congress ISBN",
     "title": "R Markdown: the definitive guide",
     "title-short": "R Markdown",
     "author": [
@@ -1789,7 +1788,7 @@
       },
       {
         "family": "Allaire",
-        "given": "Joseph J."
+        "given": "J. J."
       },
       {
         "family": "Grolemund",
@@ -1808,24 +1807,20 @@
   {
     "id": "MXxgZJ45",
     "type": "book",
-    "edition": "First edition",
-    "event-place": "Beijing Boston",
+    "call-number": "MLCM 2019/43600 (Q)",
+    "edition": "First Edition",
+    "event-place": "Beijing",
     "ISBN": "9781491933503",
-    "language": "eng",
     "number-of-pages": "278",
     "publisher": "O'Reilly",
-    "publisher-place": "Beijing Boston",
-    "source": "K10plus ISBN",
+    "publisher-place": "Beijing",
+    "source": "Library of Congress ISBN",
     "title": "Building tools with GitHub: customize your workflow",
     "title-short": "Building tools with GitHub",
     "author": [
       {
         "family": "Dawson",
         "given": "Chris"
-      },
-      {
-        "family": "Straub",
-        "given": "Ben"
       }
     ],
     "issued": {
@@ -2219,7 +2214,7 @@
         [
           "2022",
           6,
-          10
+          13
         ]
       ]
     },

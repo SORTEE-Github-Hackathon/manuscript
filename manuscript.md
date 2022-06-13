@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1498796835167c3f7d1f4135eca274b5e7d6346c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1498796835167c3f7d1f4135eca274b5e7d6346c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1498796835167c3f7d1f4135eca274b5e7d6346c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3b6215a8c54e5db5b4b561ab67693bb5c7fc5f73/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3b6215a8c54e5db5b4b561ab67693bb5c7fc5f73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3b6215a8c54e5db5b4b561ab67693bb5c7fc5f73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1498796835167c3f7d1f4135eca274b5e7d6346c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3b6215a8c54e5db5b4b561ab67693bb5c7fc5f73/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@1498796](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1498796835167c3f7d1f4135eca274b5e7d6346c)
+from [SORTEE-Github-Hackathon/manuscript@3b6215a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3b6215a8c54e5db5b4b561ab67693bb5c7fc5f73)
 on June 13, 2022.
 </em></small>
 
@@ -719,7 +719,7 @@ The source code and data for this manuscript are available at https://github.com
 
 ## Figures {.page_break_before}
 
-![An overview of git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities. D) CONTRIBUTING.md, LICENCE.md, & README.md files can allow new team members or others wanting to use materials to understand the project components and learn how they can engage with the project and existing team members.](images/github_diagram.png){#fig:github-diagram}
+![An overview of git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. `CONTRIBUTING.md`, `LICENCE.md`, and `README.md` files allow new team members, or others wanting to use materials, to understand the project components and learn how they can engage with the project and existing team members. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities](images/github_diagram.png){#fig:github-diagram}
 
 <!--Reference this figure in text like this (Figure @fig:github-diagram).-->
 

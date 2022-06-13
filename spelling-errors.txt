@@ -49,7 +49,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique
