@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-06-13'
+date-meta: '2022-06-15'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-13" />
-  <meta name="citation_publication_date" content="2022-06-13" />
+  <meta name="dc.date" content="2022-06-15" />
+  <meta name="citation_publication_date" content="2022-06-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8c2aac108bf451c48272ca35f8bd93bfd6a499fd/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8c2aac108bf451c48272ca35f8bd93bfd6a499fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8c2aac108bf451c48272ca35f8bd93bfd6a499fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4ac5f7eeaa29350c0b737ed7e3e45fa0be45da12/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4ac5f7eeaa29350c0b737ed7e3e45fa0be45da12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4ac5f7eeaa29350c0b737ed7e3e45fa0be45da12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8c2aac108bf451c48272ca35f8bd93bfd6a499fd/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/4ac5f7eeaa29350c0b737ed7e3e45fa0be45da12/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@8c2aac1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8c2aac108bf451c48272ca35f8bd93bfd6a499fd)
-on June 13, 2022.
+from [SORTEE-Github-Hackathon/manuscript@4ac5f7e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4ac5f7eeaa29350c0b737ed7e3e45fa0be45da12)
+on June 15, 2022.
 </em></small>
 
 ## Authors
@@ -706,16 +706,27 @@ Regardless of the degree of collaboration, GitHub use in ecology and evolution h
 Our paper provides the most comprehensive review of how EEB researchers can use GitHub to date, and we encourage EEB researchers at any career stage studying any topic to try GitHub as a platform for sharing and collaboration.  
 
 
+## Author Contributions
+We indicate author contributions using the [CRediT Taxonomy](https://casrai.org/credit/)
+Conceptualization: RCO, BPME, KH, EJH, LLSR, PHPB
+Investigation: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+Methodology: RCO, BPME, KH, EJH, LLSR, PHPB
+Project administration: RCO
+
+Software: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+Visualization: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+Writing – original draft: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+Writing – review & editing: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+
 ## Acknowledgements
 
-This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021.
+This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021. We thank Ciera Martinez for being a co-organizer of the SORTEE hackathon that started our discussion on GitHub in EEB and for creating our hackathon website on GitHub.
 
 RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231. 
 
 ## Code and data availability
 
-The source code and data for this manuscript are available at https://github.com/SORTEE-Github-Hackathon/manuscript.
-
+The source code and data for this manuscript are available at https://github.com/SORTEE-Github-Hackathon/manuscript. The source code will be archived in the ESS-DIVE data repository prior to publication.
 
 ## Figures {.page_break_before}
 
