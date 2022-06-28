@@ -11,7 +11,7 @@ autograding
 Binley
 biologie
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -92,7 +92,6 @@ Québec
 RCO
 README
 reopository
-replit
 repo
 reproducibility
 Rmarkdown
