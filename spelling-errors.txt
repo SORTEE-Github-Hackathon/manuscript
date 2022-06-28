@@ -11,7 +11,7 @@ autograding
 Binley
 biologie
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -87,12 +87,10 @@ pedrohbraga
 pedrohp
 Pereira
 PHPB
-pre
 QCBSRworkshops
 Québec
 RCO
 README
-renv
 reopository
 replit
 repo
@@ -115,7 +113,6 @@ Sowmeh
 SSHS
 syllabi
 Torgarden
-txt
 Université
 Vesion
 vforoughirad
@@ -126,6 +123,5 @@ Weebly
 Weierbach
 Wix
 wowchemy
-yml
 ZenHub
 Zenodo
