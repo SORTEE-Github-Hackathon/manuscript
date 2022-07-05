@@ -48,12 +48,12 @@ Gainesville
 Gaynor
 GitKraken
 GitLab
-git’s
+Git’s
 Gomes
 Grainger
 Guilan
 Güncan
-hackathon
+Hackathon
 HackMD
 Hébert
 helenweierbach
@@ -63,6 +63,7 @@ Hudgins
 HW
 HWeierbach
 iDiv
+inexperimented
 ISBNs
 Jupyter
 Kaitlyn
@@ -80,7 +81,7 @@ MJG
 Octobox
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 pedrohbraga
 pedrohp

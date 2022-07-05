@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-06-29'
+date-meta: '2022-07-05'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-06-29" />
-  <meta name="citation_publication_date" content="2022-06-29" />
+  <meta name="dc.date" content="2022-07-05" />
+  <meta name="citation_publication_date" content="2022-07-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/01e005e2f013f1fa621623483512d548119fb15d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/01e005e2f013f1fa621623483512d548119fb15d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/01e005e2f013f1fa621623483512d548119fb15d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366e2cb6517a7428a3aacf57613b727b67c17a03/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366e2cb6517a7428a3aacf57613b727b67c17a03/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366e2cb6517a7428a3aacf57613b727b67c17a03/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/01e005e2f013f1fa621623483512d548119fb15d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/366e2cb6517a7428a3aacf57613b727b67c17a03/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@01e005e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/01e005e2f013f1fa621623483512d548119fb15d)
-on June 29, 2022.
+from [SORTEE-Github-Hackathon/manuscript@366e2cb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/366e2cb6517a7428a3aacf57613b727b67c17a03)
+on July 5, 2022.
 </em></small>
 
 ## Authors
@@ -597,44 +597,45 @@ Organizations are also convenient for hosting learning materials, including lect
 
 ### The promise of GitHub for EEB researchers
 
-There have been many calls for researchers outside of the software development community to join the 73 million GitHub users for their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
-This call comes in light of both the continual shift toward open-science and increasing computational and data requirements in EEB.
+There have been many calls for researchers outside of the software development community to adopt GitHub to improve their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
+This call comes in light of both the continuous shift towards open-science and the increasing computational and data requirements in EEB.
 Until now, resources and practical guidance on using GitHub within the EEB community have been dispersed in blog posts and video tutorials ([Box 2](#tips)).
 These resources have been extremely useful for learning to use GitHub in our own work.
 We also feel that a collation of the main uses of GitHub in EEB into one medium, while adding on our personal perspectives, will be useful to the EEB community.
 
-In this paper, we described 12 tractable ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research (Figure @fig:scatterblob).
+In this paper, we described twelve ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research (Figure @fig:scatterblob).
 Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just a little practice (storing data, creating virtual notebooks, making code citable).
 For example, storing code and data and making it citable involve creating a repository on GitHub, pushing code to the repository, and then going through the necessary steps (_e.g._, connecting a GitHub repository with Zenodo; see below) for creating a DOI.
-These actions are often covered in GitHub tutorials and take little effort to implement.
-On the other hand, some examples we described here, including course material development, web hosting, and delivery, may require a greater time commitment, but have the potential to make EEB research more open, accessible, and collaborative than ever before.
-Managing full research projects or research labs on GitHub will require careful thought as to how to delegate tasks such as reviewing pull requests or creating issues.
-For example, collaboratively writing a paper using GitHub, as we have done here, may involve a learning curve for co-authors less familiar with the intricacies of GitHub, and requires overhead to set up the repository using GitHub actions.
+These actions are often covered in GitHub tutorials and require little effort to implement.
+On the other hand, some examples we described here, including course material development, web hosting, and delivery, may require a greater time commitment, but have the potential to make EEB research more open, accessible, and collaborative.
+Managing full research projects or laboratories on GitHub require careful thought as to how to delegate tasks such as reviewing pull requests or creating issues.
+For example, collaboratively writing a paper using GitHub, as we have done here, may involve a learning curve for co-authors less familiar with the intricacies of GitHub, and requires overhead to set up the repository using GitHub Actions.
 Despite the many potential applications of GitHub to EEB research, we acknowledge that there will still be many times when researchers might look to other platforms for research collaboration.
 
 ### Other platforms for collaboration
 
 <!--*Contributors to this section: Rob*-->
 
-Though we see GitHub as a useful tool for collaboration in EEB, we describe two use cases where, to our knowledge, GitHub's features still fall short of the highly collaborative work emblematic of EEB research.
-First, real-time collaborative editing (_e.g._, as on a shared Google Doc or a Word document stored on Dropbox) is not possible on GitHub.
-There are websites outside of the GitHub ecosystem, built on top of the GitHub architecture, that allow real-time collaborative editing (_e.g._, hackMD (<https://hackmd.io/>)).
-We used HackMD at two key points in writing our manuscript when real-time co-writing was essential: when taking meeting notes and writing the outline of our paper.
-Second, we looked to other software when working on figures and tables.
-Though creating tables and figures on GitHub using markdown or other scripting languages is possible, we found that it was not practical at the early brainstorming stages.
-We used Google Slides for working on figures and Google Sheets for working on tables.
-As our figures and tables moved towards finalized forms, some co-authors chose to create the tables and figures using R and Markdown which were then tracked using the same version control system as the rest of manuscript.
+Despite its strong collaborative potential, we describe two use cases where GitHub's features fall short of highly collaborative work emblematic of EEB research.
+
+First, real-time collaborative editing of files is not possible in GitHub.
+Users seeking to real-time edit documents might still need to rely on alternative features (_e.g._, cloud-stored documents from Microsoft Word, Google Docs, hackMD (<https://hackmd.io/>)).
+Second, certain operations that are dependent on other software might not be easily achievable in GitHub, such as manipulating figures or tables.
+Although creating tables and figures can be achieve through code, users may be limited to other software to collaboratively brainstorm figures and tables (e.g. Google Slides, Google Sheets).
+Albeit, files containing documents, figures and tables may still be versioned in GitHub.
 
 ### Why aren't more EEB researchers using GitHub?
 
 <!--*Contributors to this section: Saeed, Vivienne*-->
 
-Though GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow.
-Here we discuss four potential barriers to GitHub use in EEB.
+Although GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow.
+Here, we discuss four potential barriers to GitHub use in EEB.
 
-First, there may be a hesitation to use GitHub due to the somewhat steep learning curve to using the platform combined with limited instruction available through traditional university courses.
-When GitHub is taught within an EEB context, it is usually accompanying coursework in topics such as statistical programming, and some students may find it overwhelming to juggle learning git alongside scripting languages, statistical theory, and file system navigation, especially when many may also be new to using command-line interfaces in general.
-Instructors likewise may confuse the expected digital literacy of students with computational fluency, even when modern technology increasingly abstracts concepts through search optimization and preponderant IDEs (Integrated Development Environments), or 'point-and-click' user interfaces.
+First, there may be hesitation to independently adopting and learning a new tool.
+Institutional encouragement and instructional resources focused in researchers in ecology and evolution may be limited.
+When GitHub is taught within an EEB context, it is usually accompanying coursework in topics such as statistical programming. 
+It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many may be inexperimented with programming.
+Instructors likewise may confuse the expected digital literacy of students with computational fluency, even when modern technology increasingly abstracts concepts through search optimization and preponderant integrated development environments (IDE), or 'point-and-click' user interfaces.
 
 Second, while many EEB researchers take advantage of GitHub for individual use, collaborative use may lag due to how researchers traditionally divide labor within projects.
 Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers. 
@@ -657,7 +658,7 @@ At this point however, there is little practical difference for EEB researchers 
 
 <!--*Contributors to this section: Ali, Emma*-->
 
-| 10 Tips for getting started in GitHub |
+| Ten tips for getting started in GitHub |
 |------------------------------------------------------------------------|
 | 1. **Check for an existing solution to your problem.** The GitHub Help webpage (<https://docs.github.com/en>) contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs (_e.g._, <https://github.blog>), Twitter accounts or YouTube channels that regularly post practical solutions about the most widely-used web platform for common GitHub issues. |
 | 2. **Consider taking free courses.** such as those from Software Carpentry [@doi:10.5281/zenodo.3264950] and sharing these courses with your lab members or colleagues. |
@@ -671,38 +672,42 @@ At this point however, there is little practical difference for EEB researchers 
 | 10. **Get help deciphering GitHub Notifications.** Try using tools like Octobox (<https://octobox.io>) to disentangle and manage multiple notifications from distinct GitHub projects. |
 
 
-## Conclusion  
-We provide 12 practical ways that ecologists and evolutionary biologists can incorporate GitHub into their research workflows, and include definitions ([Box 1](#definitions)) and user groups (Figure @fig:github-diagram) to help researchers prioritize which GitHub skills to learn first.
-Some GitHub uses are highly collaborative (_e.g._, open science discussion and collaborative code editing) while others are focused on individual actions (_e.g._, storing code/data, building a website).
-Regardless of the degree of collaboration, GitHub use in EEB has the potential to make the field more open and transparent than ever before.
-Our paper provides the most comprehensive review of how EEB researchers can use GitHub to date, and we encourage researchers at any career stage studying any topic to try GitHub as a platform for sharing and collaboration.  
+## Conclusion
 
+We provide twelve practical ways that ecologists and evolutionary biologists can  adopt GitHub to improve their research workflow.
+We provide definitions ([Box 1](#definitions)) and types of users (Figure @fig:github-diagram) to help researchers identify and prioritize the skills and tools to learn first.
+We highlight tools providing high collaborative potential (_e.g._, open science discussion, collaborative code editing) to more individual focused (_e.g._, storing code and data, building a website). 
+We argue that the tools readily available in GitHub have the potential to make ecology and evolution more open, reproducible and transparent.
+With this comprehensive review of how EEB researchers can use GitHub, we encourage researchers at any career stage to adopt GitHub as a platform for sharing and collaboration.
 
 ## Author Contributions
-We indicate author contributions using the [CRediT Taxonomy](https://casrai.org/credit/)
-Conceptualization: RCO, BPME, KH, EJH, LLSR, PHPB
-Investigation: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-Methodology: RCO, BPME, KH, EJH, LLSR, PHPB
-Project administration: RCO
+We indicate author contributions using the [CRediT Taxonomy](https://casrai.org/credit/).
 
-Software: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-Visualization: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-Writing – original draft: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-Writing – review & editing: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Conceptualization: RCO, BPME, KH, EJH, LLSR, PHPB
+- Investigation: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Methodology: RCO, BPME, KH, EJH, LLSR, PHPB
+- Project administration: RCO
+- Software: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Visualization: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Writing – original draft: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Writing – review and editing: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Resources: PHPB
 
 ## Acknowledgements
 
-This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021. We thank Ciera Martinez for being a co-organizer of the SORTEE hackathon that started our discussion on GitHub in EEB and for creating our hackathon website on GitHub.
+This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021. 
+We thank Ciera Martinez for being a co-organizer of the SORTEE hackathon that started our discussion on GitHub in EEB and for creating our hackathon website on GitHub.
 
-RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231. 
+RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231.
 
 ## Code and data availability
 
-The source code and data for this manuscript are available at <https://github.com/SORTEE-Github-Hackathon/manuscript>. The source code will be archived in the ESS-DIVE data repository prior to publication.
+The source code and data for this manuscript are available at <https://github.com/SORTEE-Github-Hackathon/manuscript>. 
+The source code will be archived in the ESS-DIVE data repository prior to publication.
 
 ## Figures {.page_break_before}
 
-![An overview of git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. `CONTRIBUTING.md`, `LICENCE.md`, and `README.md` files allow new team members, or others wanting to use materials, to understand the project components and learn how they can engage with the project and existing team members. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities](images/github_diagram.png){#fig:github-diagram}
+![An overview of Git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. `CONTRIBUTING.md`, `LICENCE.md`, and `README.md` files allow new team members, or others wanting to use materials, to understand the project components and learn how they can engage with the project and existing team members. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities](images/github_diagram.png){#fig:github-diagram}
 
 <!--Reference this figure in text like this (Figure @fig:github-diagram).-->
 
