@@ -63,7 +63,6 @@ Hudgins
 HW
 HWeierbach
 iDiv
-inexperimented
 ISBNs
 Jupyter
 Kaitlyn
@@ -81,7 +80,7 @@ MJG
 Octobox
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp
