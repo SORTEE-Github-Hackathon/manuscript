@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63f18c11f35a239c2085d7d7dfdb935614f182cf/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63f18c11f35a239c2085d7d7dfdb935614f182cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63f18c11f35a239c2085d7d7dfdb935614f182cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1aab55c67fc728559fe52f3f106965c1eef0e179/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1aab55c67fc728559fe52f3f106965c1eef0e179/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1aab55c67fc728559fe52f3f106965c1eef0e179/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/63f18c11f35a239c2085d7d7dfdb935614f182cf/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1aab55c67fc728559fe52f3f106965c1eef0e179/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@63f18c1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/63f18c11f35a239c2085d7d7dfdb935614f182cf)
+from [SORTEE-Github-Hackathon/manuscript@1aab55c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1aab55c67fc728559fe52f3f106965c1eef0e179)
 on July 12, 2022.
 </em></small>
 
@@ -326,9 +326,9 @@ on July 12, 2022.
 
 ## Abstract {.page_break_before}
 
-Researchers in ecology and evolutionary biology are increasingly dependent on computational code to conduct research.
-With the growing role of data science in research, the use of efficient methods to share, reproduce, and collaborate on code has become fundamental. 
-GitHub is an online, cloud-based service that can help researchers track, organize, discuss, share, and collaborate on software and code.
+Researchers in ecology and evolutionary biology are increasingly dependent on computational code to conduct research, and the use of efficient methods to share, reproduce, and collaborate on code as well as any research-related documentation has become fundamental.
+GitHub is an online, cloud-based service that can help researchers track, organize, discuss, share, and collaborate on software and other materials related to research production, including data, code for analyses, and protocols.
+
 Despite these benefits, the use of GitHub by EEB researchers is not widespread due to the lack of domain-specific information and guidelines.
 To help EEB researchers adopt useful features from GitHub in their own workflows, we review twelve practical ways to use the platform.
 We outline features ranging from low to high technical difficulty: storing code, managing projects, coding collaboratively, conducting peer review, and writing a manuscript.
