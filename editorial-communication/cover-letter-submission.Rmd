@@ -33,7 +33,7 @@ Also, we believe our manuscript complements a recently published manuscript in *
 In their manuscript, Gallagher et al. (2020) outline how the ongoing adoption of Open Science practices is transforming research in ecology and evolutionary biology.
 A key component of Open Science is the ability to collaboratively contribute to and share code and data--platforms like GitHub provide an free and accessible platform to do just that. 
 
-The enclosed manuscript is available as a preprint on the MetaArXiv server (ADD CITATION), but is not published or in review elsewhere.
+The enclosed manuscript is available as a preprint on the MetaArXiv server (https://www.doi.org/10.31222/osf.io/x3p2q), but is not published or in review elsewhere.
 All authors have contributed and reviewed the current version of the manuscript and agreed to its submission to *Nature Ecology & Evolution*.
 
 We appreciate your time and consideration of our manuscript for publication in your journal.
