@@ -12,7 +12,7 @@ Binley
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -53,8 +53,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
-HackMD
+Hackathon
+hackMD
 Hébert
 helenweierbach
 Henrique
@@ -79,7 +79,7 @@ MJG
 Octobox
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 pedrohbraga
 pedrohp
@@ -120,5 +120,5 @@ Weebly
 Weierbach
 Wix
 wowchemy
-ZenHub
+Zenhub
 Zenodo
