@@ -12,7 +12,7 @@ Binley
 biologie
 Bitbucket
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -54,7 +54,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique
@@ -71,7 +71,6 @@ kat
 katherinehebert
 KH
 KMG
-LFS
 LLSR
 LunaSare
 mentorship
