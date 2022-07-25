@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-07-14'
+date-meta: '2022-07-25'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-07-14" />
-  <meta name="citation_publication_date" content="2022-07-14" />
+  <meta name="dc.date" content="2022-07-25" />
+  <meta name="citation_publication_date" content="2022-07-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/956112ff108905503babe0eed04fa5ef9ddcd12b/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/956112ff108905503babe0eed04fa5ef9ddcd12b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/956112ff108905503babe0eed04fa5ef9ddcd12b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/56649aef2ef43f9ccca1da2bbf5f904c12f1699d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/56649aef2ef43f9ccca1da2bbf5f904c12f1699d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/56649aef2ef43f9ccca1da2bbf5f904c12f1699d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/956112ff108905503babe0eed04fa5ef9ddcd12b/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/56649aef2ef43f9ccca1da2bbf5f904c12f1699d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@956112f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/956112ff108905503babe0eed04fa5ef9ddcd12b)
-on July 14, 2022.
+from [SORTEE-Github-Hackathon/manuscript@56649ae](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/56649aef2ef43f9ccca1da2bbf5f904c12f1699d)
+on July 25, 2022.
 </em></small>
 
 ## Authors
@@ -349,7 +349,8 @@ Thus, researchers may not adhere to standards of code quality and maintenance [@
 Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in ecology and evolutionary biology (EEB) with practical workflows to facilitate and improve their code and its management.
 
 <!-- *Contributors to this section: RCO, SSHS, PHPB* -->
-With over 73 million registered users as of 2022, GitHub is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
+
+With over 83 million registered users as of 2022, GitHub is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
 GitHub provides a simple but powerful web interface that allows users to participate in projects, contribute code, report and discuss code bugs, discover existing code and data, and publish new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories[@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
 This workflow provides a strong and clear advantage over sending files back-and-forth (_e.g._ via email), a process that can become challenging and time-consuming in long-term and collaborative projects [@doi:10.1186/1751-0473-8-7].
@@ -368,7 +369,7 @@ More importantly, expanding the availability of data and code management standar
 
 <!-- *Contributors to this section: RCO, PHPB* -->
 This paper is the result of an academic hackathon held during the 2021 conference for the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE, <https://www.sortee.org>).
-We convened a group of around thirty researchers in EEB with varying levels of familiarity with using GitHub as part of their research projects to showcase and discuss how existing features can contribute to documentation and collaboration in EEB research.
+We convened around thirty researchers in EEB with varying levels of familiarity with the usage of GitHub in research projects to showcase and discuss how existing features can contribute to documentation and collaboration in EEB research.
 During the hackathon, we identified the need for a formal discussion on how EEB researchers can benefit from GitHub and its features.
 Here, we outline twelve practical ways that EEB researchers can use GitHub features for more collaborative, transparent, and reproducible science.
 We also provide critical perspectives on features that could be improved and catered towards research development.
@@ -379,15 +380,16 @@ We also provide critical perspectives on features that could be improved and cat
 
 | Glossary |
 |---|
-|**repository**: Commonly shortened to "repo", a repository is a collection of files (_e.g._, a directory) tracked by Git. Repositories are managed by an owner and can be listed as "public" where the repository will be visible to all GitHub users or "private", where the repository is visible only to authorized users. Repositories can be either "local" and saved on an individual's computer or "remote" and stored on the cloud via GitHub's web platform.|
-|**fork**: A fork is a copy of a **repository** hosted on GitHub. If a repository is public, then anyone can make a fork. Even if they do not have access to **push** to the original repository, they can make a fork and edit it independently. Forks are linked to the original GitHub repository and "upstream" changes (_i.e._, those in the original repository) can be **merged** to keep the fork up to date with the original project. Changes made in the fork can be integrated into the original project via **pull requests**.|
+
+|**repository**: A repository (commonly shortened to "repo") is a collection of files (_e.g._, a directory) tracked by Git. Repositories are managed by an owner and can be made either "public", to be visible to all GitHub users, or "private", to selected owner-specified users. Repositories can be either "local" and saved on an individual's computer or "remote" and stored on the cloud via GitHub's web platform.|
+|**fork**: A fork is a copy of a **repository** hosted on GitHub. If a repository is public, then anyone can make a fork. Even if they do not have access to **push** to the original repository, they can make a fork and edit it independently. Forks are linked to the original GitHub repository and "upstream" changes (_i.e._ those in the original repository) can be **merged** to keep the fork up to date with the original project. Changes made in the fork can be integrated into the original project via **pull requests**.|
 |**clone**: Cloning a **repository** is a way of making a local copy (_i.e._, on your computer) of a GitHub **repository**. If you have access to **push** to a **repository**, this can be a first step to contributing to a project.|
-|**branch**: Git workflow timelines or repositories are analogous to trees, with a main working project and diverging branches that are pointers to changes during the development process. A git branch is an alternative line of development for a project (**repository**). Branches allow users to add new features or modifications to the project without affecting the main part of the project. Development branches can be created at any point in time and work on each branch can continue independently. Branching is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that may arise if conflicting edits are **pushed** to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**.|
-|**commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (_e.g._, "generate and include fig1 in results"), and after several commits **push** those commits to the remote (_i.e._, cloud-based) GitHub **repository**.|
-|**push/pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date.|
-|**pull request**: A pull request is a request that the owner(s) of a GitHub repository integrate changes you've made on either a **branch** in the repository or in your own **fork**. When you initiate a pull request, you must provide a description of what changes were made. Some automated tests may be run and review may be required before integrating your changes into the main **branch**.|
-| **merge**: Combining **commits** from two different branches together into one **branch**|
-|**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of code in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like submission, revision, and acceptance of an associated manuscript.|
+|**branch**: Git workflow timelines or repositories are analogous to trees, with a main working project and diverging branches that are pointers to changes during the development process. A git branch is an alternative line of development for a project (repository). Branches allow users to add new features or modifications to the project without affecting the main part of the project. Development branches can be created at any point in time and work on each branch can continue independently. Branching is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that may arise if conflicting edits are **pushed** to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**.|
+|**commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (_e.g._ "Generate and include results figure"), and after several commits **push** those commits to the remote (_i.e._, cloud-based) GitHub **repository**.|
+|**push and pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date with the remote.|
+|**pull request**: A pull request is a request for changes made on an individual's **branch** in the repository or in a user's **fork** to be merged to the repository. Pull requests contain a description of the changes made in a **branch** or **fork** alongside all code required for testing and reviewing by other users prior to merging into the repository.|
+|**merge**: Combining **commits** from two different branches together into one **branch**.|
+|**release**: At any point a release can be made on GitHub to mark a significant milestone in the progression of a **repository**. While this GitHub feature is designed with releases of new versions of code in mind (_e.g._, v1.0.0), it can also be used to create a snapshot of a repository at significant stages like pre-print, submission, revision, and acceptance of an associated manuscript.|
 |**community**: A forum where GitHub users can ask for advice, offer solutions to questions, and share ideas (<https://github.community/>).|
 
 
@@ -398,7 +400,7 @@ We also provide critical perspectives on features that could be improved and cat
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins, Pedro Braga* -->
 An EEB research compendium includes all computational materials related to research production, including data, code for analyses and protocols.
 Having copies of these files safely stored is essential to protect against accidental modifications or deletions.
-Many researchers begin using GitHub as a means to store (or backup) their research compendium [@doi:10.1080/00031305.2017.1375986] to a centralized, readily-available remote server (see [Box 1](#definitions)).
+Many researchers begin using GitHub to store (or backup) their research compendium [@doi:10.1080/00031305.2017.1375986] to a centralized, readily-available remote server (see [Box 1](#definitions)).
 A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below).
 
 GitHub limits committed file sizes to 100 Mb (megabytes @https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), which can make it challenging for centralizing research compendia containing larger file sizes. 
@@ -413,7 +415,7 @@ Researchers have been increasingly using GitHub to maintain versions and share d
 
 At least for aspects of a research project that involve writing code, a GitHub repository is a form of a laboratory notebook; when changes are made to files in a version-controlled repository, the author of those changes makes a commit ([Box 1](#definitions)) accompanied by a description of changes. 
 Later, the entire history of commits and their commit messages are viewable and can be audited similar to a physical laboratory notebook [@doi:10.1186/1751-0473-8-7].
-GitHub issues (see project management section below) can be used to prioritize laboratory objectives and goals, as well as track any status updates.
+GitHub issues (see project management section below) can be used to prioritize laboratory objectives and goals, as well as track any progress updates.
 
 ### Project management
 
@@ -426,8 +428,7 @@ Github Issues allow for discrete tasks and sub-tasks to be identified, assigned 
 Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
-
-Using GitHub for all project-related conversation and planning, rather than e-mail or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
+Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 Project management in GitHub can also be integrated with third-party applications, such as Zenhub (<https://www.zenhub.com>) or Slack (<https://slack.github.com>).
 ZenHub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [@url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
@@ -445,8 +446,7 @@ Once content is made, hosting a course website can be done through GitHub Pages 
 This way, course content can be available to enrolled students, as well as a global pool of learners and teachers interested in the material.
 Content can then be delivered via the course website, and/or a GitHub Organization with, for example, template repositories for assignments.
 Student submissions are perhaps the most challenging component, but the new GitHub Classroom tool (<https://classroom.github.com>) allows instructors to host private assignments to be submitted collaboratively or individually as code or PDF files, and even build autograding tests.
-Although time-consuming to establish, using these features can integrate learning version control and GitHub with the learning course content, and thus boost students' feelings of self-efficacy and confidence [@doi:10.1187/cbe.13-12-0241]. 
-
+Although time-consuming to establish, using these features can integrate learning version control and GitHub with the learning course content, and thus boost students' feelings of self-efficacy and confidence [@doi:10.1187/cbe.13-12-0241].
 
 <!--## GitHub in EcoEvo examples (Part 2)-->
 
@@ -501,7 +501,7 @@ Periodic code review [@doi:10.1145/3341525.3387370] can also help advisors ident
 
 <!--*contributors to this section:* Emma J. Hudgins-->
 
-Beyond supporting collaborative code development, GitHub can be used for writing manuscripts. 
+Beyond supporting collaborative code development, GitHub can be used for writing manuscripts.
 Writing a manuscript and storing its associated data and code in GitHub increases scientific reproducibility because text, code, and data can be found in one place.
 Writing a manuscript on GitHub may take more time when compared to using conventional text processors [@doi:10.1186/1751-0473-8-7].
 Nevertheless, GitHub has many features that can allow for a powerful collaborative workflow when writing manuscripts.
@@ -511,13 +511,12 @@ Pull requests provide line-by-line views of proposed changes, which can be comme
 Relevant literature or issues can be made using the Discussions and Issues features.
 Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms (_e.g._, HackMD (<https://hackmd.io>) for Markdown documents).
 
-We wrote this manuscript using Manubot [@doi:10.1371/journal.pcbi.1007128], a workflow implemented in GitHub to  automatically render manuscripts and automate bibliographical tasks.
+We wrote this manuscript using Manubot [@url:manubot.org], a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks [@doi:10.1371/journal.pcbi.1007128].
 Manubot uses GitHub's automation workflow, GitHub Actions, to combine and convert individual Markdown files into a single LaTeX document, which can then be converted to a Word or PDF document, and displayed as a webpage.
 Citations and bibliographic references are automatically managed with citable persistent identifiers (_e.g._, DOIs, PubMed IDs, ISBNs, URLs).
 The resulting manuscript can be rendered with document templates and citation style language formatting to meet journal formatting requirements.
 Every change made to the manuscript triggers its rendering, so that updates are readily displayed and made publicly available.
 Additional GitHub Actions can be integrated with Manubot, such as ones creating figures or generating tables (_e.g._, <https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/.github/workflows>).
-For more examples of manuscripts built via Manubot, see [@doi:10.1371/journal.pcbi.1007128].
 
 ### Peer review
 
@@ -565,13 +564,13 @@ Without clear plans on project continuity, the research code and data management
 Additionally, code and data can be difficult to access when kept only on personal devices [@doi:10.1016/j.cub.2013.11.014].
 
 GitHub can facilitate project continuity among research code by making code handover easier [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7]. 
-Through version control, the history of code and data from projects in ecology and evolution can be tracked and accessible to future laboratory members and collaborators [@doi:10.1038/s41559-017-0160].
-Repositories and organizations can have designated data and code owners (or more appropriate, stewards; see [@doi:10.1890/ES14-00402.1], [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]), who can also can change through time allowing for the transition of code from one cohort of researchers to the next.
-Other project collaborators can offer many contributions to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
+Through version control, the history of code and data from projects in ecology and evolution can be tracked accessible to future laboratory members and collaborators [@doi:10.1038/s41559-017-0160].
+Repositories and organizations can have designated data and code owners (or more appropriate, stewards; see [@doi:10.1890/ES14-00402.1], [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]), who can also can change through time allowing for the transition of code between research cohorts.
+Other project collaborators can contribute to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
 In (Figure @fig:github-diagram), we highlight several elements of good repository structure, and the various ways that contributors may interact with them.
 
-GitHub also allows users to describe and store information about software and code dependencies, ensuring that code can run using the same version of software as when it was initially developed. 
-This can be achieved through the access of GitHub repositories containing the necessary releases of such software, or through the usage of actions with specific software versions in its automation tool, GitHub Actions.
+GitHub also allows users to describe and store information about software and code dependencies, ensuring that code can run using the same version of software as when it was initially developed.
+This can be achieved through the access of GitHub repositories containing the necessary releases of such software, or through the use of automated Github Actions with specific software versions.
 
 ### GitHub Organizations
 
@@ -584,13 +583,13 @@ Because the repositories are grouped, members can reference and contribute to ea
 Contributors can be assembled into teams within an organization, which allows administrators to assign roles, tasks, and repository modification permissions to organization members.
 Whereas access to repositories is usually assigned to individual contributors, Organizations facilitate the management of access permissions by allowing teams to be granted access to specific repositories.
 This ensures repositories with sensitive information remain as restricted as needed, while others stay open and accessible to selected member groups.
-The organization structure also allows for easy issue tracking and discussions related to research content and progress.
+The organization structure also allows for issue tracking and discussions related to research content and progress.
 
-As an example, GitHub Organizations are particularly well-suited to house documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other such documents that evolve collaboratively over time and are relevant to many colleagues. 
-In this way, teams can have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or lost their copies of project data.
-This application extends to research centres, which may include several distinct projects that remain linked to institutions, such as the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>).
-The team organizing the hackathon which inspired this paper used a GitHub Organization (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) to keeping track of all materials as ideas developed and took shape in one virtual space.
-Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be updated by an ever-evolving group of contributors over time.
+As an example, GitHub Organizations are particularly well-suited to host documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other relevant documents that evolve collaboratively over time. 
+In this way, teams have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or when locally-stored data is lost.
+This application extends to research centres, which may include several distinct projects that remain linked to institutions [_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)].
+The team organizing the hackathon which inspired this article used a GitHub Organization (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) to centralize the project development, from meeting notes to, ultimately, this manuscript.
+Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be continously updated by an ever-evolving group of contributors.
 
 
 ## Discussion
@@ -599,19 +598,18 @@ Organizations are also convenient for hosting learning materials, including lect
 ### The promise of GitHub for EEB researchers
 
 There have been many calls for researchers outside of the software development community to adopt GitHub to improve their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
-This call comes in light of both the continuous shift towards open-science and the increasing computational and data requirements in EEB.
+This call comes in light of the continuous shift towards open-science and the increasing computational and data requirements in EEB.
 Until now, resources and practical guidance on using GitHub within the EEB community have been dispersed in blog posts and video tutorials ([Box 2](#tips)).
-These resources have been extremely useful for learning to use GitHub in our own work.
-We also feel that a collation of the main uses of GitHub in EEB into one medium, while adding on our personal perspectives, will be useful to the EEB community.
+These resources have been useful for learning to use GitHub in our own work.
+We expect that situating the main uses of GitHub in EEB into one medium, while adding on our personal perspectives, will be useful to the EEB community.
 
 In this paper, we described twelve ways that EEB researchers can leverage GitHub to enable more transparent and collaborative research (Figure @fig:scatterblob).
-Many of the examples are specifically meant for first-time GitHub users and can likely be adopted with just a little practice (storing data, creating virtual notebooks, making code citable).
-For example, storing code and data and making it citable involve creating a repository on GitHub, pushing code to the repository, and then going through the necessary steps (_e.g._, connecting a GitHub repository with Zenodo; see below) for creating a DOI.
-These actions are often covered in GitHub tutorials and require little effort to implement.
-On the other hand, some examples we described here, including course material development, web hosting, and delivery, may require a greater time commitment, but have the potential to make EEB research more open, accessible, and collaborative.
-Managing full research projects or laboratories on GitHub requires careful thought as to how to delegate tasks such as reviewing pull requests or creating issues.
-For example, collaboratively writing a paper using GitHub, as we have done here, may involve a learning curve for co-authors less familiar with the intricacies of GitHub, and requires overhead to set up the repository using GitHub Actions.
-Despite the many potential applications of GitHub to EEB research, we acknowledge that there will still be many times when researchers might look to other platforms for research collaboration.
+Most of these uses can be quickly integrated into the research practices of users (_e.g._, storing data, creating virtual notebooks, making code citable).
+Making stored data and code citable usually involves creating a repository on GitHub, pushing code and data, and then integrating a DOI minting service to the repository (_e.g._, with Zenodo; see below).
+On the other hand, some examples we described here, including course material development, web hosting, and delivery, require greater effort and time commitment, but have the potential to make EEB research more open, accessible, and collaborative.
+Managing full research projects or laboratories on GitHub require careful thought as to how to delegate tasks such as reviewing pull requests or creating issues.
+For example, collaboratively writing a paper using GitHub, as we have done here, involves a learning curve for co-authors less familiar with the intricacies of GitHub, requires overhead to set up the repository using GitHub Actions and the commitment from all co-authors to use GitHub when modifying and reviewing the text.
+Despite the many potential applications of GitHub to EEB research, we acknowledge that researchers might still look to other platforms for research collaboration.
 
 ### Other platforms for collaboration
 
@@ -619,20 +617,23 @@ Despite the many potential applications of GitHub to EEB research, we acknowledg
 
 Despite its strong collaborative potential, we describe two use cases where GitHub's features fall short of highly collaborative work emblematic of EEB research.
 
+
 First, real-time document editing is still best performed on other platforms (_e.g._, cloud-stored documents from Microsoft Word, Google Docs, hackMD (<https://hackmd.io/>)).
-Second, operations that are dependent on other software might not be easily accomplished in GitHub, such as manipulating figures or tables.
-Although creating tables and figures can be achieved through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g._ Google Slides, Google Sheets).
+Second, operations that are dependent on other software might not be easily achievable in GitHub, such as manipulating figures or tables.
+Although creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_. Google Slides, Google Sheets; but see GitHub Discussions).
 
 ### Why aren't more EEB researchers using GitHub?
 
-<!--*Contributors to this section: Saeed, Vivienne*-->
+<!--*Contributors to this section: Saeed, Vivienne, PHPB*-->
 
 Although GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow.
+
 Here, we discuss four potential barriers to GitHub use in EEB.
 
 First, there may be hesitation to independently adopting and learning a new tool.
-Institutional encouragement and instructional resources focused on researchers in ecology and evolution may be limited.
-When GitHub is taught in an EEB context, it is usually accompanying coursework in topics such as statistical programming. 
+
+Institutional encouragement and instructional resources focused in researchers in ecology and evolution may be limited.
+When GitHub is taught within an EEB context, it usually accompanies coursework in topics such as statistical programming.
 It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many may be inexperienced with programming.
 Instructors likewise may confuse the expected digital literacy of students with computational fluency, even when modern technology increasingly abstracts concepts through search optimization and preponderant integrated development environments (IDE), or 'point-and-click' user interfaces.
 
@@ -640,18 +641,20 @@ Second, while many EEB researchers take advantage of GitHub for individual use, 
 Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers. 
 EEB researchers may take the view that GitHub is a platform that only needs to be used by individuals writing code, and may silo those aspects of projects to a single individual.
 Those assumptions may obscure the utility of GitHub for tasks other than traditional data analysis and code development.
-However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)); for example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub's issues or discussions features.
+However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)); for example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub Issues or Discussions features.
 
 A third barrier may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.31222/osf.io/gaj43].
 GitHub is, by default, a public and open platform.
 This openness may add additional pressure to students and scientists learning to use the platform.
-We also note that large file storage is discouraged (and limited) on GitHub but add-ons do exist (_e.g._, <https://git-lfs.github.com/>) that permit data storage, and increasing integration between platforms (_e.g._, [@url:https://help.osf.io/article/211-connect-github-to-a-project]) allows data to be stored away from GitHub and linked dynamically.
-We suspect a major additional barrier to EEB researchers is a distinct lack of GitHub help documents for non-English researchers in ecology and evolution, meaning that EEB researchers potentially miss the opportunity to fully understand the importance of version control, reproducibility, and other benefits of GitHub.
+File storage is size-limited on GitHub (but note that large files stored locally can still be versioned; see section "Storing and sharing research compendia"), requiring the complementation of other tools to fully integration project files and GitHub repositories (_e.g._, [@url:https://help.osf.io/article/211-connect-github-to-a-project]).
+A major additional barrier to EEB researchers is the lack language-specific resources for non-English speaking researchers working in ecology and evolution.
+Language is a well-known obstacle to international collaborative research progress and to widespread scientific knowledge [see @doi:10.1016/j.tree.2021.11.003].
+Non-English speaking EEB researchers can potentially miss opportunities to fully integrate version control, reproducibility, and other benefits of GitHub without language-inclusive contents.
 
-Lastly, GitHub has both free and paid plans.
-When projects get highly collaborative, they may have to pay for additional GitHub support.
-The acquisition of GitHub by Microsoft has led to some concerns over the future of free plans and several biodiversity data managers have begun to switch to Open-Source Git services (_e.g._, Bitbucket and GitLab).
-At this point however, there is little practical difference for EEB researchers between the paid and free GitHub plans.
+Lastly, fourth, GitHub may increase the distinctions between free and paid-for plans.
+When projects become highly collaborative, they may have to pay GitHub features, such for branch protections, multiple reviewers of pull requests and time in its automation tools.
+Currently, GitHub offers Education Packs (https://education.github.com/) to students and academics, which extends some paid features to the free plan.
+However, the acquisition of GitHub by Microsoft has raised concerns over the future of free plans, causing several biodiversity data managers to shift to alternative Open Source Git services (_e.g._, Bitbucket and GitLab).
 
 ### Box 2 {#tips}
 
@@ -673,8 +676,8 @@ At this point however, there is little practical difference for EEB researchers 
 
 ## Conclusion
 
-We provide twelve practical ways that ecologists and evolutionary biologists can  adopt GitHub to improve their research workflow.
-We provide definitions ([Box 1](#definitions)) and types of users (Figure @fig:github-diagram) to help researchers identify and prioritize the skills and tools to learn first.
+We provide twelve practical ways that ecologists and evolutionary biologists can adopt GitHub to improve their research workflow and make it more open and reproducible.
+We provide definitions ([Box 1](#definitions)) and types of users (Figure @fig:github-diagram) to help researchers identify and prioritize the skills and tools to learn and apply.
 We highlight tools providing high collaborative potential (_e.g._, open science discussion, collaborative code editing) to more individual focused (_e.g._, storing code and data, building a website). 
 We argue that the tools readily available in GitHub have the potential to make ecology and evolution more open, reproducible and transparent.
 With this comprehensive review of how EEB researchers can use GitHub, we encourage researchers at any career stage to adopt GitHub as a platform for sharing and collaboration.
