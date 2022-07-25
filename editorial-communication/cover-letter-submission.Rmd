@@ -29,9 +29,11 @@ In our study, we review and discuss one of the most used web-based platforms for
 Our manuscript is the most accessible and practical guide to using GitHub in ecology and evolution research to date.
 We build upon our own experiences (as an international collaboration from authors across many ecology and evolution subdisciplines) and on existing resources mainly targeted at other disciplines, to highlight how researchers can use the readily available GitHub suite to make their research practices reproducible, collaborative, and transparent.
 Our manuscript is important for the *Nature Ecology & Evolution* readership because researchers in ecology and evolutionary biology can greatly benefit from our guide to migrate and incorporate GitHub workflows in their research practices ultimately towards an open and collaborative science.
-Also, we believe our manuscript complements a recently published manuscript in *Nature Ecology and Evolution*. In the manuscript, Gallagher et al. (2020) outline how the ongoing adoption of Open Science practices is transforming research in ecology and evolutionary biology. A key component of Open Science is the ability to collaboratively contribute to and share code and data--platforms like GitHub provide an free and accessible platform to do just that. 
+Also, we believe our manuscript complements a recently published manuscript in *Nature Ecology and Evolution*. 
+In their manuscript, Gallagher et al. (2020) outline how the ongoing adoption of Open Science practices is transforming research in ecology and evolutionary biology.
+A key component of Open Science is the ability to collaboratively contribute to and share code and data--platforms like GitHub provide an free and accessible platform to do just that. 
 
-The enclosed manuscript is available as a preprint on the NAME OF SERVER AND CITATION, but is not published or in review elsewhere.
+The enclosed manuscript is available as a preprint on the MetaArXiv server (https://www.doi.org/10.31222/osf.io/x3p2q), but is not published or in review elsewhere.
 All authors have contributed and reviewed the current version of the manuscript and agreed to its submission to *Nature Ecology & Evolution*.
 
 We appreciate your time and consideration of our manuscript for publication in your journal.
