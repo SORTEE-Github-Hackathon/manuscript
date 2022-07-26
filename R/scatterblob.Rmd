@@ -1,7 +1,7 @@
 ---
 title: "\\textbf{\\textsc{Supplementary Material} \\linebreak \\linebreak Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution \\linebreak \\linebreak Methods to create \\textsl{the scatterblob} figure}"
-# output: html_document
-output: pdf_document
+output: html_document
+# output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -18,32 +18,29 @@ column_names <- colnames(scatterblob_data[1:8])
 
 **Highlight**: There are ways to use github that allow different degrees of collaboration that do not require too many technical skills.
 
-
-## The data 
+## The data
 
 Data was assembled collaboratively using Google docs, then manually saved as a "csv" file called `scatterblob_data_raw.csv` in the `data` folder.
 
 The collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0), features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:12], collapse = "; " )`).
 
-The column _`r column_names[6]`_ corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors. 
+The column *`r column_names[6]`* corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors.
 
-The columns tagged as _Cognitive load -_ showcase a different way to assess technical difficulty of GitHub uses, measured as cognitive load (explained in the next section). 
+The columns tagged as *Cognitive load -* showcase a different way to assess technical difficulty of GitHub uses, measured as cognitive load (explained in the next section).
 
-The columns tagged as _degree of collaboration_ showcase the span of collaboration that can be achieved with each tool, as perceived by the authors.
-
+The columns tagged as *degree of collaboration* showcase the span of collaboration that can be achieved with each tool, as perceived by the authors.
 
 ### Measuring degree of technical difficulty
 
 [Cognitive load](https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0) was measured as follows:
 
-1. We first created a list of skills that are needed to implement different GitHub uses. These occupied a column each.
-2. For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and 0 if the skill was not needed. 
-3. The sum of values across columns provides a measure of cognitive load required for a user that is a "GitHub beginner" to implement any GitHub use. The column _`r column_names[3]`_ reflects this number. 
-4. As many GitHub uses tied with the same cognitive load value, we resourced to perceived difficulty to break ties and avoid overlap of uses in the figure, mainly to improve visualization of the data. The column _`r column_names[5]`_ shows this adjustment. 
-5. Finally, we ordered the GitHub uses in increasing order following _`r column_names[5]`_, and assigned a sequential value of cognitive load, from 1 to _maximum number of GitHub uses_. This is column _`r column_names[4]`_
+1.  We first created a list of skills that are needed to implement different GitHub uses. These occupied a column each.
+2.  For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and 0 if the skill was not needed.
+3.  The sum of values across columns provides a measure of cognitive load required for a user that is a "GitHub beginner" to implement any GitHub use. The column *`r column_names[3]`* reflects this number.
+4.  As many GitHub uses tied with the same cognitive load value, we resourced to perceived difficulty to break ties and avoid overlap of uses in the figure, mainly to improve visualization of the data. The column *`r column_names[5]`* shows this adjustment.
+5.  Finally, we ordered the GitHub uses in increasing order following *`r column_names[5]`*, and assigned a sequential value of cognitive load, from 1 to *maximum number of GitHub uses*. This is column *`r column_names[4]`*
 
-
-## Reading the data csv file:
+## Reading the data CSV file:
 
 ```{r}
 scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
@@ -59,20 +56,19 @@ scatterblob_data$x1 <- scatterblob_data$`Min degree of collaboration X1`
 scatterblob_data$x2 <- scatterblob_data$`Max degree of collaboration X2`
 scatterblob_data$y_real <- scatterblob_data$`Cognitive load - real - non-overlapping`
 scatterblob_data$y_seq <- scatterblob_data$`Cognitive load - sequential`
-my_data <- scatterblob_data[1:12,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
+my_data <- scatterblob_data[1:13,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
 my_data
 ```
 
-
 ## Plotting the data
+
 ```{r}
 outpath <- here("content", "images")
 ```
 
-
 ### 1) Using raw cognitive values.
 
-Define colors: 
+Define colors:
 
 ```{r}
 some_colors <- viridis::turbo(n = nrow(my_data), alpha = 0.9)
@@ -85,17 +81,22 @@ plot(1:30, 1:30, col = some_colors2, pch = 8)
 ```
 
 ```{r}
-my_colors <- some_colors1[c(3:4,
-                           8,10,12,
-                           20,21,22,23,24,
-                           28,30)]
+my_colors <- some_colors1[c(2:3, 5,
+                           8, 10, 12,
+                           20, 21, 22, 23, 24,
+                           28, 30)]
+
+plot(1:length(my_colors), 
+     1:length(my_colors), 
+     col = my_colors, pch = 8)
+
 ```
 
 ```{r}
 ###############################################################
 # start the pdf/png connection and set graphical parameters
 ###############################################################
-#plot_format <- "pdf"
+# plot_format <- "pdf"
 # plot_format <- "svg"
  plot_format <- "png"
 
@@ -126,7 +127,7 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(1.75, 9.75),
+     y = c(1.75, 10.75),
      xlab = "",
      ylab = "",
      col = "white",
@@ -186,12 +187,12 @@ text(x = 5.5,
     col = my_colors)
 dev.off()
 ```
-![Degree of collaboration VS technical difficulty (real, non-overlapping)](../content/images/scatterblob_0.png)
 
+![Degree of collaboration VS technical difficulty (real, non-overlapping)](../content/images/scatterblob_0.png)
 
 ### 2) Distributing cognitive load evenly:
 
-We tried different color palettes from two diffrent R packages: [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales) and [wesanderson](https://github.com/karthik/wesanderson#readme):
+We tried different color palettes from two different R packages: [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales) and [wesanderson](https://github.com/karthik/wesanderson#readme):
 
 ```{r}
 some_colors3 <- viridis::turbo(n = 100, alpha = 0.9)
@@ -205,13 +206,13 @@ plot(1:75, 1:75, col = some_colors7, pch = 8)
 We agreed that viridis-turbo was the nicest palette for the purposes of our figure.
 
 ```{r}
-my_colors <- some_colors3[c(5,15,
-                           26,28,30,
-                           68,72,76,80,84,
-                           94,100)]
+my_colors <- some_colors3[c(2, 5, 15,
+                           26, 28, 30,
+                           68, 72, 76, 80, 84,
+                           94, 100)]
 plot_name <- "scatterblob_1-viridis-turbo"
-#my_colors <- some_colors4[round(my_data$y_real*10)-20]
-#plot_name <- "scatterblob_1-zissou1"
+# my_colors <- some_colors4[round(my_data$y_real*10)-20]
+# plot_name <- "scatterblob_1-zissou1"
 # my_colors <- some_colors5[round(my_data$y_real*10)-20]
 # plot_name <- "scatterblob_1-darjeeling1"
 # my_colors <- some_colors6[round(my_data$y_real*10)-20]
@@ -252,15 +253,21 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(0.4, 12.5),
+     y = c(0.4, 14),
      xlab = "",
      ylab = "",
      col = "white",
      # "hide" the tick labels so we can put some words instead of numbers:
      col.axis = "white",
      tck = 0.02)
-title(ylab="Technical Difficulty", line=4, cex.lab=1)
-title(xlab="Degree of Collaboration", line= 3.5, cex.lab=1)
+
+title(ylab = "Technical Difficulty", 
+      line = 4, 
+      cex.lab = 1)
+
+title(xlab = "Degree of Collaboration", 
+      line = 3.5, 
+      cex.lab = 1)
 ###############################################################
 # add tick labels
 ###############################################################
@@ -277,7 +284,7 @@ text(x = c(1, 3, 5),
      labels = c("Low", "Medium", "High"))
 # Technical difficulty levels from https://www.londonschool.com/level-scale/
 text(x = 0.2,
-     y = c(0, 3, 6, 8.6, 12),
+     y = seq(1, 13, length.out = 5),
      cex = 0.7,
      adj = 1,
      labels = c("Beginner",
@@ -313,9 +320,4 @@ text(x = 5.5,
 dev.off()
 ```
 
-
-
-
 ![Degree of collaboration VS technical difficulty (sequential)](../content/images/scatterblob_1-viridis-turbo.png)
-
-
