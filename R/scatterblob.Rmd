@@ -1,7 +1,7 @@
 ---
 title: "\\textbf{\\textsc{Supplementary Material} \\linebreak \\linebreak Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution \\linebreak \\linebreak Methods to create \\textsl{the scatterblob} figure}"
-output: html_document
-# output: pdf_document
+output: 
+  html_document
 ---
 
 ```{r setup, include=FALSE}
