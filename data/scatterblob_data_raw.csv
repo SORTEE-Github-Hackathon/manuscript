@@ -10,5 +10,5 @@ Academic websites,Hosting and deploying of Academic Websites,5,8,6.05,2,1,5,http
 Writing a manuscript,Reproducible manuscripts,5,9,6.4,5,2,4,https://github.com/PoisotLab/manuscript-template,Technical difficulty,
 GitHub Organizations,GitHub Organizations,5,10,6.75,3,4,5,https://github.com/SORTEE-Github-Hackathon,,
 Peer-reviews,Peer-reviews,6,11,8.4,2,1,3,link,2 = some push/pull/forking required,
-Asynchronous collaborative coding and writing,Asynchronous collaborative coding and writing,9,12,9.5,4,4,5,,,
-Automation,Automation of workflows,7,13,10.5,5,1,5,link,5= more complex GitHub tools like actions,
+Asynchronous collaborative coding and writing,Asynchronous collaborative coding and writing,9,12,9.3,4,4,5,,,
+Automation,Automation of workflows,7,13,9.8,5,1,5,link,5= more complex GitHub tools like actions,

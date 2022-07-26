@@ -22,7 +22,7 @@ column_names <- colnames(scatterblob_data[1:8])
 
 Data was assembled collaboratively using Google docs, then manually saved as a "csv" file called `scatterblob_data_raw.csv` in the `data` folder.
 
-The collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0), features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:12], collapse = "; " )`).
+The collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0), features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:13], collapse = "; " )`).
 
 The column *`r column_names[6]`* corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors.
 
@@ -127,15 +127,15 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(1.75, 10.75),
+     y = c(1.75, 11.5),
      xlab = "",
      ylab = "",
      col = "white",
      # "hide" the tick labels so we can put some words instead of numbers:
      col.axis = "white",
      tck = 0.02)
-title(ylab="Technical difficulty", line=4, cex.lab=1)
-title(xlab="Degree of collaboration", line= 3.5, cex.lab=1)
+title(ylab="Technical difficulty", line = 4, cex.lab = 1)
+title(xlab="Degree of collaboration", line = 3.5, cex.lab = 1)
 ###############################################################
 # add tick labels
 ###############################################################
@@ -253,7 +253,7 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(0.4, 14),
+     y = c(0.5, 13.5),
      xlab = "",
      ylab = "",
      col = "white",
@@ -320,4 +320,4 @@ text(x = 5.5,
 dev.off()
 ```
 
-![Degree of collaboration VS technical difficulty (sequential)](../content/images/scatterblob_1-viridis-turbo.png)
+![Degree of collaboration _versus_ technical difficulty (sequential)](../content/images/scatterblob_1-viridis-turbo.png)
