@@ -12,12 +12,12 @@ Binley
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
 CBB
-cheatsheet
+cheatsheets
 Ciera
 citable
 CLI
@@ -55,7 +55,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
+hackathon
 HackMD
 Hébert
 helenweierbach
@@ -79,9 +79,10 @@ mentorship
 Merced
 MJG
 Octobox
+OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 pedrohbraga
 pedrohp
@@ -95,7 +96,6 @@ README
 reopository
 repo
 reproducibility
-Rmarkdown
 robcrystalornelas
 rOpenSci
 rOpenSci’s
@@ -123,5 +123,5 @@ Weebly
 Weierbach
 Wix
 wowchemy
-ZenHub
-Zenodo
+Zenhub
+ZeNodo
