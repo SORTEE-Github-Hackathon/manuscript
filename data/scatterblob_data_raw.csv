@@ -4,11 +4,11 @@ Storing a research compendium,Working diaries / blogs,2,2,2.8,1,1,4,life-list  h
 Project management,Project management (issues and discussions),4,3,4,1,2,5,"(e.g., github issues)",4 = future collaborators,4 = the community
 Project continuity,Project continuity,4,4,4.7,1,2,4,,4 = resolving conflicts,
 Open scientific discussions,Developing data standards,4,5,4.35,1,4,5,https://github.com/ess-dive-community,"3 = requires knowledge of additional languages in addition to github (e.g., R Markdown)",
-Virtual lab notebook,Lab management notebooks,5,6,5.35,4,1,4,link 1 link 2,3 = present public,3 = organization/ multiple labs
+Virtual laboratory notebook,Lab management notebooks,5,6,5.35,4,1,4,link 1 link 2,3 = present public,3 = organization/ multiple labs
 Educational materials,Pedagogic material,5,7,5.7,2,1,5,Tidy Tuesday,2 = present collaborators,2 = within your own lab
 Academic websites,Hosting and deploying of Academic Websites,5,8,6.05,2,1,5,https://github.com/cabinetofcuriosity,5 = future public (people you do not know),5 = the general public
 Writing a manuscript,Reproducible manuscripts,5,9,6.4,5,2,4,https://github.com/PoisotLab/manuscript-template,Technical difficulty,
-GitHub Organizations,GitHub Organizations,5,10,6.75,3,4,5,https://github.com/SORTEE-Github-Hackathon,,
+Organizing and managing teams,Organizing and managing teams,5,10,6.75,3,2,5,https://github.com/SORTEE-Github-Hackathon,,
 Peer-reviews,Peer-reviews,6,11,8.4,2,1,3,link,2 = some push/pull/forking required,
 Asynchronous collaborative coding and writing,Asynchronous collaborative coding and writing,9,12,9.3,4,4,5,,,
 Automation,Automation of workflows,7,13,9.8,5,1,5,link,5= more complex GitHub tools like actions,
