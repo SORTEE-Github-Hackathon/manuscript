@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@def3bc7](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/def3bc7be9dc165100774b0e53208fbd9e00a9ba)
+from [SORTEE-Github-Hackathon/manuscript@9396d27](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9396d27adfc38e9204618775d08f1a56f0f98bb3)
 on July 27, 2022.
 </em></small>
 
@@ -645,8 +645,7 @@ Although GitHub has been available as a platform for more than a decade, its upt
 
 Here, we discuss four potential barriers to GitHub use in EEB.
 
-First, there may be hesitation to independently adopting and learning a new tool.
-
+First, there may be hesitation to independently adopting and learning a new tool. 
 Institutional encouragement and instructional resources focused on researchers in ecology and evolution may be limited.
 When GitHub is taught within an EEB context, it usually accompanies coursework in topics such as statistical programming.
 It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many may be inexperienced with programming.
@@ -677,12 +676,12 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 
 | Ten tips for getting started in GitHub |
 |------------------------------------------------------------------------|
-| 1. **Check for an existing solution to your problem.** The GitHub Help webpage (<https://docs.github.com/en>) contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs (_e.g._, <https://github.blog>), Twitter accounts or YouTube channels that regularly post practical solutions about the most widely-used web platform for common GitHub issues. |
+| 1. **Check for existing solutions to your problem.** The GitHub Help webpage (<https://docs.github.com/en>) contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs (_e.g._, <https://github.blog>), Twitter accounts or YouTube channels that regularly post practical solutions about the most widely-used web platform for common GitHub issues. |
 | 2. **Consider taking free courses**, such as those from Software Carpentry [@doi:10.5281/zenodo.3264950], and sharing these courses with your lab members or colleagues. |
 | 3. **Take advantage of GitHub as an asynchronous working tool for team-based projects.** See the repository for this paper (<https://github.com/SORTEE-Github-Hackathon/manuscript>) as an example of a collaboratively authored manuscript that used the GitHub Discussions, Issues, Pages, and Actions features. |
-| 4. **The GitHub Skills page (<https://skills.github.com/>)** allows you to learn GitHub basics through short projects and tasks with step-by-step guides. |
+| 4. **Use the interactive courses from the GitHub Skills page (<https://skills.github.com/>)**, which allow you to learn GitHub basics through short projects and tasks with step-by-step guides. |
 | 5. **Learn markdown and use cheatsheets (_e.g._, <http://markdownguide.org/basic-syntax>)** so you can write clear metadata README files for your repositories. |
-| 6. **Consult the Jenny Bryan Universe of GitHub material,** which provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
+| 6. **Consult online resources.** The Jenny Bryan Universe of GitHub material, for example, provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
 | 7. **Do not be afraid of trial-and-error.** One of the best ways to learn GitHub is the "trial-and-error" method. Learning from your own mistakes can be a valuable way to master your GitHub abilities. In any case, if you make mistakes, GitHub allows you to revert any steps that you desire via version controlling. |
 | 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course R Markdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time. (see example <https://github.com/rmcelreath/stat_rethinking_2022>) |
 | 9. **Try to begin committing with graphical user interfaces (GUI) instead of command line interfaces (CLI).** Examples of GUI are the GitHub Desktop (<https://desktop.github.com>), git-gui (<https://git-scm.com/docs/git-gui>), RStudio (<https://www.rstudio.com>), Visual Studio Code (<https://code.visualstudio.com>), Atom (<https://atom.io>), GitKraken (<https://www.gitkraken.com>).
@@ -728,7 +727,7 @@ The source code will be archived in the ESS-DIVE data repository prior to public
 
 <!--Reference this figure in text like this (Figure @fig:github-diagram).-->
 
-![A summary of ways GitHub can be used showing technical difficulty and degree of collaboration for each. Activities higher on the vertical axis require usage knowledge of more GitHub features than activities lower on the axis.  On the horizontal axis, each activity spans a region representing who is potentially involved with or benefits from each activity.  For example, storing data and code mainly benefits individual researchers or members of a lab group while making data and code citable and reproducible benefit other labs and the larger community as well. Independently of a users knowledge level of GitHub features, there are ways to use GitHub that allow tapping unto one of the most salient benefits of the platform: facilitating and enhancing collaboration.](images/scatterblob_1.png){#fig:scatterblob}
+![A summary of ways GitHub can be used showing technical difficulty and degree of collaboration for each. Activities higher on the vertical axis require usage knowledge of more GitHub features than activities lower on the axis.  On the horizontal axis, each activity spans a region representing who is potentially involved with or benefits from each activity.  For example, storing data and code mainly benefits individual researchers or members of a lab group while making data and code citable and reproducible benefit other labs and the larger community as well. Independently of a users knowledge level of GitHub features, there are ways to use GitHub that allow tapping unto one of the most salient benefits of the platform: facilitating and enhancing collaboration.](images/scatterblob_1-viridis-turbo.png){#fig:scatterblob}
 
 <!--Reference this figure in text like this (Figure @fig:scatterblob).-->
 
