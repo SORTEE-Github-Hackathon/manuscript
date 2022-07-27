@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-07-26'
+date-meta: '2022-07-27'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-07-26" />
-  <meta name="citation_publication_date" content="2022-07-26" />
+  <meta name="dc.date" content="2022-07-27" />
+  <meta name="citation_publication_date" content="2022-07-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0aaaf3e6a685b4c96e2115ee2f709dab93a233f8/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0aaaf3e6a685b4c96e2115ee2f709dab93a233f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/0aaaf3e6a685b4c96e2115ee2f709dab93a233f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/0aaaf3e6a685b4c96e2115ee2f709dab93a233f8/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@0aaaf3e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/0aaaf3e6a685b4c96e2115ee2f709dab93a233f8)
-on July 26, 2022.
+from [SORTEE-Github-Hackathon/manuscript@50a6363](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/50a63631e17fef9d3b6a8798a25b2567c940fca3)
+on July 27, 2022.
 </em></small>
 
 ## Authors
@@ -680,7 +680,7 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 | 1. **Check for an existing solution to your problem.** The GitHub Help webpage (<https://docs.github.com/en>) contains extensive and detailed documents with helpful screenshots. It is a good starting point for handling an issue, and has troubleshooting tips for specific problems. Alternatively, consider Tweeting your issue. There is a large community of GitHub users around the world who have likely faced analogous problems and may be able to provide quick solutions. Third, try to follow blogs (_e.g._, <https://github.blog>), Twitter accounts or YouTube channels that regularly post practical solutions about the most widely-used web platform for common GitHub issues. |
 | 2. **Consider taking free courses**, such as those from Software Carpentry [@doi:10.5281/zenodo.3264950], and sharing these courses with your lab members or colleagues. |
 | 3. **Take advantage of GitHub as an asynchronous working tool for team-based projects.** See the repository for this paper (<https://github.com/SORTEE-Github-Hackathon/manuscript>) as an example of a collaboratively authored manuscript that used the GitHub Discussions, Issues, Pages, and Actions features. |
-| 4. **The GitHub Learning Lab (<https://lab.github.com>)** allows you to learn GitHub basics through short projects and tasks, and allows you to get feedback from their Learning Lab bot. |
+| 4. **The GitHub Skills page (<https://skills.github.com/>)** allows you to learn GitHub basics through short projects and tasks with step-by-step guides. |
 | 5. **Learn markdown and use cheatsheets (_e.g._, <http://markdownguide.org/basic-syntax>)** so you can write clear metadata README files for your repositories. |
 | 6. **Consult the Jenny Bryan Universe of GitHub material,** which provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
 | 7. **Do not be afraid of trial-and-error.** One of the best ways to learn GitHub is the "trial-and-error" method. Learning from your own mistakes can be a valuable way to master your GitHub abilities. In any case, if you make mistakes, GitHub allows you to revert any steps that you desire via version controlling. |
