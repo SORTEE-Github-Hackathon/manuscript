@@ -3258,11 +3258,11 @@
   {
     "id": "RhBKe0MG",
     "type": "webpage",
-    "abstract": "Projects are a customizable, flexible tool for planning and tracking work on GitHub.",
+    "abstract": "Projects is an adaptable, flexible tool for planning and tracking work on GitHub.",
     "container-title": "GitHub Docs",
     "language": "en",
-    "title": "About projects (beta)",
-    "URL": "https://ghdocs-prod.azurewebsites.net/en/issues/trying-out-the-new-projects-experience/about-projects",
+    "title": "About Projects",
+    "URL": "https://ghdocs-prod.azurewebsites.net/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects",
     "accessed": {
       "date-parts": [
         [
@@ -3602,7 +3602,7 @@
         [
           "2022",
           7,
-          26
+          27
         ]
       ]
     },

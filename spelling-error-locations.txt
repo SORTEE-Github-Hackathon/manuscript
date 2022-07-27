@@ -100,9 +100,10 @@ content/05.use-cases-c.md:25:PHPB
 content/05.use-cases-c.md:34:reproducibility
 content/05.use-cases-c.md:42:PHPB
 content/05.use-cases-c.md:49:EEB
+content/05.use-cases-c.md:58:Braga
 content/05.use-cases-c.md:58:Brookson
 content/05.use-cases-c.md:58:Hébert
-content/05.use-cases-c.md:58:PHPB
+content/05.use-cases-c.md:58:Henrique
 content/05.use-cases-c.md:69:compendia
 content/05.use-cases-c.md:71:idiv
 content/05.use-cases-c.md:71:iDiv
@@ -111,7 +112,6 @@ content/05.use-cases-c.md:72:Hackathon
 content/05.use-cases-c.md:72:Hackathon
 content/05.use-cases-c.md:72:SORTEE
 content/05.use-cases-c.md:72:SORTEE
-content/05.use-cases-c.md:73:continously
 content/05.use-cases-c.md:73:QCBSRworkshops
 content/05.use-cases-c.md:73:QCBSRworkshops
 content/05.use-cases-c.md:73:Québec

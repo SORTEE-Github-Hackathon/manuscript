@@ -12,7 +12,7 @@ Binley
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -27,7 +27,6 @@ colebrookson
 compendia
 complementation
 Concordia
-continously
 dataset
 Département
 DGEG
@@ -55,7 +54,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
+Hackathon
 hackMD
 Hébert
 helenweierbach
@@ -82,7 +81,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp

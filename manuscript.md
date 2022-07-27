@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/50a63631e17fef9d3b6a8798a25b2567c940fca3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/def3bc7be9dc165100774b0e53208fbd9e00a9ba/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@50a6363](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/50a63631e17fef9d3b6a8798a25b2567c940fca3)
+from [SORTEE-Github-Hackathon/manuscript@def3bc7](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/def3bc7be9dc165100774b0e53208fbd9e00a9ba)
 on July 27, 2022.
 </em></small>
 
@@ -588,13 +588,13 @@ Users can set up workflows associated with their repositories that are triggered
 These actions are highly configurable and have numerous applications, such as automatically running analyses and creating figures when data or code are updated, incorporating changes to websites or applications, testing modifications to software (_e.g._, R or Python libraries).
 Action workflows can be found in GitHub's Marketplace (https://github.com/marketplace?type=actions) or, alternatively, in open user repositories.
 
-### GitHub Organizations
+### Organizing and managing teams
 
-<!--*Contributors to this section: Katherine Hébert, Cole Brookson, PHPB*-->
+<!--*Contributors to this section: Katherine Hébert, Cole Brookson, Pedro Henrique P. Braga*-->
 
 GitHub Organizations are shared virtual spaces that allow teams to work in different repositories, while remaining tied together under a larger group, such as a laboratory, department, or project involving several teams.
-Organizations are well-suited to ensure larger projects with many steps or moving parts are constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on any one individual.
-Because the repositories are grouped, members can reference and contribute to each other's work without necessarily being part of the same repository, broadening the accessibility and longevity of code and writing contributions. 
+Organizations allow larger projects with many steps or moving parts to be constrained to one virtual space, where outputs and sub-projects can be easily accessed and located without relying on individuals.
+Because the repositories are grouped, members can reference and contribute to each others work without necessarily being part of the same repository, broadening the accessibility and longevity of code and writing contributions. 
 
 Contributors can be assembled into teams within an organization, which allows administrators to assign roles, tasks, and repository modification permissions to organization members.
 Whereas access to repositories is usually assigned to individual contributors, Organizations facilitate the management of access permissions by allowing teams to be granted access to specific repositories.
@@ -605,7 +605,7 @@ As an example, GitHub Organizations are particularly well-suited to host documen
 In this way, teams have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or when locally-stored data are lost.
 This application extends to research centres, which may include several distinct projects that remain linked to institutions [_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)].
 The team organizing the hackathon which inspired this article used a GitHub Organization (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) to centralize the project development, from meeting notes to, ultimately, this manuscript.
-Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be continously updated by an ever-evolving group of contributors.
+Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be continuously updated by an ever-evolving group of contributors.
 
 
 ## Discussion
