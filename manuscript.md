@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@603d35e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/603d35edf8325ad77fc38594ae2a81ef11346da3)
+from [SORTEE-Github-Hackathon/manuscript@b2d3efb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c)
 on August 10, 2022.
 </em></small>
 
@@ -354,7 +354,7 @@ With over 83 million registered users as of 2022, GitHub is the most widely-used
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories[@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
 This workflow provides a strong and clear advantage over sending files back-and-forth (_e.g._, via email), a process that can become challenging and time-consuming in long-term and collaborative projects [@doi:10.1186/1751-0473-8-7].
-Through its combination of version control and collaborative features, GitHub facilitates open source code alongside collaborative development [@doi:10.1371/journal.pcbi.1004947].
+Through its combination of version control and collaborative features, GitHub facilitates open-source code alongside collaborative development [@doi:10.1371/journal.pcbi.1004947].
 
 Git is the version control system that enables all the collaborative tools available on GitHub.
 Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions.
@@ -384,7 +384,7 @@ We also provide critical perspectives on features that could be improved and cat
 | **fork**: A fork is a copy of a **repository** hosted on GitHub. If a repository is public, then anyone can make a fork. Even if they do not have access to **push** to the original repository, they can make a fork and edit it independently. Forks are linked to the original GitHub repository and "upstream" changes (*i.e.*, those in the original repository) can be **merged** to keep the fork up-to-date with the original project. Changes made in the fork can be integrated into the original project via **pull requests**. |
 | **clone**: Cloning a **repository** is a way of making a local copy (*i.e.*, on your computer) of a GitHub **repository**. If you have access to **push** to a **repository**, this can be a first step to contributing to a project. |
 | **branch**: Git workflow timelines or repositories are analogous to trees, with a main working project and diverging branches that are pointers to changes during the development process. A git branch is an alternative line of development for a project (repository). Branches allow users to add new features or modifications to the project without affecting the main part of the project. Development branches can be created at any point in time and work on each branch can continue independently. Branching is useful for testing out new ideas (both code and text) which may or may not eventually get integrated into the main branch of the project. Branches can also be used to isolate contributions of multiple contributors. Each person working on their own branch eliminates problems that may arise if conflicting edits are **pushed** to the same remote branch. Changes in a development branch can be **merged** into the main branch via **pull requests**. Branches can only be made by those who are given access to the project **repository**. |
-| **commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (*e.g.* "Generate and include results figure"), and after several commits **push** those commits to the remote (*i.e.*, cloud-based) GitHub **repository**. |
+| **commit**: Commits are snapshots of the development of a project. In Git, versions of files and directories are uniquely identified as "commits", allowing one to identify and track modifications line-by-line. Commits can include changes in multiple files and must include a brief commit message describing the changes made. A typical workflow is to make some related changes in files, add a commit message (*e.g.*, "Generate and include results figure"), and after several commits **push** those commits to the remote (*i.e.*, cloud-based) GitHub **repository**. |
 | **push and pull**: When **commits** are made in a project locally, they must be synced with the remote GitHub repository by **pushing** them. Changes on a GitHub repository can then be **pulled** to keep your local version of the project up-to-date with the remote. |
 | **pull request**: A pull request is a request for changes made on an individual's **branch** in the repository or in a user's **fork** to be merged to the repository. Pull requests contain a description of the changes alongside all code required for testing and review by other users prior to being merged into the repository. |
 | **merge**: Combining **commits** from two different branches together into one **branch**. |
@@ -577,16 +577,16 @@ This can be achieved through the access of GitHub repositories containing the ne
 <!--*Contributors to this section: PHPB -->
 
 Automation has a strong potential to expand the scale and pace of research in ecology and evolution [@doi:10.1126/science.abi4692].
-Automation frameworks can streamline many stages of the scientific process, including automated data collection and data validation [_e.g._, @doi:10.3389/fevo.2021.679673, @doi:10.1101/344804], automated data analysis [_e.g._, @doi:10.1038/nbt.3780], automated archiving and deployment of data, code and reports [_e.g._, this manuscript, @doi:10.1111/2041-210X.13104].
+Automation frameworks can streamline many stages of the scientific process, including automated data collection and data validation (_e.g._, [@doi:10.3389/fevo.2021.679673; @doi:10.1101/344804]), automated data analysis (_e.g._, [@doi:10.1038/nbt.3780]), automated archiving and deployment of data, code and reports (_e.g._, this manuscript, [@doi:10.1111/2041-210X.13104]).
 In this context, small modifications to code and data can be frequently committed and automatically tested, as in continuous integration and continuous deployment practices [@doi:10.1109/MS.2014.58].
-This allows for early detection and correction of errors, potentially improving confidence in scientific development by minimizing software errors [see @doi:10.12688/f1000research.5930.2].
+This allows for early detection and correction of errors, potentially improving confidence in scientific development by minimizing software errors (see [@doi:10.12688/f1000research.5930.2]).
 In addition to increasing scientific rigor and confidence in ecological software [@doi:10.1890/080141], automation can help advance more rapidly sharing ecological data and making sure the data are high quality [@doi:10.1073/pnas.1710231115].
 Integrating automation workflows has been highly encouraged in areas of EEB, including predictive ecology [@doi:10.1111/ele.13994], long-term ecological studies [@doi:10.1371/journal.pbio.3000125; @doi:10.1101/332783], and management of species at risk information [@doi:10.1038/s41597-022-01381-8].
 
 Automation can be integrated into GitHub repositories through the GitHub Actions feature [@url:https://github.com/features/actions], or through alternative automation systems (_e.g._, Circle CI[@url:https://circleci.com], Travis CI[@url:https://www.travis-ci.com]).
 Users can set up workflows associated with their repositories that are triggered by events (_e.g._, push, pull request or at specified times) for remote servers to perform user-specified steps and actions.
 These actions are highly configurable and have numerous applications, such as automatically running analyses and creating figures when data or code are updated, incorporating changes to websites or applications, testing modifications to software (_e.g._, R or Python libraries).
-Action workflows can be found in GitHub's Marketplace (https://github.com/marketplace?type=actions) or, alternatively, in open user repositories.
+Action workflows can be found in GitHub's Marketplace (<https://github.com/marketplace?type=actions>) or, alternatively, in open user repositories.
 
 ### Organizing and managing teams
 
@@ -603,7 +603,7 @@ The organization structure also allows for issue tracking and discussions relate
 
 As an example, GitHub Organizations are particularly well-suited to host documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other relevant documents that evolve collaboratively over time. 
 In this way, teams have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or when locally-stored data are lost.
-This application extends to research centres, which may include several distinct projects that remain linked to institutions [_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)].
+This application extends to research centres, which may include several distinct projects that remain linked to institutions (_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)).
 The team organizing the hackathon which inspired this article used a GitHub Organization (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) to centralize the project development, from meeting notes to, ultimately, this manuscript.
 Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be continuously updated by an ever-evolving group of contributors.
 
@@ -614,7 +614,7 @@ Organizations are also convenient for hosting learning materials, including lect
 ### The promise of GitHub for EEB researchers
 
 There have been many calls for researchers outside of the software development community to adopt GitHub to improve their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
-This call comes in light of the continuous shift towards open-science and the increasing computational and data requirements in EEB.
+These calls come in light of the continuous shift towards open-science and the increasing computational and data requirements in EEB.
 Until now, resources and practical guidance on using GitHub within the EEB community have been dispersed in blog posts and video tutorials ([Box 2](#tips)).
 These resources have been useful for learning to use GitHub in our own work.
 We expect that situating the main uses of GitHub in EEB into one medium, while adding on our personal perspectives, will be useful to the EEB community.
@@ -635,7 +635,7 @@ Despite its strong collaborative potential, we describe two use cases where GitH
 
 First, real-time document editing is still best performed on other platforms (_e.g._, cloud-stored documents from Microsoft Word, Google Docs, hackMD (<https://hackmd.io/>)).
 Second, operations that are dependent on other software might not be easily achievable in GitHub, such as manipulating figures or tables.
-Although creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_. Google Slides, Google Sheets; but see GitHub Discussions).
+Although creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_., Google Slides, Google Sheets; but see GitHub Discussions).
 
 ### Why aren't more EEB researchers using GitHub?
 
@@ -665,9 +665,8 @@ A major additional barrier to EEB researchers is the lack language-specific reso
 Language is a well-known obstacle to international collaborative research progress and to widespread scientific knowledge [see @doi:10.1016/j.tree.2021.11.003].
 Non-English speaking EEB researchers can potentially miss opportunities to fully integrate version control, reproducibility, and other benefits of GitHub without language-inclusive contents.
 
-Lastly, fourth, GitHub may increase the distinctions between free and paid-for plans.
-When projects become highly collaborative, they may have to pay GitHub features, such for branch protections, multiple reviewers of pull requests and time in its automation tools.
-Currently, GitHub offers Education Packs (https://education.github.com/) to students and academics, which extends some paid features to the free plan.
+Lastly, when projects become highly collaborative they may have to pay for GitHub features such as branch protections, multiple reviewers of pull requests, and time in its automation tools.
+Currently, GitHub offers Education Packs (<https://education.github.com/>) to students and academics, which extends some paid features to the free plan.
 However, the acquisition of GitHub by Microsoft has raised concerns over the future of free plans, causing several biodiversity data managers to shift to alternative Open Source Git services (_e.g._, Bitbucket and GitLab).
 
 ### Box 2 {#tips}
@@ -683,7 +682,7 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 | 5. **Learn markdown and use cheatsheets (_e.g._, <http://markdownguide.org/basic-syntax>)** so you can write clear metadata README files for your repositories. |
 | 6. **Consult online resources.** The Jenny Bryan Universe of GitHub material, for example, provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
 | 7. **Do not be afraid of trial-and-error.** One of the best ways to learn GitHub is the "trial-and-error" method. Learning from your own mistakes can be a valuable way to master your GitHub abilities. In any case, if you make mistakes, GitHub allows you to revert any steps that you desire via version controlling. |
-| 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course R Markdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time. (see example <https://github.com/rmcelreath/stat_rethinking_2022>) |
+| 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course R Markdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time (see example <https://github.com/rmcelreath/stat_rethinking_2022>). |
 | 9. **Try to begin committing with graphical user interfaces (GUI) instead of command line interfaces (CLI).** Examples of GUI are the GitHub Desktop (<https://desktop.github.com>), git-gui (<https://git-scm.com/docs/git-gui>), RStudio (<https://www.rstudio.com>), Visual Studio Code (<https://code.visualstudio.com>), Atom (<https://atom.io>), GitKraken (<https://www.gitkraken.com>).
 | 10. **Get help deciphering GitHub Notifications.** Try using tools like Octobox (<https://octobox.io>) to disentangle and manage multiple notifications from distinct GitHub projects. |
 
@@ -720,6 +719,10 @@ RCO was funded by the U.S. Department of Energy, Office of Science, Office of Bi
 
 The source code and data for this manuscript are available at <https://github.com/SORTEE-Github-Hackathon/manuscript>. 
 The source code will be archived in the ESS-DIVE data repository prior to publication.
+
+## Ethics declarations - Competing interests
+RCO was recently offered a position to work at GitHub (on July 15, 2022) and will start employment at GitHub on August 23, 2022.
+Initial discussion of publishing this manuscript began in July 2021 and all work on the manuscript took place while RCO was an employee at Lawrence Berkeley National Laboratory.
 
 ## Figures {.page_break_before}
 

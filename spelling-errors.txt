@@ -12,7 +12,7 @@ Binley
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -53,8 +53,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
-hackMD
+hackathon
+HackMD
 Hébert
 helenweierbach
 Henrique
