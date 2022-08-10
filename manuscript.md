@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-07-27'
+date-meta: '2022-08-10'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-07-27" />
-  <meta name="citation_publication_date" content="2022-07-27" />
+  <meta name="dc.date" content="2022-08-10" />
+  <meta name="citation_publication_date" content="2022-08-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9396d27adfc38e9204618775d08f1a56f0f98bb3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/603d35edf8325ad77fc38594ae2a81ef11346da3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@9396d27](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9396d27adfc38e9204618775d08f1a56f0f98bb3)
-on July 27, 2022.
+from [SORTEE-Github-Hackathon/manuscript@603d35e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/603d35edf8325ad77fc38594ae2a81ef11346da3)
+on August 10, 2022.
 </em></small>
 
 ## Authors
@@ -734,29 +734,6 @@ The source code will be archived in the ESS-DIVE data repository prior to public
 ## Tables
 
 
-<!--DO NoT EDIT. Generated from R/comparison_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
-
-| Guild                                | Software                       | Vesion control  | Backup (cloud)  | Passive collaboration | Active real-time colalboration | Free $                                                                                                         | Permanent (DOI)                                                                                     | Storage limits                                                                                                                                            | GitHub Integration                                                           |
-|:-------------------------------------|:-------------------------------|:----------------|:----------------|:----------------------|:-------------------------------|:---------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| Multi-tool                           | GitHub                         | Yes             | Yes             | Yes                   | NA                             | Broadly limited free version. Advanced features are provided for free to students and education professionals. | A DOI can only be obtained when integrating to other services that can mint DOI (e.g. ZeNodo, OSF). | 100 MB per file, 500 MB per private repository (2 GB for paid accounts). 100 GB for public repositories. Larger files (up to 2 GB) can be attached to releases. | NA                                                                           |
-| Multi-tool                           | OSF                            | Yes             | Yes             | Yes                   | Yes                            | Yes                                                                                                            | Yes                                                                                                 | 25 GB for private projects, up to 5GB per file, plus partner add-ons, 50GB for public projects                                                             | Yes                                                                          |
-| Long-term (public) data repositories | PANGAEA                        | Yes             | Yes             | Yes                   | NA                             | Yes                                                                                                            | Yes                                                                                                 | 10 GB free                                                                                                                                                | NA                                                                           |
-| Long-term (public) data repositories | ZeNodo                         | after published | after published | NA                    | NA                             | Yes                                                                                                            | Yes                                                                                                 | 50 GB per dataset                                                                                                                                         | Yes                                                                          |
-| Long-term (public) data repositories | Dryad                          | after published | after published | NA                    | NA                             | Some journals cover cost                                                                                       | Yes                                                                                                 | 300 GB per publication                                                                                                                                    | Can link to individual files (Not entire reopository); Not really integrated |
-| Long-term (public) data repositories | Figshare                       | Yes             | Yes             | Yes                   | NA                             | Yes                                                                                                            | Yes                                                                                                 | 20 GB free, up to 5 TB                                                                                                                                    | Yes                                                                          |
-| Temporary (personal) drive storage   | Google Drive                   | Yes             | Yes             | Yes                   | Yes                            | Limited free version & paid                                                                                    | NA                                                                                                  | 15 GB free, up to 100 GB with Google One                                                                                                                    | Yes                                                                          |
-| Temporary (personal) drive storage   | Box                            | limited         | Yes             | ?                     | ?                              | NA                                                                                                             | NA                                                                                                  | Unlimited total size for subscription                                                                                                                     | Yes                                                                          |
-| Temporary (personal) drive storage   | DropBox                        | limited         | Yes             | Yes                   | Yes                            | Limited free version & paid                                                                                    | NA                                                                                                  | 2 GB free                                                                                                                                                  | Yes                                                                          |
-| Temporary (personal) drive storage   | One Drive and the Office Suite  | Yes             | Yes             | Yes                   | Yes                            | Limited free version & paid                                                                                    | NA                                                                                                  | 5 GB free, up to 1TB paid                                                                                                                                 | Yes                                                                          |
-| Collaborative code/text editors      | Overleaf (online latex editor) | Yes             | Yes             | Yes                   | NA                             | NA                                                                                                             | NA                                                                                                  | 1MB for individual .tex, 50 MB for individual files, unlimited project size                                                                                | Yes                                                                          |
-| Collaborative code/text editors      | Jupyter Notebook               | Yes             | ?               | Yes                   | with Colab                     | Yes                                                                                                            | NA                                                                                                  | via Binder: No hard limit, but suggests No files \>100 MB, can also store on GitHub or Google Colab                                                        | Yes                                                                          |
-| Collaborative code/text editors      | HackMD                         | Yes             | Yes             | Yes                   | Yes                            | Yes                                                                                                            | NA                                                                                                  | 3 documents free, private invitee limits                                                                                                                  | Yes                                                                          |
-
-Table: a comparison of techNologies commonly used for collaborating on research in Ecology and Evolutionary Biology. In the first column, we group platforms for collaboration into broad guilds.  The second column lists the platform for collaboration. The remaining columns indicate whether the platform for collaboration includes certain features. {#tbl:compare}
-
-<!-- An example citation of this table (Table @tbl:compare). -->
-
-
 <!--DO NOT EDIT. Generated from R/comparison_table.Rmd, so edit that and render it to make changes.  This should get tacked on to the end of 09.figures-tables.md when compiled by Manubot -->
 
 | Guild                                | Software                       | Version control | Backup (cloud)  | Passive collaboration | Active real-time collaboration | Free plan available                                                                                         | Permanent (DOI)                                                                                      | Storage limits                                                                                                                                            | GitHub Integration                                                              |
@@ -775,7 +752,7 @@ Table: a comparison of techNologies commonly used for collaborating on research 
 | Collaborative code/text editors      | Jupyter Notebook               | yes             | ?               | yes                   | with Colab                     | yes                                                                                                         | no                                                                                                   | via Binder: no hard limit, but suggests no files \>100MB, can also store on GitHub or Google Colab                                                        | yes                                                                             |
 | Collaborative code/text editors      | HackMD                         | yes             | yes             | yes                   | yes                            | limited free version & paid                                                                                 | no                                                                                                   | 3 documents free, private invitee limits                                                                                                                  | yes                                                                             |
 
-Table: a comparison of technologies… {#tbl:compare}
+Table: A comparison of technologies commonly used for collaborating on research in Ecology and Evolutionary Biology. In the first column, we group platforms for collaboration into broad guilds.  The second column lists the platform for collaboration. The remaining columns indicate whether the platform for collaboration includes certain features. {#tbl:compare}
 
 <!-- An example citation of this table (Table @tbl:compare). -->
 

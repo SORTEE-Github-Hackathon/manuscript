@@ -22,7 +22,6 @@ Ciera
 citable
 CLI
 Colab
-colalboration
 colebrookson
 compendia
 complementation
@@ -54,7 +53,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
+Hackathon
 hackMD
 Hébert
 helenweierbach
@@ -81,7 +80,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp
@@ -92,7 +91,6 @@ QCBSRworkshops
 Québec
 RCO
 README
-reopository
 repo
 reproducibility
 robcrystalornelas
@@ -113,7 +111,6 @@ SSHS
 syllabi
 Torgarden
 Université
-Vesion
 vforoughirad
 vjf
 webpage
