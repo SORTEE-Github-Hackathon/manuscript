@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-08-10'
+date-meta: '2022-09-22'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-08-10" />
-  <meta name="citation_publication_date" content="2022-08-10" />
+  <meta name="dc.date" content="2022-09-22" />
+  <meta name="citation_publication_date" content="2022-09-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@b2d3efb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b2d3efb7b1c0fed0477b041fbe9cb7dbc487d31c)
-on August 10, 2022.
+from [SORTEE-Github-Hackathon/manuscript@ec11fae](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5)
+on September 22, 2022.
 </em></small>
 
 ## Authors
@@ -411,23 +411,24 @@ Users may still version large files using Git Large File Storage [@url:https://g
 <!--*contributors to this section: RCO* -->
 Laboratory notebooks help researchers track their research notes, methods, policies and protocols [@doi:10.1186/s13321-017-0221-3].
 Virtual laboratory notebooks can be stored in GitHub repositories and provide the benefits of simultaneous, centralized and selective access, and allows for the easy update of policies and experiment protocols [@doi:10.1371/journal.pcbi.1004385].
-Researchers have been increasingly using GitHub to maintain versions and share digital laboratory notebooks [@doi:10.1038/538127a] (_e.g._, <https://scheuerell-lab.github.io/lab-book>; <https://github.com/HuckleyLab/how_we_work>). 
+Researchers have been increasingly using GitHub to maintain versions and share digital laboratory notebooks across many fields [@doi:10.1038/538127a], including applied ecology (_e.g._, <https://scheuerell-lab.github.io/lab-book>), biogeography and global change biology (_e.g._, <https://github.com/HuckleyLab/how_we_work>), and microbial ecology (_e.g._, <https://github.com/CarBBAS/uqam-guide>).
 
-At least for aspects of a research project that involve writing code, a GitHub repository is a form of a laboratory notebook; when changes are made to files in a version-controlled repository, the author of those changes makes a commit ([Box 1](#definitions)) accompanied by a description of changes. 
+At least for aspects of a research project that involve writing code, a GitHub repository is a form of a laboratory notebook; when changes are made to files in a version-controlled repository, the author of those changes makes a commit ([Box 1](#definitions)) accompanied by a description of changes.
 Later, the entire history of commits and their commit messages are viewable and can be audited similar to a physical laboratory notebook [@doi:10.1186/1751-0473-8-7].
-GitHub issues (see project management section below) can be used to prioritize laboratory objectives and goals, as well as track any progress updates.
+GitHub issues (see Project management section below) can be used to prioritize laboratory objectives and goals, as well as track any progress updates.
 
 ### Project management
 
 <!--*Contributors to this section: Kaitlyn Gaynor, Rob Crystal-Ornelas, Pedro Braga*-->
 
-Modern research in ecology and evolution is highly collaborative, bringing together multidisciplinary teams from various institutions.
+Modern research in ecology and evolution is highly collaborative, bringing together multidisciplinary teams from various institutions [@doi:10.1890/120370].
 On GitHub, collaborators can share feedback, brainstorm ideas, and troubleshoot problems (Figure @fig:github-diagram).
 Project management can happen via three GitHub repository features: "Issues", "Discussion" and "Projects".
 Github Issues allow for discrete tasks and sub-tasks to be identified, assigned to team members, and categorized with custom labels.
 Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
+For instance, one can create a discussion on a project repository to decide on which method to apply for analyzing biodiversity data, and then an issue can be created with the purpose of establishing the steps and responsibilities covering from data formatting, statistical analyses, until the figure generation and issue resolution [_e.g._, see issues and discussions in the sPlotOpen [doi:10.1111/geb.13346] manuscript repository (<https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>)].
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 Project management in GitHub can also be integrated with third-party applications, such as Zenhub (<https://www.zenhub.com>) or Slack (<https://slack.github.com>).
@@ -454,7 +455,7 @@ Although time-consuming to establish, using these features can integrate learnin
 
 <!--*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*   -->
 Personal or laboratory websites can improve the sharing of research findings, build online presence, and increase coordination of research efforts [@doi:10.1038/nj7142-347a].
-Despite many researchers in ecology and evolution having little experience in building or hosting webpages, many tools have been developed to help this process.
+Despite researchers in ecology and evolution generally lacking experience in building or hosting webpages, many tools have been developed to help this process.
 Static websites can now be easily built using independent software and languages, such as Jekyll (<https://jekyllrb.com>), Hugo (<https://gohugo.io>), Quarto (<https://quarto.org>), and wowchemy (<https://wowchemy.com>), or with the help of dependencies in the programming languages scientists commonly use, such as the `distill` (<https://github.com/rstudio/distill>) and `blogdown` (<https://bookdown.org/yihui/blogdown>) R packages.
 The resulting files from static websites can then be hosted in repositories, from which one can activate GitHub's Pages (<https://pages.github.com>) feature, allowing for the direct live hosting of HyperText Markup Language (HTML), Cascading Style Sheets (CSS) and JavaScript files within a free github.io domain.
 
@@ -477,6 +478,7 @@ DOIs are persistent and citable unique alpha-numeric identifiers assigned to dig
 Because of this, scientists sharing code and data through GitHub are strongly encouraged to independently submit their research materials to long-term data archives (_e.g._, Zenodo, Figshare, Dryad, OSF [@doi:10.1038/538127a; @doi:10.1371/journal.pcbi.1004947; @doi:10.1029/2021EA001797]; [Table 1](#tbl:compare)).
 Some of these options (Zenodo, Figshare and OSF) integrate with GitHub, allowing project, code, and data releases ([Box 1](#definitions)) to be archived with versioned, citable DOIs.
 Linking GitHub repositories with a DOI helps research become findable, properly cited, and can ensure long-term stability [@doi:10.1890/ES14-00402.1].
+This strategy has been increasingly adopted in numerous studies in ecology and evolution (_e.g._, @doi:10.5281/zenodo.6097109; @doi:10.5281/zenodo.3893943; @doi:10.5281/zenodo.1188710).
 
 An important aspect of making code and data citable and reusable is to add an appropriate license to protect intellectual property.
 Code published without a license is under exclusive copyright (by default), protecting it from copy, distribution, and modifications.
@@ -484,6 +486,7 @@ One may grant specific rights to their code for reuse by adding licensing files 
 The Choose a License (<https://choosealicense.com/non-software/>) website offers further guidance on the licenses available for research and creative products.
 For example, Creative Commons (CC; <https://creativecommons.org/licenses/>) licenses can specify that shared code is intended for a specific analysis.
 A CC BY 4.0 license specifies that any code (or other creative products) must be appropriately credited to its original author when distributed, adapted or reused.
+
 
 ### Collaborative and asynchronous code editing
 
@@ -545,7 +548,7 @@ In addition to storing data and code, GitHub repositories can provide a time-sta
 
 Conventional research practices typically separate tasks among collaborators (_i.e._, data entry, analysis, writing).
 It is common that coauthors discuss, but do not actively verify, edit, or execute research tasks that are not their main responsibility.
-GitHub can serve as a tool for open and tractable research development. 
+GitHub can serve as a tool for open and tractable research development.
 Collaborators can directly interact with code and data, inspect for errors, and potentially identify scientific misconduct prior to manuscript submission (_e.g._, [@url:https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science]).
 Collaborators and readers are better positioned to discover erroneous or questionable findings if they have complete and transparent access to projects.
 
@@ -563,7 +566,7 @@ Projects in ecology and evolution often involve graduate students, research assi
 Without clear plans on project continuity, the research code and data management upkeep tends to fall off as researchers move on to new projects or to other institutions.
 Additionally, code and data can be difficult to access when kept only on personal devices [@doi:10.1016/j.cub.2013.11.014].
 
-GitHub can facilitate project continuity among research code by making code handover easier [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7]. 
+GitHub can facilitate project continuity among research code by making code handover easier [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
 Through version control, the history of code and data from projects in ecology and evolution can be tracked accessible to future laboratory members and collaborators [@doi:10.1038/s41559-017-0160].
 Repositories and organizations can have designated data and code owners (or more appropriate, stewards; see [@doi:10.1890/ES14-00402.1], [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]), who can also can change through time allowing for the transition of code between research cohorts.
 Other project collaborators can contribute to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
