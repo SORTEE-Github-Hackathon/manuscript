@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-09-22'
+date-meta: '2022-10-02'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-09-22" />
-  <meta name="citation_publication_date" content="2022-09-22" />
+  <meta name="dc.date" content="2022-10-02" />
+  <meta name="citation_publication_date" content="2022-10-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ec11fae](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ec11faeb0bef6e3bab5ff066c8b7786218ca8fe5)
-on September 22, 2022.
+from [SORTEE-Github-Hackathon/manuscript@67184a6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/67184a6d4709f90ee2da7a7f13a18ae8b930330f)
+on October 2, 2022.
 </em></small>
 
 ## Authors
@@ -352,7 +352,7 @@ Here, we review and discuss one of the most used web-based platforms for computa
 
 With over 83 million registered users as of 2022, GitHub is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
-Through version control, users have a detailed, chronological record of the files and directories stored in their repositories[@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
+Through version control, users have a detailed, chronological record of the files and directories stored in their repositories [@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
 This workflow provides a strong and clear advantage over sending files back-and-forth (_e.g._, via email), a process that can become challenging and time-consuming in long-term and collaborative projects [@doi:10.1186/1751-0473-8-7].
 Through its combination of version control and collaborative features, GitHub facilitates open-source code alongside collaborative development [@doi:10.1371/journal.pcbi.1004947].
 
@@ -363,7 +363,7 @@ Although the understanding of basic concepts of Git (such as commit, push, pull,
 The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; @url:https://happygitwithr.com; @url:https://ourcodingclub.github.io].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
 First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for code development in information systems [@doi:10.1109/ASONAM.2016.7752419].
-Moreover, domain-specific resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce (but see <https://ourcodingclub.github.io>; <https://www.openscapes.org>).
+Moreover, domain-specific resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce (but see <https://ourcodingclub.github.io>; <https://www.openscapes.org>, [@doi:10.1111/2041-210X.13982]).
 Widespread adoption of GitHub for collaborating on research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their research [@doi:10.3897/rio.6.e56508].
 More importantly, expanding the availability of data and code management standards -- of which GitHub is one increasingly important component -- makes research more reproducible and collaborative [@doi:10.1002/bes2.1801; @doi:10.31222/osf.io/gaj43].
 
@@ -428,11 +428,12 @@ Github Issues allow for discrete tasks and sub-tasks to be identified, assigned 
 Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
-For instance, one can create a discussion on a project repository to decide on which method to apply for analyzing biodiversity data, and then an issue can be created with the purpose of establishing the steps and responsibilities covering from data formatting, statistical analyses, until the figure generation and issue resolution [_e.g._, see issues and discussions in the sPlotOpen [doi:10.1111/geb.13346] manuscript repository (<https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>)].
+For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
+Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen [doi:10.1111/geb.13346] manuscript repository (<https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>)].
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 Project management in GitHub can also be integrated with third-party applications, such as Zenhub (<https://www.zenhub.com>) or Slack (<https://slack.github.com>).
-ZenHub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [@url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
+Zenhub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [@url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
 
 ### Educational materials
 
@@ -692,7 +693,7 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 
 ## Conclusion
 
-We provide thirteen practical ways that ecologists and evolutionary biologists can adopt GitHub to improve their research workflow and make it more open and reproducible.
+We describe thirteen practical ways that ecologists and evolutionary biologists can adopt GitHub to improve their research workflow and make it more open and reproducible.
 We provide definitions ([Box 1](#definitions)) and types of users (Figure @fig:github-diagram) to help researchers identify and prioritize the skills and tools to learn and apply.
 We highlight tools providing high collaborative potential (_e.g._, open science discussion, collaborative code editing) to more individual focused (_e.g._, storing code and data, building a website). 
 We argue that the tools readily available in GitHub have the potential to make ecology and evolution more open, reproducible and transparent.
