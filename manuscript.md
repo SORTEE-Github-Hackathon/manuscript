@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-10-02'
+date-meta: '2022-10-03'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-10-02" />
-  <meta name="citation_publication_date" content="2022-10-02" />
+  <meta name="dc.date" content="2022-10-03" />
+  <meta name="citation_publication_date" content="2022-10-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/67184a6d4709f90ee2da7a7f13a18ae8b930330f/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@67184a6](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/67184a6d4709f90ee2da7a7f13a18ae8b930330f)
-on October 2, 2022.
+from [SORTEE-Github-Hackathon/manuscript@c558124](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c5581246d860e031bbed754e4a7d18ff1ae072b2)
+on October 3, 2022.
 </em></small>
 
 ## Authors
