@@ -9,5 +9,5 @@ filters:
 - citeproc
 wrap: preserve
 metadata:
-  csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
+  csl: https://raw.githubusercontent.com/citation-style-language/styles/master/dependent/methods-in-ecology-and-evolution.csl
   link-citations: true
