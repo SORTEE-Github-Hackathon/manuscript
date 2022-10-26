@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/82d8f8423ae39d95f7eb1d44a90ac5b2055f6267/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/82d8f8423ae39d95f7eb1d44a90ac5b2055f6267/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/82d8f8423ae39d95f7eb1d44a90ac5b2055f6267/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/82d8f8423ae39d95f7eb1d44a90ac5b2055f6267/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@82d8f84](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/82d8f8423ae39d95f7eb1d44a90ac5b2055f6267)
+from [SORTEE-Github-Hackathon/manuscript@9d912d5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9d912d5cc44030361976bccfd3cc8c304075ed06)
 on October 26, 2022.
 </em></small>
 
@@ -429,7 +429,7 @@ Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
 For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
-Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository @doi:10.1111/geb.13346]; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
+Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository, @doi:10.1111/geb.13346]; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 Project management in GitHub can also be integrated with third-party applications, such as Zenhub (<https://www.zenhub.com>) or Slack (<https://slack.github.com>).
