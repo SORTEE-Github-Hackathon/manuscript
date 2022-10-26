@@ -1,8 +1,10 @@
 Aariq
+Aclosed
 ADB
 adbinley
 advisees
 Aguncan
+Aissue
 aliguncan
 AllisonBinley
 Associateship
@@ -13,7 +15,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -55,7 +57,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique

@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@63bb253](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92)
+from [SORTEE-Github-Hackathon/manuscript@3096a8d](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3096a8deace92d7df98c206c233bcf3f62c7e805)
 on October 26, 2022.
 </em></small>
 
@@ -403,8 +403,8 @@ Having copies of these files safely stored is essential to protect against accid
 Many researchers begin using GitHub to store (or backup) their research compendium [@doi:10.1080/00031305.2017.1375986] to a centralized, readily-available remote server (see [Box 1](#definitions)).
 A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below).
 
-GitHub limits committed file sizes to 100 Mb (megabytes @https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), which can make it challenging for centralizing research compendia containing larger file sizes. 
-Users may still version large files using Git Large File Storage [@url:https://git-lfs.github.com] text pointers, but may have to rely on external file storage alternatives (such as local or cloud-hosting).
+GitHub limits committed file sizes to 100 Mb (megabytes) [@url:https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github], which can make it challenging for centralizing research compendia containing larger file sizes. 
+Users may still version large files using Git Large File Storage (<https://git-lfs.github.com>) text pointers, but may have to rely on external file storage alternatives (such as local or cloud-hosting).
 
 ### Virtual laboratory notebooks
 
@@ -429,11 +429,11 @@ Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects integrate issues and pull requests on automated spreadsheets and project boards, providing users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 Scripts, commit messages, and pull requests can be linked directly to issues, discussions, and projects providing a clear record of project workflow.
 For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
-Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen [doi:10.1111/geb.13346] manuscript repository (<https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>)].
+Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository @doi:10.1111/geb.13346]; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 Project management in GitHub can also be integrated with third-party applications, such as Zenhub (<https://www.zenhub.com>) or Slack (<https://slack.github.com>).
-Zenhub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [@url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
+Zenhub allows for the enhanced visualization and organization of repositories and their issues, while the GitHub for Slack integration allows notifications from GitHub events to be sent directly to users or group channels [see @url:https://slack.com/help/articles/232289568-GitHub-for-Slack].
 
 ### Educational materials
 
@@ -444,11 +444,12 @@ The entire process of running a course, workshop, or lecture, can all be done op
 While there are other purpose-built platforms for this, GitHub provides a free, open-source alternative.
 
 Making presentations, syllabi and other course materials can be done through most major high-level programming languages such as R, with `RMarkdown` [@isbn:9781138359338], Python, with `python-ppt` (<https://python-pptx.readthedocs.io>), and Julia, with `Remark.jl` (<https://juliapackages.com/p/remark>), and be version-controlled and stored in GitHub.
-Once content is made, hosting a course website can be done through GitHub Pages [@url:https://docs.github.com/en/pages/quickstart] (_e.g._, <https://github.com/topics/course-website>).
+Once content is made, hosting a course website can be done through GitHub Pages (<https://pages.github.com>; _e.g._, <https://github.com/topics/course-website>).
 This way, course content can be available to enrolled students, as well as a global pool of learners and teachers interested in the material.
 Content can then be delivered via the course website, and/or a GitHub Organization with, for example, template repositories for assignments.
 Student submissions are perhaps the most challenging component, but the new GitHub Classroom tool (<https://classroom.github.com>) allows instructors to host private assignments to be submitted collaboratively or individually as code or PDF files, and even build autograding tests.
 Although time-consuming to establish, using these features can integrate learning version control and GitHub with the learning course content, and thus boost students' feelings of self-efficacy and confidence [@doi:10.1187/cbe.13-12-0241].
+
 
 <!--## GitHub in EcoEvo examples (Part 2)-->
 
