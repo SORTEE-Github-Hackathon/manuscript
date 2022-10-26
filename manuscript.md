@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@891e1fa](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/891e1faad1b05462ff855da04e5af9c7a676855d)
+from [SORTEE-Github-Hackathon/manuscript@3f5fcbe](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3f5fcbe49678055053a9a9df3dabe7aed164fdd3)
 on October 26, 2022.
 </em></small>
 
@@ -350,7 +350,7 @@ Here, we review and discuss one of the most used web-based platforms for computa
 
 <!-- *Contributors to this section: RCO, SSHS, PHPB* -->
 
-With over 83 million registered users as of 2022, GitHub <https://github.com> is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
+With over 83 million registered users as of 2022, GitHub (<https://github.com>) is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories [@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
 This workflow provides a strong and clear advantage over sending files back-and-forth (_e.g._, via email), a process that can become challenging and time-consuming in long-term and collaborative projects [@doi:10.1186/1751-0473-8-7].
