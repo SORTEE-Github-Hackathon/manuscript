@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-10-03'
+date-meta: '2022-10-26'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-10-03" />
-  <meta name="citation_publication_date" content="2022-10-03" />
+  <meta name="dc.date" content="2022-10-26" />
+  <meta name="citation_publication_date" content="2022-10-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c5581246d860e031bbed754e4a7d18ff1ae072b2/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c558124](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c5581246d860e031bbed754e4a7d18ff1ae072b2)
-on October 3, 2022.
+from [SORTEE-Github-Hackathon/manuscript@63bb253](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/63bb253cf3ea3c8d75c1d2600670c1f130fe5f92)
+on October 26, 2022.
 </em></small>
 
 ## Authors
@@ -350,7 +350,7 @@ Here, we review and discuss one of the most used web-based platforms for computa
 
 <!-- *Contributors to this section: RCO, SSHS, PHPB* -->
 
-With over 83 million registered users as of 2022, GitHub is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
+With over 83 million registered users as of 2022, GitHub <https://github.com> is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories [@doi:10.1080/00031305.2017.1399928] (see [Box 1](#definitions)).
 This workflow provides a strong and clear advantage over sending files back-and-forth (_e.g._, via email), a process that can become challenging and time-consuming in long-term and collaborative projects [@doi:10.1186/1751-0473-8-7].
@@ -360,10 +360,10 @@ Git is the version control system that enables all the collaborative tools avail
 Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions.
 
 <!-- *Contributors to this section: RCO, PHPB* -->
-The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; @url:https://happygitwithr.com; @url:https://ourcodingclub.github.io].
+The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; <https://happygitwithr.com>; <https://ourcodingclub.github.io>].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
 First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on collaboration for code development in information systems [@doi:10.1109/ASONAM.2016.7752419].
-Moreover, domain-specific resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce (but see <https://ourcodingclub.github.io>; <https://www.openscapes.org>, [@doi:10.1111/2041-210X.13982]).
+Moreover, domain-specific resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce [but see @doi:10.1111/2041-210X.13982; <https://ourcodingclub.github.io>; <https://www.openscapes.org>].
 Widespread adoption of GitHub for collaborating on research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their research [@doi:10.3897/rio.6.e56508].
 More importantly, expanding the availability of data and code management standards -- of which GitHub is one increasingly important component -- makes research more reproducible and collaborative [@doi:10.1002/bes2.1801; @doi:10.31222/osf.io/gaj43].
 
