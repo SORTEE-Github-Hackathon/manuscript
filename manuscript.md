@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/891e1faad1b05462ff855da04e5af9c7a676855d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@e151616](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/e15161667619fdac1d5235514e3585de24f91b37)
+from [SORTEE-Github-Hackathon/manuscript@891e1fa](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/891e1faad1b05462ff855da04e5af9c7a676855d)
 on October 26, 2022.
 </em></small>
 
@@ -552,7 +552,7 @@ In addition to storing data and code, GitHub repositories can provide a time-sta
 Conventional research practices typically separate tasks among collaborators (_i.e._, data entry, analysis, writing).
 It is common that coauthors discuss, but do not actively verify, edit, or execute research tasks that are not their main responsibility.
 GitHub can serve as a tool for open and tractable research development.
-Collaborators can directly interact with code and data, inspect for errors, and potentially identify scientific misconduct prior to manuscript submission (_e.g._, [@url:https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science]).
+Collaborators can directly interact with code and data, inspect for errors, and potentially identify scientific misconduct prior to manuscript submission (_e.g._, <https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science>).
 Collaborators and readers are better positioned to discover erroneous or questionable findings if they have complete and transparent access to projects.
 
 This transparency can be extended beyond co-authors to the entire scientific community and to the public.
@@ -571,7 +571,7 @@ Additionally, code and data can be difficult to access when kept only on persona
 
 GitHub can facilitate project continuity among research code by making code handover easier [@doi:10.5334/jors.307; @doi:10.1186/1751-0473-8-7].
 Through version control, the history of code and data from projects in ecology and evolution can be tracked accessible to future laboratory members and collaborators [@doi:10.1038/s41559-017-0160].
-Repositories and organizations can have designated data and code owners (or more appropriate, stewards; see [@doi:10.1890/ES14-00402.1], [@url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners]), who can also can change through time allowing for the transition of code between research cohorts.
+Repositories and organizations can have designated data and code owners [or more appropriate, stewards; see @doi:10.1890/ES14-00402.1, @url:https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners], who can also can change through time allowing for the transition of code between research cohorts.
 Other project collaborators can contribute to repository design and development, and their active involvement can both aid authors ability to act as guarantors of the project, and the clarity and reproducibility of the project for future users.
 In (Figure @fig:github-diagram), we highlight several elements of good repository structure, and the various ways that contributors may interact with them.
 
@@ -583,13 +583,13 @@ This can be achieved through the access of GitHub repositories containing the ne
 <!--*Contributors to this section: PHPB -->
 
 Automation has a strong potential to expand the scale and pace of research in ecology and evolution [@doi:10.1126/science.abi4692].
-Automation frameworks can streamline many stages of the scientific process, including automated data collection and data validation (_e.g._, [@doi:10.3389/fevo.2021.679673; @doi:10.1101/344804]), automated data analysis (_e.g._, [@doi:10.1038/nbt.3780]), automated archiving and deployment of data, code and reports (_e.g._, this manuscript, [@doi:10.1111/2041-210X.13104]).
+Automation frameworks can streamline many stages of the scientific process, including automated data collection and data validation [_e.g._, @doi:10.3389/fevo.2021.679673; @doi:10.1101/344804], automated data analysis [_e.g._, @doi:10.1038/nbt.3780], automated archiving and deployment of data, code and reports [_e.g._, this manuscript, @doi:10.1111/2041-210X.13104].
 In this context, small modifications to code and data can be frequently committed and automatically tested, as in continuous integration and continuous deployment practices [@doi:10.1109/MS.2014.58].
-This allows for early detection and correction of errors, potentially improving confidence in scientific development by minimizing software errors (see [@doi:10.12688/f1000research.5930.2]).
+This allows for early detection and correction of errors, potentially improving confidence in scientific development by minimizing software errors [see @doi:10.12688/f1000research.5930.2].
 In addition to increasing scientific rigor and confidence in ecological software [@doi:10.1890/080141], automation can help advance more rapidly sharing ecological data and making sure the data are high quality [@doi:10.1073/pnas.1710231115].
 Integrating automation workflows has been highly encouraged in areas of EEB, including predictive ecology [@doi:10.1111/ele.13994], long-term ecological studies [@doi:10.1371/journal.pbio.3000125; @doi:10.1101/332783], and management of species at risk information [@doi:10.1038/s41597-022-01381-8].
 
-Automation can be integrated into GitHub repositories through the GitHub Actions feature [@url:https://github.com/features/actions], or through alternative automation systems (_e.g._, Circle CI[@url:https://circleci.com], Travis CI[@url:https://www.travis-ci.com]).
+Automation can be integrated into GitHub repositories through the GitHub Actions feature [@url:https://github.com/features/actions], or through alternative automation systems [_e.g._, Circle CI, @url:https://circleci.com]; Travis CI, @url:https://www.travis-ci.com].
 Users can set up workflows associated with their repositories that are triggered by events (_e.g._, push, pull request or at specified times) for remote servers to perform user-specified steps and actions.
 These actions are highly configurable and have numerous applications, such as automatically running analyses and creating figures when data or code are updated, incorporating changes to websites or applications, testing modifications to software (_e.g._, R or Python libraries).
 Action workflows can be found in GitHub's Marketplace (<https://github.com/marketplace?type=actions>) or, alternatively, in open user repositories.
