@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d9023c5954b959cbeee18d64728f6cc4f4caff03/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d9023c5954b959cbeee18d64728f6cc4f4caff03/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/d9023c5954b959cbeee18d64728f6cc4f4caff03/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3f5fcbe49678055053a9a9df3dabe7aed164fdd3/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/d9023c5954b959cbeee18d64728f6cc4f4caff03/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@3f5fcbe](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3f5fcbe49678055053a9a9df3dabe7aed164fdd3)
+from [SORTEE-Github-Hackathon/manuscript@d9023c5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/d9023c5954b959cbeee18d64728f6cc4f4caff03)
 on October 26, 2022.
 </em></small>
 
@@ -609,7 +609,7 @@ The organization structure also allows for issue tracking and discussions relate
 
 As an example, GitHub Organizations are particularly well-suited to host documents and projects within a laboratory, such as research compendia, codes of conduct, protocols, training documents, and other relevant documents that evolve collaboratively over time. 
 In this way, teams have full ownership of repositories within an organization, while ensuring that these materials stay accessible to the laboratory after people have moved on or when locally-stored data are lost.
-This application extends to research centres, which may include several distinct projects that remain linked to institutions (_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)).
+This application extends to research centres, which may include several distinct projects that remain linked to institutions [_e.g._, the German Centre for Integrative Biodiversity Research (iDiv, <https://github.com/idiv-biodiversity>)].
 The team organizing the hackathon which inspired this article used a GitHub Organization (SORTEE-Github-Hackathon, <https://github.com/SORTEE-Github-Hackathon>) to centralize the project development, from meeting notes to, ultimately, this manuscript.
 Organizations are also convenient for hosting learning materials, including lectures or workshops, such as the Québec Centre for Biodiversity Science R Workshop Series (QCBSRworkshops, <https://github.com/QCBSRworkshops>) or the University of Edinburgh's Coding Club (Coding Club, <https://github.com/ourcodingclub>), which may be continuously updated by an ever-evolving group of contributors.
 
