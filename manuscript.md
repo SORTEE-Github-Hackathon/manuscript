@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3096a8deace92d7df98c206c233bcf3f62c7e805/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/e15161667619fdac1d5235514e3585de24f91b37/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@3096a8d](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3096a8deace92d7df98c206c233bcf3f62c7e805)
+from [SORTEE-Github-Hackathon/manuscript@e151616](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/e15161667619fdac1d5235514e3585de24f91b37)
 on October 26, 2022.
 </em></small>
 
@@ -480,7 +480,7 @@ DOIs are persistent and citable unique alpha-numeric identifiers assigned to dig
 Because of this, scientists sharing code and data through GitHub are strongly encouraged to independently submit their research materials to long-term data archives (_e.g._, Zenodo, Figshare, Dryad, OSF [@doi:10.1038/538127a; @doi:10.1371/journal.pcbi.1004947; @doi:10.1029/2021EA001797]; [Table 1](#tbl:compare)).
 Some of these options (Zenodo, Figshare and OSF) integrate with GitHub, allowing project, code, and data releases ([Box 1](#definitions)) to be archived with versioned, citable DOIs.
 Linking GitHub repositories with a DOI helps research become findable, properly cited, and can ensure long-term stability [@doi:10.1890/ES14-00402.1].
-This strategy has been increasingly adopted in numerous studies in ecology and evolution (_e.g._, @doi:10.5281/zenodo.6097109; @doi:10.5281/zenodo.3893943; @doi:10.5281/zenodo.1188710).
+This strategy has been increasingly adopted in numerous studies in ecology and evolution (_e.g._, the Zenodo repositores for @doi:10.5281/zenodo.6097109, @doi:10.5281/zenodo.3893943, and @doi:10.5281/zenodo.1188710).
 
 An important aspect of making code and data citable and reusable is to add an appropriate license to protect intellectual property.
 Code published without a license is under exclusive copyright (by default), protecting it from copy, distribution, and modifications.
@@ -514,7 +514,7 @@ Text documents stored and versioned in GitHub can be instantly displayed when wr
 Co-authors can contribute changes or suggest revisions to a manuscript written in GitHub through pull requests ([Box 1](#definitions)).
 Pull requests provide line-by-line views of proposed changes, which can be commented, modified, or approved by designated reviewers and collaborators ([Table 2](#tbl:roles)).
 Relevant literature or issues can be made using the Discussions and Issues features.
-Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms (_e.g._, HackMD (<https://hackmd.io>) for Markdown documents).
+Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms [_e.g._, HackMD (<https://hackmd.io>) for Markdown documents].
 
 We wrote this manuscript using Manubot [@url:manubot.org], a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks [@doi:10.1371/journal.pcbi.1007128].
 Manubot uses GitHub's automation workflow, GitHub Actions, to combine and convert individual Markdown files into a single LaTeX document, which can then be converted to a Word or PDF document, and displayed as a webpage.
@@ -537,6 +537,7 @@ GitHub can also assist reviewers during the peer review process.
 If the code associated with a manuscript is made available at the time of submission (_e.g._, as a link to a GitHub repository within the Data Availability Statement), peer reviewers may be able to offer more comprehensive suggestions on the code and written materials, potentially recognizing errors before publication.
 Certain journals or software development communities require submitted work or research code to be hosted on GitHub and their review processes make use of GitHub Issues (_e.g._, rOpenSci (<https://ropensci.org/software-review/>), Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>)).
 rOpenSci's efforts have resulted in many well-used R packages for ecology research including `rfishbase` [@doi:10.1111/j.1095-8649.2012.03464.x] and `taxize` [@doi:10.12688/F1000RESEARCH.2-191.V2].
+
 
 <!--## GitHub in EcoEvo examples (Part 3)-->
 

@@ -56,8 +56,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-hackathon
-HackMD
+Hackathon
+hackMD
 Hébert
 helenweierbach
 Henrique
@@ -95,6 +95,7 @@ Québec
 RCO
 README
 repo
+repositores
 reproducibility
 robcrystalornelas
 rOpenSci

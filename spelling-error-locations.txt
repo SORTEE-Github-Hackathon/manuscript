@@ -68,9 +68,11 @@ content/04.use-cases-b.md:28:Figshare
 content/04.use-cases-b.md:28:OSF
 content/04.use-cases-b.md:28:Zenodo
 content/04.use-cases-b.md:29:findable
+content/04.use-cases-b.md:30:repositores
 content/04.use-cases-b.md:30:zenodo
 content/04.use-cases-b.md:30:zenodo
 content/04.use-cases-b.md:30:zenodo
+content/04.use-cases-b.md:30:Zenodo
 content/04.use-cases-b.md:32:citable
 content/04.use-cases-b.md:42:Binley
 content/04.use-cases-b.md:42:Gaynor
