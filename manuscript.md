@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-10-26'
+date-meta: '2022-10-27'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-10-26" />
-  <meta name="citation_publication_date" content="2022-10-26" />
+  <meta name="dc.date" content="2022-10-27" />
+  <meta name="citation_publication_date" content="2022-10-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -101,7 +101,7 @@ header-includes: |-
   <meta name="twitter:creator" content="@HWeierbach" />
   <meta name="citation_author" content="Dylan G. E. Gomes" />
   <meta name="citation_author_institution" content="(Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112" />
-  <meta name="citation_author_institution" content="(Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States" />
+  <meta name="citation_author_institution" content="(Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365" />
   <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
   <meta name="citation_author" content="Pedro Henrique Pereira Braga" />
   <meta name="citation_author_institution" content="Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/52a70b5c9cc16becb6a12e911a4d0a5793bdea18/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/52a70b5c9cc16becb6a12e911a4d0a5793bdea18/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/52a70b5c9cc16becb6a12e911a4d0a5793bdea18/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/9d912d5cc44030361976bccfd3cc8c304075ed06/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/52a70b5c9cc16becb6a12e911a4d0a5793bdea18/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@9d912d5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/9d912d5cc44030361976bccfd3cc8c304075ed06)
-on October 26, 2022.
+from [SORTEE-Github-Hackathon/manuscript@52a70b5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/52a70b5c9cc16becb6a12e911a4d0a5793bdea18)
+on October 27, 2022.
 </em></small>
 
 ## Authors
@@ -308,7 +308,7 @@ on October 26, 2022.
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [dylangomes](https://github.com/dylangomes)<br>
   <small>
-     (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112; (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, United States
+     (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112; (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365
   </small>
 
 + **Pedro Henrique Pereira Braga**<br>
