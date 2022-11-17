@@ -46,6 +46,9 @@ jobs:
       - name: 🧶 Render
         run: Rscript -e 'rmarkdown::render("cover-letter-submission.Rmd")'
         
+      - name: 🧶 Render
+        run: Rscript -e 'rmarkdown::render("response-to-reviewers.Rmd")'
+        
       - name: 🔺 Upload artifact containing the letter
         uses: actions/upload-artifact@v1
         with:
