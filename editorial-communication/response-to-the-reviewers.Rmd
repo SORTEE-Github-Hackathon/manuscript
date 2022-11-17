@@ -1,7 +1,11 @@
 ---
 title: "Response to the reviewers"
-date: "`r Sys.Date()`"
-output: html_document
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    theme: cosmo 
+    highlight: tango
+    self_contained: true
 ---
 
 ```{r setup, include=FALSE}
