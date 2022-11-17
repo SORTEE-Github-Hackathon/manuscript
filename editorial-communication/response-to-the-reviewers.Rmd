@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Dear Mr Pedro Henrique Braga,
+Dear authors,
 
 Thank you for submitting your manuscript to Methods in Ecology and Evolution. I have now received the reviewers' reports, copies of which are included below. This manuscript has the potential to make a valuable contribution to the area, but there are a number of significant concerns that need to be addressed. I have considered your paper in light of the comments received and I would like to invite you to prepare a major revision.
 
