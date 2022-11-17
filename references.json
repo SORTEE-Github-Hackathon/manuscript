@@ -1185,10 +1185,13 @@
   },
   {
     "publisher": "Wiley",
+    "issue": "11",
     "DOI": "10.1111/2041-210x.13982",
     "type": "article-journal",
+    "page": "2572-2585",
     "source": "Crossref",
     "title": "Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection",
+    "volume": "13",
     "author": [
       {
         "given": "Albert Y.",
@@ -3404,8 +3407,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3432,8 +3435,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3451,8 +3454,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3470,8 +3473,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3489,8 +3492,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3508,8 +3511,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3527,8 +3530,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3537,7 +3540,7 @@
   {
     "id": "nwCtHDCn",
     "type": "webpage",
-    "abstract": "GitHub is where people build software. More than 83 million people use GitHub to discover, fork, and contribute to over 200 million projects.",
+    "abstract": "GitHub is where people build software. More than 94 million people use GitHub to discover, fork, and contribute to over 330 million projects.",
     "container-title": "GitHub",
     "language": "en",
     "title": "Build software better, together",
@@ -3546,8 +3549,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3565,8 +3568,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3584,8 +3587,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3601,8 +3604,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3626,8 +3629,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3716,8 +3719,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3726,7 +3729,7 @@
         [
           "2022",
           10,
-          26
+          27
         ]
       ]
     },
@@ -3744,8 +3747,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
@@ -3761,8 +3764,8 @@
       "date-parts": [
         [
           "2022",
-          10,
-          27
+          11,
+          17
         ]
       ]
     },
