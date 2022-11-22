@@ -28,6 +28,8 @@ As a long-term but sporadic GitHub user myself, I agree with most of the points 
 
 **E1.4.** I am surprised you didn't include integration between GitHub and Overleaf. Overleaf is also a good collaborative latex-based text processor, and provides syncing with GitHub (and Dropbox) in a way that will be more familiar to beginning users. (Actually, I eventually found it buried in Table 1)
 
+We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among others to collaboratively write scientific manuscripts, in the section "Writing a manuscript". We refer to Table 1 for further details on these integrations.
+
 **E1.5.** Finally, DropBox, SharePoint, and OneDrive are file-sharing systems that include version control, are widely supported, especially in colleges and universities, and are much easier to use for those who might be uncomfortable learning a system such as GitHub. Other than the ability to clone and fork, why should one choose GitHub over, for example, DropBox or SharePoint? More should be made of this in text, as opposed to burying it in Table 1, which is referenced only once in text (line 232) and only in the context of other longterm archives (line 231). Indeed, I suggest a somewhat expanded section of the ms. dedicated to a detailed exploration of the comparisons made in this Table. Otherwise, the ms. comes across as more proselytizing and less analytical/convincing.
 
 Reviewer(s)' Comments to Author: Reviewer: 1
