@@ -15,7 +15,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -27,7 +27,6 @@ CLI
 Colab
 colebrookson
 compendia
-complementation
 Concordia
 dataset
 Département
@@ -57,7 +56,7 @@ Grainger
 Guilan
 Güncan
 hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique
