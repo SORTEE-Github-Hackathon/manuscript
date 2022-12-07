@@ -1,8 +1,8 @@
 This manuscript
-(\href{https://SORTEE-Github-Hackathon.github.io/manuscript/v/366399c3a3d8d06832f71ea5ec300bf690d17bdd/}{permalink})
+(\href{https://SORTEE-Github-Hackathon.github.io/manuscript/v/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9/}{permalink})
 was automatically generated
-from \href{https://github.com/SORTEE-Github-Hackathon/manuscript/tree/366399c3a3d8d06832f71ea5ec300bf690d17bdd}{SORTEE-Github-Hackathon/manuscript@366399c}
-on November 17, 2022.
+from \href{https://github.com/SORTEE-Github-Hackathon/manuscript/tree/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9}{SORTEE-Github-Hackathon/manuscript@eedb895}
+on December 7, 2022.
 
 \hypertarget{authors}{%
 \subsection{Authors}\label{authors}}
@@ -234,6 +234,8 @@ An EEB research compendium includes all computational materials related to resea
 Having copies of these files safely stored is essential to protect against accidental modifications or deletions.
 Many researchers begin using GitHub to store (or backup) their research compendium (\protect\hyperlink{ref-MwwMapRG}{Marwick et al., 2018}) to a centralized, readily-available remote server (see \protect\hyperlink{definitions}{Box 1}).
 A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below).
+The ability to make a GitHub repository private is particularly advantageous for storing materials without necessarily sacrificing privacy, which may be preferred or even essential for certain compendia.
+Researchers can then grant specific collaborators read and/or write access to private repositories to pursue pre-publication analyses or writing in privacy, or even to collaborate on research that will permanently remain private.
 
 GitHub limits committed file sizes to 100 Mb (megabytes) (\protect\hyperlink{ref-1Co6ZZjF1}{\emph{About Large Files on GitHub}, n.d.}), which can make it challenging for centralizing research compendia containing larger file sizes.
 Users may still version large files using Git Large File Storage (\url{https://git-lfs.github.com}) text pointers, but may have to rely on external file storage alternatives (such as local or cloud-hosting).
@@ -333,11 +335,14 @@ Beyond supporting collaborative code development, GitHub can be used for writing
 Writing a manuscript and storing its associated data and code in GitHub increases scientific reproducibility because text, code, and data can be found in one place.
 Writing a manuscript on GitHub may take more time when compared to using conventional text processors (\protect\hyperlink{ref-4ny1onB0}{Ram, 2013}).
 Nevertheless, GitHub has many features that can allow for a powerful collaborative workflow when writing manuscripts.
-Text documents stored and versioned in GitHub can be instantly displayed when written in Markdown, a lightweight markup language increasingly popular among scientists.
-Co-authors can contribute changes or suggest revisions to a manuscript written in GitHub through pull requests (\protect\hyperlink{definitions}{Box 1}).
+Text documents stored and versioned in GitHub can be instantly displayed when written in Markdown, a lightweight markup language increasingly popular among scientists. Co-authors can contribute changes or suggest revisions to a manuscript written on GitHub through pull requests (\protect\hyperlink{definitions}{Box 1}).
 Pull requests provide line-by-line views of proposed changes, which can be commented, modified, or approved by designated reviewers and collaborators (\protect\hyperlink{tbl:roles}{Table 2}).
 Relevant literature or issues can be made using the Discussions and Issues features.
 Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms {[}\emph{e.g.}, HackMD (\url{https://hackmd.io}) for Markdown documents{]}.
+
+Incorporating GitHub into the process of writing a manuscript does not necessarily mean pivoting to an entirely new workflow.
+For instance, authors who prefer writing in LaTeX can link their new or existing Overleaf projects to GitHub via the Git-Bridge and GitHub Synchronization features (\protect\hyperlink{tbl:compare}{Table 1}), which are available through premium subscriptions to Overleaf or through many institutions worldwide via the Overleaf Commons service (\url{https://www.overleaf.com/for/universities}) (\protect\hyperlink{ref-oGbKxHzj}{\emph{Using Git and GitHub}, n.d.}).
+Similar GitHub integrations are available for projects stored in DropBox, Google Drive, among other popular tools that are likely to be familiar to many scientists and their collaborators (\protect\hyperlink{tbl:compare}{Table 1}).
 
 We wrote this manuscript using Manubot (\protect\hyperlink{ref-Re6Eg2va}{\emph{Manubot - Manuscripts, Open and Automated}, n.d.}), a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks (\protect\hyperlink{ref-YuJbg3zO}{Himmelstein et al., 2019}).
 Manubot uses GitHub's automation workflow, GitHub Actions, to combine and convert individual Markdown files into a single LaTeX document, which can then be converted to a Word or PDF document, and displayed as a webpage.
@@ -379,6 +384,10 @@ This results in greater proliferation and accessibility for a broader audience.
 Projects can make use of GitHub Discussions (\url{https://docs.github.com/en/discussions}) to communicate among repository members (collaborators) and to engage with other scientists and the general public.
 Moreover, researchers can also use the GitHub Community (\url{https://github.community/}) forum to share expertise or request help from others on their analyses and ideas (\protect\hyperlink{tbl:roles}{Table 2}).
 
+The desire or need for privacy during the developmental stages of a manuscript or of a larger research project is common in EEB, and this is often perceived as a major barrier to doing science openly through GitHub.
+Because GitHub repositories can be made private or public at any time, there is no need to choose privacy over open science, or vice-versa.
+As such, repositories can simply be kept private until their contents are ready to be shared publicly, as might occur when a research article is published or when an embargo is lifted.
+
 \hypertarget{project-continuity}{%
 \subsubsection{Project continuity}\label{project-continuity}}
 
@@ -405,7 +414,7 @@ This allows for early detection and correction of errors, potentially improving 
 In addition to increasing scientific rigor and confidence in ecological software (\protect\hyperlink{ref-12103x16N}{Scheller et al., 2010}), automation can help advance more rapidly sharing ecological data and making sure the data are high quality (\protect\hyperlink{ref-rTbinQMj}{Dietze et al., 2018}).
 Integrating automation workflows has been highly encouraged in areas of EEB, including predictive ecology (\protect\hyperlink{ref-mmCOSRfr}{McIntire et al., 2022}), long-term ecological studies (\protect\hyperlink{ref-RxK4CmfR}{Ernest et al., 2018}; \protect\hyperlink{ref-1CJo8lo2v}{Yenni et al., 2019}), and management of species at risk information (\protect\hyperlink{ref-kZzfmBNu}{Naujokaitis-Lewis et al., 2022}).
 
-Automation can be integrated into GitHub repositories through the GitHub Actions feature (\protect\hyperlink{ref-NUXbp429}{\emph{Features • GitHub Actions}, n.d.}), or through alternative automation systems (\emph{e.g.}, Circle CI, \protect\hyperlink{ref-T03Api6e}{\emph{Continuous Integration and Delivery}, n.d.}); Travis CI, \emph{Homepage \textbar{} Travis CI -- Start Building Today!} (\protect\hyperlink{ref-YeFSbfFV}{n.d.}){]}.
+Automation can be integrated into GitHub repositories through the GitHub Actions feature (\protect\hyperlink{ref-NUXbp429}{\emph{Features • GitHub Actions}, n.d.}), or through alternative automation systems (\emph{e.g.}, Circle CI, \protect\hyperlink{ref-T03Api6e}{\emph{Continuous Integration and Delivery}, n.d.}); Travis CI, \emph{Home -- Travis-CI} (\protect\hyperlink{ref-YeFSbfFV}{2022}){]}.
 Users can set up workflows associated with their repositories that are triggered by events (\emph{e.g.}, push, pull request or at specified times) for remote servers to perform user-specified steps and actions.
 These actions are highly configurable and have numerous applications, such as automatically running analyses and creating figures when data or code are updated, incorporating changes to websites or applications, testing modifications to software (\emph{e.g.}, R or Python libraries).
 Action workflows can be found in GitHub's Marketplace (\url{https://github.com/marketplace?type=actions}) or, alternatively, in open user repositories.
@@ -749,16 +758,16 @@ Community & & & Suggest additional features and report bugs & Ask questions abou
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-s91uGRZ2}{}}%
-\emph{About code owners}. (n.d.). GitHub Docs. Retrieved November 17, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners}
+\emph{About code owners}. (n.d.). GitHub Docs. Retrieved December 6, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1Co6ZZjF1}{}}%
-\emph{About large files on GitHub}. (n.d.). GitHub Docs. Retrieved November 17, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/repositories/working-with-files/managing-large-files/about-large-files-on-github}
+\emph{About large files on GitHub}. (n.d.). GitHub Docs. Retrieved December 6, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/repositories/working-with-files/managing-large-files/about-large-files-on-github}
 
 \leavevmode\vadjust pre{\hypertarget{ref-RhBKe0MG}{}}%
-\emph{About Projects}. (n.d.). GitHub Docs. Retrieved November 17, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects}
+\emph{About Projects}. (n.d.). GitHub Docs. Retrieved December 6, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects}
 
 \leavevmode\vadjust pre{\hypertarget{ref-TOsASkn5}{}}%
-\emph{Adding a license to a repository}. (n.d.). GitHub Docs. Retrieved November 17, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository}
+\emph{Adding a license to a repository}. (n.d.). GitHub Docs. Retrieved December 6, 2022, from \url{https://ghdocs-prod.azurewebsites.net/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository}
 
 \leavevmode\vadjust pre{\hypertarget{ref-13QX8XU3J}{}}%
 Alston, J. M., \& Rick, J. A. (2021). A Beginner's Guide to Conducting Reproducible Research. \emph{The Bulletin of the Ecological Society of America}, \emph{102}(2). \url{https://doi.org/10.1002/bes2.1801}
@@ -782,19 +791,19 @@ Briney, K., Coates, H., \& Goben, A. (2020). Foundational Practices of Research 
 Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? \emph{The American Statistician}, \emph{72}(1), 20--27. \url{https://doi.org/10.1080/00031305.2017.1399928}
 
 \leavevmode\vadjust pre{\hypertarget{ref-6CMMeSeD}{}}%
-Bryan, J., \& TAs, T. S. 545. (n.d.). \emph{STAT 545}. Retrieved November 17, 2022, from \url{https://stat545.com/}
+Bryan, J., \& TAs, T. S. 545. (n.d.). \emph{STAT 545}. Retrieved December 6, 2022, from \url{https://stat545.com/}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nwCtHDCn}{}}%
-\emph{Build software better, together}. (n.d.). GitHub. Retrieved November 17, 2022, from \url{https://github.com}
+\emph{Build software better, together}. (n.d.). GitHub. Retrieved December 6, 2022, from \url{https://github.com}
 
 \leavevmode\vadjust pre{\hypertarget{ref-FVBWKkZu}{}}%
 Chamberlain, S. A., \& Szöcs, E. (2013). taxize: taxonomic search and retrieval in R. \emph{F1000Research}, \emph{2}, 191. \url{https://doi.org/10.12688/f1000research.2-191.v2}
 
 \leavevmode\vadjust pre{\hypertarget{ref-lx49NGto}{}}%
-\emph{Connect GitHub to a Project - OSF Support}. (n.d.). Retrieved November 17, 2022, from \url{https://help.osf.io/article/211-connect-github-to-a-project}
+\emph{Connect GitHub to a Project - OSF Support}. (n.d.). Retrieved December 6, 2022, from \url{https://help.osf.io/article/211-connect-github-to-a-project}
 
 \leavevmode\vadjust pre{\hypertarget{ref-T03Api6e}{}}%
-\emph{Continuous Integration and Delivery}. (n.d.). CircleCI. Retrieved November 17, 2022, from \url{https://circleci.com/}
+\emph{Continuous Integration and Delivery}. (n.d.). CircleCI. Retrieved December 6, 2022, from \url{https://circleci.com/}
 
 \leavevmode\vadjust pre{\hypertarget{ref-K7nbP1Ty}{}}%
 Crystal-Ornelas, R., Edwards, B. P. M., Hébert, K., Hudgins, E. J., Reyes, L. L. S., Scott, E. R., Grainger, M. J., Foroughirad, V., Binley, A. D., Brookson, C. B., Gaynor, K. M., Sabet, S. S., Güncan, A., Hillemann, F., Weierbach, H., Gomes, D. G. E., \& Braga, P. H. P. (2022). \emph{Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution}. Manubot. \url{https://SORTEE-Github-Hackathon.github.io/manuscript/}
@@ -818,7 +827,7 @@ EllenJCoombs. (2020). \emph{EllenJCoombs/Asymmetry-evolution-cetaceans-for-publi
 Ernest, S. K. M., Yenni, G. M., Allington, G., Bledsoe, E. K., Christensen, E. M., Diaz, R. M., Geluso, K., Goheen, J. R., Guo, Q., Heske, E., Kelt, D., Meiners, J. M., Munger, J., Restrepo, C., Samson, D. A., Schutzenhofer, M. R., Skupski, M., Supp, S. R., Thibault, K., \ldots{} Valone, T. J. (2018). \emph{The Portal Project: a long-term study of a Chihuahuan desert ecosystem}. Cold Spring Harbor Laboratory. \url{https://doi.org/10.1101/332783}
 
 \leavevmode\vadjust pre{\hypertarget{ref-NUXbp429}{}}%
-\emph{Features • GitHub Actions}. (n.d.). GitHub. Retrieved November 17, 2022, from \url{https://github.com/features/actions}
+\emph{Features • GitHub Actions}. (n.d.). GitHub. Retrieved December 6, 2022, from \url{https://github.com/features/actions}
 
 \leavevmode\vadjust pre{\hypertarget{ref-D4C4k4ak}{}}%
 Fehr, J., Himpe, C., Rave, S., \& Saak, J. (2021). Sustainable Research Software Hand-Over. \emph{Journal of Open Research Software}, \emph{9}(1), 5. \url{https://doi.org/10.5334/jors.307}
@@ -839,19 +848,19 @@ Hampton, S. E., Anderson, S. S., Bagby, S. C., Gries, C., Han, X., Hart, E. M., 
 Hannay, J. E., MacLeod, C., Singer, J., Langtangen, H. P., Pfahl, D., \& Wilson, G. (2009, May). How do scientists develop and use scientific software? \emph{2009 ICSE Workshop on Software Engineering for Computational Science and Engineering}. 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering (SECSE). \url{https://doi.org/10.1109/secse.2009.5069155}
 
 \leavevmode\vadjust pre{\hypertarget{ref-ZvrOcg9w}{}}%
-Hester, J. B., the STAT 545 TAs, Jim. (n.d.). \emph{Let's Git started \textbar{} Happy Git and GitHub for the useR}. Retrieved November 17, 2022, from \url{https://happygitwithr.com/}
+Hester, J. B., the STAT 545 TAs, Jim. (n.d.). \emph{Let's Git started \textbar{} Happy Git and GitHub for the useR}. Retrieved December 6, 2022, from \url{https://happygitwithr.com/}
 
 \leavevmode\vadjust pre{\hypertarget{ref-YuJbg3zO}{}}%
 Himmelstein, D. S., Rubinetti, V., Slochower, D. R., Hu, D., Malladi, V. S., Greene, C. S., \& Gitter, A. (2019). Open collaborative writing with Manubot. \emph{PLOS Computational Biology}, \emph{15}(6), e1007128. \url{https://doi.org/10.1371/journal.pcbi.1007128}
 
 \leavevmode\vadjust pre{\hypertarget{ref-YeFSbfFV}{}}%
-\emph{Homepage \textbar{} Travis CI -- Start building today!} (n.d.). Travis CI. Retrieved November 17, 2022, from \url{https://www.travis-ci.com/}
+\emph{Home -- Travis-CI}. (2022, October 6). \url{https://www.travis-ci.com/}
 
 \leavevmode\vadjust pre{\hypertarget{ref-GQj3c17f}{}}%
 Hudgins, E. (2022). \emph{emmajhudgins/UStreedamage: publication release} (accepted) {[}Computer software{]}. Zenodo. \url{https://doi.org/10.5281/zenodo.6097109}
 
 \leavevmode\vadjust pre{\hypertarget{ref-3UAritXO}{}}%
-\emph{Issues · fmsabatini/sPlotOpen\_Manuscript}. (n.d.). GitHub. Retrieved November 17, 2022, from \url{https://github.com/fmsabatini/sPlotOpen_Manuscript}
+\emph{Issues · fmsabatini/sPlotOpen\_Manuscript}. (n.d.). GitHub. Retrieved December 6, 2022, from \url{https://github.com/fmsabatini/sPlotOpen_Manuscript}
 
 \leavevmode\vadjust pre{\hypertarget{ref-wwHxTOtm}{}}%
 Kanza, S., Willoughby, C., Gibbins, N., Whitby, R., Frey, J. G., Erjavec, J., Zupančič, K., Hren, M., \& Kovač, K. (2017). Electronic lab notebooks: can they replace paper? \emph{Journal of Cheminformatics}, \emph{9}(1). \url{https://doi.org/10.1186/s13321-017-0221-3}
@@ -878,7 +887,7 @@ Lrharper1. (2018). \emph{Hulluni-Bioinformatics/Harper\_Et\_Al\_2018: Github Rep
 Madicken Munk, Koziar, K., Leinweber, K., Raniere Silva, Michonneau, F., McCue, R., Hejazi, N., Waldman, S., Emonet, R., Harris, R. M., Olex, A. L., Becker, E. A., Lever, J., Burle, M.-H., Moore, B., Umihiko Hoshijima, Maji, A., Topçuoğlu, B. D., Junghans, C., \ldots{} Wolmar Nyberg Åkerström. (2019). \emph{swcarpentry/git-novice: Software Carpentry: Version Control with Git, June 2019} (Version v2019.06.1). Zenodo. \url{https://doi.org/10.5281/zenodo.3264950}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Re6Eg2va}{}}%
-\emph{Manubot - Manuscripts, open and automated}. (n.d.). Retrieved November 17, 2022, from \url{https://manubot.org}
+\emph{Manubot - Manuscripts, open and automated}. (n.d.). Retrieved December 6, 2022, from \url{https://manubot.org}
 
 \leavevmode\vadjust pre{\hypertarget{ref-MwwMapRG}{}}%
 Marwick, B., Boettiger, C., \& Mullen, L. (2018). Packaging Data Analytical Work Reproducibly Using R (and Friends). \emph{The American Statistician}, \emph{72}(1), 80--88. \url{https://doi.org/10.1080/00031305.2017.1375986}
@@ -932,7 +941,7 @@ Scheller, R. M., Sturtevant, B. R., Gustafson, E. J., Ward, B. C., \& Mladenoff,
 Schnell, S. (2015). Ten Simple Rules for a Computational Biologist's Laboratory Notebook. \emph{PLOS Computational Biology}, \emph{11}(9), e1004385. \url{https://doi.org/10.1371/journal.pcbi.1004385}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1GRWGlDWy}{}}%
-Slack. (n.d.). \emph{GitHub for Slack}. Slack Help Center. Retrieved November 17, 2022, from \url{https://slack.com/help/articles/232289568-GitHub-for-Slack}
+Slack. (n.d.). \emph{GitHub for Slack}. Slack Help Center. Retrieved December 6, 2022, from \url{https://slack.com/help/articles/232289568-GitHub-for-Slack}
 
 \leavevmode\vadjust pre{\hypertarget{ref-HiIPSSHV}{}}%
 Smaglik, P. (2007). Creating better lab websites gives potential collaborators and recruiters a clearer window into your world. \emph{Nature}, \emph{447}(7142), 347--347. \url{https://doi.org/10.1038/nj7142-347a}
@@ -951,6 +960,9 @@ Tenopir, C., Rice, N. M., Allard, S., Baird, L., Borycz, J., Christian, L., Gran
 
 \leavevmode\vadjust pre{\hypertarget{ref-dqrFjoSb}{}}%
 Trujillo, G., \& Tanner, K. D. (2014). Considering the Role of Affect in Learning: Monitoring Students' Self-Efficacy, Sense of Belonging, and Science Identity. \emph{CBE---Life Sciences Education}, \emph{13}(1), 6--15. \url{https://doi.org/10.1187/cbe.13-12-0241}
+
+\leavevmode\vadjust pre{\hypertarget{ref-oGbKxHzj}{}}%
+\emph{Using Git and GitHub}. (n.d.). Retrieved December 6, 2022, from \url{https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1BJcvyTmV}{}}%
 Vale, G., Schmid, A., Santos, A. R., de Almeida, E. S., \& Apel, S. (2019). On the relation between Github communication activity and merge conflicts. \emph{Empirical Software Engineering}, \emph{25}(1), 402--433. \url{https://doi.org/10.1007/s10664-019-09774-x}

@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-11-17'
+date-meta: '2022-12-07'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-11-17" />
-  <meta name="citation_publication_date" content="2022-11-17" />
+  <meta name="dc.date" content="2022-12-07" />
+  <meta name="citation_publication_date" content="2022-12-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366399c3a3d8d06832f71ea5ec300bf690d17bdd/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366399c3a3d8d06832f71ea5ec300bf690d17bdd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/366399c3a3d8d06832f71ea5ec300bf690d17bdd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/366399c3a3d8d06832f71ea5ec300bf690d17bdd/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@366399c](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/366399c3a3d8d06832f71ea5ec300bf690d17bdd)
-on November 17, 2022.
+from [SORTEE-Github-Hackathon/manuscript@eedb895](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/eedb895f5a0d3ccba43cee5d4d3cd457b3a838f9)
+on December 7, 2022.
 </em></small>
 
 ## Authors
@@ -397,11 +397,13 @@ We also provide critical perspectives on features that could be improved and cat
 
 ### Storing and sharing research compendia
 
-<!--*contributors to this section: Dylan Gomes, Emma Hudgins, Pedro Braga* -->
+<!--*contributors to this section: Dylan Gomes, Emma Hudgins, Pedro Braga, Katherine Hébert* -->
 An EEB research compendium includes all computational materials related to research production, including data, code for analyses and protocols.
 Having copies of these files safely stored is essential to protect against accidental modifications or deletions.
 Many researchers begin using GitHub to store (or backup) their research compendium [@doi:10.1080/00031305.2017.1375986] to a centralized, readily-available remote server (see [Box 1](#definitions)).
-A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below).
+A centralized research compendium stored in a version-controlled repository has the advantages of facilitating collaboration, integrating data and code archiving services, allowing file versions to be accessed and restored, and contributes to open science (see sections below). 
+The ability to make a GitHub repository private is particularly advantageous for storing materials without necessarily sacrificing privacy, which may be preferred or even essential for certain compendia. 
+Researchers can then grant specific collaborators read and/or write access to private repositories to pursue pre-publication analyses or writing in privacy, or even to collaborate on research that will permanently remain private.
 
 GitHub limits committed file sizes to 100 Mb (megabytes) [@url:https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github], which can make it challenging for centralizing research compendia containing larger file sizes. 
 Users may still version large files using Git Large File Storage (<https://git-lfs.github.com>) text pointers, but may have to rely on external file storage alternatives (such as local or cloud-hosting).
@@ -504,17 +506,20 @@ Periodic code review [@doi:10.1145/3341525.3387370] can also help advisors ident
 
 ### Writing a manuscript
 
-<!--*contributors to this section:* Emma J. Hudgins-->
+<!--*contributors to this section:* Emma J. Hudgins, Katherine Hébert-->
 
 Beyond supporting collaborative code development, GitHub can be used for writing manuscripts.
 Writing a manuscript and storing its associated data and code in GitHub increases scientific reproducibility because text, code, and data can be found in one place.
 Writing a manuscript on GitHub may take more time when compared to using conventional text processors [@doi:10.1186/1751-0473-8-7].
 Nevertheless, GitHub has many features that can allow for a powerful collaborative workflow when writing manuscripts.
-Text documents stored and versioned in GitHub can be instantly displayed when written in Markdown, a lightweight markup language increasingly popular among scientists.
-Co-authors can contribute changes or suggest revisions to a manuscript written in GitHub through pull requests ([Box 1](#definitions)).
+Text documents stored and versioned in GitHub can be instantly displayed when written in Markdown, a lightweight markup language increasingly popular among scientists. Co-authors can contribute changes or suggest revisions to a manuscript written on GitHub through pull requests ([Box 1](#definitions)).
 Pull requests provide line-by-line views of proposed changes, which can be commented, modified, or approved by designated reviewers and collaborators ([Table 2](#tbl:roles)).
 Relevant literature or issues can be made using the Discussions and Issues features.
-Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms [_e.g._, HackMD (<https://hackmd.io>) for Markdown documents].
+Moreover, real-time collaboration on text documents stored in GitHub repositories can be achieved with the help of other platforms [_e.g._, HackMD (<https://hackmd.io>) for Markdown documents]. 
+
+Incorporating GitHub into the process of writing a manuscript does not necessarily mean pivoting to an entirely new workflow. 
+For instance, authors who prefer writing in LaTeX can link their new or existing Overleaf projects to GitHub via the Git-Bridge and GitHub Synchronization features ([Table 1](#tbl:compare)), which are available through premium subscriptions to Overleaf or through many institutions worldwide via the Overleaf Commons service (<https://www.overleaf.com/for/universities>) [@url:https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub]. 
+Similar GitHub integrations are available for projects stored in DropBox, Google Drive, among other popular tools that are likely to be familiar to many scientists and their collaborators ([Table 1](#tbl:compare)).
 
 We wrote this manuscript using Manubot [@url:manubot.org], a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks [@doi:10.1371/journal.pcbi.1007128].
 Manubot uses GitHub's automation workflow, GitHub Actions, to combine and convert individual Markdown files into a single LaTeX document, which can then be converted to a Word or PDF document, and displayed as a webpage.
@@ -543,7 +548,7 @@ rOpenSci's efforts have resulted in many well-used R packages for ecology resear
 
 ### Open science discussion
 
-<!--*Contributors to this section: Freddy Hillemann, Allison Binley, PHPB*-->
+<!--*Contributors to this section: Freddy Hillemann, Allison Binley, PHPB, Katherine Hébert*-->
 
 Scientific publications often omit part of their intellectual and computational workflows, including the treatment of raw data and analytical steps (_e.g._, model assumption testing).
 Publishing data and reproducible workflows along with manuscripts can provide readers with all details about analytical steps and enable reproducing research experiments and results [@doi:10.1371/journal.pbio.3000763].
@@ -560,6 +565,10 @@ Supplying code for (novel) methods that are proposed or used reduces barriers to
 This results in greater proliferation and accessibility for a broader audience.
 Projects can make use of GitHub Discussions (<https://docs.github.com/en/discussions>) to communicate among repository members (collaborators) and to engage with other scientists and the general public.
 Moreover, researchers can also use the GitHub Community (<https://github.community/>) forum to share expertise or request help from others on their analyses and ideas ([Table 2](#tbl:roles)).
+
+The desire or need for privacy during the developmental stages of a manuscript or of a larger research project is common in EEB, and this is often perceived as a major barrier to doing science openly through GitHub. 
+Because GitHub repositories can be made private or public at any time, there is no need to choose privacy over open science, or vice-versa. 
+As such, repositories can simply be kept private until their contents are ready to be shared publicly, as might occur when a research article is published or when an embargo is lifted.
 
 ### Project continuity
 
