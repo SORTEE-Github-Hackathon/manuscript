@@ -1,0 +1,99 @@
+---
+title: "Response to the reviewers"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    theme: cosmo 
+    highlight: tango
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dear authors,
+
+Thank you for submitting your manuscript to Methods in Ecology and Evolution. I have now received the reviewers' reports, copies of which are included below. This manuscript has the potential to make a valuable contribution to the area, but there are a number of significant concerns that need to be addressed. I have considered your paper in light of the comments received and I would like to invite you to prepare a major revision.
+
+In addition to addressing the comments from the reviewers, I note the following.
+
+As a long-term but sporadic GitHub user myself, I agree with most of the points and cases presented in the paper.
+
+**E1.1.** I agree with Reviewer 1 that these could be streamlined somewhat into a smaller number of more generalizable cases. They also are a bit heavily weighted towards more experienced users. "Simple" operations like push, pull, and commit are rarely understandable to new users, who routinely forget to commit their actions. The GitHub Desktop app makes many of the operations and use of GitHub somewhat easier, and is a good entree into GitHub and Git for novices. More could be made of the desktop app.
+
+**E1.2.** In my own experience, the "public" nature of repos is a major barrier to the use of GitHub for exactly the reason you suggest - EEB practioners remain very uncomfortable with sharing data pre-publication (and often even post-publication). Some additional emphasis on the ability to make repos "private" should be included beyond the Boxes.
+
+| We now directly discuss the possibility of keeping repositories private in the section "Storing and sharing research compendia" and in the "Open science discussion" to emphasize that there is not necessarily a trade-off between privacy, collaboration, and open science practices.
+
+**E1.3.** Another reason that many EEBers don't use GitHub appears to be related to how we develop code for projects. Unless we are developing packages that others are likely to use, we tend to develop one-off scripts or functions that, once they work and are run, are never returned to. Version control is not used widely, or even needed in these cases (and my own work in software engineering provenance software has similarly had little uptake for the same reasons). I recognize that this makes it difficult to document the processes involved, but if the goal is simply to analyze the data at hand and push out another paper, why deal with the overhead of version control? At root, this is a sociological phenomenon, not a scientific one. Within your ms., consider saying something about how even one-off scripts may need to be documented, archived, and assigned a DOI to conform to evolving archiving requirements of journals.
+
+**E1.4.** I am surprised you didn't include integration between GitHub and Overleaf. Overleaf is also a good collaborative latex-based text processor, and provides syncing with GitHub (and Dropbox) in a way that will be more familiar to beginning users. (Actually, I eventually found it buried in Table 1)
+
+| We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among others to collaboratively write scientific manuscripts, in the section "Writing a manuscript". We refer to Table 1 for further details on these integrations.
+
+**E1.5.** Finally, DropBox, SharePoint, and OneDrive are file-sharing systems that include version control, are widely supported, especially in colleges and universities, and are much easier to use for those who might be uncomfortable learning a system such as GitHub. Other than the ability to clone and fork, why should one choose GitHub over, for example, DropBox or SharePoint? More should be made of this in text, as opposed to burying it in Table 1, which is referenced only once in text (line 232) and only in the context of other longterm archives (line 231). Indeed, I suggest a somewhat expanded section of the ms. dedicated to a detailed exploration of the comparisons made in this Table. Otherwise, the ms. comes across as more proselytizing and less analytical/convincing.
+
+Reviewer(s)' Comments to Author: Reviewer: 1
+
+Comments to the Corresponding Author
+
+This paper clearly communicates the enthusiasm of the authors for integrating GitHub in the EEB research process. Advantages in areas of collaboration, transparent and reproducible science are clear and nicely discussed. This is a well written paper.
+
+**R1.1.** I would, however, recommend some restructuring and shortening. As it stands, this paper is too long and some of the use cases are too nerdy to spark enthusiasm in somebody who is not already using GitHub. Breaking it into 13 use cases leads to some repetition and those use cases may be combined more effectively for convincing a new user.
+
+**R1.2.** The title and abstract gave me the impression that the goal is to convince EEB researcher to start using GitHub. If that's the case, it might be better to tailor the use cases to that entry level and use less GitHub specific lingo. Advanced usage may be mentioned but not detailed as much as it is currently done. E.g. collaboratively writing a paper in GitHub is probably out of the question for most. Most GitHub options for communication, discussion, issue tracking are still somewhat esoteric for most non-programmers.
+
+**R1.3.** Although the abstract states 'We outline features ranging from low to high technical difficulty' the paper reads a bit like a laundry list of what GitHub can do (in fact, the word 'can' is used about 140 times, which makes for tedious read). Figure 2 helps sort through this laundry list and defines the technical difficulty. It might be better to clearly lay out where anybody can start using GitHub effectively in the text. And the emphasis is on 'effectively'. Most people are not likely to learn a new piece of software if it does not promise to reduce effort and time. So, defining tasks where GitHub shines in terms of return on investment maybe the better approach to convincing new users and then only mention the advance use cases with some pointers to further reading, but not going into too much detail.
+
+**R1.4.** In my experience, the project continuity is actually very high on the importance list for researchers, i.e., knowing that the code and data will be findable by the next student. This includes the discussion of organizing and managing teams, keeping lab information in one place etc. Followed by code versioning and the ability to go back to older versions. Interest in website development is picking up because it really is simple to do in GitHub, and the information can be maintained by several people (i.e., a lab group).
+
+Detailed comments:
+
+**R1.5.** Line 346 delete second 'can': who can also can change through time
+
+| Corrected! Thank you for catching this!
+
+**R1.6.** Line 389 it should be 'each other's work': contribute to each other work without necessarily
+
+| Corrected! Thank you once again!
+
+**R1.7.** Line 457 missing 'collaborator'? especially when many may be
+
+| We have added "prospective users" to this sentence. It now is "*It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many prospective users may be inexperienced with programming."*
+
+**R1.8.** Line 477: not sure what this sentence is saying: 'requiring the complementation of other tools to fully integration project files and GitHub repositories'
+
+| We agree that this sentence needed clarification. We have simplified it and it reads now as: "*Moreover, additional tools may be required to fully integrate project files and GitHub repositories [...]*". Thank you once again!
+
+Reviewer: 2
+
+Comments to the Corresponding Author
+
+The manuscript presents how ecologists and evolutionary biologists (EEB) can use collaborative software development project management tools. The authors present a high-level view of Github and the Git version control system that is at its core. As the authors detail, the tools that Github provides has broad potential to be leveraged within the EEB community. The paper is well written and helps to make Github tools and related concepts legible to EEB audiences. On the whole, I see this as potentially being an impactful paper for improving EEB research. I have the following Major and Minor comments for the authors:
+
+Major Comments
+
+**R2.1.** Figure 1 was more confusing to me than helpful. It presents a view of a Github interface in order to detail generalized features; however, it is edited/abstracted so much that it doesn't map easily to the interface as it would be viewed by a reader of the paper. To improve this I would reduce the level of abstraction of the web interface.
+
+**R2.2.** Figure 2 was useful, especially as it summarized across multiple areas that a reader make in-roads into using Github. Please clarify how the "Technical Difficulty" was assessed. Was this based on the impression of the working group? Was it quantified using different types of required knowledge (e.g., programming, software design, working in the Terminal, etc.)?
+
+**R2.3.** I would find it helpful to give a brief (1-2 sentence) history of Git (L85-89). Namely, that it was developed as an aid for software development within distributed groups of software engineers and was developed within an open-source framework so that it could be improved by the community. This provides more context as to why Github (as it extends Git) is a useful tool for collaboration "by design".
+
+**R2.4.** I suggest adding a discussion on dependency testing within or following the paragraph on Automation (Lines 373-382). This is a project "ecosystem" phenomenon that comes from collaboration, where you build your project on the work of someone else. As projects change over time, they can alter other projects. Software engineers have been working on this challenge for a long time in distributed teams where different parts of software are being built by different programmers. Checks can be done automatically within the software engineering framework (see Pasquier et al. 2017 <https://www.nature.com/articles/sdata2017114>). Beyond detection, any major changes can be detected and presented without additional work from the user via features like badges (<https://shields.io/>) within the project page (e.g., README).
+
+**R2.5.** Related to Major Comments 1 and 4, given that the focus of the paper is toward integration into EEB scientific research workflows, I suggest adding another figure (or replacing Figure 1) that details a generalized scientific research workflow (e.g., Munafò et al. 2017 <https://www.nature.com/articles/s41562-016-0021>) and how Github supports/augments that workflow. This could relate to or build on Table 2, which a useful summarization of important features as they relate to different research participants.
+
+Minor Comments
+
+**R2.6.** The sentence from Line 66-67 is missing a close parenthesis.
+
+| Thank you for catching this. We closed the brackets.
+
+**R2.7.** There appears to be a "fourth" barrier at Line 478. I suggest splitting the paragraph from Line 472 to 483 into two paragraphs and expanding on both "reluctance to share data" and "language-specific resources" as barriers to adoption.
+
+| Indeed! We have numbered all five barriers to using GitHub to clarify this section.
+
+**R2.8.** Line 570 "could also be e" should be "could also be a".
+
+| You are right! We have corrected this issue. Thank you once again!
