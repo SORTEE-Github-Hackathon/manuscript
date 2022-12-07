@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@8f400dd](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8f400dd0f6c28e752d4f7127284c1a33f564d2a1)
+from [SORTEE-Github-Hackathon/manuscript@58a2b25](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/58a2b25be4b30ef82f1ebbb07581893859ebcd27)
 on December 7, 2022.
 </em></small>
 
@@ -348,7 +348,7 @@ However, most researchers lack exposure to adequate code practices and thus dedi
 Thus, researchers may not adhere to standards of code quality and maintenance [@doi:10.1145/2063348.2063374; @doi:10.1371/journal.pbio.1001745; @doi:10.1109/SECSE.2009.5069155].
 Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in ecology and evolutionary biology (EEB) with practical workflows to facilitate and improve their code and its management.
 
-<!-- *Contributors to this section: RCO, SSHS, PHPB* -->
+<!-- *Contributors to this section: RCO, SSHS, PHPB, KH* -->
 
 With over 83 million registered users as of 2022, GitHub (<https://github.com>) is the most widely-used web platform for collaborating on computer code [@url:https://github.com/about].
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
@@ -357,7 +357,9 @@ This workflow provides a strong and clear advantage over sending files back-and-
 Through its combination of version control and collaborative features, GitHub facilitates open-source code alongside collaborative development [@doi:10.1371/journal.pcbi.1004947].
 
 Git is the version control system that enables all the collaborative tools available on GitHub.
-Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions.
+Git was originally developed as a fast, lightweight and open-source system that would allow software engineers to efficiently develop and collaborate in projects [@url:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git#:~:text=A%20Short%20History%20of%20Git%20As%20with%20many,were%20passed%20around%20as%20patches%20and%20archived%20files.]. 
+Since its launch in 2005, Git has become the leading version control system in software development and in other disciplines that similarly require collaboration and community contributions, such as scientific research [@doi:10.1109/MS.2012.61].
+Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see [Box 1](#definitions)) is necessary, the GitHub web-based platform and its integrated development environments (such as GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions, making these functionalities available to users who are less familiar with software development.
 
 <!-- *Contributors to this section: RCO, PHPB* -->
 The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; <https://happygitwithr.com>; <https://ourcodingclub.github.io>].

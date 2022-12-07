@@ -138,9 +138,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -157,9 +157,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8f400dd0f6c28e752d4f7127284c1a33f564d2a1/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8f400dd0f6c28e752d4f7127284c1a33f564d2a1">SORTEE-Github-Hackathon/manuscript@8f400dd</a>
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/58a2b25be4b30ef82f1ebbb07581893859ebcd27">SORTEE-Github-Hackathon/manuscript@58a2b25</a>
 on December 7, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -340,14 +340,16 @@ To facilitate this process, scientists have been adopting tools from information
 However, most researchers lack exposure to adequate code practices and thus dedicate valuable time and effort to self-teaching research-facilitating tools.
 Thus, researchers may not adhere to standards of code quality and maintenance <span class="citation" data-cites="10SpoByIw O6UbstGG fJWFe93e">(<a href="#ref-fJWFe93e" role="doc-biblioref">Hannay et al., 2009</a>; <a href="#ref-10SpoByIw" role="doc-biblioref">Prabhu et al., 2011</a>; <a href="#ref-O6UbstGG" role="doc-biblioref">Wilson et al., 2014</a>)</span>.
 Here, we review and discuss one of the most used web-based platforms for computational version control and collaboration, GitHub, and provide researchers in ecology and evolutionary biology (EEB) with practical workflows to facilitate and improve their code and its management.</p>
-<!-- *Contributors to this section: RCO, SSHS, PHPB* -->
+<!-- *Contributors to this section: RCO, SSHS, PHPB, KH* -->
 <p>With over 83 million registered users as of 2022, GitHub (<a href="https://github.com" class="uri">https://github.com</a>) is the most widely-used web platform for collaborating on computer code <span class="citation" data-cites="nwCtHDCn">(<a href="#ref-nwCtHDCn" role="doc-biblioref"><em>Build Software Better, Together</em>, n.d.</a>)</span>.
 GitHub provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
 Through version control, users have a detailed, chronological record of the files and directories stored in their repositories <span class="citation" data-cites="RVetqmsg">(<a href="#ref-RVetqmsg" role="doc-biblioref">Bryan, 2018</a>)</span> (see <a href="#definitions">Box 1</a>).
 This workflow provides a strong and clear advantage over sending files back-and-forth (<em>e.g.</em>, via email), a process that can become challenging and time-consuming in long-term and collaborative projects <span class="citation" data-cites="4ny1onB0">(<a href="#ref-4ny1onB0" role="doc-biblioref">Ram, 2013</a>)</span>.
 Through its combination of version control and collaborative features, GitHub facilitates open-source code alongside collaborative development <span class="citation" data-cites="kEX5dgzK">(<a href="#ref-kEX5dgzK" role="doc-biblioref">Perez-Riverol et al., 2016</a>)</span>.</p>
 <p>Git is the version control system that enables all the collaborative tools available on GitHub.
-Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see <a href="#definitions">Box 1</a>) is necessary, the GitHub web-based platform and its integrated development environments (such as the GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions.</p>
+Git was originally developed as a fast, lightweight and open-source system that would allow software engineers to efficiently develop and collaborate in projects <span class="citation" data-cites="1CM2EcdVk">(<a href="#ref-1CM2EcdVk" role="doc-biblioref"><em>Git - A Short History of Git</em>, n.d.</a>#:~:text=A%20Short%20History%20of%20Git%20As%20with%20many,were%20passed%20around%20as%20patches%20and%20archived%20files.)</span>.
+Since its launch in 2005, Git has become the leading version control system in software development and in other disciplines that similarly require collaboration and community contributions, such as scientific research <span class="citation" data-cites="7q3wZN6d">(<a href="#ref-7q3wZN6d" role="doc-biblioref">Spinellis, 2012</a>)</span>.
+Although the understanding of basic concepts of Git (such as commit, push, pull, checkout; see <a href="#definitions">Box 1</a>) is necessary, the GitHub web-based platform and its integrated development environments (such as GitHub Desktop) allow users to perform most repository and data management operations without opening Git command-line sessions, making these functionalities available to users who are less familiar with software development.</p>
 <!-- *Contributors to this section: RCO, PHPB* -->
 <p>The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [<span class="citation" data-cites="kEX5dgzK">Perez-Riverol et al. (<a href="#ref-kEX5dgzK" role="doc-biblioref">2016</a>)</span>; <span class="citation" data-cites="RVetqmsg">Bryan (<a href="#ref-RVetqmsg" role="doc-biblioref">2018</a>)</span>; <a href="https://happygitwithr.com" class="uri">https://happygitwithr.com</a>; <a href="https://ourcodingclub.github.io" class="uri">https://ourcodingclub.github.io</a>].
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process <span class="citation" data-cites="3DKwn1sY 10ghgV3S8">(<a href="#ref-3DKwn1sY" role="doc-biblioref">Lowndes et al., 2017</a>; <a href="#ref-10ghgV3S8" role="doc-biblioref">J. Perkel, 2016</a>)</span>, its use is still not widespread.
@@ -1077,6 +1079,9 @@ Fehr, J., Himpe, C., Rave, S., &amp; Saak, J. (2021). Sustainable Research Softw
 <div id="ref-SLq38RVv" class="csl-entry" role="doc-biblioentry">
 Figueiredo, A. S. (2017). Data Sharing: Convert Challenges into Opportunities. <em>Frontiers in Public Health</em>, <em>5</em>. <a href="https://doi.org/10.3389/fpubh.2017.00327">https://doi.org/10.3389/fpubh.2017.00327</a>
 </div>
+<div id="ref-1CM2EcdVk" class="csl-entry" role="doc-biblioentry">
+<em>Git - A Short History of Git</em>. (n.d.). Retrieved December 7, 2022, from <a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git">https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git</a>
+</div>
 <div id="ref-pq2Tv1BC" class="csl-entry" role="doc-biblioentry">
 Gomes, D. G. E., Pottier, P., Crystal-Ornelas, R., Hudgins, E. J., Foroughirad, V., Sánchez-Reyes, L. L., Turba, R., Martinez, P. A., Moreau, D., Bertram, M., Smout, C., &amp; Gaynor, K. (2022). <em>Why don’t we share data and code? Perceived barriers and benefits to public archiving practices</em>. Center for Open Science. <a href="https://doi.org/10.31222/osf.io/gaj43">https://doi.org/10.31222/osf.io/gaj43</a>
 </div>
@@ -1193,6 +1198,9 @@ Soergel, D. A. W. (2015). Rampant software errors may undermine scientific resul
 </div>
 <div id="ref-hm9PaCLD" class="csl-entry" role="doc-biblioentry">
 Song, X., Goldstein, S. C., &amp; Sakr, M. (2020, June 2). Using Peer Code Review as an Educational Tool. <em>Proceedings of the 2020 ACM Conference on Innovation and Technology in Computer Science Education</em>. ITiCSE '20: Innovation and Technology in Computer Science Education. <a href="https://doi.org/10.1145/3341525.3387370">https://doi.org/10.1145/3341525.3387370</a>
+</div>
+<div id="ref-7q3wZN6d" class="csl-entry" role="doc-biblioentry">
+Spinellis, D. (2012). Git. <em>IEEE Software</em>, <em>29</em>(3), 100–101. <a href="https://doi.org/10.1109/ms.2012.61">https://doi.org/10.1109/ms.2012.61</a>
 </div>
 <div id="ref-1CzUZwyU2" class="csl-entry" role="doc-biblioentry">
 Tenopir, C., Dalton, E. D., Allard, S., Frame, M., Pjesivac, I., Birch, B., Pollock, D., &amp; Dorsett, K. (2015). Changes in Data Sharing and Data Reuse Practices and Perceptions among Scientists Worldwide. <em>PLOS ONE</em>, <em>10</em>(8), e0134826. <a href="https://doi.org/10.1371/journal.pone.0134826">https://doi.org/10.1371/journal.pone.0134826</a>
