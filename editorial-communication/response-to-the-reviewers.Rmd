@@ -24,13 +24,13 @@ As a long-term but sporadic GitHub user myself, I agree with most of the points 
 
 **E1.2.** In my own experience, the "public" nature of repos is a major barrier to the use of GitHub for exactly the reason you suggest - EEB practioners remain very uncomfortable with sharing data pre-publication (and often even post-publication). Some additional emphasis on the ability to make repos "private" should be included beyond the Boxes.
 
-We now directly discuss the possibility of keeping repositories private in the section "Storing and sharing research compendia" and in the "Open science discussion" to emphasize that there is not necessarily a trade-off between privacy, collaboration, and open science practices.
+| We now directly discuss the possibility of keeping repositories private in the section "Storing and sharing research compendia" and in the "Open science discussion" to emphasize that there is not necessarily a trade-off between privacy, collaboration, and open science practices.
 
 **E1.3.** Another reason that many EEBers don't use GitHub appears to be related to how we develop code for projects. Unless we are developing packages that others are likely to use, we tend to develop one-off scripts or functions that, once they work and are run, are never returned to. Version control is not used widely, or even needed in these cases (and my own work in software engineering provenance software has similarly had little uptake for the same reasons). I recognize that this makes it difficult to document the processes involved, but if the goal is simply to analyze the data at hand and push out another paper, why deal with the overhead of version control? At root, this is a sociological phenomenon, not a scientific one. Within your ms., consider saying something about how even one-off scripts may need to be documented, archived, and assigned a DOI to conform to evolving archiving requirements of journals.
 
 **E1.4.** I am surprised you didn't include integration between GitHub and Overleaf. Overleaf is also a good collaborative latex-based text processor, and provides syncing with GitHub (and Dropbox) in a way that will be more familiar to beginning users. (Actually, I eventually found it buried in Table 1)
 
-We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among others to collaboratively write scientific manuscripts, in the section "Writing a manuscript". We refer to Table 1 for further details on these integrations.
+| We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among others to collaboratively write scientific manuscripts, in the section "Writing a manuscript". We refer to Table 1 for further details on these integrations.
 
 **E1.5.** Finally, DropBox, SharePoint, and OneDrive are file-sharing systems that include version control, are widely supported, especially in colleges and universities, and are much easier to use for those who might be uncomfortable learning a system such as GitHub. Other than the ability to clone and fork, why should one choose GitHub over, for example, DropBox or SharePoint? More should be made of this in text, as opposed to burying it in Table 1, which is referenced only once in text (line 232) and only in the context of other longterm archives (line 231). Indeed, I suggest a somewhat expanded section of the ms. dedicated to a detailed exploration of the comparisons made in this Table. Otherwise, the ms. comes across as more proselytizing and less analytical/convincing.
 
@@ -52,11 +52,19 @@ Detailed comments:
 
 **R1.5.** Line 346 delete second 'can': who can also can change through time
 
+| Corrected! Thank you for catching this!
+
 **R1.6.** Line 389 it should be 'each other's work': contribute to each other work without necessarily
+
+| Corrected! Thank you once again!
 
 **R1.7.** Line 457 missing 'collaborator'? especially when many may be
 
+| We have added "prospective users" to this sentence. It now is "*It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many prospective users may be inexperienced with programming."*
+
 **R1.8.** Line 477: not sure what this sentence is saying: 'requiring the complementation of other tools to fully integration project files and GitHub repositories'
+
+| We agree that this sentence needed clarification. We have simplified it and it reads now as: "*Moreover, additional tools may be required to fully integrate project files and GitHub repositories [...]*". Thank you once again!
 
 Reviewer: 2
 
@@ -80,6 +88,12 @@ Minor Comments
 
 **R2.6.** The sentence from Line 66-67 is missing a close parenthesis.
 
+| Thank you for catching this. We closed the brackets.
+
 **R2.7.** There appears to be a "fourth" barrier at Line 478. I suggest splitting the paragraph from Line 472 to 483 into two paragraphs and expanding on both "reluctance to share data" and "language-specific resources" as barriers to adoption.
 
+| Indeed! We have numbered all five barriers to using GitHub to clarify this section.
+
 **R2.8.** Line 570 "could also be e" should be "could also be a".
+
+| You are right! We have corrected this issue. Thank you once again!
