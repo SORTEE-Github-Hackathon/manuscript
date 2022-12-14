@@ -1,7 +1,29 @@
 ---
-title: "\\textbf{\\textsc{Supplementary Material} \\linebreak \\linebreak Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution \\linebreak \\linebreak Methods to create \\textsl{the scatterblob} figure}"
-output: 
-  html_document
+output:
+  bookdown::pdf_document2:
+      latex_engine: xelatex
+      number_sections: false
+      toc: false
+mainfont: "Times New Roman"
+geometry: margin = 1in
+spacing: double
+fontsize: 11pt
+editor_options:
+  markdown:
+    wrap: sentence
+csl: https://raw.githubusercontent.com/marlonecobos/kuenm/master/ecography.csl
+link-citations: yes
+header-includes:
+   - \usepackage{lineno}
+   - \linenumbers
+   - \usepackage{setspace}\doublespacing
+   - \usepackage{parskip}
+   - \setlength{\parindent}{4em}
+   - \setlength{\parskip}{0em}
+   - \usepackage{caption}
+   - \usepackage{pdflscape}
+   - \newcommand{\blandscape}{\begin{landscape}}
+   - \newcommand{\elandscape}{\end{landscape}}
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +36,27 @@ uses <- scatterblob_data$`Ways to use GitHub`
 column_names <- colnames(scatterblob_data[1:8])
 ```
 
+## Study
+
+### Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution 
+
+### Supplementary Information 1
+
+### Representing technical difficulty and degree of collaboration in use cases for Github in ecology and evolution
+
+**Appendix S1.1. Computing indices of technical difficulty and degree of collaboration**
+
+We aimed at distributing the use cases discussed in our study across gradients of technical difficulty and collaboration.
+For this, we [...].
+
+We then [\...].
+
+We used Google Docs and Google Sheets to manipulate data, and plotted results using `R` version 4.02.
+
+\noindent
+
+**Appendix S1.2. Annotated code and prose allowing the representation of indices of technical difficulty and degree of collaboration**
+
 **Goal**: This is a summary figure, e.g., here are all the ways and here are the entry points with low technical difficulty, some for beginners and some more advanced ways to use GitHub.
 
 **Highlight**: There are ways to use github that allow different degrees of collaboration that do not require too many technical skills.
@@ -24,7 +67,8 @@ Data was assembled collaboratively using Google docs, then manually saved as a "
 
 The collaborative [google spread sheet](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0), features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:13], collapse = "; " )`).
 
-The column *`r column_names[6]`* corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience. We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors.
+The column *`r column_names[6]`* corresponds to the degree of difficulty that was perceived by the authors when assembling the data, based on personal experience.
+We quickly realized this varied greatly across authors, and that this variation seemed to depend on which github tools were previously known or mastered by the authors.
 
 The columns tagged as *Cognitive load -* showcase a different way to assess technical difficulty of GitHub uses, measured as cognitive load (explained in the next section).
 
@@ -320,4 +364,4 @@ text(x = 5.5,
 dev.off()
 ```
 
-![Degree of collaboration _versus_ technical difficulty (sequential)](../content/images/scatterblob_1-viridis-turbo.png)
+![Degree of collaboration *versus* technical difficulty (sequential)](../content/images/scatterblob_1-viridis-turbo.png)
