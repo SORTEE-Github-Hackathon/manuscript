@@ -15,7 +15,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -55,8 +55,8 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
-hackMD
+hackathon
+HackMD
 Hébert
 helenweierbach
 Henrique

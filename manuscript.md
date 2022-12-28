@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2022-12-07'
+date-meta: '2022-12-28'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2022-12-07" />
-  <meta name="citation_publication_date" content="2022-12-07" />
+  <meta name="dc.date" content="2022-12-28" />
+  <meta name="citation_publication_date" content="2022-12-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1f11b09ef362e4c495e1cada9082ac6278c9ffd1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1f11b09ef362e4c495e1cada9082ac6278c9ffd1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1f11b09ef362e4c495e1cada9082ac6278c9ffd1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/58a2b25be4b30ef82f1ebbb07581893859ebcd27/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1f11b09ef362e4c495e1cada9082ac6278c9ffd1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@58a2b25](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/58a2b25be4b30ef82f1ebbb07581893859ebcd27)
-on December 7, 2022.
+from [SORTEE-Github-Hackathon/manuscript@1f11b09](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1f11b09ef362e4c495e1cada9082ac6278c9ffd1)
+on December 28, 2022.
 </em></small>
 
 ## Authors
@@ -652,7 +652,7 @@ Despite its strong collaborative potential, we describe two use cases where GitH
 
 First, real-time document editing is still best performed on other platforms (_e.g._, cloud-stored documents from Microsoft Word, Google Docs, hackMD (<https://hackmd.io/>)).
 Second, operations that are dependent on other software might not be easily achievable in GitHub, such as manipulating figures or tables.
-Although creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_., Google Slides, Google Sheets; but see GitHub Discussions).
+While creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_., Google Slides, Google Sheets; but see GitHub Discussions).
 
 ### Why aren't more EEB researchers using GitHub?
 
@@ -660,14 +660,14 @@ Although creating tables and figures can be done through code, users may choose 
 
 Although GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow. Here, we discuss five potential barriers to GitHub use in EEB:
 
-First, there may be hesitation to independently adopting and learning a new tool. 
+First, there may be hesitation to independently adopting and learning a new tool.
 Institutional encouragement and instructional resources focused on researchers in ecology and evolution may be limited.
 When GitHub is taught within an EEB context, it usually accompanies coursework in topics such as statistical programming.
 It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many prospective users may be inexperienced with programming.
 Instructors likewise may confuse the expected digital literacy of students with computational fluency, even when modern technology increasingly abstracts concepts through search optimization and preponderant integrated development environments (IDE), or 'point-and-click' user interfaces.
 
 Second, while EEB researchers individually use GitHub, collaborative use may lag due to researchers traditionally dividing labor within projects.
-Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers. 
+Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers.
 EEB researchers may take the view that GitHub is a platform that only needs to be used by individuals writing code and may silo those aspects of projects to a single individual.
 Those assumptions may obscure the utility of GitHub for tasks other than traditional data analysis and code development.
 However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)); for example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub Issues or Discussions features.
@@ -676,6 +676,8 @@ A third barrier may come from general reluctance to share data and code publicly
 GitHub is, by default, a public and open platform.
 This openness may add additional pressure to students and scientists learning to use the platform.
 Moreover, additional tools may be required to fully integrate project files and GitHub repositories (_e.g._, [@url:https://help.osf.io/article/211-connect-github-to-a-project]).
+Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis.
+However we (and others, _e.g.,_ [@doi:10.1098/rspb.2022.1113]) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
 
 A fourth additional barrier to EEB researchers is the lack language-specific resources for non-English speaking researchers working in ecology and evolution.
 Language is a well-known obstacle to international collaborative research progress and to widespread scientific knowledge [see @doi:10.1016/j.tree.2021.11.003].
