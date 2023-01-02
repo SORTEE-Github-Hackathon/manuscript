@@ -2,12 +2,13 @@ input_id	dealiased_id	standard_id	short_id
 doi:10.1109/SECSE.2009.5069155	doi:10.1109/SECSE.2009.5069155	doi:10.1109/secse.2009.5069155	fJWFe93e
 doi:10.1038/d41586-020-02462-7	doi:10.1038/d41586-020-02462-7	doi:10.1038/d41586-020-02462-7	1Kqna6l2
 doi:10.1038/538127a	doi:10.1038/538127a	doi:10.1038/538127a	10ghgV3S8
-url:https://github.com/about	url:https://github.com/about	url:https://github.com/about	nwCtHDCn
 doi:10.1080/00031305.2017.1399928	doi:10.1080/00031305.2017.1399928	doi:10.1080/00031305.2017.1399928	RVetqmsg
 doi:10.1186/1751-0473-8-7	doi:10.1186/1751-0473-8-7	doi:10.1186/1751-0473-8-7	4ny1onB0
 doi:10.1371/journal.pcbi.1004947	doi:10.1371/journal.pcbi.1004947	doi:10.1371/journal.pcbi.1004947	kEX5dgzK
 url:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git	url:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git	url:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git	1CM2EcdVk
 doi:10.1109/MS.2012.61	doi:10.1109/MS.2012.61	doi:10.1109/ms.2012.61	7q3wZN6d
+doi:10.1371/journal.pcbi.1004668	doi:10.1371/journal.pcbi.1004668	doi:10.1371/journal.pcbi.1004668	PlcxShQU
+doi:10.1109/ICSE.2015.74	doi:10.1109/ICSE.2015.74	doi:10.1109/icse.2015.74	ndfO9H
 doi:10.1038/s41559-017-0160	doi:10.1038/s41559-017-0160	doi:10.1038/s41559-017-0160	3DKwn1sY
 doi:10.1109/ASONAM.2016.7752419	doi:10.1109/ASONAM.2016.7752419	doi:10.1109/asonam.2016.7752419	139b0pSGc
 doi:10.1111/2041-210X.13982	doi:10.1111/2041-210X.13982	doi:10.1111/2041-210x.13982	lJAgyhYq
@@ -22,11 +23,8 @@ doi:10.1890/120370	doi:10.1890/120370	doi:10.1890/120370	1HhzKAC1K
 url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects	url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects	url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects	RhBKe0MG
 doi:10.1111/geb.13346	doi:10.1111/geb.13346	doi:10.1111/geb.13346	HtStoSAI
 url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q	url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q	url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q	3UAritXO
-url:https://slack.com/help/articles/232289568-GitHub-for-Slack	url:https://slack.com/help/articles/232289568-GitHub-for-Slack	url:https://slack.com/help/articles/232289568-GitHub-for-Slack	1GRWGlDWy
-isbn:9781138359338	isbn:9781138359338	isbn:9781138359338	QqMezOMg
 doi:10.1187/cbe.13-12-0241	doi:10.1187/cbe.13-12-0241	doi:10.1187/cbe.13-12-0241	dqrFjoSb
 doi:10.1038/nj7142-347a	doi:10.1038/nj7142-347a	doi:10.1038/nj7142-347a	HiIPSSHV
-isbn:9781491933503	isbn:9781491933503	isbn:9781491933503	MXxgZJ45
 doi:10.1371/journal.pone.0229003	doi:10.1371/journal.pone.0229003	doi:10.1371/journal.pone.0229003	PLmDFZrm
 doi:10.1108/TG-03-2014-0008	doi:10.1108/TG-03-2014-0008	doi:10.1108/tg-03-2014-0008	1Hcf13Q0k
 doi:10.1371/journal.pone.0026828	doi:10.1371/journal.pone.0026828	doi:10.1371/journal.pone.0026828	1Ch6LSHef
@@ -43,9 +41,9 @@ doi:10.5281/zenodo.6097109	doi:10.5281/zenodo.6097109	doi:10.5281/zenodo.6097109
 doi:10.5281/zenodo.3893943	doi:10.5281/zenodo.3893943	doi:10.5281/zenodo.3893943	bZNn2hbh
 doi:10.5281/zenodo.1188710	doi:10.5281/zenodo.1188710	doi:10.5281/zenodo.1188710	ZI1OqZNr
 url:https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository	url:https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository	url:https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository	TOsASkn5
+doi:10.1145/3341525.3387370	doi:10.1145/3341525.3387370	doi:10.1145/3341525.3387370	hm9PaCLD
 doi:10.1007/s10664-019-09774-x	doi:10.1007/s10664-019-09774-x	doi:10.1007/s10664-019-09774-x	1BJcvyTmV
 https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html#storing-and-archiving-version-controlled-data	https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html#storing-and-archiving-version-controlled-data	url:https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html#storing-and-archiving-version-controlled-data	K7nbP1Ty
-doi:10.1145/3341525.3387370	doi:10.1145/3341525.3387370	doi:10.1145/3341525.3387370	hm9PaCLD
 url:https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub	url:https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub	url:https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub	oGbKxHzj
 url:manubot.org	url:manubot.org	url:manubot.org	Re6Eg2va
 doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	YuJbg3zO
