@@ -6,6 +6,7 @@ format:
     theme: cosmo 
     highlight-style: tango
     embed-resources: true
+    number-sections: true
 ---
 
 ## Editor {#sec-E1}
@@ -20,11 +21,15 @@ format:
 > The GitHub Desktop app makes many of the operations and use of GitHub somewhat easier, and is a good entree into GitHub and Git for novices.
 > More could be made of the desktop app.
 
-1.  <!--# TODO: edit once sections get merged -->we reduced number of sections. See also our response to reviewer 1 (@sec-R1.1
+1.  <!--# TODO: edit once sections get merged -->
+
+    we reduced number of sections.
+    See also our response to reviewer 1 (@sec-R1.1
 
 We have also reduced the amount of jargon repeated throughout the use cases by adding a paragraph in the introduction <!--# add line numbers --> that describes a basic git/GitHub workflow and directs readers to other sources for learning the more technical aspects.
 This allows us to be more concise in the use case sections.
-See also our response to reviewer 1 (@sec-R1.1 and @sec-R1.2). Use of the GitHub desktop app and RStudio as GUI interfaces for git is discussed in Box 1 of our manuscript and also in our introduction <!--# add line numbers -->.
+See also our response to reviewer 1 (@sec-R1.1 and @sec-R1.2).
+Use of the GitHub desktop app and RStudio as GUI interfaces for git is discussed in Box 1 of our manuscript and also in our introduction <!--# add line numbers -->.
 We believe that these mentions, combined with reduction of git jargon and directing readers to additional sources to learn git and GitHub, is sufficient to address this comment.
 
 #### Address private repos (E1.2) {#sec-E1.2}
@@ -81,13 +86,13 @@ In the first paragraph of the introduction we made the text more concise through
 
 In the second paragraph we added <!--# add line number -->:
 
-> Additionally, unlike sharing documents and code via DropBox or Google Drive links, GitHub defaults to public sharing of code and documents and has features like Issues and Discussions (see [Box 1](https://github.com/SORTEE-Github-Hackathon/manuscript/issues/291#definitions)) that can immediately and directly contribute to more open science and knowledge sharing.
+> Additionally, unlike sharing documents and code via DropBox or Google Drive links, GitHub defaults to public sharing of code and documents and has features like Issues and Discussions (see Box 1) that can immediately and directly contribute to more open science and knowledge sharing.
 
 Under the "storing a research compendium section" we added <!--# add line number -->:
 
 > While some EEB researchers may prefer to store their code in Google Drive or DropBox, the process of sharing code through these services becomes cumbersome when collaborators have to download and re-upload edited code.\
 >
-> On GitHub, code is by default public, and the process of forking and submitting pull requests (see [Box 1](https://github.com/SORTEE-Github-Hackathon/manuscript/issues/291#definitions)) ensures a code owner has full control over code and documents in a repository.
+> On GitHub, code is by default public, and the process of forking and submitting pull requests (see Box 1) ensures a code owner has full control over code and documents in a repository.
 
 In the first paragraph of discussion we added <!--# add line number -->:
 
@@ -109,7 +114,7 @@ And finally, in the discussion, under "why aren't more EEB researchers using git
 > As it stands, this paper is too long and some of the use cases are too nerdy to spark enthusiasm in somebody who is not already using GitHub.
 > Breaking it into 13 use cases leads to some repetition and those use cases may be combined more effectively for convincing a new user.
 
-In order to reduce repetition and jargon in the use cases sections, we've added a paragraph to the introduction \[L\_\_ -L\_\_\] explaining a basic git & GitHub workflow and pointing the reader to other resources for learning these tools.
+In order to reduce repetition and jargon in the use cases sections, we've added a paragraph to the introduction <!--# add line numbers --> explaining a basic git & GitHub workflow and pointing the reader to other resources for learning these tools.
 This allows us to focus less on explaining the specific mechanisms of git/Github in the use cases sections and more on the usefulness of the tools.
 In regards to the specific suggestion about deprioritizing GitHub communication tools, we believe these are extremely useful alternatives to reply-all email chains for a variety of reasons and have attempted to improve the clarity of this section of our manuscript \[end of project management section\].
 
@@ -121,7 +126,7 @@ In regards to the specific suggestion about deprioritizing GitHub communication 
 > E.g. collaboratively writing a paper in GitHub is probably out of the question for most.
 > Most GitHub options for communication, discussion, issue tracking are still somewhat esoteric for most non-programmers.
 
-As mentioned above (\@sec-R1.1, @sec-E1.1), we were able to reduce jargon by making it clear in the introduction that our aim was not to *teach* the use of git and GitHub, and by discussing a basic git workflow early on.
+As mentioned above (@sec-R1.1, @sec-E1.1), we were able to reduce jargon by making it clear in the introduction that our aim was not to *teach* the use of git and GitHub, and by discussing a basic git workflow early on.
 
 #### Define use-cases in terms of return on investment (R1.3) {#sec-R1.3}
 
@@ -137,7 +142,8 @@ For example, the reviewer sees collaborative writing of a manuscript using GitHu
 However, all of the co-authors on this manuscript have done exactly this and found it an excellent return on investment.
 At the same time, not all co-authors have experience in many of the other use cases we present and may find them less useful depending on their needs.
 We do make an attempt to quantify the investment effort in Figure 2 already.
-We've added a supplemental document better explaining *how* we made these quantifications (see also our response to reviewer 2 @sec-R2.2). However, we have taken the advice of reviewer 1 in other comments (\@sec-R1.4, @sec-R1.1) to reduce the number of use cases and re-order them.
+We've added a supplemental document better explaining *how* we made these quantifications (see also our response to reviewer 2 @sec-R2.2).
+However, we have taken the advice of reviewer 1 in other comments (@sec-R1.4, @sec-R1.1) to reduce the number of use cases and re-order them.
 
 #### Reorder sections based on importance (R1.4) {#sec-R1.4}
 
