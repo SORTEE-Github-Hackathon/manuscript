@@ -2,11 +2,11 @@
 title: Letter to the Editor
 author: "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution"
 date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
+format:
+  html:
     theme: cosmo 
-    highlight: tango
-    self_contained: true
+    highlight-style: tango
+    embed-resources: true
 ---
 ```{r include=FALSE}
 knitr::opts_chunk$set(fig.retina = 2)
