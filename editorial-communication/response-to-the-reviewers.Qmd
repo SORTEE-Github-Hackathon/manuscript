@@ -121,6 +121,8 @@ In regards to the specific suggestion about deprioritizing GitHub communication 
 > E.g. collaboratively writing a paper in GitHub is probably out of the question for most.
 > Most GitHub options for communication, discussion, issue tracking are still somewhat esoteric for most non-programmers.
 
+As mentioned above (\@sec-R1.1, @sec-E1.1), we were able to reduce jargon by making it clear in the introduction that our aim was not to *teach* the use of git and GitHub, and by discussing a basic git workflow early on.
+
 #### Define use-cases in terms of return on investment (R1.3) {#sec-R1.3}
 
 > Although the abstract states 'We outline features ranging from low to high technical difficulty' the paper reads a bit like a laundry list of what GitHub can do (in fact, the word 'can' is used about 140 times, which makes for tedious read).
@@ -130,10 +132,12 @@ In regards to the specific suggestion about deprioritizing GitHub communication 
 > Most people are not likely to learn a new piece of software if it does not promise to reduce effort and time.
 > So, defining tasks where GitHub shines in terms of return on investment maybe the better approach to convincing new users and then only mention the advance use cases with some pointers to further reading, but not going into too much detail.
 
--   return on investment is subjective
--   E.g. all co-authors on this paper used GitHub to collectively write a manuscript (i.e. the one being reviewed), and for us it was an excellent return on investment, but not all co-authors have experience in the other use-cases we present and may find them more or less useful depending on their needs.
--   figure 2 quantifies investment already
--   However, we have taken the advice in other comments (CROSS_REFS) to combine and re-order sections somewhat. Hopefully we present the smaller number of cases in a way that better captures the needs of a majority of our readers.
+We appreciate this comment and while we do agree that ordering the use cases by value to the reader would be ideal, we believe that value or return on investment is subjective and varies among fields, labs, and individuals.
+For example, the reviewer sees collaborative writing of a manuscript using GitHub as an "out of the question" advanced use.
+However, all of the co-authors on this manuscript have done exactly this and found it an excellent return on investment.
+At the same time, not all co-authors have experience in many of the other use cases we present and may find them less useful depending on their needs.
+We do make an attempt to quantify the investment effort in Figure 2 already.
+We've added a supplemental document better explaining *how* we made these quantifications (see also our response to reviewer 2 @sec-R2.2). However, we have taken the advice of reviewer 1 in other comments (\@sec-R1.4, @sec-R1.1) to reduce the number of use cases and re-order them.
 
 #### Reorder sections based on importance (R1.4) {#sec-R1.4}
 
@@ -202,7 +206,7 @@ Thank you once again!
 > Namely, that it was developed as an aid for software development within distributed groups of software engineers and was developed within an open-source framework so that it could be improved by the community.
 > This provides more context as to why Github (as it extends Git) is a useful tool for collaboration "by design".
 
-We now briefly discuss the origin of Git and its expansion to applications beyond software development to help manage collaborations and community contributions, in the introduction.
+We now briefly discuss the origin of Git and its expansion to applications beyond software development to help manage collaborations and community contributions, in the introduction <!--# add line numbers -->.
 
 #### Additions to Automation use case (R2.4) {#sec-R2.4}
 
