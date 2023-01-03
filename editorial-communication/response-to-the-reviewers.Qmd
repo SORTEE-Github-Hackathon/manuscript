@@ -1,6 +1,7 @@
 ---
 title: "Response to the reviewers"
-date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+date: today
+date-format: long
 format:
   html:
     theme: cosmo 
