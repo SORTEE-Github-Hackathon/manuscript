@@ -9,9 +9,6 @@ format:
     highlight-style: tango
     embed-resources: true
 ---
-```{r include=FALSE}
-knitr::opts_chunk$set(fig.retina = 2)
-```
 
 Dear Editor,
 
