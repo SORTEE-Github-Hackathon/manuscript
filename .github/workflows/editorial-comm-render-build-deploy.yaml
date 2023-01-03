@@ -23,6 +23,9 @@ jobs:
       - name: 💻 Setup R
         uses: r-lib/actions/setup-r@v2
         
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
       - name: 💾 Cache R packages
         uses: actions/cache@v2 # Must be v2 so it accepts the GITHUB_REF from the repository_dispatch
         with:
@@ -46,7 +49,10 @@ jobs:
         run: Rscript -e 'rmarkdown::render("cover-letter-submission.Rmd")'
         
       - name: 🧶 Render
-        run: Rscript -e 'rmarkdown::render("response-to-the-reviewers.Rmd")'
+        uses: quarto-dev/quarto-actions/render@v2
+        with: 
+          to: html
+          path: "response-to-the-reviewers.Qmd"
         
       - name: 🔺 Upload artifact containing the letter
         uses: actions/upload-artifact@v1
