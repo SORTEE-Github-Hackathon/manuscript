@@ -16,9 +16,11 @@ Dear Dr. XXX,
 
 We would like to thank you and the reviewers for the thoughtful comments and for the opportunity to submit a revised version of our manuscript "", for consideration for publication in Methods in Ecology and Evolution.
 
-We have addressed all the suggestions that you and the reviewers provided and, as before, we provide a point-by-point detailed response discussing each comment or suggestion. Our responses are mirror-indented and written in black, while the editor's and reviewers' comments are numbered and highlighted in color. To facilitate the review, we have also included indented extracts from the text, highlighting the changes we made in orange. The line numbers in our responses correspond to those in the revised manuscript.
+We have addressed all the suggestions that you and the reviewers provided and, as before, we provide a point-by-point detailed response discussing each comment or suggestion. Our responses are mirror-indented, while the editor's and reviewers' comments are numbered. To facilitate the review, we have also included indented extracts from the text, highlighting the changes we made. The line numbers in our responses correspond to those in the revised manuscript.
 
 We have rewritten several sentences to improve their clarity, decrease the complexity and length of sections, and improved the readability of figures.
+
+[...]
 
 ### Comments from the Editor (E1) {#sec-E1}
 
@@ -26,10 +28,11 @@ We have rewritten several sentences to improve their clarity, decrease the compl
 
 ##### **E1.1.** I agree with Reviewer 1 that these could be streamlined somewhat into a smaller number of more generalizable cases. They also are a bit heavily weighted towards more experienced users. "Simple" operations like push, pull, and commit are rarely understandable to new users, who routinely forget to commit their actions. The GitHub Desktop app makes many of the operations and use of GitHub somewhat easier, and is a good entree into GitHub and Git for novices. More could be made of the desktop app. {#sec-E1.1}
 
-**Response**:
 
 ::: {#ResponseE11 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
 <!--# TODO: edit once sections get merged -->
+
+**Response**:
 
 1.  we reduced number of sections. See also our response to reviewer 1 (@sec-R1.1
 
@@ -39,7 +42,8 @@ We have also reduced the amount of jargon repeated throughout the use cases by a
 ##### **E1.2.** In my own experience, the "public" nature of repos is a major barrier to the use of GitHub for exactly the reason you suggest - EEB practioners remain very uncomfortable with sharing data pre-publication (and often even post-publication). Some additional emphasis on the ability to make repos "private" should be included beyond the Boxes. {#sec-E1.2}
 
 ::: {#ResponseE12 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
-We now directly discuss the possibility of keeping repositories private in the section "Storing and sharing research compendia" and in the "Open science discussion" to emphasize that there is not necessarily a trade-off between privacy, collaboration, and open science practices.
+
+Thank you for this suggestion! We now added a discussion on how repositories can be kept private to  the section "Storing and sharing research compendia" (between lines XXX and XXX) and in the "Open science discussion" (between lines XXX and XXX). We emphasize that there should not be a trade-off between privacy, collaboration, and open science practices. 
 
 <!--# TODO: check that this response still makes sense after merging use case sections -->
 
@@ -61,7 +65,7 @@ This is a great point. We have added the following sentences to the end of the "
 
 ::: {#ResponseE14 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
 
-We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among others to collaboratively write scientific manuscripts, in the section "Writing a manuscript" <!--# add line numbers -->. We refer to Table 1 for further details on these integrations.
+Thank you for this recommendation! We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among other services to collaboratively write scientific manuscripts, in the section "Writing a manuscript" <!--# add line numbers -->. We refer to Table 1 for further details on these integrations.
 
 :::
 
@@ -69,7 +73,7 @@ We now discuss the possibility of integrating GitHub into existing workflows on 
 
 ::: {#ResponseE15 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
 
-We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are comfortable with tools that meet many or most of their needs. Rather than create a new section, we opted to identify specific points in the manuscript where we could directly call out where GitHub as a platform enables greater or different types of collaboration and open science than platforms like Dropbox or Google. Due to these edits (below) we now more often refer to table 1, and earlier in the manuscript as well.\
+We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are comfortable with tools that meet many or most of their needs. Rather than creating a new section, we identify specific points in the manuscript where we could directly call out where GitHub as a platform enables greater or different types of collaboration and open science than platforms like Dropbox or Google. Due to these edits (below) we now more often refer to table 1, and earlier in the manuscript as well.\
 
 \
 In the first paragraph of the introduction we made the text more concise throughout and also added new sentence <!--# add line number -->:
@@ -90,7 +94,7 @@ In the first paragraph of discussion we added <!--# add line number -->:
 
 > While tools like the Google Suite and DropBox enable rapid sharing and collaboration of some research documents, GitHub brings together features that directly address open science such as tools for soliciting public discussions on code and findings, tracking multiple rounds of edits to files in a sensible way for easy review, and managing complex research projects with many collaborators and goals.
 
-And finally, in the discussion, under "why aren't more EEB researchers using github", we added <!--# add line number -->:
+And finally, in the discussion, under "Why aren't more EEB researchers using Github", we added <!--# add line number -->:
 
 > And with institutional availability of software licenses for tools like the Google Suite or Microsoft Office, researchers may be hesitant to spend valuable time learning another tool.
 
