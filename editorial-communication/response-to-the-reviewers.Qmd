@@ -30,20 +30,21 @@ We have rewritten several sentences to improve their clarity, decrease the compl
 
 
 ::: {#ResponseE11 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
+
 <!--# TODO: edit once sections get merged -->
 
-**Response**:
+**Response**: Thank you for these comments. We agree that the use cases and the jargon could be simplified to make the text more readable and attractive. 
+Too address these recommendations, we: (1) added a brief paragraph in the introduction describing basic Git and Github workflows, directing readers to other references containing more technical and in-depth information about these platforms;
+(2) decreased the number of use cases (see [response to R1.1.](@sec-R1.1.) and [response to R1.2.](@sec-R1.2));
+(3) added information on how GitHub Desktop and RStudio can be used as GUI interfaces for Git into Box 1 and into the Introduction (between lines XXX and XXX).
 
-1.  we reduced number of sections. See also our response to reviewer 1 (@sec-R1.1
-
-We have also reduced the amount of jargon repeated throughout the use cases by adding a paragraph in the introduction <!--# add line numbers --> that describes a basic git/GitHub workflow and directs readers to other sources for learning the more technical aspects. This allows us to be more concise in the use case sections. See also our response to reviewer 1 (@sec-R1.1 and @sec-R1.2). Use of the GitHub desktop app and RStudio as GUI interfaces for git is discussed in Box 1 of our manuscript and also in our introduction <!--# add line numbers -->. We believe that these mentions, combined with reduction of git jargon and directing readers to additional sources to learn git and GitHub, is sufficient to address this comment.
 :::
 
 ##### **E1.2.** In my own experience, the "public" nature of repos is a major barrier to the use of GitHub for exactly the reason you suggest - EEB practioners remain very uncomfortable with sharing data pre-publication (and often even post-publication). Some additional emphasis on the ability to make repos "private" should be included beyond the Boxes. {#sec-E1.2}
 
 ::: {#ResponseE12 style="width: 85%;   margin-left: auto;   margin-right: auto;"}
 
-Thank you for this suggestion! We now added a discussion on how repositories can be kept private to  the section "Storing and sharing research compendia" (between lines XXX and XXX) and in the "Open science discussion" (between lines XXX and XXX). We emphasize that there should not be a trade-off between privacy, collaboration, and open science practices. 
+**Response**: Thank you for this suggestion! We added a discussion on how repositories can be kept private to the section "Storing and sharing research compendia" (between lines XXX and XXX) and in the "Open science discussion" (between lines XXX and XXX). We emphasize that there should not be a trade-off between privacy, collaboration, and open science practices. 
 
 <!--# TODO: check that this response still makes sense after merging use case sections -->
 
