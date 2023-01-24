@@ -5,21 +5,15 @@ date-format: long
 number-sections: false
 format: 
   html:
-    theme: cosmo 
+    theme: 
+      - cosmo 
+      - custom.scss
     highlight-style: tango
     embed-resources: true
   docx: 
     reference-doc: "response-template.docx"
   pdf: default
 ---
-
-```{css}
-.response {
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-```
 
 ::: {style="text-align: justify"}
 Dear Dr. XXX,
