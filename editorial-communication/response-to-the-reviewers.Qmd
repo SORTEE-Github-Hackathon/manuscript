@@ -37,7 +37,9 @@ We have rewritten several sentences to improve their clarity, decrease the compl
 
 **Response**: Thank you for these comments.
 We agree that the use cases and the jargon could be simplified to make the text more readable and attractive.
-Too address these recommendations, we: (1) added a brief paragraph in the introduction describing basic Git and Github workflows, directing readers to other references containing more technical and in-depth information about these platforms; (2) decreased the number of use cases (see [response to R1.1](#sec-R1.1) and [response to R1.2.](#sec-R1.2)); (3) added information on how GitHub Desktop and RStudio can be used as GUI interfaces for Git into Box 1 and into the Introduction (between lines XXX and XXX).
+To address these recommendations, we: (1) added a brief paragraph in the introduction describing basic Git and Github workflows, directing readers to other references containing more technical and in-depth information about these platforms; 
+(2) decreased the number of use cases (see [response to R1.1](#sec-R1.1) and [response to R1.2.](#sec-R1.2)); 
+(3) added information on how GitHub Desktop and RStudio can be used as GUI interfaces for Git into Box 1 and into the Introduction (between lines XXX and XXX).
 :::
 
 ##### **E1.2.** In my own experience, the "public" nature of repos is a major barrier to the use of GitHub for exactly the reason you suggest - EEB practioners remain very uncomfortable with sharing data pre-publication (and often even post-publication). Some additional emphasis on the ability to make repos "private" should be included beyond the Boxes. {#sec-E1.2}
@@ -74,8 +76,10 @@ We refer to Table 1 for further details on these integrations.
 
 ::: {#ResponseE15 .response}
 We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are comfortable with tools that meet many or most of their needs.
-Rather than creating a new section, we identify specific points in the manuscript where we could directly call out where GitHub as a platform enables greater or different types of collaboration and open science than platforms like Dropbox or Google.
-Due to these edits (below) we now more often refer to table 1, and earlier in the manuscript as well.\
+Rather than creating a new section, we identify specific points in the manuscript where we discuss how GitHub enables different and better types of collaboration and open science than alternative platforms, such as Dropbox or Google Suite.
+We added this discussion earlier in the manuscript, and now refer more often to Table 1.
+These changes are listed below:
+\
 
 \
 In the first paragraph of the introduction we made the text more concise throughout and also added new sentence <!--# add line number -->:
@@ -108,27 +112,35 @@ And finally, in the discussion, under "Why aren't more EEB researchers using Git
 ##### **R1.1.** I would, however, recommend some restructuring and shortening. As it stands, this paper is too long and some of the use cases are too nerdy to spark enthusiasm in somebody who is not already using GitHub. Breaking it into 13 use cases leads to some repetition and those use cases may be combined more effectively for convincing a new user. {#sec-R1.1}
 
 ::: {#ResponseR11 .response}
-In order to reduce repetition and jargon in the use cases sections, we've added a paragraph to the introduction <!--# add line numbers --> explaining a basic git & GitHub workflow and pointing the reader to other resources for learning these tools.
-This allows us to focus less on explaining the specific mechanisms of git/Github in the use cases sections and more on the usefulness of the tools.
+Thank you for this recommendation! We agree that the many sections could be restructured to become more concise and clearer.
+To address this recommendation, we did the following: (1) to reduce repetition and jargon in the use cases sections, we added a paragraph to the introduction <!--# add line numbers --> explaining basic Git and Github workflows.
+We also cited resources for learning how to use tools.
+These changes allowed us to focus on the usefulness of these tools for research in ecology and evolution.
+(2) We removed the "laboratory notebooks" section and merged part of its contents into the X section, which allowed us to further shorten the text; and, (3) [...].
+
+ <!--# This comment does not seem to fit within this section  -->
 In regards to the specific suggestion about deprioritizing GitHub communication tools, we believe these are extremely useful alternatives to reply-all email chains for a variety of reasons and have attempted to improve the clarity of this section of our manuscript \[end of project management section\].
 :::
 
 ##### **R1.2.** The title and abstract gave me the impression that the goal is to convince EEB researcher to start using GitHub. If that's the case, it might be better to tailor the use cases to that entry level and use less GitHub specific lingo. Advanced usage may be mentioned but not detailed as much as it is currently done. E.g. collaboratively writing a paper in GitHub is probably out of the question for most. Most GitHub options for communication, discussion, issue tracking are still somewhat esoteric for most non-programmers. {#sec-R1.2}
 
 ::: {#ResponseR12 .response}
-As mentioned above ([R1.1](#sec-R1.1), [E1.1](#sec-E1.1)), we were able to reduce jargon by making it clear in the introduction that our aim was not to *teach* the use of git and GitHub, and by discussing a basic git workflow early on.
+Following our modifications to address [R1.1](#sec-R1.1) and [E1.1](#sec-E1.1), we reduced jargon, simplified the narrative, and focused more in the advantages of the features GitHub provide to improve the research workflow in ecology and evolution.
+We also clarify to the reader that the objective of the manuscript is not to instruct how these tools.
+ <!--# Self-note: This comment needs improvement, as it is not very convincing. -->
 :::
 
 ##### **R1.3.** Although the abstract states 'We outline features ranging from low to high technical difficulty' the paper reads a bit like a laundry list of what GitHub can do (in fact, the word 'can' is used about 140 times, which makes for tedious read). Figure 2 helps sort through this laundry list and defines the technical difficulty. It might be better to clearly lay out where anybody can start using GitHub effectively in the text. And the emphasis is on 'effectively'. Most people are not likely to learn a new piece of software if it does not promise to reduce effort and time. So, defining tasks where GitHub shines in terms of return on investment maybe the better approach to convincing new users and then only mention the advance use cases with some pointers to further reading, but not going into too much detail. {#sec-R1.3}
 
 ::: {#ResponseR13 .response}
-We appreciate this comment and while we do agree that ordering the use cases by value to the reader would be ideal, we believe that value or return on investment is subjective and varies among fields, labs, and individuals.
-For example, the reviewer sees collaborative writing of a manuscript using GitHub as an "out of the question" advanced use.
-However, all of the co-authors on this manuscript have done exactly this and found it an excellent return on investment.
-At the same time, not all co-authors have experience in many of the other use cases we present and may find them less useful depending on their needs.
-We do make an attempt to quantify the investment effort in Figure 2 already.
-We've added a supplemental document better explaining *how* we made these quantifications (see also our response to reviewer 2 [R2.2](#sec-R2.2)).
-However, we have taken the advice of reviewer 1 in other comments ([R1.4](#sec-R1.4), [R1.1](#sec-R1.1)) to reduce the number of use cases and re-order them.
+We appreciate this comment.
+While the attribution of a type of return of investment index to use cases could be interesting, we believe that such value can be highly biased, subjective and vary much among fields, laboratories, research culture, and individuals.
+For instance, while collaborative writing of a manuscript using GitHub may be seen as a strong time investment and an advanced usage, there is an increasing number of research articles adopting this features, such as XXXX, XXXX, XXXX, in addition to our manuscript.
+In these cases, most co-authors had little experience with effectively integrating Github tools to write a manuscript within the platform, and had to commit to learn and adopt proposed frameworks to achieve project completion.
+It is also difficult to measure return on investment on innovative tools that only recently took off, such as the usage of Github Actions in ecological research frameworks for data management, processing, and analysis (*e.g.*, in XXXX, XXXX, XXX). 
+As we mentioned, we appreciate this suggestion, however we think that the quantification of a ratio between investment of time and resources and returns when learning research aiding skills requires an in-depth individual study.  
+Taking this into account, our metric of cognitive requirement represented in Figure 2 considers the usefulness? or cognitive requirement? for learning this new tool (see also our response to [R2.2](#sec-R2.2)).
+Moreover, we have taken the advice of reviewer 1, and reduced and reordered the use cases (see our responses to [R1.4](#sec-R1.4) and [R1.1](#sec-R1.1)).
 :::
 
 ##### **R1.4.** In my experience, the project continuity is actually very high on the importance list for researchers, i.e., knowing that the code and data will be findable by the next student. This includes the discussion of organizing and managing teams, keeping lab information in one place etc. Followed by code versioning and the ability to go back to older versions. Interest in website development is picking up because it really is simple to do in GitHub, and the information can be maintained by several people (i.e., a lab group). {#sec-R1.4}
