@@ -12,41 +12,19 @@ jobs:
   editorial-communication-rendering:
     name: Render the editorial communication material
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: editorial-communication
         
     steps:
       - name: 🛎️ Checkout repository
         uses: actions/checkout@v2
-
-      - name: 💻 Setup R
-        uses: r-lib/actions/setup-r@v2
         
-      - name: 💾 Cache R packages
-        uses: actions/cache@v2 # Must be v2 so it accepts the GITHUB_REF from the repository_dispatch
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key:  r-${{ hashFiles('DESCRIPTION') }}
-
-      - name: 💻 Install pandoc and pandoc citeproc
-        uses: r-lib/actions/setup-pandoc@v1
-    
-      - name: 💻 Install R packages and dependencies if needed
-        run: |
-          Rscript -e 'list.of.packages <- c("rmarkdown", "bookdown", "formatR"); 
-          new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]; 
-          if(length(new.packages) > 0) {  
-          install.packages(new.packages, dependencies = TRUE)   
-          print(paste0("The following package was installed:", new.packages))} else 
-          if(length(new.packages) == 0) {
-          print("All packages have been previously installed and fetched from cache.")}'
-          
-      - name: 🧶 Render
-        run: Rscript -e 'rmarkdown::render("cover-letter-submission.Rmd")'
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         
       - name: 🧶 Render
-        run: Rscript -e 'rmarkdown::render("response-to-the-reviewers.Rmd")'
+        uses: quarto-dev/quarto-actions/render@v2
+        with: 
+          to: html
+          path: "editorial-communication"
         
       - name: 🔺 Upload artifact containing the letter
         uses: actions/upload-artifact@v1
