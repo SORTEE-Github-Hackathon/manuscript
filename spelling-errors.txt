@@ -14,7 +14,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-Braga
+braga
 BrandonEdwards
 Brookson
 Carleton
@@ -55,7 +55,7 @@ Grainger
 Guilan
 Güncan
 Hackathon
-hackMD
+HackMD
 Hébert
 helenweierbach
 Henrique
@@ -82,7 +82,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp

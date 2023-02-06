@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2023-02-05'
+date-meta: '2023-02-06'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2023-02-05" />
-  <meta name="citation_publication_date" content="2023-02-05" />
+  <meta name="dc.date" content="2023-02-06" />
+  <meta name="citation_publication_date" content="2023-02-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ac022f888171bd26895e5be7f44228e72d1a32ca/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ac022f888171bd26895e5be7f44228e72d1a32ca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ac022f888171bd26895e5be7f44228e72d1a32ca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/659dbf07d94474726c8403d04555afbb3a45da57/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/659dbf07d94474726c8403d04555afbb3a45da57/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/659dbf07d94474726c8403d04555afbb3a45da57/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ac022f888171bd26895e5be7f44228e72d1a32ca/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/659dbf07d94474726c8403d04555afbb3a45da57/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ac022f8](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ac022f888171bd26895e5be7f44228e72d1a32ca)
-on February 5, 2023.
+from [SORTEE-Github-Hackathon/manuscript@659dbf0](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/659dbf07d94474726c8403d04555afbb3a45da57)
+on February 6, 2023.
 </em></small>
 
 ## Authors
@@ -749,7 +749,7 @@ Initial discussion of publishing this manuscript began in July 2021 and all work
 
 ## Figures {.page_break_before}
 
-![An overview of Git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. `CONTRIBUTING.md`, `LICENCE.md`, and `README.md` files allow new team members, or others wanting to use materials, to understand the project components and learn how they can engage with the project and existing team members. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities](images/github_diagram.png){#fig:github-diagram}
+![An overview of Git's core features. A) Multi-faceted components allow for code writing, small data storage, manuscript writing, and project management to all be done in one place. `CONTRIBUTING.md`, `LICENCE.md`, and `README.md` files allow new team members, or others wanting to use materials, to understand the project components and learn how they can engage with the project and existing team members. B) Issues, Pull Requests, Discussions, and Projects allow for team members to ask for feedback, suggest fixes, discuss related ideas, and keep track of all the moving parts of a project. C) All collaborators on a project can be a part of a single repository, with varying push privileges and responsibilities.](images/Figure1.png){#fig:github-diagram}
 
 <!--Reference this figure in text like this (Figure @fig:github-diagram).-->
 
