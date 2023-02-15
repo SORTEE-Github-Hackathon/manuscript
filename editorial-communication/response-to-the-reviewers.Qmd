@@ -15,14 +15,18 @@ format:
 ::: {style="text-align: justify"}
 Dear Dr. XXX,
 
-We would like to thank you and the reviewers for the thoughtful comments and for the opportunity to submit a revised version of our manuscript "", for consideration for publication in Methods in Ecology and Evolution.
+We would like to thank you and the reviewers for the thoughtful comments and for the opportunity to submit a revised version of our manuscript "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution", for consideration for publication in Methods in Ecology and Evolution.
 
-We have addressed all the suggestions that you and the reviewers provided and, as before, we provide a point-by-point detailed response discussing each comment or suggestion.
+We have addressed all the suggestions that you and the reviewers provided. 
+We provide a point-by-point detailed response discussing each comment or suggestion.
 Our responses are mirror-indented, while the editor's and reviewers' comments are numbered.
 To facilitate the review, we have also included indented extracts from the text, highlighting the changes we made.
 The line numbers in our responses correspond to those in the revised manuscript.
 
-We have rewritten several sentences to improve their clarity, decrease the complexity and length of sections, and improved the readability of figures.
+Briefly, we have rewritten several sentences to improve their clarity, decrease the complexity and length of sections. 
+We also improved the readability of figures.
+
+We hope that our revision has further improved this manuscript. We thank you again for your time and for the opportunity to submit this revised version of the manuscript. We very much look forward to hearing from you.
 
 \[...\]
 
@@ -47,7 +51,7 @@ To address these recommendations, we: (1) added a brief paragraph in the introdu
 ::: {#ResponseE12 .response}
 **Response**: Thank you for this suggestion!
 We added a discussion on how repositories can be kept private to the section "Storing and sharing research compendia" (between lines XXX and XXX) and in the "Open science discussion" (between lines XXX and XXX).
-We emphasize that there should not be a trade-off between privacy, collaboration, and open science practices.
+We emphasized that there should not be a trade-off between privacy, using GitHub for collaboration, and open science practices.
 
 <!--# TODO: check that this response still makes sense after merging use case sections -->
 :::
@@ -59,7 +63,7 @@ This is a great point.
 We have added the following sentences to the end of the "Why aren't more EEB researchers using GitHub" section <!--# add line numbers -->:
 
 > Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis.
-> However we (and others, \_e.g.,\_ \[\@doi:10.1098/rspb.2022.1113\]) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
+> However, we (and others, \_e.g.,\_ \[\@doi:10.1098/rspb.2022.1113\]) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
 
 <!--# TODO: replace DOI above with rendered citation? -->
 :::
@@ -68,20 +72,18 @@ We have added the following sentences to the end of the "Why aren't more EEB res
 
 ::: {#ResponseE14 .response}
 Thank you for this recommendation!
-We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among other services to collaboratively write scientific manuscripts, in the section "Writing a manuscript" <!--# add line numbers -->.
+We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among other services to collaboratively write scientific manuscripts, in the section "Writing a manuscript" (between lines XXX and XXX) <!--# add line numbers -->.
 We refer to Table 1 for further details on these integrations.
 :::
-
 ##### **E1.5.** Finally, DropBox, SharePoint, and OneDrive are file-sharing systems that include version control, are widely supported, especially in colleges and universities, and are much easier to use for those who might be uncomfortable learning a system such as GitHub. Other than the ability to clone and fork, why should one choose GitHub over, for example, DropBox or SharePoint? More should be made of this in text, as opposed to burying it in Table 1, which is referenced only once in text (line 232) and only in the context of other longterm archives (line 231). Indeed, I suggest a somewhat expanded section of the ms. dedicated to a detailed exploration of the comparisons made in this Table. Otherwise, the ms. comes across as more proselytizing and less analytical/convincing. {#sec-E1.5}
 
 ::: {#ResponseE15 .response}
-We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are comfortable with tools that meet many or most of their needs.
+We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are already comfortable with tools that meet many or most of their needs.
 Rather than creating a new section, we identify specific points in the manuscript where we discuss how GitHub enables different and better types of collaboration and open science than alternative platforms, such as Dropbox or Google Suite.
 We added this discussion earlier in the manuscript, and now refer more often to Table 1.
 These changes are listed below:
 \
 
-\
 In the first paragraph of the introduction we made the text more concise throughout and also added new sentence <!--# add line number -->:
 
 > Of all these tools, GitHub is uniquely positioned (Table 1) to benefit scientists because the platform is designed to enable collaboration on computer code\--a fundamental component of modern research.
@@ -178,7 +180,7 @@ We have simplified it and it reads now as: "*Moreover, additional tools may be r
 Thank you once again!
 :::
 
-## Reviewer: 2 {#sec-R2}
+## Recommendations from Reviewer 2 (R2) {#sec-R2}
 
 ##### The manuscript presents how ecologists and evolutionary biologists (EEB) can use collaborative software development project management tools. The authors present a high-level view of Github and the Git version control system that is at its core. As the authors detail, the tools that Github provides has broad potential to be leveraged within the EEB community. The paper is well written and helps to make Github tools and related concepts legible to EEB audiences. On the whole, I see this as potentially being an impactful paper for improving EEB research. I have the following Major and Minor comments for the authors:
 
@@ -203,7 +205,9 @@ We now briefly discuss the origin of Git and its expansion to applications beyon
 ##### **R2.4.** I suggest adding a discussion on dependency testing within or following the paragraph on Automation (Lines 373-382). This is a project "ecosystem" phenomenon that comes from collaboration, where you build your project on the work of someone else. As projects change over time, they can alter other projects. Software engineers have been working on this challenge for a long time in distributed teams where different parts of software are being built by different programmers. Checks can be done automatically within the software engineering framework (see Pasquier et al. 2017 <https://www.nature.com/articles/sdata2017114>). Beyond detection, any major changes can be detected and presented without additional work from the user via features like badges (<https://shields.io/>) within the project page (e.g., README). {#sec-R2.4}
 
 ::: {#ResponseR24 .response}
-Response
+
+Thank you for this recommendation. We recognize that these are developments that have been increasingly encourage to be adopted in biological research. We now provide brief comments on how automation can aid unit testing of research code (between lines XXX and XXX), and that automation can also help the interpretation, integration and usage of data and software across different sources.
+
 :::
 
 ##### **R2.5.** Related to Major Comments 1 and 4, given that the focus of the paper is toward integration into EEB scientific research workflows, I suggest adding another figure (or replacing Figure 1) that details a generalized scientific research workflow (e.g., Munafò et al. 2017 <https://www.nature.com/articles/s41562-016-0021>) and how Github supports/augments that workflow. This could relate to or build on Table 2, which a useful summarization of important features as they relate to different research participants. {#sec-R2.5}
