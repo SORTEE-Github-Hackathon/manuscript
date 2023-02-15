@@ -2,13 +2,12 @@ Aariq
 Aclosed
 ADB
 adbinley
-advisees
 Aguncan
 Aissue
 aliguncan
 AllisonBinley
-analasys
 Associateship
+autograding
 Binley
 biogeography
 biologie
@@ -65,7 +64,6 @@ HW
 HWeierbach
 iDiv
 integrations
-ISBNs
 Jupyter
 Kaitlyn
 kaitlyngaynor
@@ -99,7 +97,6 @@ reproducibility
 RMarkdown
 robcrystalornelas
 rOpenSci
-rOpenSci’s
 RStudio
 Sabet
 Saeed
@@ -115,7 +112,6 @@ sPlotOpen
 SSHS
 Syllabi
 Torgarden
-txt
 Université
 vforoughirad
 vjf
