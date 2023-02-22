@@ -1,14 +1,16 @@
 ---
 title: Letter to the Editor
-subtitle: "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution"
-date: today
-date-format: long
-format:
-  html:
+author: "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
     theme: cosmo 
-    highlight-style: tango
-    embed-resources: true
+    highlight: tango
+    self_contained: true
 ---
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.retina = 2)
+```
 
 Dear Editor,
 
