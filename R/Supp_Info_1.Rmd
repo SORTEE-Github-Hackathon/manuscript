@@ -28,12 +28,15 @@ header-includes:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
 library(googlesheets4)
 library(here)
 library(readr)
+
 scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
 uses <- scatterblob_data$`Ways to use GitHub`
 column_names <- colnames(scatterblob_data[1:8])
+
 ```
 
 ## Study
@@ -51,9 +54,10 @@ For this, we estimated the perceived degree of collaboration and the perceived l
 
 **Degree of collaboration**
 
-_Each author attributed a value ranging from 1 to 10 to their perceived degree of collaboration for a use case, with one representing a use case that offer very low advantages in terms of collaboration, while ten classified that use case as highly advantageous in terms of collaboration._
+Each author attributed a value ranging from 1 to 10 to their perceived degree of collaboration for a use case, with one representing a use case that offer very low advantages in terms of collaboration, while ten classified that use case as highly advantageous in terms of collaboration.
 
-We determined the degree of collaboration for each GitHub use case as the range of collaborative contexts that can be achieved with each tool, as perceived by the authors. We identified the five levels of possible collaboration in the context of Ecology and Evolutionary Biology research, as follows:
+We determined the degree of collaboration for each GitHub use case as the range of collaborative contexts that can be achieved with each tool, as perceived by the authors.
+We identified the five levels of possible collaboration in the context of Ecology and Evolutionary Biology research, as follows:
 
 | Level |           Degree of collaboration |
 | ----: | --------------------------------: |
@@ -63,20 +67,22 @@ We determined the degree of collaboration for each GitHub use case as the range 
 |     4 |            The research community |
 |     5 |                The general public |
 
-We determined the minimum and maximum degree of collaboration from these levels for each GitHub use case.
+Finally, we determined the minimum and maximum degree of collaboration from these levels for each GitHub use case.
 
 **Technical difficulty**
 
 We then assessed the technical difficulty of GitHub use cases in terms of their cognitive load. 
 
-As a note, we measured the perceived technical difficulty of each GitHub use case as the degree of difficulty as perceived by the authors, based on personal experience. This metric represents a consensus value among the authors, though the perceived degree of difficulty will ultimately vary among GitHub users depending on each person's previous experience with these use cases.
+We measured the perceived technical difficulty of each GitHub use case as the degree of difficulty as perceived by the authors, based on personal experience. 
+This metric represents a consensus value among the authors, though the perceived degree of difficulty will ultimately vary among GitHub users depending on each person's previous experience with these use cases.
 
 The table we used to quantify cognitive load was assembled collaboratively using Google Sheets, then manually saved as a `CSV` file called `cognitive_load_table.csv` in the `data` folder. 
+Specifically, :
 
-1.  We first created a list of skills that are needed to implement different GitHub uses. These occupied a column each. 
-2.  For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and 0 if the skill was not needed.
-3.  The sum of values across columns provides a measure of cognitive load required for a user that is a "GitHub beginner" to implement any GitHub use. The column *`r column_names[3]`* reflects this number.
-4.  As many GitHub uses tied with the same cognitive load value, we resourced to perceived difficulty to break ties and avoid overlap of uses in the figure, mainly to improve visualization of the data. The column *`r column_names[5]`* shows this adjustment.
+1.  We first created a list of skills that are needed to implement different GitHub uses. These occupied a column each; 
+2.  For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and 0 if the skill was not needed;
+3.  The sum of values across columns provides a measure of cognitive load required for a user that is a "GitHub beginner" to implement any GitHub use. The column *`r column_names[3]`* reflects this number;
+4.  As many GitHub uses tied with the same cognitive load value, we resourced to perceived difficulty to break ties and avoid overlap of uses in the figure, mainly to improve visualization of the data. The column *`r column_names[5]`* shows this adjustment;
 5.  Finally, we ordered the GitHub uses in increasing order following *`r column_names[5]`*, and assigned a sequential value of cognitive load, from 1 to *maximum number of GitHub uses*. This is column *`r column_names[4]`*
 
 The collaborative Google Sheet used to quantify cognitive load is also available at the following link: [https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0](https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0).
@@ -93,7 +99,7 @@ We used Google Docs and Google Sheets to collect and manipulate data, and plotte
 ### Data collection
 
 These data were assembled collaboratively using Google Docs following the methodology described in Appendix S1.1. then manually saved as a `CSV` file called `scatterblob_data_raw.csv` in the `data` folder. 
-The collaborative Google Spreadsheet is also accessible at the following link: [https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/edit#gid=0). 
+The collaborative Google Spreadsheet is also accessible at the following link: [https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8). 
 
 The data table features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:13], collapse = "; " )`).
 
@@ -113,7 +119,8 @@ scatterblob_data$x1 <- scatterblob_data$`Min degree of collaboration X1`
 scatterblob_data$x2 <- scatterblob_data$`Max degree of collaboration X2`
 scatterblob_data$y_real <- scatterblob_data$`Cognitive load - real - non-overlapping`
 scatterblob_data$y_seq <- scatterblob_data$`Cognitive load - sequential`
-my_data <- scatterblob_data[1:13,c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
+my_data <- scatterblob_data[-6, c("Ways to use GitHub","y_seq", "y_real", "x1", "x2")]
+my_data$y_seq <- 1:12
 ```
 
 ```{r}
@@ -122,11 +129,22 @@ outpath <- here("content", "images")
 
 3. Plotting cognitive load
 
-We used the color palette "turbo" from the R package [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales):
+We used the colour palette `turbo` from the R package [`viridis`](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales):
 
 ```{r}
-my_colors <- viridis::turbo(n = 100, alpha = 0.9)[c(2, 5, 15, 26, 28, 30,
-                           68, 72, 76, 80, 84, 94, 100)]
+my_colors <- viridis::turbo(n = 100, alpha = 0.9)[c(2, 
+                                                    5, 
+                                                    15, 
+                                                    26, 
+                                                    30,
+                                                    68, 
+                                                    72, 
+                                                    76,
+                                                    80,
+                                                    84,
+                                                    94,
+                                                    100)]
+
 plot_name <- "scatterblob_1-viridis-turbo"
 
 ###############################################################
@@ -150,7 +168,7 @@ par(xpd = NA,
 # create the plot background
 ###############################################################
 plot(x = c(0.5, 5.5),
-     y = c(0.5, 13.5),
+     y = c(0.5, 12.5),
      xlab = "",
      ylab = "",
      col = "white",
@@ -182,7 +200,7 @@ text(x = c(1, 3, 5),
 
 # Technical difficulty levels from https://www.londonschool.com/level-scale/
 text(x = 0.2,
-     y = seq(1, 13, length.out = 5),
+     y = seq(1, 12, length.out = 5),
      cex = 0.7,
      adj = 1,
      labels = c("Beginner",
@@ -217,6 +235,7 @@ text(x = 5.5,
     labels = my_data$`Ways to use GitHub`,
     adj = 0,
     col = my_colors)
+
 dev.off()
 ```
 
