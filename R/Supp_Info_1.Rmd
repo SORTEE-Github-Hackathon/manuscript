@@ -54,7 +54,7 @@ For this, we estimated the perceived degree of collaboration and the perceived l
 
 **Degree of collaboration**
 
-Each author attributed a value ranging from 1 to 10 to their perceived degree of collaboration for a use case, with one representing a use case that offer very low advantages in terms of collaboration, while ten classified that use case as highly advantageous in terms of collaboration.
+_Each author attributed a value ranging from 1 to 10 to their perceived degree of collaboration for a use case, with one representing a use case that offer very low advantages in terms of collaboration, while ten classified that use case as highly advantageous in terms of collaboration._
 
 We determined the degree of collaboration for each GitHub use case as the range of collaborative contexts that can be achieved with each tool, as perceived by the authors.
 We identified the five levels of possible collaboration in the context of Ecology and Evolutionary Biology research, as follows:
