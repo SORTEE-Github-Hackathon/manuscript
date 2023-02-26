@@ -33,6 +33,7 @@ library(googlesheets4)
 library(here)
 library(readr)
 library(dplyr)
+library(kableExtra)
 
 scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
 uses <- scatterblob_data$`Ways to use GitHub`
@@ -56,15 +57,17 @@ For this, we estimated the perceived degree of collaboration and the perceived l
 **Degree of collaboration**
 
 We determined the degree of collaboration for each GitHub use case as the range of collaborative contexts that can be achieved with each tool, as perceived by the authors.
-We identified the five levels of possible collaboration in the context of Ecology and Evolutionary Biology research, as follows:
+We attributed five levels of possible collaboration in the context of ecology and evolutionary biology research (see Table S1.1).
 
-| Level |           Degree of collaboration |
-| ----: | --------------------------------: |
-|     1 |                        Individual |
-|     2 |     Lab or group of collaborators |
-|     3 | An organisation, or multiple labs |
-|     4 |            The research community |
-|     5 |                The general public |
+**Table S1.1.** Classification of depress of collaboration attributed to the use cases for GitHub in research in the field of ecology and evolutionary biology.
+
+| Level |           Degree of collaboration         |
+| ----: | ----------------------------------------: |
+|     1 |                                Individual |
+|     2 |      Laboratory or group of collaborators |
+|     3 |         An organisation, or multiple labs |
+|     4 |                    The research community |
+|     5 |                        The general public |
 
 Finally, we determined the minimum and maximum degree of collaboration from these levels for each GitHub use case.
 
@@ -79,10 +82,10 @@ The table we used to quantify cognitive load was assembled collaboratively using
 Specifically, :
 
 1.  We first created a list of skills that are needed to implement different GitHub uses. These occupied a column each; 
-2.  For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and 0 if the skill was not needed;
+2.  For each GitHub use listed on the first column, we went through each column, and marked a 1 if a skill was needed for that particular GitHub use, and zero if the skill was not needed;
 3.  The sum of values across columns provides a measure of cognitive load required for a user that is a "GitHub beginner" to implement any GitHub use. The column *`r column_names[3]`* reflects this number;
 4.  As many GitHub uses tied with the same cognitive load value, we resourced to perceived difficulty to break ties and avoid overlap of uses in the figure, mainly to improve visualization of the data. The column *`r column_names[5]`* shows this adjustment;
-5.  Finally, we ordered the GitHub uses in increasing order following *`r column_names[5]`*, and assigned a sequential value of cognitive load, from 1 to *maximum number of GitHub uses*. This is column *`r column_names[4]`*
+5.  Finally, we ordered the GitHub uses in increasing order following *`r column_names[5]`*, and assigned a sequential value of cognitive load, from one to *maximum number of GitHub uses*. This is column *`r column_names[4]`*.
 
 The collaborative Google Sheet used to quantify cognitive load is also available at the following link: [https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0](https://docs.google.com/spreadsheets/d/1YipCCdg5Z8w-IQO67rFfMBSTpLjO-_7HiW44gqzTXPM/edit#gid=0).
 
@@ -103,8 +106,10 @@ The collaborative Google Spreadsheet is also accessible at the following link: [
 
 \newpage
 
-```{r, echo = FALSE}
-to_print = scatterblob_data[-6,-c(2,3,5,9:11)]
+\captionsetup[table]{labelformat=empty}
+
+```{r table, echo=F}
+to_print = scatterblob_data[-6,-c(2, 3, 5,9:11)]
 colnames(to_print) = c("GitHub Use Cases", 
                        "Cognitive Load",
                        "Technical Difficulty",
@@ -112,8 +117,9 @@ colnames(to_print) = c("GitHub Use Cases",
                        "Degree of Collaboration (Maximum)")
 knitr::kable(to_print, 
              label = "data",
-             caption = "Indices of technical difficulty and degree of collaboration for each GitHub use case. The first column lists the GitHub use cases that were addressed in the main text. Indices were assessed collaboratively following the steps in Appendix S1.1.",
-              align = c('l','c','c','c','c')) %>% 
+             caption = "'\\textbf{Table S1.2.} Indices of technical difficulty and degree of collaboration for each GitHub use case. The first column lists the GitHub use cases that were addressed in the main text. Indices were assessed collaboratively following the steps in Appendix S1.1.",
+             align = c('l','c','c','c','c'),
+             booktabs = T) %>% 
   kableExtra::column_spec(1, width = "3.5cm") %>%
   kableExtra::column_spec(2:5, width = "2cm")
 ```
