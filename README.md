@@ -29,13 +29,18 @@ In this section you'll find a few important links to help us keep track of docum
   - [Oct 2021](https://hackmd.io/@SORTEE-Github-Hackathon/HkCsWuNLY)  
   - [Aug 2021](https://hackmd.io/@SORTEE-Github-Hackathon/H1NwRum4K)  
 
-**Project deadlines**
+**Project deadlines and dates**
 - **March 16, 2022**: figures and tables complete
 - **March 30, 2022**: everyone does read through for general edits
 - **April 13, 2022**: Several authors do final detailed read through
 - **April 27, 2022**: Everyone approved before submission
 - **June 1, 2022**: Submit! :tada:
-
+- **August 11, 2022**: Submitted to NEE! 
+- **October 27, 2022**: Submitted to Methods in Ecology and Evolution;
+- **November 17, 2022**: Returned for Major Revisions;
+- **March 5, 2023**: Last date for coauthor approval of the revision, response letter, authorship order, and author contributions;
+- **March 9, 2023**: Deadline for the submission of the revision.
+ 
 ## Contributing
 
 A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
