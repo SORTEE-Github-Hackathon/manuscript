@@ -22,6 +22,7 @@ cheatsheets
 Ciera
 citable
 CLI
+CNPq
 Colab
 colebrookson
 compendia
@@ -46,6 +47,7 @@ Foroughirad
 Friederike
 Gainesville
 Gaynor
+GDE
 GitKraken
 GitLab
 Git’s
@@ -80,7 +82,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 pedrohbraga
 pedrohp
@@ -110,6 +112,7 @@ SORTEE
 Sowmeh
 sPlotOpen
 SSHS
+SwB
 Syllabi
 Torgarden
 Université

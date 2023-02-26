@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afbbe55b2ad8febebb104fc9358170f15b3a4596/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afbbe55b2ad8febebb104fc9358170f15b3a4596/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/afbbe55b2ad8febebb104fc9358170f15b3a4596/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/afbbe55b2ad8febebb104fc9358170f15b3a4596/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@afbbe55](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/afbbe55b2ad8febebb104fc9358170f15b3a4596)
+from [SORTEE-Github-Hackathon/manuscript@dd2c5af](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/dd2c5af597f1c7b6482aa346aca45b009ab10d25)
 on February 26, 2023.
 </em></small>
 
@@ -718,28 +718,31 @@ We indicate author contributions using the [CRediT Taxonomy](https://casrai.org/
 - Conceptualization: RCO, BPME, KH, EJH, LLSR, PHPB
 - Investigation: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
 - Methodology: RCO, BPME, KH, EJH, LLSR, PHPB
-- Project administration: RCO
+- Project Administration: RCO, PHPB
 - Software: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
 - Visualization: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-- Writing – original draft: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
-- Writing – review and editing: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Writing - Original Draft: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
+- Writing - Review and Editing: RCO, BPME, KH, EJH, LLSR, ERS, MJG, VF, ADB, CBB, KMG, SSHS, AG, FH, HW, DGEG, PHPB
 - Resources: PHPB
+- Revisions: PHPB, ERS, RCO, KH, EH, FH
 
 ## Acknowledgements
 
 This manuscript arose from a hackathon at the Society for Open, Reliable, and Transparent Ecology and Evolution (SORTEE) virtual meeting in July 2021. 
 We thank Ciera Martinez for being a co-organizer of the SORTEE hackathon that started our discussion on GitHub in EEB and for creating our hackathon website on GitHub.
 
-RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231.
+RCO was funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Environmental Sciences Division, Data Management program under contract number DE-AC02-05CH11231. 
+PHPB was supported by the Science without Borders program and the Brazilian National Council for Research and Technological Development (CNPq-SwB-GDE 142493/2013-0).
 
 ## Code and data availability
 
 The source code and data for this manuscript are available at <https://github.com/SORTEE-Github-Hackathon/manuscript>. 
 The source code will be archived in the ESS-DIVE data repository prior to publication.
 
-## Ethics declarations - Competing interests
-RCO was recently offered a position to work at GitHub (on July 15, 2022) and will start employment at GitHub on August 23, 2022.
-Initial discussion of publishing this manuscript began in July 2021 and all work on the manuscript took place while RCO was an employee at Lawrence Berkeley National Laboratory.
+## Conflict of Interest Statement
+On July 15, 2022, RCO was offered a position to work at GitHub and became an employee on August 23, 2022.
+Initial discussion of publishing this manuscript began in July 2021 and all work on the manuscript prior to the first revision was done while RCO was an employee at Lawrence Berkeley National Laboratory.
+The authors declare that there is no conflict of interest that could be perceived as prejudicing the impartiality of the research reported.
 
 ## Figures {.page_break_before}
 
