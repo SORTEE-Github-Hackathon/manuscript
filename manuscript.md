@@ -113,9 +113,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1762a2ed3bf279cca9b4be82485b466dcc2b1623/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1762a2ed3bf279cca9b4be82485b466dcc2b1623/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1762a2ed3bf279cca9b4be82485b466dcc2b1623/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,9 +137,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/dd2c5af597f1c7b6482aa346aca45b009ab10d25/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1762a2ed3bf279cca9b4be82485b466dcc2b1623/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@dd2c5af](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/dd2c5af597f1c7b6482aa346aca45b009ab10d25)
+from [SORTEE-Github-Hackathon/manuscript@1762a2e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1762a2ed3bf279cca9b4be82485b466dcc2b1623)
 on February 26, 2023.
 </em></small>
 
@@ -750,7 +750,7 @@ The authors declare that there is no conflict of interest that could be perceive
 
 <!--Reference this figure in text like this (Figure @fig:github-diagram).-->
 
-![A summary of ways GitHub can be used showing technical difficulty and degree of collaboration for each. Activities higher on the vertical axis require usage knowledge of more GitHub features than activities lower on the axis.  On the horizontal axis, each activity spans a region representing who is potentially involved with or benefits from each activity.  For example, storing data and code mainly benefits individual researchers or members of a lab group while making data and code citable and reproducible benefit other labs and the larger community as well. Independently of a users knowledge level of GitHub features, there are ways to use GitHub that allow tapping unto one of the most salient benefits of the platform: facilitating and enhancing collaboration.](images/scatterblob_1-viridis-turbo.png){#fig:scatterblob}
+![A summary of ways GitHub can be used showing technical difficulty and degree of collaboration for each. Activities higher on the vertical axis require usage knowledge of more GitHub features than activities lower on the axis.  On the horizontal axis, each activity spans a region representing who is potentially involved with or benefits from each activity.  For example, storing data and code mainly benefits individual researchers or members of a laboratory while making data and code citable and reproducible benefit other labs and the larger community as well. Independently of ones knowledge of GitHub features, there are ways to use GitHub that allow tapping unto one of the strongest benefits of the platform: facilitating and enhancing collaboration. For information on the methods and the data used to create this figure, see Appendix S1.1, Appendix S1.2, and Tables S1.1 and S1.2.](images/scatterblob_1-viridis-turbo.png){#fig:scatterblob}
 
 <!--Reference this figure in text like this (Figure @fig:scatterblob).-->
 
