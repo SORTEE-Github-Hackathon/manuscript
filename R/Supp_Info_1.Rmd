@@ -32,6 +32,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(googlesheets4)
 library(here)
 library(readr)
+library(dplyr)
 
 scatterblob_data <- read_csv(here("data", "scatterblob_data_raw.csv"))
 uses <- scatterblob_data$`Ways to use GitHub`
@@ -53,8 +54,6 @@ We aimed at distributing the use cases discussed in our study across gradients o
 For this, we estimated the perceived degree of collaboration and the perceived level of technical difficulty for each use case.
 
 **Degree of collaboration**
-
-_Each author attributed a value ranging from 1 to 10 to their perceived degree of collaboration for a use case, with one representing a use case that offer very low advantages in terms of collaboration, while ten classified that use case as highly advantageous in terms of collaboration._
 
 We determined the degree of collaboration for each GitHub use case as the range of collaborative contexts that can be achieved with each tool, as perceived by the authors.
 We identified the five levels of possible collaboration in the context of Ecology and Evolutionary Biology research, as follows:
@@ -101,7 +100,25 @@ We used Google Docs and Google Sheets to collect and manipulate data, and plotte
 These data were assembled collaboratively using Google Docs following the methodology described in Appendix S1.1. then manually saved as a `CSV` file called `scatterblob_data_raw.csv` in the `data` folder. 
 The collaborative Google Spreadsheet is also accessible at the following link: [https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8/](https://docs.google.com/spreadsheets/d/1zCRgctjfjE2xZN9MkqfFh222K6bvVvA3gT0UdkL_CS8). 
 
-The data table features a first column listing the ways to use GitHub that were addressed in the manuscript (`r paste0(uses[1:13], collapse = "; " )`).
+
+\newpage
+
+```{r, echo = FALSE}
+to_print = scatterblob_data[-6,-c(2,3,5,9:11)]
+colnames(to_print) = c("GitHub Use Cases", 
+                       "Cognitive Load",
+                       "Technical Difficulty",
+                       "Degree of Collaboration (Minimum)",
+                       "Degree of Collaboration (Maximum)")
+knitr::kable(to_print, 
+             label = "data",
+             caption = "Indices of technical difficulty and degree of collaboration for each GitHub use case. The first column lists the GitHub use cases that were addressed in the main text. Indices were assessed collaboratively following the steps in Appendix S1.1.",
+              align = c('l','c','c','c','c')) %>% 
+  kableExtra::column_spec(1, width = "3.5cm") %>%
+  kableExtra::column_spec(2:5, width = "2cm")
+```
+
+\newpage
 
 ### Creating Figure 2: A summary of ways GitHub can be used showing technical difficulty and degree of collaboration for each use case.
 
