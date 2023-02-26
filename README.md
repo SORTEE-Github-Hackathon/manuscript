@@ -35,7 +35,8 @@ In this section you'll find a few important links to help us keep track of docum
 - **April 13, 2022**: Several authors do final detailed read through
 - **April 27, 2022**: Everyone approved before submission
 - **June 1, 2022**: Submit! :tada:
-- **August 11, 2022**: Submitted to NEE! 
+- **August 11, 2022**: Submitted to Nature Ecology and Evolution;
+- **August 22, 2022**: Declined;
 - **October 27, 2022**: Submitted to Methods in Ecology and Evolution;
 - **November 17, 2022**: Returned for Major Revisions;
 - **March 5, 2023**: Last date for coauthor approval of the revision, response letter, authorship order, and author contributions;
