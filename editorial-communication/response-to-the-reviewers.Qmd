@@ -20,7 +20,7 @@ We would like to thank you and the reviewers for the thoughtful comments and for
 We have addressed all the suggestions that you and the reviewers provided. 
 We provide a point-by-point detailed response discussing each comment or suggestion.
 Our responses are mirror-indented, while the editor's and reviewers' comments are numbered.
-To facilitate the review, we have also included indented extracts from the text, highlighting the changes we made.
+To facilitate the review, we have also included indented extracts from the text, which are indented and displayed in a gray colour.
 The line numbers in our responses correspond to those in the revised manuscript.
 
 Briefly, we have rewritten several sentences to improve their clarity, decrease the complexity and length of sections. 
@@ -53,58 +53,71 @@ To address these recommendations, we: (1) added a brief paragraph in the introdu
 We added a discussion on how repositories can be kept private to the section "Storing and sharing research compendia" (between lines XXX and XXX) and in the "Open science discussion" (between lines XXX and XXX).
 We emphasized that there should not be a trade-off between privacy, using GitHub for collaboration, and open science practices.
 
-<!--# TODO: check that this response still makes sense after merging use case sections -->
+> GitHub allows administrative control over who can view and modify repositories, and the process of cloning, forking and suggesting changes through pull requests (see Box 1) ensures code owners have full control over code and documents. 
+> Repositories can be changed from public to private, allowing data storage and management without sacrificing the privacy that may be necessary for certain compendia. With this, researchers can grant collaborators read and/or write access to files in private repositories to pursue pre-publication analyses or writing in privacy.
+
 :::
 
 ##### **E1.3.** Another reason that many EEBers don't use GitHub appears to be related to how we develop code for projects. Unless we are developing packages that others are likely to use, we tend to develop one-off scripts or functions that, once they work and are run, are never returned to. Version control is not used widely, or even needed in these cases (and my own work in software engineering provenance software has similarly had little uptake for the same reasons). I recognize that this makes it difficult to document the processes involved, but if the goal is simply to analyze the data at hand and push out another paper, why deal with the overhead of version control? At root, this is a sociological phenomenon, not a scientific one. Within your ms., consider saying something about how even one-off scripts may need to be documented, archived, and assigned a DOI to conform to evolving archiving requirements of journals. {#sec-E1.3}
 
 ::: {#ResponseE13 .response}
-This is a great point.
+**Response**: This is a great point.
 We have added the following sentences to the end of the "Why aren't more EEB researchers using GitHub" section <!--# add line numbers -->:
 
-> Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis.
-> However, we (and others, \_e.g.,\_ \[\@doi:10.1098/rspb.2022.1113\]) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
+> Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis. 
+> However, we (and others, _e.g._ Gomes _et al._, 2022a) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
 
-<!--# TODO: replace DOI above with rendered citation? -->
 :::
 
 #### **E1.4.** I am surprised you didn't include integration between GitHub and Overleaf. Overleaf is also a good collaborative latex-based text processor, and provides syncing with GitHub (and Dropbox) in a way that will be more familiar to beginning users. (Actually, I eventually found it buried in Table 1) {#sec-E1.4}
 
 ::: {#ResponseE14 .response}
-Thank you for this recommendation!
+**Response**: Thank you for this recommendation!
 We now discuss the possibility of integrating GitHub into existing workflows on Overleaf, Google Drive, and DropBox among other services to collaboratively write scientific manuscripts, in the section "Writing a manuscript" (between lines XXX and XXX) <!--# add line numbers -->.
-We refer to Table 1 for further details on these integrations.
+We refer to Table 1 for further details on these integrations. The changes appear as below:
+
+> Incorporating GitHub into the process of writing a manuscript does not necessarily mean pivoting to an entirely new workflow. For instance, authors who prefer writing in LaTeX or Markdown can synchronize Overleaf (https://overleaf.com), HackMD (https://hackmd.io), and other platforms directly with a GitHub repository. 
+> Similar GitHub integrations are available for projects stored in DropBox, Google Drive, among other popular tools familiar to many scientists and their collaborators (Table 1).
+
 :::
+
 ##### **E1.5.** Finally, DropBox, SharePoint, and OneDrive are file-sharing systems that include version control, are widely supported, especially in colleges and universities, and are much easier to use for those who might be uncomfortable learning a system such as GitHub. Other than the ability to clone and fork, why should one choose GitHub over, for example, DropBox or SharePoint? More should be made of this in text, as opposed to burying it in Table 1, which is referenced only once in text (line 232) and only in the context of other longterm archives (line 231). Indeed, I suggest a somewhat expanded section of the ms. dedicated to a detailed exploration of the comparisons made in this Table. Otherwise, the ms. comes across as more proselytizing and less analytical/convincing. {#sec-E1.5}
 
 ::: {#ResponseE15 .response}
-We think this is a good point since many readers may not immediately see the value in a time investment to learn a new tool when they are already comfortable with tools that meet many or most of their needs.
-Rather than creating a new section, we identify specific points in the manuscript where we discuss how GitHub enables different and better types of collaboration and open science than alternative platforms, such as Dropbox or Google Suite.
+We think this is a good point, as many readers may not immediately see the value in a time investment to learn a new tool when they are already comfortable with tools that meet most of their needs.
+To keep with the recommendations to decrease the complexity and the length of the manuscript, we refrained from creating a new section. 
+To address your recommendation, we identify specific points in the manuscript where we discuss how GitHub enables different and better types of collaboration and open science in relation to alternatives (such as Dropbox or Google Suite).
 We added this discussion earlier in the manuscript, and now refer more often to Table 1.
 These changes are listed below:
 \
 
-In the first paragraph of the introduction we made the text more concise throughout and also added new sentence <!--# add line number -->:
+In the first paragraph of the introduction, we made the text more concise and also added the following sentence (between lines XXX and XXX):
 
-> Of all these tools, GitHub is uniquely positioned (Table 1) to benefit scientists because the platform is designed to enable collaboration on computer code\--a fundamental component of modern research.
+> Within the spectrum of cloud-based services for collaboration, GitHub is uniquely positioned (Table 1) to benefit scientists because it is designed to store, track changes, and enable collaboration on computer code – fundamental components of modern research.
 
-In the second paragraph we added <!--# add line number -->:
+To the second paragraph, we added (between lines XXX and XXX):
 
-> Additionally, unlike sharing documents and code via DropBox or Google Drive links, GitHub defaults to public sharing of code and documents and has features like Issues and Discussions (see Box 1) that can immediately and directly contribute to more open science and knowledge sharing.
+> Beyond storage and record-tracking, file management in GitHub is integrated with several communication features, allowing users to engage in discussions, to plan and collaborate in code, and publish information to a webpage (Github Issues, Github Discussions, Github Pages; see Box 1). 
+> These features contrast with traditional practices of directly sharing files through email, other cloud-based services or physical storage units, which become challenging and time-consuming in long-term and collaborative projects (Ram, 2013). 
+> By allowing users to easily integrate versioning, communication, collaboration with research code and data, Github paves the way for easier implementation of open science practices within research projects (Perez-Riverol et al., 2016).
 
-Under the "storing a research compendium section" we added <!--# add line number -->:
+We added the following sentences to the "Storing a research compendia" section (between lines XXX and XXX):
 
-> While some EEB researchers may prefer to store their code in Google Drive or DropBox, the process of sharing code through these services becomes cumbersome when collaborators have to download and re-upload edited code.\
->
-> On GitHub, code is by default public, and the process of forking and submitting pull requests (see Box 1) ensures a code owner has full control over code and documents in a repository.
+> Many researchers begin using GitHub to backup their research compendium (Marwick et al., 2018) into a centralized, readily-available remote server (see Box 1). This practice has the advantages of facilitating collaboration, integrating data and code archiving, allowing file versions to be accessed and restored, and further contributing to open science practices (Borghi & Van Gulick (2022)). Every change made to files in version-controlled repositories accompany authored descriptions of modifications (Box 1). 
 
 In the first paragraph of discussion we added <!--# add line number -->:
 
-> While tools like the Google Suite and DropBox enable rapid sharing and collaboration of some research documents, GitHub brings together features that directly address open science such as tools for soliciting public discussions on code and findings, tracking multiple rounds of edits to files in a sensible way for easy review, and managing complex research projects with many collaborators and goals.
+> While tools like the Google Suite and DropBox enable rapid sharing and collaboration of some research documents, GitHub brings together features that directly integrate open science practices, such as the association of public discussions with data, code and findings, tracking multiple rounds of edits to files in a sensible way for easy review, and managing complex research projects with many collaborators and goals.
 
 And finally, in the discussion, under "Why aren't more EEB researchers using Github", we added <!--# add line number -->:
 
 > And with institutional availability of software licenses for tools like the Google Suite or Microsoft Office, researchers may be hesitant to spend valuable time learning another tool.
+
+We also note that GitHub falls short in certain features that exist or work better in other platforms, within the "Other platforms section":
+
+> First, real-time document editing is still best performed on other platforms (e.g., cloud-stored documents from Microsoft Word, Google Docs, HackMD (https://hackmd.io/)). Second, operations that are dependent on software requiring graphical user interfaces might not be easily achievable in GitHub, such as designing and manipulating figures or tables. 
+> While creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (e.g., Google Slides, Google Sheets; but see GitHub Discussions).
+
 :::
 
 ### Recommendations from Reviewer 1 (R1) {#sec-R1}
@@ -117,38 +130,42 @@ And finally, in the discussion, under "Why aren't more EEB researchers using Git
 Thank you for this recommendation! We agree that the many sections could be restructured to become more concise and clearer.
 To address this recommendation, we did the following: (1) to reduce repetition and jargon in the use cases sections, we added a paragraph to the introduction <!--# add line numbers --> explaining basic Git and Github workflows.
 We also cited resources for learning how to use tools.
-These changes allowed us to focus on the usefulness of these tools for research in ecology and evolution.
-(2) We removed the "laboratory notebooks" section and merged part of its contents into the X section, which allowed us to further shorten the text; and, (3) [...].
+These changes allowed us to focus on the usefulness of these tools for research in ecology and evolution;
+(2) we removed the "laboratory notebooks" section and merged part of its contents into the other sections section, which allowed us to further shorten the text; and, (3) we performed an extensive review of the text to clarify and shorten sentences.
 
- <!--# This comment does not seem to fit within this section  -->
-In regards to the specific suggestion about deprioritizing GitHub communication tools, we believe these are extremely useful alternatives to reply-all email chains for a variety of reasons and have attempted to improve the clarity of this section of our manuscript \[end of project management section\].
 :::
 
 ##### **R1.2.** The title and abstract gave me the impression that the goal is to convince EEB researcher to start using GitHub. If that's the case, it might be better to tailor the use cases to that entry level and use less GitHub specific lingo. Advanced usage may be mentioned but not detailed as much as it is currently done. E.g. collaboratively writing a paper in GitHub is probably out of the question for most. Most GitHub options for communication, discussion, issue tracking are still somewhat esoteric for most non-programmers. {#sec-R1.2}
 
 ::: {#ResponseR12 .response}
+We thank you for this suggestion and we agree that the narrative could be simplified to convince researchers to adopt GitHub for certain of their practices. 
 Following our modifications to address [R1.1](#sec-R1.1) and [E1.1](#sec-E1.1), we reduced jargon, simplified the narrative, and focused more in the advantages of the features GitHub provide to improve the research workflow in ecology and evolution.
-We also clarify to the reader that the objective of the manuscript is not to instruct how these tools.
- <!--# Self-note: This comment needs improvement, as it is not very convincing. -->
+We also clarify to the reader that the objective of the manuscript is not to instruct how these tools work.
+We still mention certain advanced tools, but we refer the reader to additional learning resources instead of describing them in the manuscript.
+
 :::
 
 ##### **R1.3.** Although the abstract states 'We outline features ranging from low to high technical difficulty' the paper reads a bit like a laundry list of what GitHub can do (in fact, the word 'can' is used about 140 times, which makes for tedious read). Figure 2 helps sort through this laundry list and defines the technical difficulty. It might be better to clearly lay out where anybody can start using GitHub effectively in the text. And the emphasis is on 'effectively'. Most people are not likely to learn a new piece of software if it does not promise to reduce effort and time. So, defining tasks where GitHub shines in terms of return on investment maybe the better approach to convincing new users and then only mention the advance use cases with some pointers to further reading, but not going into too much detail. {#sec-R1.3}
 
 ::: {#ResponseR13 .response}
-We appreciate this comment.
+We appreciate this suggestion.
 While the attribution of a type of return of investment index to use cases could be interesting, we believe that such value can be highly biased, subjective and vary much among fields, laboratories, research culture, and individuals.
-For instance, while collaborative writing of a manuscript using GitHub may be seen as a strong time investment and an advanced usage, there is an increasing number of research articles adopting this features, such as XXXX, XXXX, XXXX, in addition to our manuscript.
+For instance, while collaborative writing of a manuscript using GitHub may be seen as a strong time investment and an advanced usage, there is an increasing number of research articles using GitHub to write manuscripts, such as Halie et al. (arXiv:2102.01521, 2021),  Halie et al. (mSystems.00233-21, 2021), Lordan et al. (mSystems.00122-21, 2021),  Rando et al. (CEUR.2976.2, 2022), Sabatini et al. (Global Ecology and Biogeogrpahy, 2021), Le et al. (Cell Systems, 2021), and many more (see https://manubot.org/catalog/; in addition to our manuscript).
 In these cases, most co-authors had little experience with effectively integrating Github tools to write a manuscript within the platform, and had to commit to learn and adopt proposed frameworks to achieve project completion.
-It is also difficult to measure return on investment on innovative tools that only recently took off, such as the usage of Github Actions in ecological research frameworks for data management, processing, and analysis (*e.g.*, in XXXX, XXXX, XXX). 
-As we mentioned, we appreciate this suggestion, however we think that the quantification of a ratio between investment of time and resources and returns when learning research aiding skills requires an in-depth individual study.  
-Taking this into account, our metric of cognitive requirement represented in Figure 2 considers the usefulness? or cognitive requirement? for learning this new tool (see also our response to [R2.2](#sec-R2.2)).
+It is also difficult to measure return on investment on innovative tools that only recently took off, such as the usage of Github Actions in ecological research frameworks for data management, processing, and analysis [*e.g.*, in Sabatini et al. (Global Ecology and Biogeography, 2021), McIntire et al. (Ecology Letters, 2022), Micheletti et al. (Frontiers of Ecology and Evolution, 2021)]. 
+We reiterate our appreciation for this suggestion, however we think that the quantification of a ratio between investment of time and resources and returns when learning research aiding skills requires an in-depth individual study.  
+
+In this context, we note that our metric of cognitive requirement represented in Figure 2 considers the "usefulness" or cognitive requirement for learning GitHub (see also our response to [R2.2](#sec-R2.2)).
 Moreover, we have taken the advice of reviewer 1, and reduced and reordered the use cases (see our responses to [R1.4](#sec-R1.4) and [R1.1](#sec-R1.1)).
+
 :::
 
 ##### **R1.4.** In my experience, the project continuity is actually very high on the importance list for researchers, i.e., knowing that the code and data will be findable by the next student. This includes the discussion of organizing and managing teams, keeping lab information in one place etc. Followed by code versioning and the ability to go back to older versions. Interest in website development is picking up because it really is simple to do in GitHub, and the information can be maintained by several people (i.e., a lab group). {#sec-R1.4}
 
 ::: {#ResponseR14 .response}
-Response
+
+Thank you for this recommendation. We moved the "Project continuity" section to be presented as the second use case, immediately after introducing storing and research compedia.
+
 :::
 
 ##### **R1.5.** Line 346 delete second 'can': who can also can change through time
@@ -187,26 +204,34 @@ Thank you once again!
 ##### **R2.1.** Figure 1 was more confusing to me than helpful. It presents a view of a Github interface in order to detail generalized features; however, it is edited/abstracted so much that it doesn't map easily to the interface as it would be viewed by a reader of the paper. To improve this I would reduce the level of abstraction of the web interface. {#sec-R2.1}
 
 ::: {#ResponseR21 .response}
-Response
+
+Thank you for this recommendation! We have decreased the complexity and clarified Figure 1. We changed it to bright-mode instead of dark-mode, blurred out irrelevant content, added three clear bounding boxes with their respective labels to highlight the repository resources, the file system organization and commit history, and the contributors. 
+
 :::
 
 ##### **R2.2.** Figure 2 was useful, especially as it summarized across multiple areas that a reader make in-roads into using Github. Please clarify how the "Technical Difficulty" was assessed. Was this based on the impression of the working group? Was it quantified using different types of required knowledge (e.g., programming, software design, working in the Terminal, etc.)? {#sec-R2.2}
 
 ::: {#ResponseR22 .response}
-Response
+
+Thank you for catching this. We added a supplementary material containing appendices, tables and code that detail how the indices for degrees of collaboration and of difficulty were estimated for each use case. We also added citations to these elements in the text.
+
 :::
 
 ##### **R2.3.** I would find it helpful to give a brief (1-2 sentence) history of Git (L85-89). Namely, that it was developed as an aid for software development within distributed groups of software engineers and was developed within an open-source framework so that it could be improved by the community. This provides more context as to why Github (as it extends Git) is a useful tool for collaboration "by design". {#sec-R2.3}
 
 ::: {#ResponseR23 .response}
+
 We now briefly discuss the origin of Git and its expansion to applications beyond software development to help manage collaborations and community contributions, in the introduction <!--# add line numbers -->.
+
 :::
 
 ##### **R2.4.** I suggest adding a discussion on dependency testing within or following the paragraph on Automation (Lines 373-382). This is a project "ecosystem" phenomenon that comes from collaboration, where you build your project on the work of someone else. As projects change over time, they can alter other projects. Software engineers have been working on this challenge for a long time in distributed teams where different parts of software are being built by different programmers. Checks can be done automatically within the software engineering framework (see Pasquier et al. 2017 <https://www.nature.com/articles/sdata2017114>). Beyond detection, any major changes can be detected and presented without additional work from the user via features like badges (<https://shields.io/>) within the project page (e.g., README). {#sec-R2.4}
 
 ::: {#ResponseR24 .response}
 
-Thank you for this recommendation. We recognize that these are developments that have been increasingly encourage to be adopted in biological research. We now provide brief comments on how automation can aid unit testing of research code (between lines XXX and XXX), and that automation can also help the interpretation, integration and usage of data and software across different sources.
+Thank you for this recommendation. We recognize that these are developments that have been increasingly encouraged in biological research. We now provide brief comments on how automation can aid unit testing of research code (between lines XXX and XXX), and that automation can also help the interpretation, integration and usage of data and software across different sources, as seen below:
+
+> In addition to increasing scientific rigour and confidence in ecological software (Scheller et al., 2010), automation can help advance more rapidly sharing ecological data and making sure the data are high quality (Dietze et al., 2018). Integrating automation workflows has been highly encouraged in areas of EEB, including predictive ecology (McIntire et al., 2022), long-term ecological studies (Ernest et al., 2018; Yenni et al., 2019), and management of species at risk information (Naujokaitis-Lewis et al., 2022).
 
 :::
 
