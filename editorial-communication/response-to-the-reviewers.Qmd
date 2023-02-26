@@ -13,7 +13,7 @@ format:
 ---
 
 ::: {style="text-align: justify"}
-Dear Dr. XXX,
+Dear Dr. XXX, Editor for Methods in Ecology and Evolution
 
 We would like to thank you and the reviewers for the thoughtful comments and for the opportunity to submit a revised version of our manuscript "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution", for consideration for publication in Methods in Ecology and Evolution.
 
@@ -23,12 +23,14 @@ Our responses are mirror-indented, while the editor's and reviewers' comments ar
 To facilitate the review, we have also included indented extracts from the text, which are indented and displayed in a gray colour.
 The line numbers in our responses correspond to those in the revised manuscript.
 
-Briefly, we have rewritten several sentences to improve their clarity, decrease the complexity and length of sections. 
+Within our extensive revision, we have rewritten several sentences to improve their clarity, decrease the complexity and length of sections. 
 We also improved the readability of figures.
 
 We hope that our revision has further improved this manuscript. We thank you again for your time and for the opportunity to submit this revised version of the manuscript. We very much look forward to hearing from you.
 
-\[...\]
+Sincerely,
+
+Pedro Henrique Pereira Braga, on behalf of my co-authors
 
 ### Comments from the Editor (E1) {#sec-E1}
 
@@ -238,7 +240,7 @@ Thank you for this recommendation. We recognize that these are developments that
 ##### **R2.5.** Related to Major Comments 1 and 4, given that the focus of the paper is toward integration into EEB scientific research workflows, I suggest adding another figure (or replacing Figure 1) that details a generalized scientific research workflow (e.g., Munafò et al. 2017 <https://www.nature.com/articles/s41562-016-0021>) and how Github supports/augments that workflow. This could relate to or build on Table 2, which a useful summarization of important features as they relate to different research participants. {#sec-R2.5}
 
 ::: {#ResponseR25 .response}
-Response
+We thank you for this comment. [WORKING ON THIS]
 :::
 
 ##### **R2.6.** The sentence from Line 66-67 is missing a close parenthesis.
