@@ -13,7 +13,7 @@ format:
 ---
 
 ::: {style="text-align: justify"}
-Dear Dr. XXX, Editor for Methods in Ecology and Evolution
+Dear Dr. XXXX, Editor for Methods in Ecology and Evolution
 
 We would like to thank you and the reviewers for the thoughtful comments and for the opportunity to submit a revised version of our manuscript "Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution", for consideration for publication in Methods in Ecology and Evolution.
 
