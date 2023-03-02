@@ -1,6 +1,0 @@
-project:
-  output-dir: .
-  
-format: 
-  docx: default
-  html: default
