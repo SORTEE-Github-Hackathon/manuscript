@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2023-03-01'
+date-meta: '2023-03-02'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2023-03-01" />
-  <meta name="citation_publication_date" content="2023-03-01" />
+  <meta name="dc.date" content="2023-03-02" />
+  <meta name="citation_publication_date" content="2023-03-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -81,7 +81,6 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-1237-4096" />
   <meta name="citation_author" content="Kaitlyn M. Gaynor" />
   <meta name="citation_author_institution" content="Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada" />
-  <meta name="citation_author_institution" content="National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA" />
   <meta name="citation_author_orcid" content="0000-0002-5747-0543" />
   <meta name="twitter:creator" content="@kaitlyngaynor" />
   <meta name="citation_author" content="Saeed Shafiei Sabet" />
@@ -113,9 +112,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f105568d200daed275bf3735ef04dd1b237642b8/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f105568d200daed275bf3735ef04dd1b237642b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f105568d200daed275bf3735ef04dd1b237642b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -137,10 +136,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f105568d200daed275bf3735ef04dd1b237642b8/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@f105568](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f105568d200daed275bf3735ef04dd1b237642b8)
-on March 1, 2023.
+from [SORTEE-Github-Hackathon/manuscript@28ba5da](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6)
+on March 2, 2023.
 </em></small>
 
 ## Authors
@@ -257,7 +256,7 @@ on March 1, 2023.
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [kaitlyngaynor](https://twitter.com/kaitlyngaynor)<br>
   <small>
-     Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada; National Center for Ecological Analysis and Synthesis, Santa Barbara, CA 93101, USA
+     Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada
   </small>
 
 + **Saeed Shafiei Sabet**<br>
