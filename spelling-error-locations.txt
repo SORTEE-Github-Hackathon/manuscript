@@ -8,7 +8,6 @@ content/02.introduction.md:14:SSHS
 content/02.introduction.md:18:webpage
 content/02.introduction.md:36:PHPB
 content/02.introduction.md:36:RCO
-content/02.introduction.md:38:EEB
 content/02.introduction.md:40:EEB
 content/02.introduction.md:41:EEB
 content/02.introduction.md:44:PHPB
@@ -17,13 +16,13 @@ content/02.introduction.md:45:hackathon
 content/02.introduction.md:45:sortee
 content/02.introduction.md:45:SORTEE
 content/02.introduction.md:46:EEB
-content/02.introduction.md:46:EEB
 content/02.introduction.md:47:EEB
 content/02.introduction.md:47:hackathon
 content/02.introduction.md:48:EEB
-content/02.introduction.md:53:ERS
-content/02.introduction.md:57:repo
-content/02.introduction.md:65:pre
+content/02.introduction.md:49:EEB
+content/02.introduction.md:54:ERS
+content/02.introduction.md:58:repo
+content/02.introduction.md:66:pre
 content/03.use-cases-a.md:3:compendia
 content/03.use-cases-a.md:5:Braga
 content/03.use-cases-a.md:5:Gomes
