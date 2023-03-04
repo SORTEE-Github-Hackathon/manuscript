@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2023-03-02'
+date-meta: '2023-03-04'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2023-03-02" />
-  <meta name="citation_publication_date" content="2023-03-02" />
+  <meta name="dc.date" content="2023-03-04" />
+  <meta name="citation_publication_date" content="2023-03-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -112,9 +112,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -136,10 +136,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@28ba5da](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/28ba5dabdf12d85204b45ef08ed5ed4348d1dee6)
-on March 2, 2023.
+from [SORTEE-Github-Hackathon/manuscript@290c4cd](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653)
+on March 4, 2023.
 </em></small>
 
 ## Authors
@@ -451,7 +451,7 @@ Github Issues allow for discrete tasks and sub-tasks to be identified, assigned 
 Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects provides users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
-Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository, @doi:10.1111/geb.13346]; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
+Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository, @doi:10.1111/geb.13346; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project. 
 However, one can opt to receive new issues, discussions, and responses as emails and can post replies by email as well.  
 This allows for centralized communication for a team even when some members prefer to use email for communication.
@@ -472,6 +472,7 @@ Finally, instructors can host and assign student work to be submitted collaborat
 
 Although time-consuming, adopting these features in classrooms can integrate the learning of version-control and GitHub practices with the learning of course contents, and thus boost students' feelings of self-efficacy and confidence [@doi:10.1187/cbe.13-12-0241].
 
+
 <!--## GitHub in EcoEvo examples (Part 2)-->
 
 ### Hosting a website{#hosting-a-website}
@@ -479,7 +480,7 @@ Although time-consuming, adopting these features in classrooms can integrate the
 <!--*Contributors to this section: Rob Crystal-Ornelas, Emma Hudgins*   -->
 Personal or laboratory websites can improve the sharing of research findings, build online presence, and increase coordination of research efforts [@doi:10.1038/nj7142-347a].
 Despite researchers in ecology and evolution generally lacking experience in building or hosting webpages, many tools have been developed to help this process.
-Static websites can now be easily built [using, for example Quarto (<https://quarto.org>), RMarkdown, Hugo (<https://gohugo.io>), GitHub Website templates (<https://github.com/topics/website-template>))], stored in a repository, and be readily hosted by activating GitHub's Pages (<https://pages.github.com>) feature.
+Static websites can now be easily built [using, for example Quarto (<https://quarto.org>), RMarkdown, Hugo (<https://gohugo.io>), GitHub Website templates (<https://github.com/topics/website-template>)), stored in a repository, and be readily hosted by activating GitHub's Pages (<https://pages.github.com>) feature.
 Creating and hosting websites on GitHub Pages is more complex than out-of-the-box platforms (_e.g._, Wix, Weebly, Google Sites).
 However, free hosting, widely available template customization, and versioning are strong advantages over alternatives.
 
@@ -555,7 +556,7 @@ Co-authors can then integrate their edits and responses to reviewers using pull 
 
 GitHub can also assist reviewers during the peer review process.
 If the code associated with a manuscript is made available at the time of submission (_e.g._, as a link to a GitHub repository within the Data Availability Statement), peer reviewers may be able to offer more comprehensive suggestions on the code and written materials, potentially recognizing errors before publication.
-Certain journals or software development communities require submitted work or research code to be hosted on GitHub and their review processes make use of GitHub Issues (_e.g._, rOpenSci (<https://ropensci.org/software-review/>), Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>)).
+Certain journals or software development communities require submitted work or research code to be hosted on GitHub and their review processes make use of GitHub Issues (_e.g._, rOpenSci (<https://ropensci.org/software-review/>), Journal of Open Source Software (<https://joss.readthedocs.io/en/latest/submitting.html>).
 
 
 <!--## GitHub in EcoEvo examples (Part 3)-->
@@ -672,9 +673,9 @@ However, we emphasize that there are opportunities for collaboration using GitHu
 A third barrier may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.31222/osf.io/gaj43].
 GitHub is, by default, a public and open platform.
 This openness may add additional pressure to students and scientists learning to use the platform.
-Moreover, additional tools may be required to fully integrate project files and GitHub repositories (_e.g._, [@url:https://help.osf.io/article/211-connect-github-to-a-project]).
+Moreover, additional tools may be required to fully integrate project files and GitHub repositories [_e.g._, @url:https://help.osf.io/article/211-connect-github-to-a-project].
 Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis.
-However we (and others, _e.g.,_ [@doi:10.1098/rspb.2022.1113]) argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
+However we [and others, _e.g.,_ @doi:10.1098/rspb.2022.1113] argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
 
 A fourth additional barrier to EEB researchers is the lack language-specific resources for non-English speaking researchers working in ecology and evolution.
 Language is a well-known obstacle to international collaborative research progress and to widespread scientific knowledge [see @doi:10.1016/j.tree.2021.11.003].
