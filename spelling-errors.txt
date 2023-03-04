@@ -55,7 +55,7 @@ Gomes
 Grainger
 Guilan
 Güncan
-Hackathon
+hackathon
 HackMD
 Hébert
 helenweierbach
@@ -82,7 +82,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp
