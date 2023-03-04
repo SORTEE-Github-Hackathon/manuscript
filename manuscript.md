@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-04" />
   <meta name="citation_publication_date" content="2023-03-04" />
   <meta property="article:published_time" content="2023-03-04" />
-  <meta name="dc.modified" content="2023-03-04T23:25:10+00:00" />
-  <meta property="article:modified_time" content="2023-03-04T23:25:10+00:00" />
+  <meta name="dc.modified" content="2023-03-04T23:41:56+00:00" />
+  <meta property="article:modified_time" content="2023-03-04T23:41:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/354ed9fa4d9227c97bb04cd7e127ee0062622901/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/354ed9fa4d9227c97bb04cd7e127ee0062622901/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/354ed9fa4d9227c97bb04cd7e127ee0062622901/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/354ed9fa4d9227c97bb04cd7e127ee0062622901/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@354ed9f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/354ed9fa4d9227c97bb04cd7e127ee0062622901)
+from [SORTEE-Github-Hackathon/manuscript@3601d15](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3601d15cc9a4fffce47dacf71ccee802a971eb55)
 on 2023-03-04.
 </em></small>
 
@@ -630,20 +630,21 @@ Organizations are also convenient for hosting learning materials, including lect
 ## Discussion
 <!--*Contributors to this section: Rob, Brandon*-->
 
-### The promise of GitHub for EEB researchers
+### The promise of GitHub for ecology and evolutionary biology researchers
 
-There have been many calls for researchers outside of the software development community to adopt GitHub for their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
-These calls come in light of the continuous shift towards open-science and the increasing computational and data requirements in EEB.
-While tools like the Google Suite and DropBox enable rapid sharing and collaboration of some research documents, GitHub brings together features that directly integrate open science practices, such as the association of public discussions with data, code and findings, tracking multiple rounds of edits to files in a sensible way for easy review, and managing complex research projects with many collaborators and goals.
-Until now, resources and practical guidance on using GitHub within the EEB community have been dispersed across blog posts, as well as written and video tutorials ([Box 2](#tips)).
+Many researchers outside of software development have been encouraged to use GitHub for their collaborative research [@doi:10.1029/2021ea001797; @doi:10.1111/tgis.12810; @doi:10.1038/538127a].
+This is largely due to the rise of open science and the growing computational and data needs of ecology and evolutionary biology.
+While tools like the Google Suite and DropBox enable rapid sharing and collaboration of some research documents, GitHub brings together features that directly integrate open science practices.
+These include linking data, code and findings to public discussions, tracking edits to files for review, and managing complex research projects with many collaborators and goals.
+Until now, resources and practical guidance on using GitHub within the EEB community have been scattered across blog posts, written and video tutorials ([Box 2](#tips)).
 These resources have been useful for learning to use GitHub in our own research, as ecologists and evolutionary biologists.
 We expect that situating the main uses of GitHub in EEB alongside examples in this paper will be useful to the EEB community.
 
 The twelve use cases we described here can leverage GitHub to enable more transparent and collaborative research in ecology and evolution (Figure @fig:scatterblob).
-Most of these uses can be quickly integrated into the research practices of users (_e.g._, storing data, creating virtual notebooks, making code citable).
+Most of these uses can be quickly integrated into researchers' practices, such as storing data, creating virtual notebooks, and making code citable.
 Making stored data and code citable usually involves creating a repository on GitHub, pushing code and data, and then integrating a DOI minting service to the repository (_e.g._, with Zenodo or OSF; see below).
-On the other hand, some cases we described here, including course material development, web hosting, and automation, require greater effort and time commitment, but have the potential to make EEB research more open, accessible, and collaborative.
-Managing full research projects or laboratories on GitHub require careful thought as to how to delegate tasks, such as reviewing pull requests or creating issues.
+On the other hand, some cases we described here, including course material development, web hosting, and automation, require more effort and time, but have the potential to make ecology and evolution research more open, accessible, and collaborative.
+If researchers wish to manage full research projects or laboratories on GitHub, they should consider how to delegate tasks, such as reviewing pull requests or creating issues.
 For example, collaboratively authoring a paper using GitHub, as we have done here, involves a learning curve for co-authors less familiar with the intricacies of GitHub, requires overhead to set up automation frameworks through GitHub Actions, and especially, the commitment from all co-authors to use GitHub when modifying and reviewing the text.
 Despite the potential applications of GitHub to EEB research, we acknowledge that researchers might still look to other platforms for research collaboration.
 
@@ -653,43 +654,44 @@ Despite the potential applications of GitHub to EEB research, we acknowledge tha
 
 Despite its strong collaborative potential, we describe two use cases where GitHub falls short of highly collaborative work.
 
-First, real-time document editing is still best performed on other platforms (_e.g._, cloud-stored documents from Microsoft Word, Google Docs, HackMD (<https://hackmd.io/>)).
-Second, operations that are dependent on software requiring  graphical user interfaces might not be easily achievable in GitHub, such as designing and manipulating figures or tables.
-While creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables (_e.g_., Google Slides, Google Sheets; but see GitHub Discussions).
+First, real-time document editing is still best performed on other platforms, such as cloud-stored documents from Microsoft Word, Google Docs, and HackMD (<https://hackmd.io/>).
+Second, operations that are dependent on software requiring graphical user interfaces might not be easily achievable in GitHub, such as designing and manipulating figures or tables.
+While creating tables and figures can be done through code, users may choose other software to collaboratively brainstorm figures and tables, like Google Slides or Google Sheets (but see GitHub Discussions).
 
 ### Why aren't more EEB researchers using GitHub?
 
 <!--*Contributors to this section: Saeed, Vivienne, PHPB*-->
 
-Although GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow. Here, we discuss five potential barriers to GitHub use in EEB:
+Although GitHub has been available as a platform for more than a decade, its uptake among EEB researchers, especially as a tool for collaboration, has been slow.
+Here, we discuss five potential barriers to GitHub use in EEB:
 
 First, there may be hesitation to independently adopting and learning a new tool.
 Institutional encouragement and instructional resources focused on researchers in ecology and evolution may be limited.
-And with institutional availability of software licenses for tools like the Google Suite or Microsoft Office, researchers may be hesitant to spend valuable time learning another tool.
+Additionally, with the availability of software licenses for tools like the Google Suite or Microsoft Office, researchers may be reluctant to spend valuable time learning another tool.
 When GitHub is taught within an EEB context, it usually accompanies coursework in topics such as statistical programming.
-It can be challenging to learn Git alongside scripting languages, statistical theory, and file system navigation, especially when many prospective users may be inexperienced with programming.
-Instructors likewise may confuse the expected digital literacy of students with computational fluency, even when modern technology increasingly abstracts concepts through search optimization and preponderant integrated development environments (IDE), or 'point-and-click' user interfaces.
+This can be difficult for those who lack programming experience, as they must learn Git alongside scripting languages, statistical theory, and file system navigation.
+Instructors may also confuse the expected digital literacy of students with computational fluency, despite modern technology abstracting concepts through search optimization and user-friendly integrated development environments (IDEs) or 'point-and-click' user interfaces.
 
 Second, while EEB researchers individually use GitHub, collaborative use may lag due to researchers traditionally dividing labor within projects.
 Despite broad utility, GitHub remains a tool predominantly used by computer scientists and software developers.
-EEB researchers may take the view that GitHub is a platform that only needs to be used by individuals writing code and may silo those aspects of projects to a single individual.
-Those assumptions may obscure the utility of GitHub for tasks other than traditional data analysis and code development.
-However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)); for example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub Issues or Discussions features.
+EEB researchers may take the view that GitHub is a platform that only needs to be used by individuals writing code, and may silo those aspects of projects to a single individual.
+These assumptions may obscure the utility of GitHub for tasks other than traditional data analysis and code development.
+However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)). 
+For example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub Issues or Discussions features.
 
-A third barrier may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.1098/rspb.2022.1113].
-GitHub is, by default, a public and open platform.
-This openness may add additional pressure to students and scientists learning to use the platform.
-Moreover, additional tools may be required to fully integrate project files and GitHub repositories [_e.g._, @url:https://help.osf.io/article/211-connect-github-to-a-project].
+A third barrier to the use of GitHub may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.1098/rspb.2022.1113].
+GitHub is, by default, a public and open platform, which may add additional pressure to students and scientists learning to use it.
+Moreover, additional tools may be needed to fully integrate project files and GitHub repositories [_e.g._, @url:https://help.osf.io/article/211-connect-github-to-a-project].
 Other scientists may simply lack the time or incentives to document and version control their code if the code is unlikely to be reused beyond their analysis.
-However we [and others, _e.g.,_ @doi:10.1098/rspb.2022.1113] argue that the endeavour of open science and collaboration requires code owners to document and version control code despite uncertainty around future use.
+However, we [and others, _e.g.,_ @doi:10.1098/rspb.2022.1113] argue that for open science and collaboration to be successful, code owners should document and version control their code, despite uncertainty about future use.
 
 A fourth additional barrier to EEB researchers is the lack language-specific resources for non-English speaking researchers working in ecology and evolution.
 Language is a well-known obstacle to international collaborative research progress and to widespread scientific knowledge [see @doi:10.1016/j.tree.2021.11.003].
 Non-English speaking EEB researchers can potentially miss opportunities to fully integrate version control, reproducibility, and other benefits of GitHub without language-inclusive contents.
 
-Fifth and lastly, when projects become highly collaborative, they may have to pay for GitHub features such as branch protections, multiple reviewers of pull requests, and time in its automation tools.
-Currently, GitHub offers Education Packs (<https://education.github.com/>) to students and academics, which extend some paid features to the free plan.
-However, the acquisition of GitHub by Microsoft has raised concerns over the future of free plans, causing several biodiversity data managers to shift to alternative Open Source Git services (_e.g._, Bitbucket and GitLab).
+Fifth and lastly, when projects require a high degree of collaboration, they may need to pay for certain GitHub features, such as branch protections, multiple reviewers of pull requests, and time in its automation tools.
+Fortunately, GitHub offers Education Packs (<https://education.github.com/>) to students and academics, which extend some paid features to the free plan.
+However, the acquisition of GitHub by Microsoft has raised concerns over the future of free plans, causing several biodiversity data managers to shift to alternative Open Source Git services, such as Bitbucket and GitLab.
 
 ### Box 2 {#tips}
 
@@ -711,7 +713,7 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 
 ## Conclusion
 
-We describe twelve practical ways that ecologists and evolutionary biologists can adopt GitHub to improve their research workflow and make it more open and reproducible.
+We provide twelve practical ways that ecologists and evolutionary biologists can use GitHub to improve their research workflow, make it more open, reproducible and transparent.
 We provide definitions ([Box 1](#definitions)) and types of users (Figure @fig:github-diagram) to help researchers identify and prioritize the skills and tools to learn and apply.
 We highlight tools providing high collaborative potential (_e.g._, open science discussion, collaborative code editing) to more individual focused (_e.g._, storing code and data, building a website).
 We argue that the tools readily available in GitHub have the potential to make ecology and evolution more open, reproducible and transparent.
