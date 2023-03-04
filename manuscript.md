@@ -62,7 +62,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-7668-2528" />
   <meta name="twitter:creator" content="@LunaSare" />
   <meta name="citation_author" content="Eric R. Scott" />
-  <meta name="citation_author_institution" content="Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA" />
+  <meta name="citation_author_institution" content="Communications &amp; Cyber Techologies, University of Arizona, Tucson, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
   <meta name="citation_author" content="Matthew J. Grainger" />
   <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
@@ -112,9 +112,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4a0cc6accf8643e836371ea6dcf75962146c372d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4a0cc6accf8643e836371ea6dcf75962146c372d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/4a0cc6accf8643e836371ea6dcf75962146c372d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/4a0cc6accf8643e836371ea6dcf75962146c372d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@290c4cd](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/290c4cd8316ffaa08ceafd6ac4cfcdfe09774653)
+from [SORTEE-Github-Hackathon/manuscript@4a0cc6a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/4a0cc6accf8643e836371ea6dcf75962146c372d)
 on March 4, 2023.
 </em></small>
 
@@ -203,7 +203,7 @@ on March 4, 2023.
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Aariq](https://github.com/Aariq)<br>
   <small>
-     Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA
+     Communications & Cyber Techologies, University of Arizona, Tucson, USA
   </small>
 
 + **Matthew J. Grainger**<br>
@@ -343,7 +343,7 @@ Most scientists, including ecologists and evolutionary biologists, depend on com
 Researchers write and use software packages or write code (hereafter, code) to perform scientific tasks ranging from data management, data analysis, and study replication, to the application and the development of tools for hypothesis testing.
 Maintaining code for scientific collaboration requires an efficient and well-documented work-flow [@doi:10.1038/d41586-020-02462-7].
 To facilitate this process, scientists have been adopting tools from information and systems technology, such as cloud-based services for documentation and version control [_e.g._, the Google Suite, the Microsoft Suite, DropBox, and GitHub [@doi:10.1038/538127a]].
-Within the spectrum of cloud-based services for collaboration, GitHub is uniquely positioned  ([Table 1](#tbl:compare)) to benefit scientists because it is designed to store, track changes, and enable collaboration on computer code -- fundamental components of modern research.
+Within the spectrum of cloud-based services for collaboration, GitHub is uniquely positioned  ([Table 1](#tbl:compare)) to benefit scientists because it is designed to store, track changes, and enable collaboration on computer code---fundamental components of modern research.
 Albeit, most researchers lack exposure to adequate programming and coding practices and thus dedicate valuable time and effort to self-teaching research-facilitating tools.
 GitHub is one of the most used web-based platforms for computational version control and collaboration, and in this paper, we provide researchers in ecology and evolutionary biology (EEB) with practical workflows to use GitHub to facilitate their collaborative research and code management practices.
 
@@ -367,15 +367,15 @@ Repositories, which contain files, their modifications, and the description of t
 Commits act like snapshots, one can view or even revert the state of the project to any previous commit.
 If the modified files are plain text, only the differences from the previous commit are recorded, allowing you to frequently commit changes without causing the size of the project to grow excessively.
 This provides a safe and less cluttered alternative to frequently making full copies of documents at different points in their evolution (_e.g._ `analysis.R`, `analysis_v2.R`, `analysis_FINAL.R`).
-While focusing on technical details about the use of Git and GitHub is beyond the scope of this study, we recommend users explore available resources to become more familiar with version control features (but see @doi:10.1371/journal.pcbi.1004947, @doi:10.1371/journal.pcbi.1004668, and @doi:10.1109/ICSE.2015.74).
+While focusing on technical details about the use of Git and GitHub is beyond the scope of this study, we recommend users explore available resources to become more familiar with version control features (see @doi:10.1371/journal.pcbi.1004947, @doi:10.1371/journal.pcbi.1004668, and @doi:10.1109/ICSE.2015.74).
 
 <!-- *Contributors to this section: RCO, PHPB* -->
-The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; <https://happygitwithr.com>; <https://ourcodingclub.github.io>].
+The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; <https://happygitwithr.com>; <https://ourcodingclub.github.io>].<!--# these citations don't render quite right -->
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
 First-time users without formal training in information technology may face steep learning curves because GitHub and its features have been centered on software development [@doi:10.1109/ASONAM.2016.7752419].
 Moreover, domain-specific resources providing tractable examples and practical guidance for researchers in EEB on GitHub are scarce [but see @doi:10.1111/2041-210X.13982; <https://ourcodingclub.github.io>; <https://www.openscapes.org>].
 Widespread adoption of GitHub for collaborating on research tasks can ultimately enable EEB researchers to spend less time on creating novel processes for collaboration and more time on their research [@doi:10.3897/rio.6.e56508].
-More importantly, expanding the availability of data and code management standards---of which GitHub is one increasingly important component---makes research more reproducible and collaborative [@doi:10.1002/bes2.1801; @doi:10.31222/osf.io/gaj43].
+More importantly, expanding the availability of data and code management standards---of which GitHub is one increasingly important component---makes research more reproducible and collaborative [@doi:10.1002/bes2.1801; @doi:10.1098/rspb.2022.1113].
 
 <!-- *Contributors to this section: RCO, PHPB* -->
 This paper is the result of an academic hackathon held during the 2021 conference for the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE, <https://www.sortee.org>).
@@ -404,14 +404,14 @@ We also provide critical perspectives on features that could be improved and cat
 
 ## Twelve practical ways GitHub can accelerate research in ecology and evolution
 
-### Storing and sharing research compendia
+### Storing and sharing research compendia {#storing-sharing}
 
 <!--*contributors to this section: Dylan Gomes, Emma Hudgins, Pedro Braga, Katherine Hébert* -->
 An EEB research compendium includes all computational materials related to research production, including data, code for analyses and protocols. 
 Safely storing these files is essential to protect against accidental modifications or deletions.
 Many researchers begin using GitHub to backup their research compendium [@doi:10.1080/00031305.2017.1375986] into a centralized, readily-available remote server (see [Box 1](#definitions)).
-This practice has the advantages of facilitating collaboration, integrating data and code archiving, allowing file versions to be accessed and restored, and further contributing to open science practices (@doi:10.1162/99608f92.9497f68e).
-Every change made to files in version-controlled repositories accompany authored descriptions of modifications ([Box 1](#definitions)).
+This practice has the advantages of facilitating collaboration, integrating data and code archiving, allowing file versions to be accessed and restored, and further contributing to open science practices [@doi:10.1162/99608f92.9497f68e].
+Changes made to files in version-controlled repositories are accompanied by authored descriptions of modifications ([Box 1](#definitions)).
 Later, the entire history of commits and their commit messages are viewable and can be audited similarly to physical laboratory notebooks [@doi:10.1186/1751-0473-8-7].
 GitHub allows administrative control over who can view and modify repositories, and the process of cloning, forking and suggesting changes through pull requests (see [Box 1](#definitions)) ensures code owners have full control over code and documents.
 Repositories can be changed from public to private, allowing data storage and management without sacrificing the privacy that may be necessary for certain compendia.
@@ -518,7 +518,7 @@ This is facilitated by a group of core features of Git and GitHub that allow con
 For instance, users can clone and fork repositories (see [Box 1](#definitions)), allowing for modifications to be done on a linked copy of a repository, which can then later be merged into the main project through pull requests.
 Collaborators can comment on specific lines of code and text or suggest changes, which can then be incorporated with the click of a button, greatly facilitating peer review.
 Explicit project organization and increased communication within pull requests, in GitHub Issues, or in GitHub Discussions can help with project development and with potential merge conflicts due to users simultaneously working on the same sections.
-Moreover, version control [@https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html#storing-and-archiving-version-controlled-data] allows researchers to make changes in code or documents without worrying about irreparably modifying someone else's work.
+Moreover, version control allows researchers to make changes in code or documents without worrying about irreparably modifying someone else's work (#storing-sharing).
 
 By enabling more comprehensive remote collaboration, GitHub encourages the exchange of ideas among researchers at different institutions and in different countries, which can serve to improve the quality of the research itself by providing open access to data and code.
 
@@ -537,7 +537,7 @@ Incorporating GitHub into the process of writing a manuscript does not necessari
 For instance, authors who prefer writing in LaTeX or Markdown can synchronize Overleaf [@url:https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub], HackMD (<https://hackmd.io>), and other platforms directly with a GitHub repository.
 Similar GitHub integrations are available for projects stored in DropBox, Google Drive, among other popular tools familiar to many scientists and their collaborators ([Table 1](#tbl:compare)).
 
-We wrote this manuscript using Manubot [@url:manubot.org], a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks [@doi:10.1371/journal.pcbi.1007128].
+We wrote this manuscript using Manubot, a modifiable workflow implemented in GitHub to automatically render manuscripts and automate bibliographical tasks [@doi:10.1371/journal.pcbi.1007128].
 Manubot uses GitHub's automation workflow, GitHub Actions, to combine and convert individual Markdown files into a single LaTeX document, which can then be converted to a Word or PDF document, and displayed as a webpage.
 Citations and bibliographic references are automatically managed with citable persistent identifiers (_e.g._, DOI, PubMed ID, ISBN, URL).
 The resulting manuscript can be rendered with document templates and citation style language formatting to meet journal formatting requirements.
@@ -590,7 +590,7 @@ Repositories can be kept private until their contents are ready to be shared pub
 <!--*Contributors to this section: PHPB -->
 
 Automation has the strong potential to expand the scale and pace of research in ecology and evolution [@doi:10.1126/science.abi4692].
-Automation frameworks can streamline many stages of the scientific process, including data collection and data validation [_e.g._, @doi:10.3389/fevo.2021.679673; @doi:10.1101/344804], data analysis [_e.g._, @doi:10.1038/nbt.3780], unit testing of research code [_e.g._, @doi:10.12688/f1000research.9315.1], archiving and deployment of data, code and reports [_e.g._, this manuscript, @doi:10.1111/2041-210X.13104], and the interpretation, integration and usage of data and software across different sources [see @doi:10.1038/sdata.2017.114].
+Automation frameworks can streamline many stages of the scientific process, including data collection and data validation [_e.g._, @doi:10.3389/fevo.2021.679673; @doi:10.1371/journal.pbio.3000125], data analysis [_e.g._, @doi:10.1038/nbt.3780], unit testing of research code [_e.g._, @doi:10.12688/f1000research.9315.1], archiving and deployment of data, code and reports [_e.g._, this manuscript, @doi:10.1111/2041-210X.13104], and the interpretation, integration and usage of data and software across different sources [see @doi:10.1038/sdata.2017.114].
 In this context, small modifications to code and data can be frequently committed and automatically tested, as in continuous integration and continuous deployment practices [@doi:10.1109/MS.2014.58].
 This allows for early detection and correction of errors, potentially improving confidence in scientific development by minimizing software errors [see @doi:10.12688/f1000research.5930.2].
 In addition to increasing scientific rigour and confidence in ecological software [@doi:10.1890/080141], automation can help advance more rapidly sharing ecological data and making sure the data are high quality [@doi:10.1073/pnas.1710231115].
@@ -670,7 +670,7 @@ EEB researchers may take the view that GitHub is a platform that only needs to b
 Those assumptions may obscure the utility of GitHub for tasks other than traditional data analysis and code development.
 However, we emphasize that there are opportunities for collaboration using GitHub by researchers of all skill levels or time constraints ([Table 2](#tbl:roles)); for example, project stakeholders can provide a list of use-cases or highlight important conceptual components of a project using GitHub Issues or Discussions features.
 
-A third barrier may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.31222/osf.io/gaj43].
+A third barrier may come from general reluctance to share data and code publicly, or technical and logistical issues [@doi:10.1098/rspb.2022.1113].
 GitHub is, by default, a public and open platform.
 This openness may add additional pressure to students and scientists learning to use the platform.
 Moreover, additional tools may be required to fully integrate project files and GitHub repositories [_e.g._, @url:https://help.osf.io/article/211-connect-github-to-a-project].
@@ -696,7 +696,7 @@ However, the acquisition of GitHub by Microsoft has raised concerns over the fut
 | 3. **Take advantage of GitHub as an asynchronous working tool for team-based projects.** See the repository for this paper (<https://github.com/SORTEE-Github-Hackathon/manuscript>) as an example of a collaboratively authored manuscript that used the GitHub Discussions, Issues, Pages, and Actions features. |
 | 4. **Use the interactive courses from the GitHub Skills page (<https://skills.github.com/>)**, which allow you to learn GitHub basics through short projects and tasks with step-by-step guides. |
 | 5. **Learn markdown and use cheatsheets (_e.g._, <http://markdownguide.org/basic-syntax>)** so you can write clear metadata README files for your repositories. |
-| 6. **Consult online resources.** The Jenny Bryan Universe of GitHub material, for example, provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@http://happygitwithr.com], statistics course [@http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
+| 6. **Consult online resources.** The Jenny Bryan Universe of GitHub material, for example, provides a thorough and accessible introduction for a multitude of research-related uses for GitHub, and includes a book [@url:http://happygitwithr.com], statistics course [@url:http://stat545.com] and academic article [@doi:10.1080/00031305.2017.1399928]. |
 | 7. **Do not be afraid of trial-and-error.** One of the best ways to learn GitHub is the "trial-and-error" method. Learning from your own mistakes can be a valuable way to master your GitHub abilities. In any case, if you make mistakes, GitHub allows you to revert any steps that you desire via version controlling. |
 | 8. **If you are an educator, include lectures on reproducibility and tools for creating reproducible workflows in the curricula.** Some graduate programs include coursework on course R Markdown and GitHub. Getting students started with these tools earlier will prevent the resistance that comes from working with a less reproducible workflow for a longer period of time (see example <https://github.com/rmcelreath/stat_rethinking_2022>). |
 | 9. **Try to begin committing with graphical user interfaces (GUI) instead of command line interfaces (CLI).** Examples of GUI are the GitHub Desktop (<https://desktop.github.com>), git-gui (<https://git-scm.com/docs/git-gui>), RStudio (<https://www.rstudio.com>), Visual Studio Code (<https://code.visualstudio.com>), Atom (<https://atom.io>), GitKraken (<https://www.gitkraken.com>).
