@@ -36,12 +36,14 @@ DrMattG
 dylangomes
 EEB
 EJH
+else’s
 emmajhudgins
 ERS
 ESS
 FH
 fhillemann
 Figshare
+findable
 Foroughirad
 Friederike
 Gaynor
@@ -63,6 +65,7 @@ Hudgins
 HW
 HWeierbach
 iDiv
+integrations
 Jupyter
 Kaitlyn
 kaitlyngaynor
@@ -72,6 +75,7 @@ KH
 KMG
 LLSR
 LunaSare
+mentorship
 Merced
 MJG
 Octobox
@@ -90,9 +94,11 @@ Québec
 RCO
 README
 repo
+repositores
 reproducibility
 RMarkdown
 robcrystalornelas
+rOpenSci
 RStudio
 Sabet
 Saeed

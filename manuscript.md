@@ -25,18 +25,22 @@ author-meta:
 - Helen Weierbach
 - Dylan G. E. Gomes
 - Pedro Henrique Pereira Braga
-header-includes: |-
+header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta name="dc.date" content="2023-03-04" />
   <meta name="citation_publication_date" content="2023-03-04" />
+  <meta property="article:published_time" content="2023-03-04" />
+  <meta name="dc.modified" content="2023-03-04T22:03:21+00:00" />
+  <meta property="article:modified_time" content="2023-03-04T22:03:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -112,9 +116,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/540c54a0e1a9c1b107387aa297db8144b6a79d5e/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/540c54a0e1a9c1b107387aa297db8144b6a79d5e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/540c54a0e1a9c1b107387aa297db8144b6a79d5e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c300807d221901c7441dc86e15a3e2c6c4d2f7c4/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c300807d221901c7441dc86e15a3e2c6c4d2f7c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c300807d221901c7441dc86e15a3e2c6c4d2f7c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -136,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/540c54a0e1a9c1b107387aa297db8144b6a79d5e/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c300807d221901c7441dc86e15a3e2c6c4d2f7c4/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@540c54a](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/540c54a0e1a9c1b107387aa297db8144b6a79d5e)
-on March 4, 2023.
+from [SORTEE-Github-Hackathon/manuscript@c300807](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c300807d221901c7441dc86e15a3e2c6c4d2f7c4)
+on 2023-03-04.
 </em></small>
 
 ## Authors
@@ -814,3 +818,4 @@ the GitHub features, see Box 1. {#tbl:roles}
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
