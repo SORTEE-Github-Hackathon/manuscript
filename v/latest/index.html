@@ -69,8 +69,8 @@
   <meta name="dc.date" content="2023-03-04" />
   <meta name="citation_publication_date" content="2023-03-04" />
   <meta property="article:published_time" content="2023-03-04" />
-  <meta name="dc.modified" content="2023-03-04T22:08:06+00:00" />
-  <meta property="article:modified_time" content="2023-03-04T22:08:06+00:00" />
+  <meta name="dc.modified" content="2023-03-04T23:18:17+00:00" />
+  <meta property="article:modified_time" content="2023-03-04T23:18:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -146,9 +146,9 @@
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec905395a96fdfb763884c88fe68815dba1be09d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec905395a96fdfb763884c88fe68815dba1be09d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec905395a96fdfb763884c88fe68815dba1be09d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c47fa107ec52cb7dd5081b0143986b78169d5c2e/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c47fa107ec52cb7dd5081b0143986b78169d5c2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c47fa107ec52cb7dd5081b0143986b78169d5c2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -165,9 +165,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ec905395a96fdfb763884c88fe68815dba1be09d/">permalink</a>)
+(<a href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c47fa107ec52cb7dd5081b0143986b78169d5c2e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ec905395a96fdfb763884c88fe68815dba1be09d">SORTEE-Github-Hackathon/manuscript@ec90539</a>
+from <a href="https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c47fa107ec52cb7dd5081b0143986b78169d5c2e">SORTEE-Github-Hackathon/manuscript@c47fa10</a>
 on 2023-03-04.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -332,40 +332,42 @@ Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montre
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Researchers in ecology and evolutionary biology are increasingly dependent on computational code to conduct research. Hence, the use of efficient methods to share, reproduce, and collaborate on code as well as document research is fundamental.
-GitHub is an online, cloud-based service that can help researchers track, organize, discuss, share, and collaborate on software and other materials related to research production, including data, code for analyses, and protocols.</p>
-<p>Despite these benefits, the use of GitHub in ecology and evolution is not widespread.
+<p>Researchers in ecology and evolutionary biology are increasingly dependent on computational code to conduct research.
+Hence, the use of efficient methods to share, reproduce, and collaborate on code as well as document research is fundamental.
+GitHub is an online, cloud-based service that can help researchers track, organize, discuss, share, and collaborate on software and other materials related to research production, including data, code for analyses, and protocols.
+Despite these benefits, the use of GitHub in ecology and evolution is not widespread.
 To help researchers in ecology and evolution adopt useful features from GitHub to improve their research workflows, we review twelve practical ways to use the platform.
 We outline features ranging from low to high technical difficulty: storing code, managing projects, coding collaboratively, conducting peer review, and writing a manuscript.
 Given that members of a research team may have different technical skills and responsibilities, we describe how the optimal use of GitHub features may vary among members of a research collaboration.
 As more ecologists and evolutionary biologists establish their workflows using GitHub, the field can continue to push the boundaries of collaborative, transparent, and open research.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <!-- *Contributors to this section: PHPB* -->
-<p>Most scientists, including ecologists and evolutionary biologists, depend on computational tools for their research <span class="citation" data-cites="fJWFe93e">(<a href="#ref-fJWFe93e" role="doc-biblioref">Hannay et al., 2009</a>)</span>.
-Researchers write and use software packages or write code (hereafter, code) to perform scientific tasks ranging from data management, data analysis, and study replication, to the application and the development of tools for hypothesis testing.
-Maintaining code for scientific collaboration requires an efficient and well-documented work-flow <span class="citation" data-cites="1Kqna6l2">(<a href="#ref-1Kqna6l2" role="doc-biblioref">J. M. Perkel, 2020</a>)</span>.
-To facilitate this process, scientists have been adopting tools from information and systems technology, such as cloud-based services for documentation and version control [<em>e.g.</em>, the Google Suite, the Microsoft Suite, DropBox, and GitHub <span class="citation" data-cites="10ghgV3S8">(<a href="#ref-10ghgV3S8" role="doc-biblioref">J. Perkel, 2016</a>)</span>].
-Within the spectrum of cloud-based services for collaboration, GitHub is uniquely positioned (<a href="#tbl:compare">Table 1</a>) to benefit scientists because it is designed to store, track changes, and enable collaboration on computer code—fundamental components of modern research.
-Albeit, most researchers lack exposure to adequate programming and coding practices and thus dedicate valuable time and effort to self-teaching research-facilitating tools.
-GitHub is one of the most used web-based platforms for computational version control and collaboration, and in this paper, we provide researchers in ecology and evolutionary biology (EEB) with practical workflows to use GitHub to facilitate their collaborative research and code management practices.</p>
+<p>Most scientists, including ecologists and evolutionary biologists, rely on computational tools for their research <span class="citation" data-cites="fJWFe93e">(<a href="#ref-fJWFe93e" role="doc-biblioref">Hannay et al., 2009</a>)</span>.
+Researchers write and use software packages or write code to perform tasks ranging from data management, data analysis, and study replication, to the application and the development of tools for hypothesis testing.
+Maintaining code for scientific collaboration requires an efficient and well-documented workflow <span class="citation" data-cites="1Kqna6l2">(<a href="#ref-1Kqna6l2" role="doc-biblioref">J. M. Perkel, 2020</a>)</span>.
+To facilitate this process, scientists have been adopting tools from information and systems technology, such as cloud-based services for documentation and version control <span class="citation" data-cites="10ghgV3S8">(<a href="#ref-10ghgV3S8" role="doc-biblioref">J. Perkel, 2016</a>)</span>.
+These include the Google Suite, the Microsoft Suite, DropBox, and GitHub.
+Within the spectrum of cloud-based services for collaboration, GitHub is uniquely positioned (<a href="#tbl:compare">Table 1</a>) to benefit scientists because it is specifically designed to store, track changes, and enable collaboration on computer code—fundamental components of modern research.
+Albeit, many researchers lack exposure to adequate programming and coding practices and thus dedicate valuable time and effort to teach themselves research-facilitating tools.
+In this paper, we provide researchers in ecology and evolutionary biology (EEB) with practical workflows to use GitHub – the most used web-based platform for computational version control and collaboration – to facilitate their collaborative research and code management practices.</p>
 <!-- *Contributors to this section: RCO, SSHS, PHPB, KH* -->
 <p>GitHub (<a href="https://github.com" class="uri">https://github.com</a>) provides a simple but powerful web interface that allows users to participate in projects by contributing, modifying and discussing existing code, reporting bugs, discovering code and data, and publishing new code.
-Github allows users to store files and directories in repositories, and keeps a chronological record of modifications <span class="citation" data-cites="RVetqmsg">(<a href="#ref-RVetqmsg" role="doc-biblioref">Bryan, 2018</a>)</span> (see <a href="#definitions">Box 1</a>).
-Beyond storage and record-tracking, file management in GitHub is integrated with several communication features, allowing users to engage in discussions, to plan and collaborate in code, and publish information to a webpage (Github Issues, Github Discussions, Github Pages; see <a href="#definitions">Box 1</a>).
-These features contrast with traditional practices of directly sharing files through email, other cloud-based services or physical storage units, which become challenging and time-consuming in long-term and collaborative projects <span class="citation" data-cites="4ny1onB0">(<a href="#ref-4ny1onB0" role="doc-biblioref">Ram, 2013</a>)</span>.
-By allowing users to easily integrate versioning, communication, collaboration with research code and data, Github paves the way for easier implementation of open science practices within research projects <span class="citation" data-cites="kEX5dgzK">(<a href="#ref-kEX5dgzK" role="doc-biblioref">Perez-Riverol et al., 2016</a>)</span>.</p>
+It stores files and directories in repositories, and keeps a chronological record of modifications <span class="citation" data-cites="RVetqmsg">(<a href="#ref-RVetqmsg" role="doc-biblioref">Bryan, 2018</a>)</span> (see <a href="#definitions">Box 1</a>).
+GitHub also integrates several communication features, such as Github Issues, Github Discussions, Github Pages, which allows users to engage in discussions, to plan and collaborate on code, and publish information to a webpage (see <a href="#definitions">Box 1</a>).
+These features are an improvement over traditional practices of directly sharing files through email, other cloud-based services or physical storage units, which can become challenging and time-consuming in long-term and collaborative projects <span class="citation" data-cites="4ny1onB0">(<a href="#ref-4ny1onB0" role="doc-biblioref">Ram, 2013</a>)</span>.
+By making it easier to integrate versioning, communication, collaboration with research code and data, Github helps facilitate open science practices in research projects <span class="citation" data-cites="kEX5dgzK">(<a href="#ref-kEX5dgzK" role="doc-biblioref">Perez-Riverol et al., 2016</a>)</span>.</p>
 <p>Git is the version control system that enables the collaborative tools available on GitHub.
-Git was originally developed as a fast, lightweight and open-source system to allow software engineers to efficiently develop and collaborate in projects <span class="citation" data-cites="1CM2EcdVk">(<a href="#ref-1CM2EcdVk" role="doc-biblioref"><em>Git - A Short History of Git</em>, n.d.</a>)</span>.
+Git was initially developed as a fast, lightweight and open-source system to allow software engineers to efficiently develop and collaborate on projects <span class="citation" data-cites="1CM2EcdVk">(<a href="#ref-1CM2EcdVk" role="doc-biblioref"><em>Git - A Short History of Git</em>, n.d.</a>)</span>.
 Since its launch in 2005, Git has become the leading version control system in software development and in other disciplines that require collaboration and community contributions, such as in scientific research <span class="citation" data-cites="7q3wZN6d">(<a href="#ref-7q3wZN6d" role="doc-biblioref">Spinellis, 2012</a>)</span>.
-Knowledge of basic concepts of Git (such as commit, push, pull, and checkout; see <a href="#definitions">Box 1</a>) is recommended to understand how GitHub keeps track of changes to files and folders.
-Nevertheless, the GitHub web-based platform and its integrated development environments (such as GitHub Desktop) allow users to perform most repository and data management operations without using the command console, making these functionalities available to users who are less familiar with software development.</p>
+To understand how GitHub keeps track of changes to files and folders, it is recommended to have knowledge of basic concepts of Git (such as commit, push, pull, and checkout; see <a href="#definitions">Box 1</a>).
+However, the GitHub web-based platform and its integrated development environments (such as GitHub Desktop) allow users to perform most repository and data management operations without using the command console, making these functionalities available even to users who are less familiar with software development.</p>
 <p>Version control involves tracking the state of the files and directories which are stored in a “repository” (see <a href="#definitions">Box 1</a>).
-A basic workflow using Git and GitHub is to: (i) create a remote repository that is synchronized with files and directories stored locally; (ii) modify these files, either locally or remotely; (iii) frequently “commit” (or record) changes to these files (see <a href="#definitions">Box 1</a>) along with a description of modifications; (iv) synchronize commits with GitHub (see “push” and “pull” in <a href="#definitions">Box 1</a>) so that the repository on the web and the local repositories are up-to-date.
-Repositories, which contain files, their modifications, and the description of their changes can then be accessed by chosen collaborators or, whenever applicable, the public, who can easily download and synchronize them to their own computers (see “clone” in <a href="#definitions">Box 1</a>).
-Commits act like snapshots, one can view or even revert the state of the project to any previous commit.
-If the modified files are plain text, only the differences from the previous commit are recorded, allowing you to frequently commit changes without causing the size of the project to grow excessively.
+A typical workflow using Git and GitHub is to: (i) create a remote repository that is synchronized with files and directories stored locally; (ii) modify these files, either locally or remotely; (iii) frequently “commit” (or record) changes to these files (see <a href="#definitions">Box 1</a>) along with a description of modifications; (iv) synchronize commits with GitHub (see “push” and “pull” in <a href="#definitions">Box 1</a>) so that the repository on the web and the local repositories are up-to-date.
+The repository, which contains files, their modifications, and the description of their changes can then be accessed by chosen collaborators or, whenever applicable, the public, who can easily download and synchronize them to their own computers (see “clone” in <a href="#definitions">Box 1</a>).
+Commits act like snapshots, allowing users to view or even revert the state of the project to any previous commit.
+If the modified files are plain text, only the differences from the previous commit are recorded, allowing frequent commits without causing the size of the project to grow excessively.
 This provides a safe and less cluttered alternative to frequently making full copies of documents at different points in their evolution (<em>e.g.</em> <code>analysis.R</code>, <code>analysis_v2.R</code>, <code>analysis_FINAL.R</code>).
-While focusing on technical details about the use of Git and GitHub is beyond the scope of this study, we recommend users explore available resources to become more familiar with version control features (see <span class="citation" data-cites="kEX5dgzK">Perez-Riverol et al. (<a href="#ref-kEX5dgzK" role="doc-biblioref">2016</a>)</span>, <span class="citation" data-cites="PlcxShQU">Blischak et al. (<a href="#ref-PlcxShQU" role="doc-biblioref">2016</a>)</span>, and <span class="citation" data-cites="ndfO9H">Kalliamvakou et al. (<a href="#ref-ndfO9H" role="doc-biblioref">2015</a>)</span>).</p>
+While we do not focus on technical details about the use of Git and GitHub in this study, we recommend users explore available resources to become more familiar with version control features (see <span class="citation" data-cites="kEX5dgzK">Perez-Riverol et al. (<a href="#ref-kEX5dgzK" role="doc-biblioref">2016</a>)</span>, <span class="citation" data-cites="PlcxShQU">Blischak et al. (<a href="#ref-PlcxShQU" role="doc-biblioref">2016</a>)</span>, and <span class="citation" data-cites="ndfO9H">Kalliamvakou et al. (<a href="#ref-ndfO9H" role="doc-biblioref">2015</a>)</span>).</p>
 <!-- *Contributors to this section: RCO, PHPB* -->
 <p>The expansive GitHub user-community and numerous GitHub resources have boosted its popularity [<span class="citation" data-cites="kEX5dgzK">Perez-Riverol et al. (<a href="#ref-kEX5dgzK" role="doc-biblioref">2016</a>)</span>; <span class="citation" data-cites="RVetqmsg">Bryan (<a href="#ref-RVetqmsg" role="doc-biblioref">2018</a>)</span>; <a href="https://happygitwithr.com" class="uri">https://happygitwithr.com</a>; <a href="https://ourcodingclub.github.io" class="uri">https://ourcodingclub.github.io</a>].<!--# these citations don't render quite right -->
 Nevertheless, although multiple articles have encouraged researchers in EEB to adopt GitHub as part of their research process <span class="citation" data-cites="3DKwn1sY 10ghgV3S8">(<a href="#ref-3DKwn1sY" role="doc-biblioref">Lowndes et al., 2017</a>; <a href="#ref-10ghgV3S8" role="doc-biblioref">J. Perkel, 2016</a>)</span>, its use is still not widespread.
