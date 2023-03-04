@@ -13,7 +13,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -78,7 +78,7 @@ Octobox
 OneDrive
 ons
 Ordu
-Ornelas
+ornelas
 OSF
 pedrohbraga
 pedrohp
