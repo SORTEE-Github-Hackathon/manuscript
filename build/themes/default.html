@@ -101,6 +101,29 @@
   }
 
   /* -------------------------------------------------- */
+  /* section numbering: modification */
+  /* -------------------------------------------------- */
+  
+  body {
+    counter-reset: heading 1;
+    counter-reset: subheading 1;
+  }
+
+  h2:before {
+	content: counter(heading)". ";
+  }
+
+  h2 {
+    counter-reset: subheading;
+    counter-increment: heading;
+  }
+
+  h3:before {
+    counter-increment: subheading;
+    content: counter(heading) "." counter(subheading) ". ";
+  }
+  
+  /* -------------------------------------------------- */
   /* manuscript header */
   /* -------------------------------------------------- */
 
@@ -661,6 +684,6 @@
     .tablenos table * {
       /* don't break table words */
       overflow-wrap: normal !important;
-    }
+    }         
   }
 </style>
