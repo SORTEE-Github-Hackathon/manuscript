@@ -40,7 +40,7 @@ In this section you'll find a few important links to help us keep track of docum
 - **October 27, 2022**: Submitted to Methods in Ecology and Evolution;
 - **November 17, 2022**: Returned for Major Revisions;
 - **March 5, 2023**: Last date for coauthor approval of the revision, response letter, authorship order, and author contributions;
-- **March 9, 2023**: Deadline for the submission of the revision.
+- **March 9, 2023**: Deadline for the submission of the revision!
  
 ## Contributing
 
