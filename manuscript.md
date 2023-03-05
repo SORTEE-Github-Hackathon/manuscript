@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-05" />
   <meta name="citation_publication_date" content="2023-03-05" />
   <meta property="article:published_time" content="2023-03-05" />
-  <meta name="dc.modified" content="2023-03-05T00:04:34+00:00" />
-  <meta property="article:modified_time" content="2023-03-05T00:04:34+00:00" />
+  <meta name="dc.modified" content="2023-03-05T00:21:18+00:00" />
+  <meta property="article:modified_time" content="2023-03-05T00:21:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a177cf5c28b557f4befa7f1ad912f64e65101efb/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a177cf5c28b557f4befa7f1ad912f64e65101efb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/a177cf5c28b557f4befa7f1ad912f64e65101efb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,192 +140,238 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/a177cf5c28b557f4befa7f1ad912f64e65101efb/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@a177cf5](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/a177cf5c28b557f4befa7f1ad912f64e65101efb)
-on 2023-03-05.
+from [SORTEE-Github-Hackathon/manuscript@ad17a82](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ad17a823a0016184735b9a130ff14a3e88c36e98)
+on March 5, 2023.
 </em></small>
+
+
+
 
 ## Authors
 
 
 
-+ **Robert Crystal-Ornelas**<br>
++ **Robert Crystal-Ornelas**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-6339-1139](https://orcid.org/0000-0002-6339-1139)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [robcrystalornelas](https://github.com/robcrystalornelas)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rob_c_ornelas](https://twitter.com/rob_c_ornelas)<br>
+    [rob_c_ornelas](https://twitter.com/rob_c_ornelas)
+    <br>
   <small>
      Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
-+ **Brandon P.M. Edwards**<br>
++ **Brandon P.M. Edwards**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-0865-3076](https://orcid.org/0000-0003-0865-3076)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [BrandonEdwards](https://github.com/BrandonEdwards)<br>
+    [BrandonEdwards](https://github.com/BrandonEdwards)
+    <br>
   <small>
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
-+ **Katherine Hébert**<br>
++ **Katherine Hébert**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-7866-6775](https://orcid.org/0000-0001-7866-6775)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [katherinehebert](https://github.com/katherinehebert)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [hebert_kat](https://twitter.com/hebert_kat)<br>
+    [hebert_kat](https://twitter.com/hebert_kat)
+    <br>
   <small>
      Département de biologie, Université de Sherbrooke, Québec, Canada
   </small>
 
-+ **Emma J. Hudgins**<br>
++ **Emma J. Hudgins**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-8402-5111](https://orcid.org/0000-0002-8402-5111)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [emmajhudgins](https://github.com/emmajhudgins)<br>
+    [emmajhudgins](https://github.com/emmajhudgins)
+    <br>
   <small>
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
-+ **Luna L. Sánchez Reyes**<br>
++ **Luna L. Sánchez Reyes**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-7668-2528](https://orcid.org/0000-0001-7668-2528)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [LunaSare](https://github.com/LunaSare)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [LunaSare](https://twitter.com/LunaSare)<br>
+    [LunaSare](https://twitter.com/LunaSare)
+    <br>
   <small>
      School of Natural Sciences, University of California, Merced, USA
   </small>
 
-+ **Eric R. Scott**<br>
++ **Eric R. Scott**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7430-7879](https://orcid.org/0000-0002-7430-7879)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [Aariq](https://github.com/Aariq)<br>
+    [Aariq](https://github.com/Aariq)
+    <br>
   <small>
      Communications & Cyber Techologies, University of Arizona, Tucson, USA
   </small>
 
-+ **Matthew J. Grainger**<br>
++ **Matthew J. Grainger**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-8426-6495](https://orcid.org/0000-0001-8426-6495)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [DrMattG](https://github.com/DrMattG)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [Ed_pheasant](https://twitter.com/Ed_pheasant)<br>
+    [Ed_pheasant](https://twitter.com/Ed_pheasant)
+    <br>
   <small>
      Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway
   </small>
 
-+ **Vivienne Foroughirad**<br>
++ **Vivienne Foroughirad**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-8656-7440](https://orcid.org/0000-0002-8656-7440)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [vjf2](https://github.com/vjf2)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [vforoughirad](https://twitter.com/vforoughirad)<br>
+    [vforoughirad](https://twitter.com/vforoughirad)
+    <br>
   <small>
      Department of Biology, Georgetown University, Washington, DC, USA
   </small>
 
-+ **Allison D. Binley**<br>
++ **Allison D. Binley**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-8790-9935](https://orcid.org/0000-0001-8790-9935)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [adbinley](https://github.com/adbinley)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [AllisonBinley](https://twitter.com/AllisonBinley)<br>
+    [AllisonBinley](https://twitter.com/AllisonBinley)
+    <br>
   <small>
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
-+ **Cole B. Brookson**<br>
++ **Cole B. Brookson**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1237-4096](https://orcid.org/0000-0003-1237-4096)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [colebrookson](https://github.com/colebrookson)<br>
+    [colebrookson](https://github.com/colebrookson)
+    <br>
   <small>
      Department of Biological Sciences, University of Alberta, Edmonton, AB, Canada
   </small>
 
-+ **Kaitlyn M. Gaynor**<br>
++ **Kaitlyn M. Gaynor**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-5747-0543](https://orcid.org/0000-0002-5747-0543)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [kaitlyngaynor](https://github.com/kaitlyngaynor)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [kaitlyngaynor](https://twitter.com/kaitlyngaynor)<br>
+    [kaitlyngaynor](https://twitter.com/kaitlyngaynor)
+    <br>
   <small>
      Departments of Zoology and Botany, University of British Columbia, Vancouver, BC, Canada
   </small>
 
-+ **Saeed Shafiei Sabet**<br>
++ **Saeed Shafiei Sabet**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-5919-2527](https://orcid.org/0000-0001-5919-2527)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [shafieisabets](https://github.com/shafieisabets)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [SaeedSHSABET](https://twitter.com/SaeedSHSABET)<br>
+    [SaeedSHSABET](https://twitter.com/SaeedSHSABET)
+    <br>
   <small>
      Fisheries Department, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Iran
   </small>
 
-+ **Ali Güncan**<br>
++ **Ali Güncan**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1765-648X](https://orcid.org/0000-0003-1765-648X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Aguncan](https://github.com/Aguncan)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [aliguncan](https://twitter.com/aliguncan)<br>
+    [aliguncan](https://twitter.com/aliguncan)
+    <br>
   <small>
      Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
   </small>
 
-+ **Friederike Hillemann**<br>
++ **Friederike Hillemann**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [fhillemann](https://github.com/fhillemann)<br>
+    [fhillemann](https://github.com/fhillemann)
+    <br>
   <small>
      Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
-+ **Helen Weierbach**<br>
++ **Helen Weierbach**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6348-9120](https://orcid.org/0000-0001-6348-9120)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [helenweierbach](https://github.com/helenweierbach)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [HWeierbach](https://twitter.com/HWeierbach)<br>
+    [HWeierbach](https://twitter.com/HWeierbach)
+    <br>
   <small>
      Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
-+ **Dylan G. E. Gomes**<br>
++ **Dylan G. E. Gomes**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-2642-3728](https://orcid.org/0000-0002-2642-3728)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [dylangomes](https://github.com/dylangomes)<br>
+    [dylangomes](https://github.com/dylangomes)
+    <br>
   <small>
      (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112; (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365
   </small>
 
-+ **Pedro Henrique Pereira Braga**<br>
++ **Pedro Henrique Pereira Braga**
+  ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-1308-1562](https://orcid.org/0000-0002-1308-1562)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [pedrohbraga](https://github.com/pedrohbraga)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [pedrohp_braga](https://twitter.com/pedrohp_braga)<br>
+    [pedrohp_braga](https://twitter.com/pedrohp_braga)
+    · ![Mastodon icon](images/mastodon.svg){.inline_icon}
+    [\@pedrobraga@ecoevo.social](https://ecoevo.social/@pedrobraga)
+    <br>
   <small>
      Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
   </small>
 
 
+::: {#correspondence}
+✉ — Correspondence possible via [GitHub Issues](https://github.com/SORTEE-Github-Hackathon/manuscript/issues)
+or email to
+Pedro Henrique Pereira Braga \<ph.pereirabraga@gmail.com\>.
+
+
+:::
 
 ## Abstract {.page_break_before}
 
