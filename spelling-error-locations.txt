@@ -40,11 +40,11 @@ content/03.use-cases-a.md:41:Braga
 content/03.use-cases-a.md:41:Gaynor
 content/03.use-cases-a.md:41:Kaitlyn
 content/03.use-cases-a.md:41:Ornelas
-content/03.use-cases-a.md:50:sPlotOpen
-content/03.use-cases-a.md:58:Brookson
-content/03.use-cases-a.md:58:PHPB
-content/03.use-cases-a.md:64:Syllabi
-content/03.use-cases-a.md:67:autograding
+content/03.use-cases-a.md:51:sPlotOpen
+content/03.use-cases-a.md:59:Brookson
+content/03.use-cases-a.md:59:PHPB
+content/03.use-cases-a.md:65:Syllabi
+content/03.use-cases-a.md:68:autograding
 content/04.use-cases-b.md:5:Hudgins
 content/04.use-cases-b.md:5:Ornelas
 content/04.use-cases-b.md:7:webpages

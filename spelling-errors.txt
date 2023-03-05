@@ -1,9 +1,7 @@
 Aariq
-Aclosed
 ADB
 adbinley
 Aguncan
-Aissue
 aliguncan
 AllisonBinley
 Associateship
@@ -13,7 +11,7 @@ biogeography
 biologie
 Bitbucket
 BPME
-braga
+Braga
 BrandonEdwards
 Brookson
 Carleton
@@ -82,7 +80,7 @@ Octobox
 OneDrive
 ons
 Ordu
-ornelas
+Ornelas
 OSF
 pedrohbraga
 pedrohp

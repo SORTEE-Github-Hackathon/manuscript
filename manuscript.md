@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2023-03-04'
+date-meta: '2023-03-05'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2023-03-04" />
-  <meta name="citation_publication_date" content="2023-03-04" />
-  <meta property="article:published_time" content="2023-03-04" />
-  <meta name="dc.modified" content="2023-03-04T23:41:56+00:00" />
-  <meta property="article:modified_time" content="2023-03-04T23:41:56+00:00" />
+  <meta name="dc.date" content="2023-03-05" />
+  <meta name="citation_publication_date" content="2023-03-05" />
+  <meta property="article:published_time" content="2023-03-05" />
+  <meta name="dc.modified" content="2023-03-05T00:01:54+00:00" />
+  <meta property="article:modified_time" content="2023-03-05T00:01:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6855a7f181d90025efefe38a357366e9594bb35d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6855a7f181d90025efefe38a357366e9594bb35d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/6855a7f181d90025efefe38a357366e9594bb35d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/3601d15cc9a4fffce47dacf71ccee802a971eb55/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/6855a7f181d90025efefe38a357366e9594bb35d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@3601d15](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/3601d15cc9a4fffce47dacf71ccee802a971eb55)
-on 2023-03-04.
+from [SORTEE-Github-Hackathon/manuscript@6855a7f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/6855a7f181d90025efefe38a357366e9594bb35d)
+on 2023-03-05.
 </em></small>
 
 ## Authors
@@ -457,9 +457,10 @@ Github Issues allow for discrete tasks and sub-tasks to be identified, assigned 
 Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects provides users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
-Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution [_e.g._, see issues and discussions in the sPlotOpen manuscript repository, @doi:10.1111/geb.13346; @url:https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed].
+Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution.
+For example, sPlotOpen [@doi:10.1111/geb.13346] manuscript repository contains issues and discussions tracking the development of the project (see  <https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>).
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project. 
-However, one can opt to receive new issues, discussions, and responses as emails and can post replies by email as well.  
+However, one can opt to receive new issues, discussions, and responses as emails and can post replies by email as well.
 This allows for centralized communication for a team even when some members prefer to use email for communication.
 Unlike emails and messages which can get lost as more new tasks arise, GitHub issues are intentionally closed by repository administrators hiding the issue from view (closed issues remain accessible but not immediately visible).
 
