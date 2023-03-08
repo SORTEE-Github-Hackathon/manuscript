@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T18:00:13+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T18:00:13+00:00" />
+  <meta name="dc.modified" content="2023-03-08T18:03:07+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T18:03:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/db4ebdb09871e3ca3db2086b8fabfe614cc5ba56/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/db4ebdb09871e3ca3db2086b8fabfe614cc5ba56/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/db4ebdb09871e3ca3db2086b8fabfe614cc5ba56/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/db4ebdb09871e3ca3db2086b8fabfe614cc5ba56/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@db4ebdb](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/db4ebdb09871e3ca3db2086b8fabfe614cc5ba56)
+from [SORTEE-Github-Hackathon/manuscript@8ffc29e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc)
 on March 8, 2023.
 </em></small>
 
@@ -506,7 +506,7 @@ Github Discussions serve as a message board for conversation.
 Finally, GitHub Projects provides users with real-time tracking of project priorities and status [@url:https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects].
 For instance, one can create a discussion on a project repository to decide which method to apply for biodiversity data analysis.
 Then, an issue can be created to establish steps and responsibilities including data formatting, statistical analyses, figure generation, and issue resolution.
-For example, sPlotOpen [@doi:10.1111/geb.13346] manuscript repository contains issues and discussions tracking the development of the project (see  <https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>).
+For example, sPlotOpen [@10.1111/geb.13346] manuscript repository contains issues and discussions tracking the development of the project (see  <https://github.com/fmsabatini/sPlotOpen_Manuscript/issues?q=is%3Aissue+is%3Aclosed>).
 Using GitHub for all project-related conversation and planning, rather than email or messaging tools, makes it easier to keep track of progress throughout the lifespan of a project. 
 However, one can opt to receive new issues, discussions, and responses as emails and can post replies by email as well.
 This allows for centralized communication for a team even when some members prefer to use email for communication.
