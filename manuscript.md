@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T17:05:12+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T17:05:12+00:00" />
+  <meta name="dc.modified" content="2023-03-08T17:18:49+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T17:18:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -126,6 +126,7 @@ header-includes: |
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
 bibliography:
+- content/manual-references.bib
 - content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
@@ -140,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@83d3511](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/83d351133890f19b69d7c2fe2cf608d2bc773ceb)
+from [SORTEE-Github-Hackathon/manuscript@c6a8b5b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d)
 on March 8, 2023.
 </em></small>
 
@@ -421,10 +422,10 @@ This provides a safe and less cluttered alternative to frequently making full co
 While we do not focus on technical details about the use of Git and GitHub in this study, we recommend users explore available resources to become more familiar with version control features (see @doi:10.1371/journal.pcbi.1004947, @doi:10.1371/journal.pcbi.1004668, and @doi:10.1109/ICSE.2015.74).
 
 <!-- *Contributors to this section: RCO, PHPB* -->
-The use of GitHub has become increasingly popular in recent years due to the expansive GitHub user-community and numerous GitHub resources [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; <https://happygitwithr.com>; <https://ourcodingclub.github.io>]. <!--# these citations don't render quite right -->
+The use of GitHub has become increasingly popular in recent years due to the expansive GitHub user-community and numerous GitHub resources [@doi:10.1371/journal.pcbi.1004947; @doi:10.1080/00031305.2017.1399928; @https://happygitwithr.com; @https://ourcodingclub.github.io]. <!--# these citations don't render quite right -->
 Nevertheless, although multiple articles have encouraged researchers in ecology and evolution to adopt GitHub as part of their research process [@doi:10.1038/s41559-017-0160; @doi:10.1038/538127a], its use is still not widespread.
 Among many other factors, this may be because first-time users without formal training in information technology can face a steep learning curve, as GitHub and its features have been centered on software development [@doi:10.1109/ASONAM.2016.7752419].
-Furthermore, there are few domain-specific resources providing tractable examples and practical guidance for researchers in EEB on how to use GitHub [but see @doi:10.1111/2041-210X.13982; <https://ourcodingclub.github.io>; <https://www.openscapes.org>].
+Furthermore, there are few domain-specific resources providing tractable examples and practical guidance for researchers in EEB on how to use GitHub [but see @doi:10.1111/2041-210X.13982; @https://ourcodingclub.github.io>; @https://www.openscapes.org>].
 Widespread adoption of GitHub for collaborative research tasks can ultimately enable EEB researchers to save time on creating novel processes for collaboration and focus more on their research [@doi:10.3897/rio.6.e56508].
 More importantly, expanding the availability of data and code management standards, of which GitHub is an increasingly important component, makes research more reproducible and collaborative [@doi:10.1002/bes2.1801; @doi:10.1098/rspb.2022.1113].
 
