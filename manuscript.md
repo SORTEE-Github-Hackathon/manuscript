@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T17:18:49+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T17:18:49+00:00" />
+  <meta name="dc.modified" content="2023-03-08T17:22:05+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T17:22:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f2068e319930774a03f19646dc6c571d617a9f34/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f2068e319930774a03f19646dc6c571d617a9f34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/f2068e319930774a03f19646dc6c571d617a9f34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/f2068e319930774a03f19646dc6c571d617a9f34/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@c6a8b5b](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/c6a8b5b1c928dbf7ce2eb84352ffbbdf4ff77e1d)
+from [SORTEE-Github-Hackathon/manuscript@f2068e3](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/f2068e319930774a03f19646dc6c571d617a9f34)
 on March 8, 2023.
 </em></small>
 
@@ -358,7 +358,7 @@ on March 8, 2023.
     [pedrohbraga](https://github.com/pedrohbraga)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [pedrohp_braga](https://twitter.com/pedrohp_braga)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon}
+    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
     [\@pedrobraga@ecoevo.social](https://ecoevo.social/@pedrobraga)
     <br>
   <small>
@@ -373,6 +373,7 @@ Pedro Henrique Pereira Braga \<ph.pereirabraga@gmail.com\>.
 
 
 :::
+
 
 ## Abstract {.page_break_before}
 
