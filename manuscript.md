@@ -6,7 +6,7 @@ keywords:
 - Collaboration
 - Ecology and evolution
 lang: en-US
-date-meta: '2023-03-05'
+date-meta: '2023-03-08'
 author-meta:
 - Robert Crystal-Ornelas
 - Brandon P.M. Edwards
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="og:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
   <meta property="twitter:title" content="Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution" />
-  <meta name="dc.date" content="2023-03-05" />
-  <meta name="citation_publication_date" content="2023-03-05" />
-  <meta property="article:published_time" content="2023-03-05" />
-  <meta name="dc.modified" content="2023-03-05T00:21:18+00:00" />
-  <meta property="article:modified_time" content="2023-03-05T00:21:18+00:00" />
+  <meta name="dc.date" content="2023-03-08" />
+  <meta name="citation_publication_date" content="2023-03-08" />
+  <meta property="article:published_time" content="2023-03-08" />
+  <meta name="dc.modified" content="2023-03-08T16:49:21+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T16:49:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ad17a823a0016184735b9a130ff14a3e88c36e98/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ad17a82](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ad17a823a0016184735b9a130ff14a3e88c36e98)
-on March 5, 2023.
+from [SORTEE-Github-Hackathon/manuscript@172dcb1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/172dcb1ccde7bbd26b6c3e3335201992dc5c131b)
+on March 8, 2023.
 </em></small>
 
 
@@ -625,7 +625,7 @@ In addition to storing data and code, GitHub repositories can provide a time-sta
 Conventional research practices typically separate tasks among collaborators (_i.e._, data entry, analysis, writing).
 It is common that coauthors discuss, but do not actively verify, edit, or execute research tasks that are not their main responsibility.
 GitHub can serve as a tool for open and tractable research development.
-Collaborators can directly interact with code and data, inspect for errors, and potentially identify scientific misconduct prior to manuscript submission (_e.g._, <https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science>).
+Collaborators can directly interact with code and data, inspect for errors, and potentially identify scientific misconduct prior to manuscript submission [_e.g._, @doi:10.1038/d41586-022-02156-2; @doi:10.1038/d41586-020-00287-y; <https://ecologyforthemasses.com/2020/02/04/pruittdata-and-the-ethics-of-data-in-science>].
 Collaborators and readers are better positioned to discover erroneous or questionable findings if they have complete and transparent access to projects.
 
 This transparency can be extended beyond co-authors to the entire scientific community and to the public.
