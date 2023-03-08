@@ -8,23 +8,23 @@ keywords:
 lang: en-US
 date-meta: '2023-03-08'
 author-meta:
-- Robert Crystal-Ornelas
-- Brandon P.M. Edwards
+- Pedro Henrique Pereira Braga
 - Katherine Hébert
 - Emma J. Hudgins
-- Luna L. Sánchez Reyes
 - Eric R. Scott
+- Brandon P.M. Edwards
+- Luna L. Sánchez Reyes
 - Matthew J. Grainger
 - Vivienne Foroughirad
+- Friederike Hillemann
 - Allison D. Binley
 - Cole B. Brookson
 - Kaitlyn M. Gaynor
 - Saeed Shafiei Sabet
 - Ali Güncan
-- Friederike Hillemann
 - Helen Weierbach
 - Dylan G. E. Gomes
-- Pedro Henrique Pereira Braga
+- Robert Crystal-Ornelas
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -39,21 +39,18 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T18:03:07+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T18:03:07+00:00" />
+  <meta name="dc.modified" content="2023-03-08T18:11:41+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T18:11:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Robert Crystal-Ornelas" />
-  <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-6339-1139" />
-  <meta name="twitter:creator" content="@rob_c_ornelas" />
-  <meta name="citation_author" content="Brandon P.M. Edwards" />
-  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
-  <meta name="citation_author_orcid" content="0000-0003-0865-3076" />
+  <meta name="citation_author" content="Pedro Henrique Pereira Braga" />
+  <meta name="citation_author_institution" content="Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0002-1308-1562" />
+  <meta name="twitter:creator" content="@pedrohp_braga" />
   <meta name="citation_author" content="Katherine Hébert" />
   <meta name="citation_author_institution" content="Département de biologie, Université de Sherbrooke, Québec, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-7866-6775" />
@@ -61,13 +58,16 @@ header-includes: |
   <meta name="citation_author" content="Emma J. Hudgins" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0002-8402-5111" />
+  <meta name="citation_author" content="Eric R. Scott" />
+  <meta name="citation_author_institution" content="Communications &amp; Cyber Techologies, University of Arizona, Tucson, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
+  <meta name="citation_author" content="Brandon P.M. Edwards" />
+  <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
+  <meta name="citation_author_orcid" content="0000-0003-0865-3076" />
   <meta name="citation_author" content="Luna L. Sánchez Reyes" />
   <meta name="citation_author_institution" content="School of Natural Sciences, University of California, Merced, USA" />
   <meta name="citation_author_orcid" content="0000-0001-7668-2528" />
   <meta name="twitter:creator" content="@LunaSare" />
-  <meta name="citation_author" content="Eric R. Scott" />
-  <meta name="citation_author_institution" content="Communications &amp; Cyber Techologies, University of Arizona, Tucson, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-7430-7879" />
   <meta name="citation_author" content="Matthew J. Grainger" />
   <meta name="citation_author_institution" content="Terrestrial Biodiversity, Norwegian Institute for Nature Research - NINA, Postbox 5685 Torgarden, 7485 Trondheim, Norway" />
   <meta name="citation_author_orcid" content="0000-0001-8426-6495" />
@@ -76,6 +76,9 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Biology, Georgetown University, Washington, DC, USA" />
   <meta name="citation_author_orcid" content="0000-0002-8656-7440" />
   <meta name="twitter:creator" content="@vforoughirad" />
+  <meta name="citation_author" content="Friederike Hillemann" />
+  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
+  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Allison D. Binley" />
   <meta name="citation_author_institution" content="Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada" />
   <meta name="citation_author_orcid" content="0000-0001-8790-9935" />
@@ -95,9 +98,6 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey" />
   <meta name="citation_author_orcid" content="0000-0003-1765-648X" />
   <meta name="twitter:creator" content="@aliguncan" />
-  <meta name="citation_author" content="Friederike Hillemann" />
-  <meta name="citation_author_institution" content="Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany" />
-  <meta name="citation_author_orcid" content="0000-0002-8992-0676" />
   <meta name="citation_author" content="Helen Weierbach" />
   <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
   <meta name="citation_author_orcid" content="0000-0001-6348-9120" />
@@ -106,19 +106,19 @@ header-includes: |
   <meta name="citation_author_institution" content="(Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112" />
   <meta name="citation_author_institution" content="(Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365" />
   <meta name="citation_author_orcid" content="0000-0002-2642-3728" />
-  <meta name="citation_author" content="Pedro Henrique Pereira Braga" />
-  <meta name="citation_author_institution" content="Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada" />
-  <meta name="citation_author_orcid" content="0000-0002-1308-1562" />
-  <meta name="twitter:creator" content="@pedrohp_braga" />
+  <meta name="citation_author" content="Robert Crystal-Ornelas" />
+  <meta name="citation_author_institution" content="Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-6339-1139" />
+  <meta name="twitter:creator" content="@rob_c_ornelas" />
   <link rel="canonical" href="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="og:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta property="twitter:url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1ca2ca79ea1ca4ca324b13f577b7bd2b52a8a8eb/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1ca2ca79ea1ca4ca324b13f577b7bd2b52a8a8eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/1ca2ca79ea1ca4ca324b13f577b7bd2b52a8a8eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/1ca2ca79ea1ca4ca324b13f577b7bd2b52a8a8eb/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@8ffc29e](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/8ffc29ead8fe50fa37fb68dc41d9fc3c10f316fc)
+from [SORTEE-Github-Hackathon/manuscript@1ca2ca7](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/1ca2ca79ea1ca4ca324b13f577b7bd2b52a8a8eb)
 on March 8, 2023.
 </em></small>
 
@@ -154,28 +154,19 @@ on March 8, 2023.
 
 
 
-+ **Robert Crystal-Ornelas**
-  <br>
++ **Pedro Henrique Pereira Braga**
+  ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-6339-1139](https://orcid.org/0000-0002-6339-1139)
+    [0000-0002-1308-1562](https://orcid.org/0000-0002-1308-1562)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [robcrystalornelas](https://github.com/robcrystalornelas)
+    [pedrohbraga](https://github.com/pedrohbraga)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rob_c_ornelas](https://twitter.com/rob_c_ornelas)
+    [pedrohp_braga](https://twitter.com/pedrohp_braga)
+    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
+    [\@pedrobraga@ecoevo.social](https://ecoevo.social/@pedrobraga)
     <br>
   <small>
-     Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
-  </small>
-
-+ **Brandon P.M. Edwards**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-0865-3076](https://orcid.org/0000-0003-0865-3076)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [BrandonEdwards](https://github.com/BrandonEdwards)
-    <br>
-  <small>
-     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+     Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
   </small>
 
 + **Katherine Hébert**
@@ -202,6 +193,28 @@ on March 8, 2023.
      Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   </small>
 
++ **Eric R. Scott**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7430-7879](https://orcid.org/0000-0002-7430-7879)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [Aariq](https://github.com/Aariq)
+    <br>
+  <small>
+     Communications & Cyber Techologies, University of Arizona, Tucson, USA
+  </small>
+
++ **Brandon P.M. Edwards**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0865-3076](https://orcid.org/0000-0003-0865-3076)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [BrandonEdwards](https://github.com/BrandonEdwards)
+    <br>
+  <small>
+     Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  </small>
+
 + **Luna L. Sánchez Reyes**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -213,17 +226,6 @@ on March 8, 2023.
     <br>
   <small>
      School of Natural Sciences, University of California, Merced, USA
-  </small>
-
-+ **Eric R. Scott**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7430-7879](https://orcid.org/0000-0002-7430-7879)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [Aariq](https://github.com/Aariq)
-    <br>
-  <small>
-     Communications & Cyber Techologies, University of Arizona, Tucson, USA
   </small>
 
 + **Matthew J. Grainger**
@@ -250,6 +252,17 @@ on March 8, 2023.
     <br>
   <small>
      Department of Biology, Georgetown University, Washington, DC, USA
+  </small>
+
++ **Friederike Hillemann**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [fhillemann](https://github.com/fhillemann)
+    <br>
+  <small>
+     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   </small>
 
 + **Allison D. Binley**
@@ -315,17 +328,6 @@ on March 8, 2023.
      Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
   </small>
 
-+ **Friederike Hillemann**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-8992-0676](https://orcid.org/0000-0002-8992-0676)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [fhillemann](https://github.com/fhillemann)
-    <br>
-  <small>
-     Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
-  </small>
-
 + **Helen Weierbach**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -350,19 +352,17 @@ on March 8, 2023.
      (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112; (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365
   </small>
 
-+ **Pedro Henrique Pereira Braga**
-  ^[✉](#correspondence)^<br>
++ **Robert Crystal-Ornelas**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-1308-1562](https://orcid.org/0000-0002-1308-1562)
+    [0000-0002-6339-1139](https://orcid.org/0000-0002-6339-1139)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [pedrohbraga](https://github.com/pedrohbraga)
+    [robcrystalornelas](https://github.com/robcrystalornelas)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [pedrohp_braga](https://twitter.com/pedrohp_braga)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@pedrobraga@ecoevo.social](https://ecoevo.social/@pedrobraga)
+    [rob_c_ornelas](https://twitter.com/rob_c_ornelas)
     <br>
   <small>
-     Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
+     Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
   </small>
 
 
