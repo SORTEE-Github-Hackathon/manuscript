@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T16:49:21+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T16:49:21+00:00" />
+  <meta name="dc.modified" content="2023-03-08T16:55:46+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T16:55:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/172dcb1ccde7bbd26b6c3e3335201992dc5c131b/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@172dcb1](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/172dcb1ccde7bbd26b6c3e3335201992dc5c131b)
+from [SORTEE-Github-Hackathon/manuscript@ddd995f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ddd995f3f5e7c62f7171b6281520a9be8cf82da1)
 on March 8, 2023.
 </em></small>
 
@@ -551,7 +551,7 @@ DOIs are persistent and citable unique alpha-numeric identifiers assigned to dig
 Because of this, scientists sharing code and data through GitHub are strongly encouraged to independently submit their research materials to long-term data archives (_e.g._, Zenodo, Figshare, Dryad, OSF [@doi:10.1038/538127a; @doi:10.1371/journal.pcbi.1004947; @doi:10.1029/2021EA001797]; [Table 1](#tbl:compare)).
 Some of these options (Zenodo, Figshare and OSF) integrate with GitHub, allowing project, code, and data releases ([Box 1](#definitions)) to be archived with versioned, citable DOIs.
 Linking GitHub repositories with a DOI helps research become findable, properly cited, and can ensure long-term stability [@doi:10.1890/ES14-00402.1].
-This strategy has been increasingly adopted in numerous studies in ecology and evolution (_e.g._, the Zenodo repositores for @doi:10.5281/zenodo.6097109, @doi:10.5281/zenodo.3893943, and @doi:10.5281/zenodo.1188710).
+This strategy has been increasingly adopted in numerous studies in ecology and evolution (_e.g._, the Zenodo repositores @doi:10.5281/zenodo.6097109, @doi:10.5281/zenodo.1188710; the Dryad and OSF repositories @doi:10.5061/dryad.rjdfn2zgj and @doi:10.17605/OSF.IO/AMVP5).
 
 An important aspect of making code and data citable and reusable is to add an appropriate license to protect intellectual property.
 Code published without a license is under exclusive copyright (by default), protecting it from copy, distribution, and modifications.

@@ -69,8 +69,9 @@ content/04.use-cases-b.md:24:Figshare
 content/04.use-cases-b.md:24:OSF
 content/04.use-cases-b.md:24:Zenodo
 content/04.use-cases-b.md:25:findable
+content/04.use-cases-b.md:26:OSF
+content/04.use-cases-b.md:26:OSF
 content/04.use-cases-b.md:26:repositores
-content/04.use-cases-b.md:26:zenodo
 content/04.use-cases-b.md:26:zenodo
 content/04.use-cases-b.md:26:zenodo
 content/04.use-cases-b.md:26:Zenodo
