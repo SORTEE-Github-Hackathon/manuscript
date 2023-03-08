@@ -7,21 +7,17 @@ keywords:
   - Ecology and evolution
 lang: en-US
 authors:
-  - github: robcrystalornelas
-    name: Robert Crystal-Ornelas
-    initials: RCO
-    orcid: 0000-0002-6339-1139
-    email: rcrystalornelas@lbl.gov
-    twitter: rob_c_ornelas
+  - github: pedrohbraga
+    name: Pedro Henrique Pereira Braga
+    initials: PHPB
+    orcid: 0000-0002-1308-1562
+    email: ph.pereirabraga@gmail.com
+    twitter: pedrohp_braga
+    mastodon: pedrobraga
+    mastodon-server: ecoevo.social
+    corresponding: true
     affiliations:
-      - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
-  - github: BrandonEdwards
-    name: Brandon P.M. Edwards
-    initials: BPME
-    orcid: 0000-0003-0865-3076
-    email: brandonedwards3@cmail.carleton.ca
-    affiliations:
-      - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+      - Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
   - github: katherinehebert
     name: Katherine Hébert
     initials: KH
@@ -37,6 +33,20 @@ authors:
     email: emma.hudgins@carleton.ca
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
+  - github: Aariq
+    name: Eric R. Scott
+    initials: ERS
+    orcid: 0000-0002-7430-7879
+    email: scottericr@gmail.com
+    affiliations:
+      - Communications & Cyber Techologies, University of Arizona, Tucson, USA
+  - github: BrandonEdwards
+    name: Brandon P.M. Edwards
+    initials: BPME
+    orcid: 0000-0003-0865-3076
+    email: brandonedwards3@cmail.carleton.ca
+    affiliations:
+      - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   - github: LunaSare
     name: Luna L. Sánchez Reyes
     initials: LLSR
@@ -45,13 +55,6 @@ authors:
     twitter: LunaSare
     affiliations:
       - School of Natural Sciences, University of California, Merced, USA
-  - github: Aariq
-    name: Eric R. Scott
-    initials: ERS
-    orcid: 0000-0002-7430-7879
-    email: scottericr@gmail.com
-    affiliations:
-      - Communications & Cyber Techologies, University of Arizona, Tucson, USA
   - github: DrMattG
     name: Matthew J. Grainger
     initials: MJG
@@ -68,6 +71,13 @@ authors:
     twitter: vforoughirad
     affiliations:
       - Department of Biology, Georgetown University, Washington, DC, USA
+  - github: fhillemann
+    name: Friederike Hillemann
+    initials: FH
+    orcid: 0000-0002-8992-0676
+    email: f.hillemann@web.de
+    affiliations:
+      - Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   - github: adbinley
     name: Allison D. Binley
     initials: ADB
@@ -107,13 +117,6 @@ authors:
     twitter: aliguncan
     affiliations:
       - Department of Plant Protection, Faculty of Agriculture, Ordu University, 52200, Ordu, Turkey
-  - github: fhillemann
-    name: Friederike Hillemann
-    initials: FH
-    orcid: 0000-0002-8992-0676
-    email: f.hillemann@web.de
-    affiliations:
-      - Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
   - github: helenweierbach
     name: Helen Weierbach
     initials: HW
@@ -130,14 +133,11 @@ authors:
     affiliations:
       - (Current) National Academy of Sciences NRC Research Associateship Program, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, Seattle, WA, USA 98112
       - (Former) Cooperative Institute for Marine Resources Studies, Hatfield Marine Science Center, Oregon State University, Newport, OR, USA 97365
-  - github: pedrohbraga
-    name: Pedro Henrique Pereira Braga
-    initials: PHPB
-    orcid: 0000-0002-1308-1562
-    email: ph.pereirabraga@gmail.com
-    twitter: pedrohp_braga
-    mastodon: pedrobraga
-    mastodon-server: ecoevo.social
-    corresponding: true
+  - github: robcrystalornelas
+    name: Robert Crystal-Ornelas
+    initials: RCO
+    orcid: 0000-0002-6339-1139
+    email: rcrystalornelas@lbl.gov
+    twitter: rob_c_ornelas
     affiliations:
-      - Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
+      - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
