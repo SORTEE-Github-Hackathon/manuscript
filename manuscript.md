@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-08" />
   <meta name="citation_publication_date" content="2023-03-08" />
   <meta property="article:published_time" content="2023-03-08" />
-  <meta name="dc.modified" content="2023-03-08T16:55:46+00:00" />
-  <meta property="article:modified_time" content="2023-03-08T16:55:46+00:00" />
+  <meta name="dc.modified" content="2023-03-08T17:05:12+00:00" />
+  <meta property="article:modified_time" content="2023-03-08T17:05:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/ddd995f3f5e7c62f7171b6281520a9be8cf82da1/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/83d351133890f19b69d7c2fe2cf608d2bc773ceb/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@ddd995f](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/ddd995f3f5e7c62f7171b6281520a9be8cf82da1)
+from [SORTEE-Github-Hackathon/manuscript@83d3511](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/83d351133890f19b69d7c2fe2cf608d2bc773ceb)
 on March 8, 2023.
 </em></small>
 
@@ -407,7 +407,7 @@ These features are an improvement over traditional practices of directly sharing
 By making it easier to integrate versioning, communication, collaboration with research code and data, Github helps facilitate open science practices in research projects [@doi:10.1371/journal.pcbi.1004947].
 
 Git is the version control system that enables the collaborative tools available on GitHub.
-Git was initially developed as a fast, lightweight and open-source system to allow software engineers to efficiently develop and collaborate on projects [@url:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git]. 
+Git was initially developed as a fast, lightweight and open-source system to allow software engineers to efficiently develop and collaborate on projects [@https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git]. 
 Since its launch in 2005, Git has become the leading version control system in software development and in other disciplines that require collaboration and community contributions, such as in scientific research [@doi:10.1109/MS.2012.61].
 To understand how GitHub keeps track of changes to files and folders, it is recommended to have knowledge of basic concepts of Git (such as commit, push, pull, and checkout; see [Box 1](#definitions)).
 However, the GitHub web-based platform and its integrated development environments (such as GitHub Desktop) allow users to perform most repository and data management operations without using the command console, making these functionalities available even to users who are less familiar with software development.
