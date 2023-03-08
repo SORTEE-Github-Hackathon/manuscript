@@ -26,7 +26,7 @@ comp_tbl <- read_csv(here("data", "comparison_table_raw.csv"))
 
 
 ```{r compare}
-kable(comp_tbl, caption = "Table: a comparison of technologies... {#tbl:compare}")
+kable(comp_tbl, caption = "A comparison of technologies commonly used for collaborating on research in Ecology and Evolutionary Biology. In the first column, we group platforms for collaboration into broad guilds. The second column lists the platform for collaboration. The remaining columns indicate whether the platform for collaboration includes certain features {#tbl:compare}")
 ```
 
 <!-- An example citation of this table (Table @tbl:compare). -->
