@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2023-03-09" />
   <meta name="citation_publication_date" content="2023-03-09" />
   <meta property="article:published_time" content="2023-03-09" />
-  <meta name="dc.modified" content="2023-03-09T20:55:03+00:00" />
-  <meta property="article:modified_time" content="2023-03-09T20:55:03+00:00" />
+  <meta name="dc.modified" content="2023-03-09T21:12:30+00:00" />
+  <meta property="article:modified_time" content="2023-03-09T21:12:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -116,9 +116,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/" />
   <meta name="citation_pdf_url" content="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://SORTEE-Github-Hackathon.github.io/manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b7b98e0dba83c2c25ae7518de3f87bfe64fa235d/" />
-  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b7b98e0dba83c2c25ae7518de3f87bfe64fa235d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b7b98e0dba83c2c25ae7518de3f87bfe64fa235d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b85d18073a2e39374aa8bd2e77e5046947734a25/" />
+  <meta name="manubot_html_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b85d18073a2e39374aa8bd2e77e5046947734a25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://SORTEE-Github-Hackathon.github.io/manuscript/v/b85d18073a2e39374aa8bd2e77e5046947734a25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,9 +141,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b7b98e0dba83c2c25ae7518de3f87bfe64fa235d/))
+([permalink](https://SORTEE-Github-Hackathon.github.io/manuscript/v/b85d18073a2e39374aa8bd2e77e5046947734a25/))
 was automatically generated
-from [SORTEE-Github-Hackathon/manuscript@b7b98e0](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b7b98e0dba83c2c25ae7518de3f87bfe64fa235d)
+from [SORTEE-Github-Hackathon/manuscript@b85d180](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/b85d18073a2e39374aa8bd2e77e5046947734a25)
 on March 9, 2023.
 </em></small>
 
@@ -853,7 +853,7 @@ The authors declare that there is no conflict of interest that could be perceive
 | Collaborative code and text editors  | HackMD                         | Yes             | Yes                  | Yes                   | Yes                            | Free version is moderatively restrictive.                                                                         | No                                                                                                     | 3 documents free, private invitee limits                                                                                                                        | Yes                |
 | Collaborative code and text editors  | Colaboratory                   | Yes             | Yes                  | Yes                   | Yes                            | Free version is moderatively unresitrcitve, unless high computational resources are required.                     | No                                                                                                     | Colab that is free of charge notebooks can run for at most 12 hours. File storage is bounded to Google Drive’s limitations. 12 GB GPU RAM .                     | No.                |
 
-A comparison of technologies commonly used for collaborating on research
+Table: A comparison of technologies commonly used for collaborating on research
 in Ecology and Evolutionary Biology. In the first column, we group
 platforms for collaboration into broad guilds. The second column lists
 the platform for collaboration. The remaining columns indicate whether
