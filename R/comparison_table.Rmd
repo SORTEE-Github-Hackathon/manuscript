@@ -3,7 +3,7 @@ knit: (function(input_file, encoding) {
   out_dir <- '../content';
   rmarkdown::render(input_file,
  encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, '11.comparison_table.md'))})
+ output_file=file.path(dirname(input_file), out_dir, '10.comparison_table.md'))})
 output: 
   md_document:
     variant: gfm #forces table to be markdown, not html
