@@ -16,6 +16,7 @@ authors:
     mastodon: pedrobraga
     mastodon-server: ecoevo.social
     corresponding: true
+    symbol_str: "†"
     affiliations:
       - Department of Biology, Concordia University, 7141 Sherbrooke Street West, Montreal, QC H4B 1R6, Canada
   - github: katherinehebert
@@ -24,6 +25,7 @@ authors:
     orcid: 0000-0001-7866-6775
     email: katherine.hebert@usherbrooke.ca
     twitter: hebert_kat
+    symbol_str: "††"
     affiliations:
       - Département de biologie, Université de Sherbrooke, Québec, Canada
   - github: emmajhudgins
@@ -31,6 +33,7 @@ authors:
     initials: EJH
     orcid: 0000-0002-8402-5111
     email: emma.hudgins@carleton.ca
+    symbol_str: "††"
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   - github: Aariq
@@ -38,6 +41,7 @@ authors:
     initials: ERS
     orcid: 0000-0002-7430-7879
     email: scottericr@gmail.com
+    symbol_str: "††"
     affiliations:
       - Communications & Cyber Techologies, University of Arizona, Tucson, USA
   - github: BrandonEdwards
@@ -45,6 +49,7 @@ authors:
     initials: BPME
     orcid: 0000-0003-0865-3076
     email: brandonedwards3@cmail.carleton.ca
+    symbol_str: "††"
     affiliations:
       - Department of Biology, Carleton University, Ottawa, ON K1S 5B6, Canada
   - github: LunaSare
@@ -53,6 +58,7 @@ authors:
     orcid: 0000-0001-7668-2528
     email: sanchez.reyes.luna@gmail.com
     twitter: LunaSare
+    symbol_str: "††"
     affiliations:
       - School of Natural Sciences, University of California, Merced, USA
   - github: DrMattG
@@ -139,5 +145,6 @@ authors:
     orcid: 0000-0002-6339-1139
     email: rcrystalornelas@lbl.gov
     twitter: rob_c_ornelas
+    symbol_str: "†"
     affiliations:
       - Earth and Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
