@@ -6,6 +6,9 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/v/latest/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml)
+[![DOI](https://img.shields.io/badge/DOI-10.1111%2F2041--210X.14108-blue)](https://doi.org/10.1111/2041-210X.14108)
+[![Preprint](https://img.shields.io/badge/preprint-10.31222%2Fosf.io%2Fx3p2q-blue)](https://doi.org/10.31222/osf.io/x3p2q)
+[![code archive](https://img.shields.io/badge/code-10.17605%2FOSF.IO%2FBYPFM-blue)](https://doi.org/10.17605/OSF.IO/BYPFM)
 
 ### Subject: The use of Github in Ecology and Evolution
 
