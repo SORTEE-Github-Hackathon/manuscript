@@ -1,0 +1,97 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.4.1
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: "If you use the code in this repository in a publication, please cite the published paper"
+type: software
+title: "Code repository for 'Not Just for Programmers: How GitHub Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution'"
+doi: 10.17605/OSF.IO/BYPFM
+authors: 
+  - family-names: Braga
+    given-names: Pedro Henrique Pereira
+  - family-names: Hébert
+    given-names: Katherine
+  - family-names: Hudgins
+    given-names: Emma J.
+  - family-names: Scott
+    given-names: Eric R.
+  - family-names: Edwards
+    given-names: Brandon P. M.
+  - family-names: Sánchez Reyes
+    given-names: Luna L.
+  - family-names: Grainger
+    given-names: Matthew J.
+  - family-names: Foroughirad
+    given-names: Vivienne
+  - family-names: Hillemann
+    given-names: Friederike
+  - family-names: Binley
+    given-names: Allison D.
+  - family-names: Brookson
+    given-names: Cole B.
+  - family-names: Gaynor
+    given-names: Kaitlyn M.
+  - family-names: Shafiei Sabet
+    given-names: Saeed
+  - family-names: Güncan
+    given-names: Ali
+  - family-names: Weierbach
+    given-names: Helen
+  - family-names: Gomes
+    given-names: Dylan G. E.
+  - family-names: Crystal-Ornelas
+    given-names: Robert
+
+preferred-citation:
+  type: article
+  title: 'Not Just for Programmers: How GitHub Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution'
+  doi: 10.1111/2041-210X.14108
+  url: https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14108
+  authors:
+    - family-names: Braga
+      given-names: Pedro Henrique Pereira
+    - family-names: Hébert
+      given-names: Katherine
+    - family-names: Hudgins
+      given-names: Emma J.
+    - family-names: Scott
+      given-names: Eric R.
+    - family-names: Edwards
+      given-names: Brandon P. M.
+    - family-names: Sánchez Reyes
+      given-names: Luna L.
+    - family-names: Grainger
+      given-names: Matthew J.
+    - family-names: Foroughirad
+      given-names: Vivienne
+    - family-names: Hillemann
+      given-names: Friederike
+    - family-names: Binley
+      given-names: Allison D.
+    - family-names: Brookson
+      given-names: Cole B.
+    - family-names: Gaynor
+      given-names: Kaitlyn M.
+    - family-names: Shafiei Sabet
+      given-names: Saeed
+    - family-names: Güncan
+      given-names: Ali
+    - family-names: Weierbach
+      given-names: Helen
+    - family-names: Gomes
+      given-names: Dylan G. E.
+    - family-names: Crystal-Ornelas
+      given-names: Robert
+  year: 2023
+  journal: "Methods in Ecology and Evolution"
+  keywords:
+    - collaboration
+    - data management
+    - ecoinformatics
+    - GitHub
+    - open science
+    - project management
+    - reproducible research
+    - version control
