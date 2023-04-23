@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://SORTEE-Github-Hackathon.github.io/manuscript/>.
-The permalink for this webpage version is <https://SORTEE-Github-Hackathon.github.io/manuscript/v/89a66fa3126d65456724dfec0cc1b21af4fed1e0/>.
+The permalink for this webpage version is <https://SORTEE-Github-Hackathon.github.io/manuscript/v/8d5bc4ece59c37b94e74db337e837df52f6ac713/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://SORTEE-Github-Hackathon.github.io/manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`89a66fa3126d65456724dfec0cc1b21af4fed1e0`](https://github.com/SORTEE-Github-Hackathon/manuscript/commit/89a66fa3126d65456724dfec0cc1b21af4fed1e0).
+[`8d5bc4ece59c37b94e74db337e837df52f6ac713`](https://github.com/SORTEE-Github-Hackathon/manuscript/commit/8d5bc4ece59c37b94e74db337e837df52f6ac713).
