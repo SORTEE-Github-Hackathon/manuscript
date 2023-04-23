@@ -6,13 +6,14 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/v/latest/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml)
+
 [![DOI](https://img.shields.io/badge/DOI-10.1111%2F2041--210X.14108-blue)](https://doi.org/10.1111/2041-210X.14108)
 [![Preprint](https://img.shields.io/badge/preprint-10.31222%2Fosf.io%2Fx3p2q-blue)](https://doi.org/10.31222/osf.io/x3p2q)
 [![Code Archive](https://img.shields.io/badge/code-10.17605%2FOSF.IO%2FBYPFM-blue)](https://doi.org/10.17605/OSF.IO/BYPFM)
 
 If you use the code in this repository in a publication, please cite the published paper:
 
-Braga, P.H.P., Hébert, K., Hudgins, E.J., Scott, E.R., Edwards, B.P.M., Sánchez Reyes, L.L., Grainger, M.J., Foroughirad, V., Hillemann, F., Binley, A.D., Brookson, C.B., Gaynor, K.M., Shafiei Sabet, S., Güncan, A., Weierbach, H., Gomes, D.G.E., Crystal-Ornelas, R., 2023. Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution. Methods in Ecology and Evolution n/a. https://doi.org/10.1111/2041-210X.14108
+"Braga, P. H. P., Hébert, K., Hudgins, E. J., Scott, E. R., Edwards, B. P. M., Sánchez Reyes, L. L., Grainger, M. J., Foroughirad, V., Hillemann, F., Binley, A. D., Brookson, C. B., Gaynor, K. M., Shafiei Sabet, S., Güncan, A., Weierbach, H., Gomes, D. G. E., & Crystal-Ornelas, R. (2023). Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution. Methods in Ecology and Evolution, 00, 1– 17. https://doi.org/10.1111/2041-210X.14108"
 
 BibTeX entry:
 
@@ -24,6 +25,7 @@ BibTeX entry:
   journal = {Methods in Ecology and Evolution},
   volume = {n/a},
   number = {n/a},
+  pages = {1-17},
   doi = {10.1111/2041-210X.14108},
   copyright = {All rights reserved},
   langid = {english},
